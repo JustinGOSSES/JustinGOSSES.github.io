@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+
+<channel>
+	<title>CSS &#8211; Justin Gosses Home</title>
+	<atom:link href="/tag/css/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Geology, GIS, and CODE + Resumes</description>
+	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.11</generator>
+
+<image>
+	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
+	<title>CSS &#8211; Justin Gosses Home</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+		<title>Data Visualization Compilations</title>
+		<link>/data-visualization-compilations/</link>
+		<comments>/data-visualization-compilations/#respond</comments>
+		<pubDate>Sun, 27 Mar 2016 04:40:19 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[CartoDB]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[Front-End]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[mapbox]]></category>
+		<category><![CDATA[Online Map]]></category>
+		<category><![CDATA[Online Mapping]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=453</guid>
+		<description><![CDATA[<p>A Compilation of Data Visualization Compilations:There are a wide variety of tools out there for data visualization. Some nice people have come up with compilations of their favorite tools. Other people have created galleries of really outstanding data visualizations that you can use as inspiration. Over the past year, I&#8217;ve bookmarked a lot of them.<a href="/data-visualization-compilations/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/data-visualization-compilations/">Data Visualization Compilations</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>A Compilation of Data Visualization Compilations:</h3><p>There are a wide variety of tools out there for data visualization. Some nice people have come up with compilations of their favorite tools. Other people have created galleries of really outstanding data visualizations that you can use as inspiration. Over the past year, I&#8217;ve bookmarked a lot of them. This post is a curated compilation of compilations. If you&#8217;re interested in learning about data visualization on the web, this post might save you some time digging around the internet. Alternatively, it might be a massive time sink.</p>
+<h3>Catalog of Data Visualization Types:</h3>
+<h4><a href="http://www.datavizcatalogue.com/" target="_blank">Dataviz Catalogue</a></h4><p>This is a great site for thinking about, or discussing with others, the various advantages and disadvantages of different data visualization styles. Not sure what data visualization style to use for a dataset that is hierarchal? This site might help you put things into a conceptual framework and make a decision.</p>
+<hr /><p>&nbsp;</p><p><iframe src="http://www.datavizcatalogue.com/" width="900" height="400">Your browser does not support iframes.</iframe></p>
+<hr />
+<h3>Three Compilations of Data Visualization Tools:</h3><p><a href="http://selection.datavisualization.ch/" target="_blank">Data Visualization</a><br />
+A fairly extensive compilation of data visualization tools:</p>
+<hr /><p><iframe src="http://selection.datavisualization.ch/" width="900" height="300">Your browser does not support iframes.</iframe></p>
+<hr />
+<h4></h4>
+<h4><a href="http://www.visualisingdata.com/">Visualizing Data</a></h4><p>Another extensive compilation of data visualization tools. It is definitely worth a visit. Between this one and the one above, there isn&#8217;t much not covered.</p>
+<h4><a href="http://10-open-source-projects-every-javascript-geo-dev-should-know-about/">10-open-source-projects-every-javascript-geo-dev-should-know-about</a></h4><p>This post on the ESRI blog is worth a look over, especially if you have map data locked into ESRI applications but want to do things in a more developer-centric and less GUI fashion.</p>
+<h3>Galleries of Data Visualization Examples:</h3>
+<h5 class="p1"><a href="http://Scientific/ Visualization Studio">Scientific Visualization Studio</a></h5>
+<p class="p1"><span class="s1">The Scientific Visualization Studio is out of NASA&#8217;s Goddard Space Flight Center. They make animated 2D and 3D visualizations. These look amazing on very large screens, especially if you have higher than normal resolution.  Download and run locally, rather than using the youtube player, to get the best picture possible. </span></p>
+<h5 class="p1"><a href="https://github.com/mbostock/d3/wiki/Gallery" target="_blank">D3.js Visual Index</a></h5><p>There are a lot of data visualization libraries written in the JavaScript language. D3.js is the reigning champion. D3 (or Data Driven Documents) favors configuration over convention. The advantages are that it is very flexible and powerful. The disadvantage is it has more of a learning curve compared to other JavaScript data visualization libraries that favor convention.</p>
+<h5><a href="http://bl.ocks.org/" target="_blank">Blocks</a> (D3.js)</h5>
+<p class="p1"><span class="s1">Bl.ocks (pronounced “Blocks”) is a simple viewer for sharing code examples hosted on <a href="https://gist.github.com/"><span class="s2">GitHub Gist</span></a>. Anyone can use it to easily display their d3 visualizations. If you go to &#8220;popular&#8221; tab in the upper right corner of the Blocks website, you can see some of the most population visualization on Blocks.</span></p><p><a href="http://collection.marijerooze.nl/" target="_blank">collection.marijerooze.nl</a></p><p>A collection of over 465 data visualizations put together by Marije Rooze, an Amsterdam based front-end developer. Examples largely come from the NYTimes and Guardian newspapers. The ability to filter makes it a good way to find examples.</p>
+<h5><a href="http://stamen.com/work/" target="_blank">Stamen</a></h5><p>A design studio focused on data visualization and mapping, Stamen produces some amazingly beautiful products for big clients like National Geographic. Definitely check them out if you have a map focus and want to be inspired/humbled.</p>
+<h5><a href="http://roadtolarissa.com/" target="_blank">Road To Larissa</a></h5><p>A gallery of data visualizations made by Adam Pearce of Bloomberg Graphics.</p>
+<h5><a href="http://www.smallmeans.com/new-york-times-infographics/" target="_blank">SmallMeans</a></h5><p>A gallery of favorited NYTimes graphics by a software engineering student.</p>
+<h3>Data Visualization Blogs:</h3>
+<h5><a href="http://flowingdata.com/" target="_blank">Flowing Data</a></h5><p>I suspect this is one of the most popular data visualization websites. It is the only one I have seen pop-up in my facebook feed several times</p>
+<h5><a href="http://www.informationisbeautiful.net/" target="_blank">Information is Beautiful</a></h5><p>Run by David McCandless. This website has data visualization &#8220;best of&#8221; contests and lots of generally cool data visualizations.</p>
+<h5><a href="http://feltron.com/">Nicholas Felton (website)</a></h5><p>More infographics than data visualizations, a big name worth checking out.</p><p><a href="http://feltron.tumblr.com/">Nicholar Felton (tumblr)</a></p><p>A curated selection put together by Felton. These are pieces of art as much as they are data visualizations.</p><p><a href="http://www.visualcinnamon.com/">Visual Cinnamon</a></p><p>Personal webpage of Nadieh Bremer who, in her own words, is a Astronomer-turned-Data-Scientist-turned-self-taught-Data-Visualization-Designer. In addition to her own work, which is stunning, she has a well curated list of internet resources and books on data visualization.</p><p><a href="http://fellinlovewithdata.com/" target="_blank">Fell In Love With Data</a></p><p>Not just pretty pictures, this blog has some excellent writing about what makes for good data visualizations. FILWD is edited by<a href="http://enrico.bertini.io/">Enrico Bertini</a>, Assistant Professor at the <a href="http://engineering.nyu.edu/">NYU Tandon School of Engineering</a>. He also has a podcast, <a href="http://datastori.es/">Data Stories</a>.</p>
+<p>The post <a rel="nofollow" href="/data-visualization-compilations/">Data Visualization Compilations</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/data-visualization-compilations/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">453</post-id>	</item>
+		<item>
+		<title>Learning to Code</title>
+		<link>/learning-to-code/</link>
+		<comments>/learning-to-code/#respond</comments>
+		<pubDate>Sat, 09 Jan 2016 21:03:28 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[courses]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[The Iron Yard]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=325</guid>
+		<description><![CDATA[<p>&#8220;A Highly Opinionated &#038; Abbreviated Guide for Taking the First Steps to Learn a Bit of Code&#8221; Why Write this?Someone asked me for help figuring out where to start regarding learning how to code today. Fundamentally, that&#8217;s why I&#8217;m writing this. I figured I&#8217;d might as well put it in a post and send her the link.Additionally,<a href="/learning-to-code/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/learning-to-code/">Learning to Code</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<hr /><p><strong><em>&#8220;A Highly Opinionated & Abbreviated Guide for Taking the First Steps to Learn a Bit of Code&#8221;</em></strong></p>
+<h3>Why Write this?</h3><p>Someone asked me for help figuring out where to start regarding learning how to code today. Fundamentally, that&#8217;s why I&#8217;m writing this. I figured I&#8217;d might as well put it in a post and send her the link.</p><p>Additionally, the results you get from googling &#8220;best ways to learn how to code&#8221; can be a bit daunting. They tend to be long lists of 10 to 50 different websites or books with only a short description about each. That&#8217;s not very useful. I know from personal experience figuring out how and where to start can lead to decision paralysis due to the large number of options.</p>
+<h3>Warning!</h3><p>I&#8217;m still very much a newbie. Don&#8217;t put too much trust in anything I say. Some trust is okay, but let&#8217;s not go overboard.</p>
+<h3>Who am I Writing for?</h3><p><span style="text-decoration: underline;">My target audience is someone with no knowledge taking their first steps.</span> <strong>My goal is to help them avoid decision paralysis and simply start.</strong> Simply starting has a lot of value as it gets you to your first initial understanding of how exactly coding works and to the point where you can say, &#8220;I built that&#8221;. <span style="text-decoration: underline;">Once you have a tiny bit of experience under your belt, it will be a lot easier to decide how much you like coding, easier to pick what you want to learn, and more obvious how you want to learn it.</span></p>
+<h3>What am I Going to Cover?</h3><p><em>What language should you learn?</em></p>
+<ul>
+<li>I&#8217;m not going to describe the merits of every language. I&#8217;m going to focus on the most common languages and the easier languages to learn.</li>
+</ul><p><em>How should you go about learning?</em></p>
+<ul>
+<li>I&#8217;m not going to give a big list of 30 or a 100 options for different websites and books to use. Google will give you lots of those. I&#8217;m going to describe the categories of different learning resources.</li>
+</ul>
+<h3>What Languages Should You Learn?</h3>
+<h4>  If you want to build a website or put things on a website:</h4>
+<ol>
+<li>Sign up for a free web-builder like <a href="http://www.weebly.com/">Weebly</a>. Put something online quickly without coding knowledge to get some initial stoke.</li>
+<li>Learn <a href="http://www.w3schools.com/html/default.asp" target="blank">HTML</a>, <a href="http://www.w3schools.com/css/default.asp" target="blank">CSS</a>, <a href="http://www.w3schools.com/js/default.asp" target="blank">JavaScript</a> &#8211; in that order. Use them to make a better website with your free web-builder.</li>
+<li>Build simple web pages entirely from scratch without a web builder to hold your hand.</li>
+<li>Learn the additional languages and libraries listed on <a href="http://www.w3schools.com/" target="blank">W3 schools</a>.</li>
+</ol>
+<h4>  If you want to work with data:</h4>
+<ul>
+<li>Python! Python is what a lot of scientists and academics use. It is also relatively easy to learn.</li>
+<li>R is another good choice and very common in the social sciences.</li>
+<li>Alternatively, if you&#8217;re interested in data visualization and not data analysis, then JavaScript.
+<ul>
+<li>To get inspired&#8230; Check out <a href="https://github.com/mbostock/d3/wiki/Gallery" target="blank">D3.js examples</a> for data visualization or <a href="http://leafletjs.com/examples.html" target="blank">leaflet.js </a>for map examples.</li>
+</ul>
+</li>
+</ul>
+<h4>  If you want to make games:</h4>
+<ul>
+<li>Probably python.
+<ul>
+<li>Check out <a href="http://pygame.org/tags/example" target="blank">Pygame</a>.</li>
+<li>Other languages are used in professional gaming, but python is a better place to start in terms of learning resources, ease of learning it, and lots of free example code you can reuse.</li>
+<li>If you want to get very serious about games very quick, especially games with amazing graphics or in virtual reality, you might want to jump straight into Unity.</li>
+</ul>
+</li>
+</ul>
+<h4>  If you want to use a computer language that runs inside another piece of software, likely at work:</h4>
+<ul>
+<li>Learn that language. It will  be faster to learn that language directly than learn another one and then switch. Get good at one before you diversify too much is repeated advice I see everywhere.</li>
+</ul>
+<h4> If you have no idea or have a small child to learn with you / help you when you get stuck:</h4>
+<ul>
+<li><a href="http://Code.org/" target="blank">Code.org</a>   Start learning code concepts by playing games (Star Wars!) and moving around instruction blocks. Build up to writing actual code in the JavaScript language.</li>
+</ul>
+<hr />
+<hr />
+<blockquote><p><em><span style="color: #993300;">For a longer and more visual version of this discussion, check out this awesome <a href="http://carlcheo.com/wp-content/uploads/2014/12/which-programming-language-should-i-learn-first-pdf.pdf" target="blank">infographic</a> for what language to learn at </span><a style="color: #993300;" href="http://carlcheo.com/" target="blank">carlcheo.com</a><span style="color: #993300;">. In addition to providing a flow-diagram for what deciding what language to learn, it describes common computer languages in terms of Lord of the Rings character traits. While you&#8217;re there, browse around a little. The site has powerfully communicative articles and infographics for newbies that explain a lot of things that get missed elsewhere. </span></em></p></blockquote>
+<hr />
+<hr /><p>&nbsp;</p>
+<h3>What Are Your Options for Learning to Code?</h3><p>You have a huge variety of options. In fact, you probably have more options for learning code than most any subject out there. Instead of listing the websites and schools, I&#8217;m going to list the categories of different learning options. For some reason this approach is less common in google results.</p>
+<h4>Conventional Educational Institution</h4>
+<ul>
+<li>CON = Takes a long time</li>
+<li>CON = Expensive</li>
+<li>PRO = Learn a lot of the theoretical computer science fundamentals.</li>
+<li>PRO = Useful for getting a job</li>
+<li>SUMMARY = <span style="text-decoration: underline; color: #008000;">Not what you should do if you&#8217;re just starting out as we assumed for this post.</span></li>
+<li>EXAMPLE = Any four-year or two-year <a href="https://en.wikipedia.org/wiki/List_of_academic_computer_science_departments">university</a> with a computer science department.</li>
+</ul>
+<h4>Code Boot Camp</h4>
+<ul>
+<li>CON = Expensive (thousands of dollars)</li>
+<li>CON = As this is a relatively new concept, it is uncertain how it impacts your long-term job prospects.</li>
+<li>CON = These are often start-ups and can have related growing pains and quality problems. Research!</li>
+<li>PRO = Less time than conventional educational institutions</li>
+<li>PRO = Cram a lot of information into your head in a relatively short amount of time.</li>
+<li>PRO = Useful for getting a job</li>
+<li>SUMMARY = <span style="text-decoration: underline; color: #008000;">Not what you should do if you&#8217;re just starting out as we assumed for this post.</span></li>
+<li>EXAMPLE = <a href="https://www.theironyard.com/">The Iron Yard</a></li>
+</ul>
+<h4>MOOC = Massive Open Online Classes. (may or may not have certification & fixed schedule)</h4>
+<ul>
+<li>PRO = Learn from awesome professors in traditional lecture style without paying Harvard tuition.</li>
+<li>PRO = Usually has additional resources not available in the website learning options below, like discussion boards, tests that are more than monkey-see monkey-do, and advanced final products to show off (see some of my early python posts)</li>
+<li>PRO = Typically, you&#8217;ll be coding in the browser, which means you don&#8217;t have to worry about which version of python you have, how to set paths, or what the terminal is and how it differs from the PowerShell in Windows. This might not be true if the MOOC consists only of videos.</li>
+<li>CON/PRO = Typically 4 &#8211; 12 weeks & 3-10 hours per week.</li>
+<li>CON/PRO = If the class has fixed test and project deadlines, you can&#8217;t put it off for two weeks to deal with other stuff. On the other hand, deadlines make it more likely you&#8217;ll maintain forward momentum even if you have competing priorities. Some classes have deadlines with lots of tardy days to use up, which gives you best of both worlds.</li>
+<li>CON/PRO = Means something on your resume, not a lot, but a little more with certification</li>
+<li>SUMMARY = <span style="text-decoration: underline; color: #008000;">Can be great option if you like the traditional lecture learning methodology, want some personal interaction via discussion boards,</span> want at least a taste of computer science concepts, and are willing to commit to 3-8 hours a week for 5-12+ weeks. Whether or not it has a fixed schedule can be critical for whether it matches your needs.</li>
+<li>EXAMPLE = <a href="https://www.coursera.org/course/interactivepython1">An Introduction to Interactive Programming in Python</a>. By Rice Univ. C.S. dept. on Coursera.com or <a href="https://www.coursera.org/specializations/web-design">Learn to Design and Create Websites</a> by Univ. Michigan on Coursera.com</li>
+</ul>
+<h4>Free or Pay Website for Learning Code (may have little balloons that fall when you do good)</h4>
+<ul>
+<li>PRO = Short. Individual course segments can often be completed in a number of hours.</li>
+<li>PRO = Typically, you&#8217;ll be coding in the browser, which means you don&#8217;t have to worry about which version of python you have, how to set paths, or what the terminal is and how it differs from the PowerShell in Windows.</li>
+<li>PRO = Lots of silly things, great graphics, and quick immediate goals to keep you engaged and learning.</li>
+<li>CON = Doesn&#8217;t really help your resume. May not teach you all you need to know, depending on your needs.</li>
+<li>CON = No discussion board if you get stuck. Some have annoying mistakes in them.</li>
+<li>SUMMARY = <span style="text-decoration: underline;"><span style="color: #008000; text-decoration: underline;">If you like monkey see and monkey do learning</span></span> without in-depth discussion of concepts, this is perfect for you. If you want to <span style="text-decoration: underline;"><span style="color: #008000; text-decoration: underline;">try out coding in a relatively short amount of time</span></span>, this is also good. If you want a more serious approach, maybe you skip this and go to one of the options above, or maybe you start here and quickly move to book or MOOC.</li>
+<li>EXAMPLE: <a href="https://www.codecademy.com/">Codecademy.</a></li>
+</ul>
+<h4>Children&#8217;s Free Website for Learning Code</h4>
+<ul>
+<li>PRO/CON = Similar to above, but typically even less time to complete classes / segments.</li>
+<li>SUMMARY = Purposely built to be short, fun, cute, and put you on a learning progression with lots of little steps. Good if you want to do this with your kid. <span style="text-decoration: underline;"><span style="color: #008000; text-decoration: underline;">If you don&#8217;t know how interested you&#8217;ll be in coding and only want to spend &lt;2 hours to find out</span></span>, this is perhaps the option for you.</li>
+<li>EXAMPLE: <a href="http://Code.org/">Code.org</a></li>
+</ul>
+<h4>Online Book or Physical Book</h4>
+<ul>
+<li>PRO = You get a nice book out of it. Reference manuals are very useful for coding. You now have one.</li>
+<li>PRO = Step by step learning with a clear forward path to follow is very appealing for some people.</li>
+<li>PRO = Work at your own pace. You can even skip ahead!</li>
+<li>CON= You&#8217;ll likely have to download and install things. You&#8217;ll have to figure out how to use the terminal or command prompt to execute code and move files around. You&#8217;ll have to figure all this stuff out eventually, but, with learning out of a book, you have to figure it at the same time as you&#8217;re figuring out the coding part.</li>
+<li>SUMMARY = I&#8217;m going to be opinionated and say I <span style="text-decoration: underline;"><span style="color: #008000; text-decoration: underline;">don&#8217;t recommend just using a book as a learning method unless you  have some experience</span></span>. Too much installation and figuring out things in the terminal or command prompt before you actually get to learn what you want to learn. Go the book method in tandem with another option or after you&#8217;ve done another option.</li>
+<li>EXAMPLE: <a href="http://learnpythonthehardway.org/book/">Learn Python The Hard Way</a>, by Zed Shaw or <a href="https://play.google.com/store/books/details?id=blCyf8XF41sC&source=productsearch&utm_source=HA_Desktop_US&utm_medium=SEM&utm_campaign=PLA&pcampaignid=MKTAD0930BO1&gl=US&gclid=CPnp7YXIncoCFdNpfgod3ooK_A&gclsrc=ds">HTML and CSS: Design and Build Websites</a> by John Puckett</li>
+</ul>
+<h4>Mentor + Any of the Above</h4>
+<ul>
+<li>PRO =  Mentors can help you figure out <span style="text-decoration: underline;"><span style="color: #008000; text-decoration: underline;">how to address not knowing stuff</span></span>. How big a deal is not knowing something? What should you focus on learning? Why does this not work, and google won&#8217;t help me.</li>
+<li>EXAMPLE = More experienced people on the internet or in person, experienced people at work, that other guy at the hackathon, people on stack overflow, computer science meet-ups, random coding boot camp alumni you email for more information, anyone who knows anything relevant that will drink beer or coffee with you, etc.</li>
+</ul>
+<hr />
+<h3>How did I get started?</h3><p>My interest in coding resulted from my activities as a geologist. Although most of my time was spent on purpose-built software, sometimes I needed to do things that didn&#8217;t quite fit into standard software models or were annoyingly time intensive. I also ran up against memory limits in Excel on large datasets. Learning to code presented a way around these hurdles.</p><p>Once I put aside time for learning to write code in a more series manner, and not just editing example snippets run inside ArcGIS and other software packages, I found a set of classes taught by Rice Professors and offered online through Coursera to be very helpful. Course syllabi are available at this <a href="http://www.codeskulptor.org/coursera/interactivepython.html">link</a> and this <a href="http://www.codeskulptor.org/coursera/principlescomputing.html">link</a>. More general information about this sequence of python courses can be found <a href="https://www.coursera.org/specializations/fundamentalscomputing2">here</a>.</p><p>I took:</p>
+<blockquote>
+<p class="headline-2-text">An Introduction to Interactive Programming in Python (Part 1) . <a href="https://www.coursera.org/account/accomplishments/verify/9JJ2G6WVUA">Certificate</a> earned on April 10, 2015</p>
+<p class="headline-2-text">An Introduction to Interactive Programming in Python (Part 2). <a href="https://www.coursera.org/account/accomplishments/verify/Y5BQ7ZTRMD">Certificate</a> earned on May 14, 2015</p>
+<p class="headline-2-text">Principles of Computing (Part 1) by Rice University on Coursera. <a href="https://www.coursera.org/account/accomplishments/verify/XYXW9WQSXN">Certificate</a> earned on October 17, 2015</p>
+</blockquote>
+<hr />
+<p class="headline-2-text">
+<p class="headline-2-text"><b>Update</b>: Since I first wrote this, I&#8217;ve talked to many more people and been responsible for directing interns to learning resources. For people that want to spend a minimum amount of time to learn just a little, I&#8217;ve been directing them to resources that fall in the &#8220;Free or Pay Website for Learning Code&#8221; category. Additional learning resources that have worked well are:  <a href="https://code.org/">code.org</a> , <a href="http://w3schools.com/">w3schools.com</a> and <a href="https://www.codeschool.com/">codeschool.com</a> . Those options present a zero setup (everything can be run within their website) way to quickly dive-in.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+<hr /><p><em>Please feel free to leave any questions or comments via the comment box below!</em></p>
+<p>The post <a rel="nofollow" href="/learning-to-code/">Learning to Code</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/learning-to-code/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">325</post-id>	</item>
+	</channel>
+</rss>

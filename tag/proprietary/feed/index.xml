@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+
+<channel>
+	<title>proprietary &#8211; Justin Gosses Home</title>
+	<atom:link href="/tag/proprietary/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Geology, GIS, and CODE + Resumes</description>
+	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.11</generator>
+
+<image>
+	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
+	<title>proprietary &#8211; Justin Gosses Home</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+		<title>Gource &#8211; Log Visualization Tool</title>
+		<link>/gource/</link>
+		<comments>/gource/#respond</comments>
+		<pubDate>Mon, 11 Jul 2016 02:54:38 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[data visualization]]></category>
+		<category><![CDATA[Front-End]]></category>
+		<category><![CDATA[Gource]]></category>
+		<category><![CDATA[ISS]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[Javascript library]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[not open]]></category>
+		<category><![CDATA[npm]]></category>
+		<category><![CDATA[proprietary]]></category>
+
+		<guid isPermaLink="false">/?p=607</guid>
+		<description><![CDATA[<p>At work, I put projects I complete into our group&#8217;s gallery of data-visualization work. It is good internal marketing for what our group can deliver. Unfortunately, even behind a NASA firewall, there are some things I can&#8217;t put in the gallery. Examples have included data visualizations of human resource data and financial data where the public<a href="/gource/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/gource/">Gource &#8211; Log Visualization Tool</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>At work, I put projects I complete into our group&#8217;s gallery of data-visualization work. It is good internal marketing for what our group can deliver. Unfortunately, even behind a NASA firewall, there are some things I can&#8217;t put in the gallery. Examples have included data visualizations of human resource data and financial data where the public release process is laid out by Congress.</p><p>One way to still have something cool to show but keep data secure is to turn the process of making the data visualization into another data visualization. One super easy way to do this is to use <a href="http://gource.io/">Gource</a>.</p>
+<h3>Gource:</h3><p>My favorite thing about<a href="http://gource.io/"> Gource</a> is how easy it is to use. When I first downloaded it, I looked for instructions and couldn’t find any besides how to install it. Turns out, you just type “gource” into the folder of the code you want to visualize, and it does everything else. How great is that. If you use npm, you can install it using <em>npm install gource</em> -g in a terminal.</p><p>The small avatar(s) in the video shooting bolts of light are the developers of the project. Each file is a ball of light. Clusters of balls represent folders or directories.  The video is somewhat large, so it might take several seconds to load. If you want to see a Gource visualization of a larger project, check out <a href="https://www.youtube.com/watch?v=aPk1BqK8zzI" target="blank">this</a> youtube video of python development starting in 1990.</p><p><video style="visibility: visible;" src="/wp-content/uploads/2016/07/ISSflyOver_1.mov" controls="controls" width="100%" height="100%"></video></p><p>Gource video of a small project I wrote while writing the <a href="/issflyover/">previous blog post</a>. I used it to test out the open-notify API, which returns the current latitude and longitude of the International Space Station. The application then takes that lat/long and places it on a map using the <a href="http://leafletjs.com/">leaflet.js</a> library. Every 3 seconds, a new I.S.S. position is added.</p>
+<p>The post <a rel="nofollow" href="/gource/">Gource &#8211; Log Visualization Tool</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/gource/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="/wp-content/uploads/2016/07/ISSflyOver_1.mov" length="7004377" type="video/quicktime" />
+	<post-id xmlns="com-wordpress:feed-additions:1">607</post-id>	</item>
+	</channel>
+</rss>

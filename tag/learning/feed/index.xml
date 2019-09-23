@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+
+<channel>
+	<title>learning &#8211; Justin Gosses Home</title>
+	<atom:link href="/tag/learning/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Geology, GIS, and CODE + Resumes</description>
+	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.11</generator>
+
+<image>
+	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
+	<title>learning &#8211; Justin Gosses Home</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+		<title>Geoscience to Data Science Starter Pack</title>
+		<link>/geologist-to-data-science-starter-pack/</link>
+		<comments>/geologist-to-data-science-starter-pack/#comments</comments>
+		<pubDate>Fri, 25 Jan 2019 03:10:47 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[advice]]></category>
+		<category><![CDATA[career]]></category>
+		<category><![CDATA[data science]]></category>
+		<category><![CDATA[geoscience]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[machine-learning]]></category>
+		<category><![CDATA[starting out]]></category>
+
+		<guid isPermaLink="false">/?p=1152</guid>
+		<description><![CDATA[<p>Why Write this and Who is it targeting?I wrote a post, LEARNING TO CODE, in early 2016, three years ago. The premise of that blog post was a summary of the different styles of learning you could pick from when trying to learn how to code. Not everyone prefers to learn the same way, and I hadn&#8217;t<a href="/geologist-to-data-science-starter-pack/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/geologist-to-data-science-starter-pack/">Geoscience to Data Science Starter Pack</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h2>Why Write this and Who is it targeting?</h2><p>I wrote a post, <a href="/learning-to-code/">LEARNING TO CODE</a>, in early 2016, three years ago. The premise of that blog post was a summary of the different styles of learning you could pick from when trying to learn how to code. Not everyone prefers to learn the same way, and I hadn&#8217;t at the time read any breakdowns of the different ways to learn how to code.</p><p>This blog post, like that one, was prompted by the realization that I had the same conversation with two different people within a single week. They were asking the same questions, so might as well write everything down.</p>
+<blockquote><p><em>This post is directed at houston-based geoscience types starting off on a month to years long process of improving their skills in data science and maybe eventually getting a job in data science. It lays out the things I&#8217;ve found myself telling people in real life.</em></p></blockquote>
+<h3></h3><p>&nbsp;</p>
+<h2></h2>
+<h2>Step 1: Figure out if you&#8217;re interested in this type of thing&#8230;.</h2><p>I&#8217;ve not seen a lot of writing on the best way to do this. The best path forward may be a personal decision to a large degree.</p><p>If you have kids and want to involve them in your first steps,<a href="https://code.org/"> code.org</a> and <a href="https://scratch.mit.edu/">Scratch</a> are two resources to try out if you haven&#8217;t written any code. Both are designed for kids but still kinda cool. They&#8217;ll let you see what kind of logic writing code uses but often doing so in a pictorial form that doesn&#8217;t require memorizing any syntax.</p><p>You might also want to try some shorter lessons of 1-5 hour length on sites like <a href="https://www.codecademy.com/">code academy</a> or take your time going through any of the languages on <a href="https://www.w3schools.com/">w3schools</a>.</p><p>If you&#8217;re more motivated by what you can eventually do, you might try watching a few videos of talks from any of the <a href="https://www.youtube.com/playlist?list=PLYx7XA2nY5GfdAFycPLBdUDOUtdQIVoMf">SciPy</a>  conferences or the machine-learning videos from <a href="https://www.youtube.com/channel/UCsX05-2sVSH7Nx3zuk3NYuQ">PyCon</a>. They&#8217;ll be partially over your head, but they can still be very interesting. You can also take a look at the blog posts summarizing what projects were made during <a href="https://agilescientific.com/blog/2018/12/17/the-london-hackathon">geology hackathons by AgileScientific</a>.</p><p>&nbsp;</p>
+<h2>What Language to Learn?</h2>
+<h4>Python</h4><p>The favorite. Different computer languages are better for different tasks. They also change in popularity over time. There used to be Python vs. R for data science debates, but those have faded recently as Python has more or less won over more people. Two libraries you&#8217;ll use often that also have good documentation & lots of video tutorials are <a href="https://scipy.org/scipylib/">SciPy</a> and <a href="https://scikit-learn.org/stable/">Scikit-learn</a>. If you want to try NLP (natural language processing) <a href="https://spacy.io/">SpaCy</a> has maybe the best documentation of major Python machine-learning libraries.</p>
+<h4>R</h4><p>While Python tends to dominate the hard sciences and to a decent extent machine-learning, R leads among the social sciences. There&#8217;s interesting geoscience computing done in R, just most of it is done in Python.</p>
+<h4>Other languages that don&#8217;t start with Pytho</h4><p>Python is a very intuitive computer language as far as these things go, so jumping to another language can be a relatively painful experience, at least initially. If you start in Python and are starting to grasp the language, I&#8217;d encourage you <em>not to stay with only Python</em>. One, it limits what you can do. Although capable of a lot, Python isn&#8217;t good at everything. Two, you&#8217;ll become better at programming once you can hope between languages. There will be people, sometimes people with an incentive, who might say things at a SciPy conference like, &#8220;I am only an astrophysics PhD, I can&#8217;t be expected to understand something difficult like JavaScript&#8221; or &#8220;If you learn JavaScript then you&#8217;ll be a web developer and not a scientist&#8221;. Those people are wrong. Ignore them.</p>
+<h5>JavaScript (and HTML,CSS)</h5><p>Although you will probably start off with Python. Picking up JavaScript as language number two is worth your while. The web runs on HTML, CSS, JavaScript, browsers, and pictures of cats. If you want to build anything with a decent human interface, visualize data in a slightly unusual way, or reach people online, having some JavaScript knowledge is powerful.</p><p>An important point to make when you talk about JavaScript is that <a href="https://www.w3schools.com/js/default.asp">plain JavaScript</a>, or what is sometimes called <a href="https://snipcart.com/blog/learn-vanilla-javascript-before-using-js-frameworks">Vanilla JavaScript</a>, is perfectly fine most of the time. There are lots of JavaScript frameworks you could theoretically pick up, <a href="https://reactjs.org/">React</a>, <a href="https://vuejs.org/">Vue</a>, <a href="https://angularjs.org/">Angular</a>, etc., but I tend to have a <em>&#8220;use it only if you have well demonstrated need&#8221;</em> perspective on JavaScript frameworks. If you end up doing a large <a href="https://en.wikipedia.org/wiki/Front_and_back_ends">front-end project</a>, that&#8217;s when you should consider a JavaScript framework.</p>
+<h5>C++</h5><p>C++ and Java are the languages most often learned by Computer Science majors in university. There are good reasons for this and not quite so good reasons for this. Certain things, like highly dependable applications, embedded applications, and low-level high performance computing is done in C++. If you are a geophysicist and did some in school, it might be a place to continue. If not, it probably isn&#8217;t the place to start.</p>
+<h5>Java</h5><p>Some of the things that could be said about C++ could also be said about Java. There is a fair amount of machine-learning done using Java when it is done via <a href="https://en.wikipedia.org/wiki/Distributed_computing">distributed computing</a> on big data. <a href="https://towardsdatascience.com/deep-learning-with-apache-spark-part-1-6d397c16abd">Spark</a> is an important tool in that space to at least know about. If you&#8217;re interested in Spark but want to stick to Python, there is also <a href="https://towardsdatascience.com/a-brief-introduction-to-pyspark-ff4284701873">PySpark</a>.</p><p>&nbsp;</p>
+<h2>How to learn?</h2>
+<h3>In-person Bootcamps, Online Courses, Online Lessons, etc.</h3><p>As mentioned above, I previously wrote a blog post in 2016 about the <a href="/learning-to-code/">different types of ways to learn how to code</a>. Its worth taking a look at it. Much of what was written ties in closely with this post but from a more generic learning to code perspective and less data science centric view.</p>
+<h4>Useful Things that Didn&#8217;t Exist (I think) in January 2016</h4><p>One thing of importance to note is that <a href="https://notebooks.azure.com/">Microsoft Azure notebook</a>s and <a href="https://colab.research.google.com/notebooks/welcome.ipynb#recent=true">Google Colab</a> didn&#8217;t exist in January 2016. If they would have, and I knew about them, I would noted them in the previous blog post. These are similar to a <a href="https://jupyter.org/">Jupyter Notebook</a> but run in the cloud and are accessed via your browser. They will let you get started writing Python without having to deal (at least initially) with the often messy process of installing languages, editors, and code libraries locally on your computer. If you do install things on your local computer, the <a href="https://www.anaconda.com/">Anaconda</a> installation method is probably the easiest path forward.</p><p>&nbsp;</p>
+<h2>Build Things People Can Find</h2>
+<h3>Start a Github Profile</h3><p>Why? = <strong>Because if you&#8217;re self-taught you need to show evidence you can create things and write actual code.</strong> The commonly acceptable way to do this is to give people a link to your github profile where you have a bunch of public code projects. These can be data visualizations, machine-learning baby-scale projects, whatever. Make sure not all of them are forks or class work where you followed instructions.</p><p>If you&#8217;re not familiar with the terms, <a href="https://www.coredna.com/blogs/what-is-git-and-github-part-two">here</a> are some definitions of <a href="https://en.wikipedia.org/wiki/Git">Git</a> and <a href="https://en.wikipedia.org/wiki/GitHub">Github</a>. There are other services than github you can use, like gitlab or bitbucket, but GitHub is the most common.</p><p>While on the topic of github, I will note that <a href="https://github.com/softwareunderground/awesome-open-geoscience">this repository of <em>&#8220;AWESOME OPEN GEOSCIENCE&#8221;</em></a> code projects is something to check out. It lives on github. It contains a wide variety of lesser known geoscience-domain-specific tools you can use. It started as a conversation I had with others in the <a href="https://softwareunderground.org/slack/">Software Undergound Slack channel</a>. It is one of the many &#8220;Awesome lists&#8221; out there for code in a specific domain or application area.</p>
+<h3>Personal website</h3><p>Why? = Because it is good web programming practice and shows you can build something. Additionally, it can be a way to do personal branding.</p><p>The two easiest ways to do this are a <a href="https://wordpress.com/">WordPress</a> website or a <a href="https://pages.github.com/">github pages</a> website. WordPress is a content management system or CMS. You technically don&#8217;t need to code at all if you use WordPress though you can do some small edits in HTML, CSS, and JavaScript if you&#8217;d like to. On the back-end side, WordPress runs PHP. WordPress may cost you depending where it is hosted and whether you want a more professional web address. Github pages is free, but only front-end (<em>HTML,CSS,JS</em>), meaning no connection to a database or back-end scripts (<em>Python or PHP</em>). There are plenty of open-source, free static page templates you can use to get started with a <a href="https://pages.github.com/">github.io page</a>.</p>
+<h3></h3><p>&nbsp;</p>
+<h2>Active In-person Learning</h2>
+<h3>Tutorials at Tech Conferences</h3><p>Why? = Because they&#8217;re really good at getting as much of the information coming out of the firehose to go directly in your brain. They can also serve as starter material for a project on your github. Often the tutorials will be based around a library or a type of task. You&#8217;ll usually leave with a link to not just slides but also all the code the instructor ran, which sets you up to learn it even deeper later on. Conferences can be a good way to network too.</p>
+<ul>
+<li><a href="https://scipy2018.scipy.org/ehome/299527/648139/">https://scipy2018.scipy.org/ehome/299527/648139/</a></li>
+<li><a href="https://us.pycon.org/2018/schedule/tutorials/">https://us.pycon.org/2018/schedule/tutorials/</a></li>
+</ul>
+<h3>Hackathons</h3><p>Why? = Because hackathons are the fastest way to build things that demonstrate your ability to combine concepts and techniques to solve a real world problem. They&#8217;re also great for networking and learning new things through collaborative problem solving.</p><p>The factors that have differentiated good from less good hackathons in my limited experience were a length of at least 5 hours if not 2 days, interesting project ideas, project ideas scaled to the time and skillsets of participants, most participants knowing how to code at least a little, and enough coffee/food that you don&#8217;t have to leave.</p><p>Good Hackathons likely to be in Houston in the future:</p>
+<ul>
+<li><a href="https://events.agilescientific.com/">https://events.agilescientific.com/</a> : Agile runs several a year, typically around conferences that I can attest are quite good.</li>
+<li><a href="http://houstonhackathon.com/">http://houstonhackathon.com/</a> : I&#8217;ve never been able to go myself as I&#8217;ve always been out of town, but I&#8217;m told its worth your time.</li>
+</ul>
+<h3>Single-Speaker-Style Meet-ups</h3><p>Why? = There&#8217;s a reason schools spend a lot of time filling peoples&#8217; heads via the single-speaker at front of room format. It is generally effective. There are a variety of Houston meet-ups in the machine-learning, data science, python space. They vary in quality. Sometimes when they&#8217;re not good, it can be because they&#8217;ve turned into a vendor pitch or the content was different than what was listed. The two meet-ups I mention below have good content and are good for networking. The houston energy data science meet-up sometimes falls into the trap of speakers being just a bit too vendor-ish, but usually it is okay. SPE (Society of Petroleum Engineers) sometimes has oil and gas data science &#8220;meet-ups&#8221;, but they aren&#8217;t free so I never go.</p>
+<ul>
+<li><a href="https://www.meetup.com/Houston-Data-Science/">https://www.meetup.com/Houston-Data-Science/</a></li>
+<li><a href="https://www.meetup.com/Houston-Energy-Data-Science-Meetup/">https://www.meetup.com/Houston-Energy-Data-Science-Meetup/</a></li>
+</ul>
+<h3>Non-Just-A-Speaker Meet-ups</h3><p>Why? = Because not all meet-ups are just a person talking and that&#8217;s a good thing. Some of them are more about doing.</p><p><a href="https://www.meetup.com/sketchcity/">Sketch city</a> regularly has people, local government agencies, and non-profits come in to share a bit about their open-data and what problems/solutions/visualizations/predictions a data-literate member of the public might make from their data. It is a good meet-up to attend for getting project ideas and networking within the local civic tech or civic-tech-interested crowd.</p><p><a href="http://www.meetup.com/Houston-Data-Visualization-Meetup/">The Houston Data Visualization Meet-up</a> (<em>disclaimer I help co-lead this one</em>) has both single-speaker format and data-jam format meetings. Data-jams are often on Saturday morning and consist of 10-30 people working in small groups to visualize a dataset they were just given that morning. Often these datasets come from a local community group or the city of Houston, though we&#8217;ve also used non-local datasets like ChemCam data from the Mars rover Curiosity or a dataset of Russion-bots&#8217; posting on Twitter. In addition to being great starter projects for your portfolio and good networking, this type of meet-up exposes you to a wide variety of GUI and code library data visualization toolsets. You&#8217;ll find out what tools are good for what use cases.</p>
+<ul>
+<li><a href="https://www.meetup.com/sketchcity/">https://www.meetup.com/sketchcity/</a></li>
+<li><a href="http://www.meetup.com/Houston-Data-Visualization-Meetup/">http://www.meetup.com/Houston-Data-Visualization-Meetup/</a></li>
+</ul>
+<h2></h2><p>&nbsp;</p>
+<h2>Filling Your Head Digitally</h2><p>Once you get a certain level of proficiency, learning will start to become more about keeping up and continuing to grow. The rate of &#8220;new&#8221; in data science greatly outstrips geology. It also occurs in different places. &#8220;New&#8221; in oil & gas geology tends to mostly occur in yearly conferences, monthly or quarterly journal publications, new corporate best practice documents from on high, and major software updates. &#8220;New&#8221; in data science occurs in those places. It also occurs to a much larger extent on Slack, Twitter, Podcasts, and Medium articles. New techniques, new results, entirely new libraries are often announced via those methods before they are published in a journal or integrated into a GUI software application your organization might purchase. The flip side of using the methods below to ingest new data science content is the deluge can sometimes get overwhelming.</p>
+<h3>Slack Communities</h3><p>Why? = Because your niche interest area may not perfectly overlap with the people you interact with on a daily basis. Even if it does, the number of people is going to be small. Slack is a way to expand that community discussion digitally. Slack is an asynchronous communication platform built around channels, which each have a different topic. The <a href="https://softwareunderground.org/slack/">softwareunderground</a> slack team is all about computing & geoscience. Anyone can join. A few example channels are geospatial, houston, js, kaggle, open-geoscience, python, r-users, reading, and viz.</p>
+<ul>
+<li><a href="https://softwareunderground.org/slack/">https://softwareunderground.org/slack/</a> : You can join at this link. Cheers to the <a href="https://agilescientific.com/">Agile Scientific</a> group for setting it up.</li>
+</ul>
+<h3>Twitter</h3><p>Why? = Because if Slack, PodCasts, Medium, Journals, etc. all have a frequency, Twitter is the fastest. New libraries, cool examples, interesting discussions of connected threads, will all appear here first before they appear elsewhere. The girl who builds the crazy visualizations that inspire your next project. She&#8217;ll post drafts to Twitter. Someone recently discovered a rarely used but super useful function for your domain in a general purpose Python library. They&#8217;ll post that to Twitter. Twitter isn&#8217;t just data science, of course. You&#8217;ll have to curate your feed by following people with good content, and that takes time, but it is an option for ingesting content at the cutting edge.</p>
+<ul>
+<li><a class="ProfileHeaderCard-screennameLink u-linkComplex js-nav" href="https://twitter.com/JustinGosses"><span class="username u-dir" dir="ltr">@<b class="u-linkComplex-target">JustinGosses</b></span></a></li>
+<li><a href="https://twitter.com/januaryadvisors">@januaryadvisors</a></li>
+<li><a href="https://twitter.com/landlabtoolkit">@landlabtoolkit</a></li>
+<li><a href="https://twitter.com/fatiandoaterra">@fatiandoaterra</a></li>
+<li><a href="https://twitter.com/PaulHCleverley">@PaulHCleverley</a></li>
+<li><a href="https://twitter.com/vaex_io">@vaex_io</a></li>
+<li><a href="https://twitter.com/ncasenmare">@ncasenmare</a></li>
+<li><a href="https://twitter.com/jordansread">@jordansread</a></li>
+</ul>
+<h3>PodCasts</h3><p>Why? = Because data science isn&#8217;t just in text form.</p>
+<ul>
+<li><a href="https://dataskeptic.com/">DataSkeptic</a> : Data Science Explanations & Discussion</li>
+<li><a href="https://undersampledrad.io/">under sampled radio</a> : Geology + Computing</li>
+</ul>
+<h3>Medium</h3><p>Why? = Because getting a few things into your head via 5-30 minutes of reading is sometimes the exact right size of learning.</p>
+<ul>
+<li><a href="https://hackernoon.com/@kozyrkov?source=user_profile---------0---------------------">https://hackernoon.com/@kozyrkov</a> : <a class="ds-link ds-link--styleSubtle link link--darken link--accent u-accentColor--textNormal u-accentColor--textDarken" dir="auto" href="https://hackernoon.com/@kozyrkov?source=user_profile---------0---------------------" data-action="show-user-card" data-action-source="user_profile---------0---------------------" data-action-value="2fccb851bb5e" data-action-type="hover" data-user-id="2fccb851bb5e" data-collection-slug="hacker-daily">Cassie Kozyrkov</a> Chief Data Intelligence Engineer at Google. She does a great job condensing down the subject matter into small useful bits of explanation you can use with other people without becoming fluffy like so many other pieces in Forbes or Business Insider that cover similar ground.</li>
+<li><a href="https://medium.com/multiple-views-visualization-research-explained">https://medium.com/multiple-views-visualization-research-explained</a> : Explains data visualization research just like the name says. Written by a collection of academic data visualization researchers.</li>
+<li><a href="https://medium.com/vis-gl">https://medium.com/vis-gl</a> : Uber&#8217;s data visualization group does some great stuff and open-sources a lot of it. This is a place to learn about new tools that combine JavaScript, data visualization, and geospatial.</li>
+</ul>
+<h3>LinkedIN</h3><p>Why? = Well to be honest, I&#8217;m not sure I get that much from LinkedIN, but it is good for finding out about small conferences or meetings with a data science focus that intersect with geology or oil & gas.</p>
+<ul>
+<li><a href="https://www.linkedin.com/company/spe-gulf-coast-section/">https://www.linkedin.com/company/spe-gulf-coast-section/</a> : Society of Petroleum Engineers has an active data analytics section in Houston</li>
+</ul><p>&nbsp;</p><p>&nbsp;</p>
+<h2>Happy Coding!</h2>
+<h2><iframe class="giphy-embed" src="https://giphy.com/embed/JIX9t2j0ZTN9S" width="480" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe></h2><p>Caption: In reality the cat should spend a third of this time googling things he forgot while looking frustrated.</p>
+<p>The post <a rel="nofollow" href="/geologist-to-data-science-starter-pack/">Geoscience to Data Science Starter Pack</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/geologist-to-data-science-starter-pack/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1152</post-id>	</item>
+		<item>
+		<title>What do I get out of conferences?</title>
+		<link>/what-do-i-get-out-of-conferences/</link>
+		<comments>/what-do-i-get-out-of-conferences/#respond</comments>
+		<pubDate>Tue, 30 May 2017 06:23:56 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[geology]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[AAPG]]></category>
+		<category><![CDATA[Agile Geoscience]]></category>
+		<category><![CDATA[conference]]></category>
+		<category><![CDATA[convention]]></category>
+		<category><![CDATA[data science]]></category>
+		<category><![CDATA[Geology]]></category>
+		<category><![CDATA[hackathon]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[Online Map]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[talks]]></category>
+		<category><![CDATA[tutorials]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=894</guid>
+		<description><![CDATA[<p>Four conferences, two hackathons, and a lot of meet-ups: Analyzing what I&#8217;ve gotten from technical gatherings outside of work this year&#160; Part 1 &#8211;  The PremiseOver the last year, I&#8217;ve been lucky to attend more than my usual number of conferences, meetups, and hackathons. Some of the events were paid by work, some were paid<a href="/what-do-i-get-out-of-conferences/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/what-do-i-get-out-of-conferences/">What do I get out of conferences?</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3 style="text-align: center;">Four conferences, two hackathons, and a lot of meet-ups: Analyzing what I&#8217;ve gotten from technical gatherings outside of work this year</h3><p>&nbsp;</p>
+<h2>Part 1 &#8211;  The Premise</h2><p>Over the last year, I&#8217;ve been lucky to attend more than my usual number of conferences, meetups, and hackathons. Some of the events were paid by work, some were paid by me, and some were free. As my last event for 2017 is coming up, I&#8217;m asking myself two questions.</p><p><strong>First, what did I get out of the gatherings I attended?</strong></p><p><strong>Second, what types of events should I attend next year in order to maximize the benefits I&#8217;m interested in?</strong></p><p>As I see it, attending technical gatherings can have a range of benefits:</p>
+<ol>
+<li>People
+<ul>
+<li>Meet leaders in the field</li>
+<li>Make new contacts and catch up with old contacts</li>
+<li>Meet many vendors at once</li>
+<li>Market yourself and your company</li>
+<li>Gain a better understanding of where your skills and knowledge rank</li>
+</ul>
+</li>
+<li>Skills
+<ul>
+<li>Pick up new &#8220;tricks of the trade&#8221;</li>
+<li>Learn what to do or not do from others&#8217; experiences</li>
+<li>Attend a tutorial and take the first few steps in a new skill with someone there to lead you</li>
+</ul>
+</li>
+<li>Knowledge of the environment beyond your immediate organization
+<ul>
+<li>Gain exposure to a wide range of tools, methods, and applications</li>
+<li>Learn what is upcoming and new</li>
+<li>Understand how the larger market or community is evolving</li>
+</ul>
+</li>
+</ol><p>Working under the assumption that understanding what I got out of the past events will help me plan ahead, I&#8217;ve compiled a description of various technical gatherings I&#8217;ve attended over the last twelve months.</p>
+<h2>Part 2 &#8211; The Data</h2><p>&nbsp;</p>
+<h2 style="text-align: center;">AAPG ACE 2017</h2>
+<h5><span style="color: #008000;">What is it?</span></h5><p><a href="http://www.aapg.org/">American Association of Petroleum Geologist</a>s Annual <a href="http://ace.aapg.org/2017/about">Conference & Exhibit</a>. It is the main conference for petroleum geologists and the largest of several AAPG conferences. The conference can cost between $65 and $650 depending on whether you are a student and when you purchase.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Geologists in the oil and gas industry and some geophysicists. Engineers have their own conferences. The focus is on technical aspects as opposed to business environment or deal making.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Most people dress like they do at work, which is to say dress pants, dress pants, and collared shirts if you&#8217;re a guy or the equivalent if female. If you&#8217;re presenting or looking for work, you might wear a suit and tie. A few people wear jeans. There are no funny t-shirts.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>This year it was in Houston. The conference moves every year between North American oil industry centers like Houston, Long Beach, Calgary, and Denver.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>The average over the last 5 years has been <a href="http://www.aapg.org/events/conferences/ace">6,900</a>.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>Most of the talks follow the pattern of a typical science talk explaining what they did in very rough terms and what their conclusions are.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Make new contacts and catch up with old contacts</em>
+<ul>
+<li>AAPG ACE was very good for making connections with people I haven&#8217;t seen in a while now that I&#8217;m out of the oil and gas industry.</li>
+</ul>
+</li>
+<li><em>Learn what is upcoming and new</em>
+<ul>
+<li>It is also a great place for seeing what is at the forefront of the intersection between industry and academia in geology as various research consortia present talks and posters.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em></li>
+<li><em>Attend a tutorial and take the first few steps in a new skill with someone to lead you</em>
+<ul>
+<li>Compared with tech conferences, the range of talk types is limited. There are almost no &#8220;how to&#8221; or &#8220;when to use blank method&#8221; talks. Everything is in the science talk mold.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>AAPG was great for catching up with people and getting a peek at what other people are working on, even if it is a small peak. Some of the talks can be frustratingly vague due to intellectual property constraints. Field trips provide some opportunity for improving technical skills, but they typically cost enough that you&#8217;ll only attend if your employer is paying. The main convention talks tend to focus on what someone has been done rather than what you could do.</p><p>If you&#8217;re interested in hearing more about what geology conferences are missing and what they might be able to learn from certain tech conference models, the Undersampled Radio podcast recent had a great conversation on this topic starting at 30 minutes into <a href="https://www.youtube.com/watch?v=vCeNA9btD9E"> episode 46</a>.</p>
+<h2 style="text-align: center;">SXSW Interactive</h2>
+<h5><span style="color: #008000;"> What is it?</span></h5><p>South by Southwest is a mega-conference in which the &#8220;<a href="https://www.sxsw.com/festivals/interactive/">Interactive</a>&#8221; sub-conference focuses on digital, internet, intelligent future, social impact, journalism, start-ups, AR/VR, music industry, sports industry, and the workplace. The interactive sub-conference takes place over 5 days and overlaps with the education, music, film, and comedy sub-conferences. More information <a href="https://www.sxsw.com/festivals/interactive/">here</a>. SXSW Interactive tickets cost $1,225.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Marketing companies, hip people, students who volunteer to get their otherwise expensive tickets paid for, and people in the digital space who want to see what is new or make connections.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Varies from nerdy t-shirts to professor jackets with elbow patches. If business casual, a little on the fashionable side.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>Austin, every year.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p><a href="https://en.wikipedia.org/wiki/South_by_Southwest">30,621</a></p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>The talks here range from &#8220;this is new&#8221; to &#8220;we did and you can too&#8221; to &#8220;let&#8217;s talk about the context of something&#8221; to &#8220;fluff and buzzwords&#8221;.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Meet leaders in the field</em>
+<ul>
+<li>I talked with <a href="https://homes.cs.washington.edu/~jheer/">Vint Cerf</a>, one of the &#8220;fathers of the internet, and <a href="https://homes.cs.washington.edu/~jheer/">Jeffrey Heer </a>, a professor who has had a role in many key data visualization code libraries, such as <a href="https://vega.github.io/vega/">vega.js</a>, <a href="https://vincent.readthedocs.io/en/latest/">vincent.py</a>, and <a href="https://d3js.org/">d3.js</a>.</li>
+</ul>
+</li>
+<li><em>Understand trends in the larger market or community. Learn what is new</em></li>
+<li><em>Learn what is upcoming and new</em>
+<ul>
+<li>Saw a lot in regards to VR/AR that was cutting edge.</li>
+</ul>
+</li>
+<li><em>Understand how the larger market or community is evolving</em></li>
+<li><em>Meet many vendors at once</em>
+<ul>
+<li>Largest exhibit showroom of any conference in this list.</li>
+<li>Met with two vendors afterward and used the experience to benchmark against other vendors post conference</li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li>There were several talks that inspired ideas for future projects based on what similar teams had done in other organizations. Post-talk discussions were great for identifying failures to avoid in upcoming projects.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em>
+<ul>
+<li>Talks tend to lack technical depth.</li>
+</ul>
+</li>
+<li><em>Attend a tutorial and take the first few steps in a new skill with someone to lead you</em>
+<ul>
+<li>There weren&#8217;t any tutorials.</li>
+</ul>
+</li>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>There are more talks about products and solutions than methods or tools.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>There were some great talks that inspired potential future projects, but meeting people was the more valuable activity at SXSW. Perhaps for that reason, there were <a href="http://schedule.sxsw.com/2017/03/10/events/conference/Interactive/type/panel">several time slots</a> for people to just &#8220;meet-up&#8221; in a room and talk about a specific topic.</p>
+<h3 style="text-align: center;">PyCon2017</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p><a href="https://us.pycon.org/2017/">PyCon</a> is the largest conference for Python developers. Web development and data analytics are the two focus areas. The base convention ticket for PyCon is $600 for corporate, $350 for individuals, and $125 for students. If sign-up for the max amount of tutorials, total ticket price can be up to $1200.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>People who write code in Python. The male/female ratio at PyCon was maybe 70/30, which made it the most unbalanced of all the conferences.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>There&#8217;s a range, but, compared to the other conferences, it was high on nerdy t-shirts and low on formal or business clothes.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>PyCon was held in Portland, Oregon. PyCon holds their conferences in the same city for two years before switching, which minimizes costs and planning requirements. Next year, it will be in Cleveland, Ohio. Previous to Portland, it was in Montreal.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p><a href="https://en.wikipedia.org/wiki/Python_Conference">3,391</a> badges were picked up from registration.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>PyCon is split into two days of tutorials, three days of talks, and then four days of open-source development sprints.</p>
+<ul>
+<li>Tutorials are half a day in length. Topics included Bayesian machine learning, time series analysis, network analysis, using flask for microservices, <a href="https://us.pycon.org/2017/schedule/tutorials/">etc</a>.</li>
+<li>During the main convention, talks ranged in style from:
+<ul>
+<li>We did this with Python</li>
+<li>Best practice in some aspect of writing code</li>
+<li>The &#8220;craft&#8221; of some part of writing python code</li>
+<li>Introduction to a new python module or open-source project</li>
+<li>Introduction to some activity that can be done with python</li>
+</ul>
+</li>
+<li>During the sprints, open-source Python <a href="https://us.pycon.org/2017/community/sprints/">projects</a> are built or extended.</li>
+</ul>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Meet leaders in the field</em>
+<ul>
+<li>Ended up at a bar with <a href="https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript">Gary Bernhardt</a> , who runs &#8220;destroyallsoftware.com&#8221;, and <a href="https://www.kennethreitz.org/projects/">Kenneth Reitz</a>, the main author of the &#8220;requests&#8221; python module.</li>
+</ul>
+</li>
+<li><em>Attend a tutorial and take the first few steps in a new skill with someone to lead you</em>
+<ul>
+<li>Attended excellent half-day <a href="https://us.pycon.org/2017/schedule/tutorials/">tutorials</a> on Bayesian machine learning, time series analysis, and MQTT protocol.</li>
+</ul>
+</li>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em>
+<ul>
+<li>Several talks were on the &#8220;craft&#8221; of some aspect of writing code, examples included documentation, testing, and sever reliability.</li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li>Talked to a variety of people doing similar work in different organizations and learned how their teams and approaches differ from mine.</li>
+</ul>
+</li>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>Got exposure to a range of new modules and methods and what they could be used for.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Meet many vendors at once</em>
+<ul>
+<li>Although there was an exhibit floor, the number and diversity of vendors were a bit lacking for a conference of that size.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>PyCon was excellent for picking up bits of new skills and improving my understanding of what python modules I might be able to use in future projects. Many of the talks had a focus on leaving the audience with something useful, which made it a great conference for learning. My <a href="https://docs.google.com/document/d/1zm0x1uLg-SKGI4nbu-_ND_44Bycl_wo4tTxVpjDDC6g/edit?usp=sharing">notes</a> have links to the slides and Jupyter Notebooks used by some of the presenters.</p>
+<h3 style="text-align: center;">Johnson Space Center Data Science Day</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p><a href="https://fal.jsc.nasa.gov/DSD/">Data Science Day 2.0</a> was two days of talks around various aspects of data science, data visualization, and analytics. It was free to attend.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>A mixture of NASA civil servants, NASA contractors, vendors, and the public who were interested in the subject matter.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Mostly business casual with some suits and ties.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>Gilruth Center just outside Johnson Space Center, Houston, Texas.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>I estimate 200-350.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>Talks ranged from programming newbie talks to &#8220;we built this&#8221; talks to &#8220;this capability exists&#8221; talks.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>Got exposure to skills and methods I haven&#8217;t used myself yet.</li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li>Made connections to others at Johnson Space Center who were interested in working with our team.</li>
+</ul>
+</li>
+<li><em>Market yourself and your company</em>
+<ul>
+<li>Presented a <a href="http://slides.com/justingosses/history_data_visualization_tools#/">talk</a> on the history of digital data visualization tools.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em>
+<ul>
+<li>There weren&#8217;t many talks about the craft of data science or data visualization.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>Given Johnson Space Center is a rather spread out campus with many buildings, events like this are really valuable for communicating about skills that cross normal organizational boundaries. Attending an event of this type wouldn&#8217;t replace something like PyCon, however, due to the lack of tutorials and in-depth skill sessions.</p>
+<h3 style="text-align: center;">Various Houston Tech Meetups</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p>There are a variety of <a href="https://www.meetup.com/find/?allMeetups=false&keywords=tech&radius=25&userFreeform=Houston%2C+TX&mcId=c77001&mcName=Houston%2C+TX&sort=default">meetups</a> in Houston that focus on t<a href="https://www.meetup.com/Collabonauts/">ech</a>, <a href="https://www.meetup.com/houston-js/events/240279389/">web development</a>, <a href="https://www.meetup.com/Houston-VR-Developers/events/239502556/">virtual reality</a>, <a href="https://www.meetup.com/Hackster-Hardware-Meetup-Houston/events/240263187/">IoT</a>, and <a href="https://www.meetup.com/Houston-Energy-Data-Science-Meetup/">data science</a>. These are typically 1.5 to 4-hour meetings around various topics held every month or two somewhere in Houston. I regularly go to ones on <a href="https://www.meetup.com/Houston-Data-Visualization-Meetup/">data visualization</a>, <a href="https://www.meetup.com/houston-js/">JavaScript</a>, <a href="https://www.meetup.com/python-web-houston/">Python</a>, <a href="https://www.meetup.com/sketchcity/events/239311484/">civic projects</a>, and <a href="https://www.meetup.com/Houston-React-Js-Group/events/240297939/">front-end web development</a>. They are free to attend although sometimes donations are requested for snacks.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Anyone interested in the subject. Attendees range from complete newbies to professional developers.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Casual to whatever people were wearing at work.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>It varies from civic community spaces to tech companies to coffee shops and bars.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>5-75, but many times a year.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>The two most common types are &#8220;introduction to blank&#8221; talks and &#8220;this is what I have done with blank&#8221; talks. My favorite is Houston data visualization meetup&#8217;s monthly &#8220;data jams&#8221;. A cleaned dataset is provided. Participants have 4 hours to build data visualizations with any code library or software tool they care to apply. This is a great way to learn about new tools and methods for data visualization.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>You&#8217;ll get exposure to a wide range of tools and approaches for a single topic.</li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li>Make connections across industries and organizations in Houston.</li>
+</ul>
+</li>
+<li>Make new contacts and catch up with old contacts</li>
+<li><em>Market yourself and your company</em>
+<ul>
+<li>The easiest place to present a talk or contribute to the local developer community.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Meet many vendors at once</em>
+<ul>
+<li>Vendor pitches are generally frowned upon, so there aren&#8217;t that many. Energy industry meetups are the exception.</li>
+</ul>
+</li>
+<li><em>Meet leaders in the field</em>
+<ul>
+<li>Unfortunately, Houston is not much of a tech hub, so there aren&#8217;t that many big names here.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>The main benefit of meetups for me is the exposure to a wide range of tools applied to the same topic or problem. This saves me a great amount of time in terms of researching and comparing new tools myself.</p>
+<h3 style="text-align: center;">Space-Apps Challenge Houston</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p>A <a href="https://2017.spaceappschallenge.org/">global hackathon</a> that uses NASA data, but is hosted locally in many cities around the world. This was the first year the event was hosted in Houston for several years. Participants form teams and have two days to hack together a solution, usually a web application but sometimes hardware, to one of the NASA <a href="https://2017.spaceappschallenge.org/challenges/">challenges</a>. It is free to attend. There was sponsor swag, coffee, beer, and food from <a href="http://stationhouston.com/">Station Houston</a>, Amazon Web Services, Intel, and <a href="https://www.yelp.com/biz/morningstar-houston">Morningstar Coffee</a>. I was a technical mentor during the event, not a participant.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Participants at the Houston event included high school students with a little coding knowledge, recent coding boot camp graduates, computer science undergraduates, IBM engineers, and professional web developers.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>85% jeans & t-shirt and 15% slightly fancier.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p><a href="https://www.theironyard.com/locations/houston">The Iron Yard</a>, a coding boot camp with locations in various cities, including Houston.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>~30</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>Aside from a 20-minute talk on NASA civilian science, the time was spent working on each team&#8217;s project. You can read more about some of the projects created at the Houston event <a href="https://2017.spaceappschallenge.org/locations/houston/">here</a>.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>Two of the teams used technologies I hadn&#8217;t worked with before.</li>
+</ul>
+</li>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em></li>
+<li><em>Make new contacts and catch up with old contacts</em>
+<ul>
+<li>Made connections with several or the participants</li>
+<li>Worked with <a href="http://stationhouston.com/">Station</a>, <a href="https://www.theironyard.com/locations/houston">The Iron Yard</a>, and several <a href="https://www.meetup.com/Houston-Data-Visualization-Meetup/">meet-up group</a> leads to organize the event.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Meet leaders in the field</em></li>
+<li><em>Meet people doing similar work and learn from their experiences</em></li>
+<li><em>Meet many vendors at once</em></li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>As a participant, hackathons are great for taking a method or technology that is new to you, cramming as much about it into your brain as possible, and then applying it in a very intense, short period of time. As a technical mentor, who also did a bit of event organization, it is a great way to expand your network, learn from others, and you get some of the previously mentioned technical benefits too.</p>
+<h3 style="text-align: center;">Agile Scientific Paris Subsurface Hackathon</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p>A hackathon associated with a geological society conference in Paris.  This is one of <a href="https://agilescientific.com/">Agile Scientific&#8217;s</a> hackathons that take place 1-3 times a year at geology and geophysics conferences. Total is co-organizing it. It is free to attend.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Geologists and geophysicists who know how to code, usually in Python. Web development skills are typically sparse. Several people, including myself, will be participating as &#8220;robots&#8221;. This means I&#8217;ll be teleconferencing into the hackathon and my face will be appearing on a little laptop there.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Most of the on-location participants will be French, so I&#8217;m assuming they will likely be better dressed than me.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>Virtual & Paris.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>Not sure as it hasn&#8217;t happened yet, but looks to be around 50.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>There will likely be an introduction talk and then lots of coding.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>This always seems to happen at hackathons.</li>
+</ul>
+</li>
+<li>Pick up new &#8220;tricks of the trade&#8221;
+<ul>
+<li>A lot of my coding ability was picked up after I left oil and gas, so it will be nice to work with geological datasets.</li>
+</ul>
+</li>
+<li>Make new contacts and catch up with old contacts
+<ul>
+<li>Several of the participants are people I know from a previous hackathon.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>I&#8217;m hoping to use this as an opportunity to apply a new skill area that I&#8217;ll be using at work eventually but haven&#8217;t had much opportunity to use yet. Possibilities include time-series analysis, deep-learning, web-scraping, and natural language processing.</p>
+<h2>Part 3  &#8211;  The Analysis</h2>
+<h3>Ranking of which events had which benefits the most</h3><p>Based on the notes above, I&#8217;ve ranked the events in terms of how well they fulfilled each benefit in my list. The event that most fulfilled each benefit is in <span style="color: #ff0000;">red<span style="color: #000000;">, with second in</span> <span style="color: #cc99ff;">purple</span><span style="color: #000000;">, etc</span></span>.</p>
+<ol>
+<li>People
+<ul>
+<li><em>Meet leaders in the field</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">SXSW &</span> <span style="color: #cc99ff;">PyCon</span></span></li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff6600;"><span style="color: #ff0000;">Meet-ups</span>,</span> <span style="color: #cc99ff;">PyCon</span><span style="color: #ff9900;"><span style="color: #cc99ff;">,</span> <span style="color: #99cc00;">JSC Data Science Day<span style="color: #99ccff;">,</span></span><span style="color: #99ccff;"> and meetups</span></span></span></li>
+</ul>
+</li>
+<li><em>Make new contacts and catch up with old contacts</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">AAPG,</span> <span style="color: #cc99ff;">meetups,</span> <span style="color: #99cc00;">and PyCon</span></span></li>
+</ul>
+</li>
+<li><em>Meet many vendors at once</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">SXSW <span style="color: #cc99ff;">and</span></span><span style="color: #cc99ff;"> AAPG</span></span></li>
+</ul>
+</li>
+<li><em>Market yourself and your company</em>
+<ul>
+<li><span style="color: #ff0000;">SXSW,</span><span style="color: #cc99ff;"> PyCON,</span><span style="color: #993300;"> </span><span style="color: #ff9900;"><span style="color: #99cc00;">AAPG,</span> <span style="color: #99ccff;">and meetups</span></span></li>
+</ul>
+</li>
+<li><em>Gain a better understanding of where your skills and knowledge rank</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">hackathons, </span><span style="color: #99cc00;">and meetups</span></span></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Skills
+<ul>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff6600;"><span style="color: #993300;"><span style="color: #ff0000;">Hackathons,</span><span style="color: #cc99ff;"> PyCon,</span></span></span> <span style="color: #99cc00;">meet-ups</span></span></li>
+</ul>
+</li>
+<li><em>Learn what to do or not do from others&#8217; experiences</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">meet-ups, </span><span style="color: #99cc00;">JSC Data Science Day</span></span></li>
+</ul>
+</li>
+<li><em>Attend a tutorial and take the first few steps in a new skill with someone to lead you</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">meet-ups, </span><span style="color: #99cc00;">hackathon</span></span></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Knowledge of the environment beyond your immediate organization
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">meet-ups, </span><span style="color: #99cc00;">JSC Data Science Day,</span><span style="color: #99ccff;"> SXSW</span><br />
+</span></li>
+</ul>
+</li>
+<li><em>Understand trends in the larger market or community</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">SXSW,</span> <span style="color: #cc99ff;">meet-ups,</span> <span style="color: #99cc00;">PyCon</span></span></li>
+</ul>
+</li>
+<li><em>Learn what is new</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;"><span style="color: #ff6600;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">SXSW,</span></span></span> <span style="color: #99cc00;">JSC Data Science Day</span></span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3>Discussion</h3><p>Some types of events I might not want to go to every year. Other types of events I would go every year, but I might trade one conference for another with a similar style but different focus area.</p>
+<h5>SXSW Interactive or another large conference of this type</h5><p>SXSW Interactive is great for getting a wide view of what is new and upcoming, but I&#8217;m not sure I need to go to it, or a conference like it, more than once every two to three years, even on a team that is responsible for keeping up with what is new.</p>
+<h5>AAPG or another large science or professional association conference</h5><p>AAPG is great in terms of what it tries to be, a science conference for oil and gas geologists, but there are definitely <a href="https://www.youtube.com/watch?v=vCeNA9btD9E">some aspects</a> of tech and computer language specific conferences that science and industry conferences could learn from. In-depth half-day tutorials, how-to sessions, and skill-building activities are all things that could be done in that conference space but just aren&#8217;t. A similar conference to this one, but in a computer science domain, would be <a href="https://www.ieee.org/conferences_events/index.html">IEEE</a>.</p>
+<h5>PyCon or similar tech conference</h5><p>PyCon had a wide range of benefits, including tutorials and &#8220;how to do this activity well&#8221; talks that are not always present at other technical gatherings. The year before I went to <a href="https://pydata.org/chicago2016/">PyData in Chicago</a>, which, although a smaller conference, had a similar range of talks. A conference that might be similar but with a different focus is <a href="https://scipy2017.scipy.org/ehome/index.php?eventid=220975&">SciPy</a>.</p>
+<h5>Hackathons</h5><p>They are great at both putting you in contact with the local developer community and showing you the range of approaching to a topic. However, they are intense. I participate or help out with 1-2 a year. More than that might be too much. I&#8217;ll do Space-Apps Houston again as there is definitely some value there both to me and to the community. Also, it is Houston! It was embarrassing there were several years when over a hundred Space-Apps hackathon events occurred globally, but there wasn&#8217;t an event in Houston. An alternative option that I seem to always be out of town for is the <a href="http://houstonhackathon.com/">Houston Hackathon</a>.</p>
+<h5>Johnson Space Center Data Science Day or similar 1-2 day, &lt;300 people,  local event.</h5><p>Johnson Space Center Data Science Day is useful for making local and NASA specific people connections and seeing what others are working on, however, it can&#8217;t replace something like PyCon or PyData for learning new skills. I&#8217;ll attend and present, but I don&#8217;t really count it as a learning opportunity in the same way. Similar type one to two-day speaker events are held at Rice University focusing on big data and <a href="http://ml2017.rice.edu/">machine learning</a>.</p>
+<h5>Houston tech meetups</h5><p>Tech meet-ups are my bread and butter learning opportunity. The combination of free, relatively easy to fit in your schedule as you don&#8217;t have to take days off, and leading directly into side projects works out well for me, especially as someone relatively new to writing code for a living. How many meetups I attend will depend on my schedule and number of side projects, which is difficult to predict in advance.</p>
+<h3>Next year plans</h3>
+<h5><em>Attend 0-1</em></h5><p>AAPG and SXSW style conferences have value but a more narrow range of benefits that ranks secondary to me right now. If options for travel and training are limited, I would focus my budget elsewhere next year.</p>
+<h5><em>Attend many, present at 1+, and organize at least 1</em></h5><p>Tech meetups and hackathons are great in that they&#8217;re free, local, and there&#8217;s something you could attend multiple times a week if you wanted, at least in a major US city. That frequency also represents a burn-out danger, however, so I&#8217;ll probably attend the same amount or shift to attending a little less next year.</p>
+<h5><em>Attend 1+ and present at 1+</em></h5><p>JSC Data Science Day is a great way to make local connections in a large and spread out organization, but I wouldn&#8217;t consider it a replacement for training or a major conference.</p>
+<h5><em>Attend 1 (consider presenting)</em></h5><p>PyCon and similar-type conferences probably offer the most value of the options examined due to the presence of many tutorials and &#8220;craft of coding&#8221; talks. My top focus for planning which conference to attend next year will be on finding a good PyCon-style conference that covers slightly different terrain but is still very applicable to work.</p>
+<h3>Conclusion</h3><p>Different outside of work technical gatherings have different benefits. An exercise like this helps organize experiences into data that is easier to analyze. My conclusions on what types of conferences are the most useful for me this year and next reflects what benefits I value the most right now. My main focus is on building skills and learning new tools, which shows up in my future conference preferences.</p><p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="/what-do-i-get-out-of-conferences/">What do I get out of conferences?</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/what-do-i-get-out-of-conferences/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">894</post-id>	</item>
+		<item>
+		<title>Nodebots</title>
+		<link>/nodebots/</link>
+		<comments>/nodebots/#comments</comments>
+		<pubDate>Sun, 31 Jul 2016 04:32:26 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[meetup]]></category>
+		<category><![CDATA[Node.js]]></category>
+		<category><![CDATA[npm]]></category>
+		<category><![CDATA[Robots]]></category>
+
+		<guid isPermaLink="false">/?p=662</guid>
+		<description><![CDATA[<p>Today I got to play with hardware at an International Nodebot Day event put on by NodeJS Houston. It was a lot of fun, and I was surprised by how much got accomplished in less than a day. I used a Tessel2 board from Sparkfun, which comes with linux and Node.js installed. The best thing about<a href="/nodebots/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/nodebots/">Nodebots</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p style="text-align: left;">Today I got to play with hardware at an <a href="http://nodebots.io/#nodebots-day">International Nodebot Day</a> event put on by <a href="http://www.nodejshouston.com/">NodeJS Houston</a>. It was a lot of fun, and I was surprised by how much got accomplished in less than a day. I used a <a href="https://tessel.io/">Tessel2</a> board from <a href="https://www.sparkfun.com/nodebots2016">Sparkfun</a>, which comes with linux and Node.js installed. The best thing about the Tessel2 is how quickly you can go from having just parts to having a working project. Unlike the Raspberry Pi and other boards, there is no lengthy initial install process. The OS is pre-installed. The client installs via a single line of code using <a href="https://www.npmjs.com/">NPM</a>. Likewise, getting wifi connection up and running, so you can push code without a wired connection, is a single line of code.</p>
+<hr />
+<h3 style="text-align: center;">~20 Minutes from Parts to LED on!</h3>
+<div id="attachment_702" style="width: 204px" class="wp-caption alignleft"><img data-attachment-id="702" data-permalink="/nodebots/image6-2/" data-orig-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image6.png?fit=2448%2C3264" data-orig-size="2448,3264" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image6" data-image-description="" data-medium-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image6.png?fit=225%2C300" data-large-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image6.png?fit=640%2C853" class="wp-image-702 " src="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image6.png?resize=194%2C261" alt="image6" width="194" height="261" srcset="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image6.png?zoom=2&resize=194%2C261 388w, https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image6.png?zoom=3&resize=194%2C261 582w" sizes="(max-width: 194px) 100vw, 194px" data-recalc-dims="1" /></p>
+<p class="wp-caption-text">JavaScript code running on my laptop, connects to the Tessel2 board via a USB cable, which makes the LED blink.</p>
+</div>
+<div id="attachment_666" style="width: 288px" class="wp-caption alignleft"><img data-attachment-id="666" data-permalink="/nodebots/screen-shot-2016-07-30-at-11-51-37-am/" data-orig-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/Screen-Shot-2016-07-30-at-11.51.37-AM.png?fit=990%2C726" data-orig-size="990,726" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screen Shot 2016-07-30 at 11.51.37 AM" data-image-description="&lt;p&gt;screenshot of webpage with controls for sumobot&lt;/p&gt;
+" data-medium-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/Screen-Shot-2016-07-30-at-11.51.37-AM.png?fit=300%2C220" data-large-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/Screen-Shot-2016-07-30-at-11.51.37-AM.png?fit=640%2C469" class="wp-image-666" src="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/Screen-Shot-2016-07-30-at-11.51.37-AM.png?resize=278%2C211" alt="screenshot of webpage with controls for sumobot" width="278" height="211" srcset="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/Screen-Shot-2016-07-30-at-11.51.37-AM.png?zoom=2&resize=278%2C211 556w, https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/Screen-Shot-2016-07-30-at-11.51.37-AM.png?zoom=3&resize=278%2C211 834w" sizes="(max-width: 278px) 100vw, 278px" data-recalc-dims="1" /></p>
+<p class="wp-caption-text">Screenshot of the terminal. The red bar and the number to the right of it shows the current level of the dimmer switch that will control the LED brightness</p>
+</div>
+<div id="attachment_704" style="width: 214px" class="wp-caption alignleft"><a href="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image7.png"><img data-attachment-id="704" data-permalink="/nodebots/image7-2/" data-orig-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image7.png?fit=2448%2C3264" data-orig-size="2448,3264" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image7" data-image-description="" data-medium-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image7.png?fit=225%2C300" data-large-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image7.png?fit=640%2C853" class="wp-image-704" src="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image7.png?resize=204%2C284" alt="image7" width="204" height="284" srcset="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image7.png?zoom=2&resize=204%2C284 408w, https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image7.png?zoom=3&resize=204%2C284 612w" sizes="(max-width: 204px) 100vw, 204px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">In this configuration, the brightness of the LED is reported back to the console and changed via a dimmer switch on the bread board.</p>
+</div><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+<hr />
+<h3 style="text-align: center;">Sumobots!</h3><p>After several smaller projects to practice writing and deploying code for the Tessel2, we build our main project, a sumobot. At the end of the day, there was a bot vs. bot bracket competition.</p>
+<div id="attachment_665" style="width: 535px" class="wp-caption aligncenter"><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/image4.jpg"><img data-attachment-id="665" data-permalink="/nodebots/image4/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/image4.jpg?fit=3264%2C2448" data-orig-size="3264,2448" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 5s&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1469893244&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;50&quot;,&quot;shutter_speed&quot;:&quot;0.0333333333333&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="image4" data-image-description="&lt;p&gt;sumobot&lt;/p&gt;
+" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/image4.jpg?fit=300%2C225" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/image4.jpg?fit=640%2C480" class="wp-image-665" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/image4.jpg?resize=525%2C563" alt="sumobot" width="525" height="563" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/image4.jpg?zoom=2&resize=525%2C563 1050w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/image4.jpg?zoom=3&resize=525%2C563 1575w" sizes="(max-width: 525px) 100vw, 525px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">My sumobot. It might have won ugliest sumobot had that been a category. Rubber bands &gt; Elmers Glue for prototyping and impact sports.</p>
+</div>
+<div id="attachment_669" style="width: 631px" class="wp-caption aligncenter"><a href="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/Screen-Shot-2016-07-30-at-9.48.00-PM.png"><img data-attachment-id="669" data-permalink="/nodebots/screen-shot-2016-07-30-at-9-48-00-pm/" data-orig-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/Screen-Shot-2016-07-30-at-9.48.00-PM.png?fit=2852%2C530" data-orig-size="2852,530" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screen Shot 2016-07-30 at 9.48.00 PM" data-image-description="" data-medium-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/Screen-Shot-2016-07-30-at-9.48.00-PM.png?fit=300%2C56" data-large-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/Screen-Shot-2016-07-30-at-9.48.00-PM.png?fit=640%2C119" class="wp-image-669" src="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/Screen-Shot-2016-07-30-at-9.48.00-PM.png?resize=621%2C106" alt="Screen Shot 2016-07-30 at 9.48.00 PM" width="621" height="106" srcset="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/Screen-Shot-2016-07-30-at-9.48.00-PM.png?zoom=2&resize=621%2C106 1242w, https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/Screen-Shot-2016-07-30-at-9.48.00-PM.png?zoom=3&resize=621%2C106 1863w" sizes="(max-width: 621px) 100vw, 621px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">The sumobot was controlled via a webpage served from the bot and running on my phone. This is a screenshot of those controls.</p>
+</div>
+<div id="attachment_674" style="width: 582px" class="wp-caption aligncenter"><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/Nodebots_img_0283.jpg"><img data-attachment-id="674" data-permalink="/nodebots/nodebots_img_0283/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/Nodebots_img_0283.jpg?fit=4032%2C3024" data-orig-size="4032,3024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Nodebots_img_0283" data-image-description="" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/Nodebots_img_0283.jpg?fit=300%2C225" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/Nodebots_img_0283.jpg?fit=640%2C480" class="wp-image-674" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/Nodebots_img_0283.jpg?resize=572%2C419" alt="Nodebots_img_0283" width="572" height="419" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/Nodebots_img_0283.jpg?zoom=2&resize=572%2C419 1144w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/Nodebots_img_0283.jpg?zoom=3&resize=572%2C419 1716w" sizes="(max-width: 572px) 100vw, 572px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">The object is to push the other bot off the platform. Someone is about to lose.</p>
+</div>
+<div id="attachment_706" style="width: 650px" class="wp-caption aligncenter"><a href="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image2.png"><img data-attachment-id="706" data-permalink="/nodebots/image2-2/" data-orig-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image2.png?fit=2448%2C2448" data-orig-size="2448,2448" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image2" data-image-description="" data-medium-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image2.png?fit=300%2C300" data-large-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image2.png?fit=640%2C640" class="wp-image-706 size-large" src="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image2.png?resize=640%2C640" alt="" width="640" height="640" srcset="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image2.png?resize=1024%2C1024 1024w, https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image2.png?resize=150%2C150 150w, https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image2.png?resize=300%2C300 300w, https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image2.png?resize=250%2C250 250w, https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image2.png?resize=174%2C174 174w, https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image2.png?w=1280 1280w, https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/image2.png?w=1920 1920w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">All the sumobots that took part in the competition.</p>
+</div>
+<hr />
+<h3 style="text-align: center;">Instructions</h3><p>The following instructions should be all the information you need to try out a few small projects and then build a sumobot.</p>
+<ul>
+<li>Sparkfun sells a <a href="https://www.sparkfun.com/nodebots2016">kit</a> that looks to be everything I got at nodebots day and a extra pieces.</li>
+<li><a href="http://-/ https://github.com/dtex/nbd2016">Slides</a> and code by Donovan Buck, who is also a contributor to Johnny-Five. These were presented by Don at the nodebot event and contain information on getting started with the Tessel2. Small code snippets for projects using LEDs and Temperature Sensors are included, as well as some of the information needed to make a sumobot.</li>
+<li>The <a href="http://johnny-five.io/">Johnny-Five JavaScript library</a> is used for a variety of boards, including the Tessel2, to control components and sensors using simple and short Node.js commands. The name, of course, comes from the main character of the awesome 1980s robot movie, <a href="https://video.search.yahoo.com/video/play?p=short+circuit&vid=e4950ccf787392775fe636d5472ba792&turl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOVP.V778995e347f8a355908ef04d2e3b9850%26pid%3D15.1%26h%3D227%26w%3D300%26c%3D7%26rs%3D1&rurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRBtRVjAMbVo&tit=Short+Circuit+%281986%29+Original+Trailer&c=8&h=227&w=300&l=111&sigr=11bea74jt&sigt=11554fk08&sigi=132mnnsfe&ct=p&age=1259992459&fr2=p%3As%2Cv%3Av&fr=mcafee&tt=b">Short Circuit</a>. The JavaScript files in the Don&#8217;s presentation use Johnny-Five.<a href="http://johnny-five.io/"><img data-attachment-id="675" data-permalink="/nodebots/johnny-five-fb/" data-orig-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/johnny-five-fb.png?fit=1200%2C630" data-orig-size="1200,630" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="johnny-five-fb" data-image-description="" data-medium-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/johnny-five-fb.png?fit=300%2C158" data-large-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/johnny-five-fb.png?fit=640%2C336" class="aligncenter wp-image-675" src="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/johnny-five-fb.png?resize=259%2C120" alt="johnny-five-fb" width="259" height="120" srcset="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/johnny-five-fb.png?zoom=2&resize=259%2C120 518w, https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/johnny-five-fb.png?zoom=3&resize=259%2C120 777w" sizes="(max-width: 259px) 100vw, 259px" data-recalc-dims="1" /></a></li>
+<li>&#8216;Getting started&#8217; <a href="http://tessel.github.io/t2-start/">instructions</a> from Tessel. These are an additional reference point to what is in Don&#8217;s slides.</li>
+<li>For the Sumobot control, I ended up not using the code linked to at the end of Don&#8217;s slides, but rather a <a href="https://github.com/ryanjgill/sumobot.git">repo</a> but together by Ryan Gill, who was at the event. I found Ryan&#8217;s code was easy to get running.</li>
+<li>To install & run Ryan&#8217;s sumobot code, I followed these steps (<em>Note: Node.js latest stable version, Tessel2 client, wifi connection, and wifi access point have already been installed and are running based on Don&#8217;s code in the first link</em>):</li>
+</ul>
+<p style="padding-left: 60px;"><span class="s1">1. Clone the directory: git clone https://github.com/ryanjgill/sumobot.git<br />
+</span><span class="s1">2. CD into that directory.<br />
+</span><span class="s1">3. In the terminal, type &#8220;npm install&#8221; while inside the directory to install dependencies.<br />
+</span><span class="s1">4. Type &#8220;t2 run index.js&#8221;, which should start the program running.<br />
+</span><span class="s1">5. At some point in the terminal, you should see &#8220;Server running at http://172./###.###.###:3000&#8221;, which is your bot&#8217;s IP and the port the webpage will be running on. Keep that information, you&#8217;ll need to put that in the browser later to control the bot.<br />
+</span><span class="s1">6. Now you should push the code, so that it runs when the Tessel is not connected to your computer by USB. Type, &#8220;t2 push index.js&#8221; into the terminal. After it finishes loading, unplug the USB, switch to onboard battery power, and wait for the board to reboot and wifi to connect.<br />
+</span><span class="s1">7. After the blue light on the left side of the tessel2 board is solid blue and the light in the ethernet plug area is solid green, change your computer or phone wifi to be the wifi access point of the bot. (Starting the wifi access point was a previous step described in Don&#8217;s slides mentioned above.) Navigate to the IP address and port from step #5 in your browser of choice. You should see a website that your bot is serving to you through the wifi connection. There will be buttons for forward, reverse, right, and left. Clicking on these buttons will trigger the JS code running on your bot and your bot will move.</span></p>
+<hr />
+<h3 style="text-align: center;">Lastly, thank you to the sponsors of this event.</h3><p>&nbsp;</p><p><a href="http://novetta.com/"><img data-attachment-id="676" data-permalink="/nodebots/novetta/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/novetta.png?fit=800%2C166" data-orig-size="800,166" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="novetta" data-image-description="" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/novetta.png?fit=300%2C62" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/novetta.png?fit=640%2C133" class="wp-image-676 size-medium aligncenter" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/novetta.png?resize=300%2C62" alt="novetta" width="300" height="62" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/novetta.png?resize=300%2C62 300w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/novetta.png?w=800 800w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>.</p><p>&nbsp;</p><p><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/brandextract-splash.jpg"><img data-attachment-id="696" data-permalink="/nodebots/brandextract-splash/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/brandextract-splash.jpg?fit=424%2C245" data-orig-size="424,245" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="brandextract-splash" data-image-description="" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/brandextract-splash.jpg?fit=300%2C173" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/brandextract-splash.jpg?fit=424%2C245" class="size-full wp-image-696 aligncenter" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/brandextract-splash.jpg?resize=424%2C245" alt="brandextract-splash" width="424" height="245" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/brandextract-splash.jpg?w=424 424w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/07/brandextract-splash.jpg?resize=300%2C173 300w" sizes="(max-width: 424px) 100vw, 424px" data-recalc-dims="1" /></a><a href="/wp-content/uploads/2016/07/brandextract-splash.jpg">    </a><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/chaione_2.png"><img data-attachment-id="697" data-permalink="/nodebots/chaione_2/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/chaione_2.png?fit=492%2C264" data-orig-size="492,264" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="chaione_2" data-image-description="" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/chaione_2.png?fit=300%2C161" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/chaione_2.png?fit=492%2C264" class="aligncenter size-full wp-image-697" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/chaione_2.png?resize=492%2C264" alt="chaione_2" width="492" height="264" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/chaione_2.png?w=492 492w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/chaione_2.png?resize=300%2C161 300w" sizes="(max-width: 492px) 100vw, 492px" data-recalc-dims="1" /></a><a href="https://chaione.com/"><br />
+</a></p>
+<h3></h3><p>&nbsp;</p><p>&nbsp;</p>
+<h3></h3>
+<h3><a href="http://www.uh.edu/"><img data-attachment-id="680" data-permalink="/nodebots/uhcs-2/" data-orig-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/uhcs.jpg?fit=257%2C91" data-orig-size="257,91" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="uhcs" data-image-description="" data-medium-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/uhcs.jpg?fit=257%2C91" data-large-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/uhcs.jpg?fit=257%2C91" class="aligncenter wp-image-680 size-full" src="https://i1.wp.com/justingosses.com/wp-content/uploads/2016/07/uhcs.jpg?resize=257%2C91" alt="uhcs" width="257" height="91" data-recalc-dims="1" /></a></h3>
+<h3 style="text-align: center;"></h3><p>&nbsp;</p><p>&nbsp;</p>
+<h3 style="text-align: center;"></h3>
+<h3 style="text-align: center;">and the organizers:</h3><p>&nbsp;</p><p>&nbsp;</p>
+<p style="text-align: center;"><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/nodejs-houston.png"><img data-attachment-id="681" data-permalink="/nodebots/nodejs-houston/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/nodejs-houston.png?fit=424%2C228" data-orig-size="424,228" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="nodejs-houston" data-image-description="" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/nodejs-houston.png?fit=300%2C161" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/nodejs-houston.png?fit=424%2C228" class="aligncenter size-full wp-image-681" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/nodejs-houston.png?resize=424%2C228" alt="nodejs-houston" width="424" height="228" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/nodejs-houston.png?w=424 424w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/07/nodejs-houston.png?resize=300%2C161 300w" sizes="(max-width: 424px) 100vw, 424px" data-recalc-dims="1" /></a></p><p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="/nodebots/">Nodebots</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/nodebots/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">662</post-id>	</item>
+		<item>
+		<title>Space City JavaScript Conference</title>
+		<link>/space-city-javascript-conference/</link>
+		<comments>/space-city-javascript-conference/#respond</comments>
+		<pubDate>Sun, 15 May 2016 02:18:21 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[conference]]></category>
+		<category><![CDATA[Front-End]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=510</guid>
+		<description><![CDATA[<p>A Post-Conference Review of Space City JSI just got back from Space City JS, a JavaScript conference in Houston, Texas. Ideally, I&#8217;d write an intelligent piece of prose after long reflection. My schedule doesn&#8217;t allow for that, so here are some bullet points. The coffee was strong! and more than cream and sugar was provided<a href="/space-city-javascript-conference/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/space-city-javascript-conference/">Space City JavaScript Conference</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3 style="text-align: center;">A Post-Conference Review</h3>
+<h3 style="text-align: center;">of</h3>
+<h3 style="text-align: center;"><a href="http://www.spacecity.codes/#">Space City JS</a></h3><p><a href="http://www.spacecity.codes/#"><img data-attachment-id="512" data-permalink="/space-city-javascript-conference/spacecityjs/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/SpaceCityJS.png?fit=512%2C512" data-orig-size="512,512" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="SpaceCityJS" data-image-description="" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/SpaceCityJS.png?fit=300%2C300" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/SpaceCityJS.png?fit=512%2C512" class="aligncenter wp-image-512" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/SpaceCityJS.png?resize=228%2C234" alt="Space City JS Logo" width="228" height="234" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/SpaceCityJS.png?zoom=2&resize=228%2C234 456w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/SpaceCityJS.png?zoom=3&resize=228%2C234 684w" sizes="(max-width: 228px) 100vw, 228px" data-recalc-dims="1" /></a></p><p>I just got back from Space City JS, a JavaScript conference in Houston, Texas. Ideally, I&#8217;d write an intelligent piece of prose after long reflection. My schedule doesn&#8217;t allow for that, so here are some bullet points.</p>
+<ul>
+<li>The coffee was strong! and more than cream and sugar was provided if you wanted to get fancy. Katz coffee sponsored. They also sponsor the Buffalo Bayou Regatta every year.</li>
+<li>This was only the second year of the conference. The number of people participating was mentioned as evidence of the small but growing Houston tech scene.</li>
+<li>As compared to a scientific conference where talks are super specific, the pattern was for talks to be accessible by those with moderate amounts of topic-specific knowledge. The goal was less description and more inspiration and demonstration.</li>
+<li>One thing JavaScript certainly has going for it over the other languages is an active community of people in Houston who are willing to share their time and expertise with others.</li>
+<li>Hearing about new tools and libraries that experienced people find useful and think will grow in the future is useful knowledge for someone, like myself, making decisions about what things to learn.</li>
+<li>You leave with nice looking stickers & t-shirts.</li>
+<li>The conference was sponsored by 4 local breweries, which seemed excessive for a small conference, but can you ever have too many breweries sponsoring your event?</li>
+<li>There were just the right number of interesting talks. The subjects included connecting APIs, databases specifically built for real-time applications, using Node.js at NASA to overcome data silos, and contributing to open-source both from the contributor perspective and the project originator perspective.</li>
+<li>Brisket for lunch! Truly, there&#8217;s no point in having a conference in Texas if you don&#8217;t serve tacos or brisket.</li>
+</ul>
+<div id="attachment_511" style="width: 650px" class="wp-caption aligncenter"><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463279039183.jpg"><img data-attachment-id="511" data-permalink="/space-city-javascript-conference/image1/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?fit=1280%2C1280" data-orig-size="1280,1280" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 5s&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1463214201&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;320&quot;,&quot;shutter_speed&quot;:&quot;0.0588235294118&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;6&quot;}" data-image-title="image1" data-image-description="" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?fit=300%2C300" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?fit=640%2C640" class="wp-image-511 size-large" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764-1024x1024.jpg?resize=640%2C640" alt="post-it note of Space City JS version of NASA logo" width="640" height="640" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?resize=1024%2C1024 1024w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?resize=150%2C150 150w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?resize=300%2C300 300w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?resize=250%2C250 250w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?resize=174%2C174 174w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?w=1280 1280w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">A copyright infringing merger of Space City JS (S.C.J.S.) and the NASA logo made with Post-it notes.</p>
+</div><p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="/space-city-javascript-conference/">Space City JavaScript Conference</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/space-city-javascript-conference/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">510</post-id>	</item>
+		<item>
+		<title>Data Visualization Compilations</title>
+		<link>/data-visualization-compilations/</link>
+		<comments>/data-visualization-compilations/#respond</comments>
+		<pubDate>Sun, 27 Mar 2016 04:40:19 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[CartoDB]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[Front-End]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[mapbox]]></category>
+		<category><![CDATA[Online Map]]></category>
+		<category><![CDATA[Online Mapping]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=453</guid>
+		<description><![CDATA[<p>A Compilation of Data Visualization Compilations:There are a wide variety of tools out there for data visualization. Some nice people have come up with compilations of their favorite tools. Other people have created galleries of really outstanding data visualizations that you can use as inspiration. Over the past year, I&#8217;ve bookmarked a lot of them.<a href="/data-visualization-compilations/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/data-visualization-compilations/">Data Visualization Compilations</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>A Compilation of Data Visualization Compilations:</h3><p>There are a wide variety of tools out there for data visualization. Some nice people have come up with compilations of their favorite tools. Other people have created galleries of really outstanding data visualizations that you can use as inspiration. Over the past year, I&#8217;ve bookmarked a lot of them. This post is a curated compilation of compilations. If you&#8217;re interested in learning about data visualization on the web, this post might save you some time digging around the internet. Alternatively, it might be a massive time sink.</p>
+<h3>Catalog of Data Visualization Types:</h3>
+<h4><a href="http://www.datavizcatalogue.com/" target="_blank">Dataviz Catalogue</a></h4><p>This is a great site for thinking about, or discussing with others, the various advantages and disadvantages of different data visualization styles. Not sure what data visualization style to use for a dataset that is hierarchal? This site might help you put things into a conceptual framework and make a decision.</p>
+<hr /><p>&nbsp;</p><p><iframe src="http://www.datavizcatalogue.com/" width="900" height="400">Your browser does not support iframes.</iframe></p>
+<hr />
+<h3>Three Compilations of Data Visualization Tools:</h3><p><a href="http://selection.datavisualization.ch/" target="_blank">Data Visualization</a><br />
+A fairly extensive compilation of data visualization tools:</p>
+<hr /><p><iframe src="http://selection.datavisualization.ch/" width="900" height="300">Your browser does not support iframes.</iframe></p>
+<hr />
+<h4></h4>
+<h4><a href="http://www.visualisingdata.com/">Visualizing Data</a></h4><p>Another extensive compilation of data visualization tools. It is definitely worth a visit. Between this one and the one above, there isn&#8217;t much not covered.</p>
+<h4><a href="http://10-open-source-projects-every-javascript-geo-dev-should-know-about/">10-open-source-projects-every-javascript-geo-dev-should-know-about</a></h4><p>This post on the ESRI blog is worth a look over, especially if you have map data locked into ESRI applications but want to do things in a more developer-centric and less GUI fashion.</p>
+<h3>Galleries of Data Visualization Examples:</h3>
+<h5 class="p1"><a href="http://Scientific/ Visualization Studio">Scientific Visualization Studio</a></h5>
+<p class="p1"><span class="s1">The Scientific Visualization Studio is out of NASA&#8217;s Goddard Space Flight Center. They make animated 2D and 3D visualizations. These look amazing on very large screens, especially if you have higher than normal resolution.  Download and run locally, rather than using the youtube player, to get the best picture possible. </span></p>
+<h5 class="p1"><a href="https://github.com/mbostock/d3/wiki/Gallery" target="_blank">D3.js Visual Index</a></h5><p>There are a lot of data visualization libraries written in the JavaScript language. D3.js is the reigning champion. D3 (or Data Driven Documents) favors configuration over convention. The advantages are that it is very flexible and powerful. The disadvantage is it has more of a learning curve compared to other JavaScript data visualization libraries that favor convention.</p>
+<h5><a href="http://bl.ocks.org/" target="_blank">Blocks</a> (D3.js)</h5>
+<p class="p1"><span class="s1">Bl.ocks (pronounced “Blocks”) is a simple viewer for sharing code examples hosted on <a href="https://gist.github.com/"><span class="s2">GitHub Gist</span></a>. Anyone can use it to easily display their d3 visualizations. If you go to &#8220;popular&#8221; tab in the upper right corner of the Blocks website, you can see some of the most population visualization on Blocks.</span></p><p><a href="http://collection.marijerooze.nl/" target="_blank">collection.marijerooze.nl</a></p><p>A collection of over 465 data visualizations put together by Marije Rooze, an Amsterdam based front-end developer. Examples largely come from the NYTimes and Guardian newspapers. The ability to filter makes it a good way to find examples.</p>
+<h5><a href="http://stamen.com/work/" target="_blank">Stamen</a></h5><p>A design studio focused on data visualization and mapping, Stamen produces some amazingly beautiful products for big clients like National Geographic. Definitely check them out if you have a map focus and want to be inspired/humbled.</p>
+<h5><a href="http://roadtolarissa.com/" target="_blank">Road To Larissa</a></h5><p>A gallery of data visualizations made by Adam Pearce of Bloomberg Graphics.</p>
+<h5><a href="http://www.smallmeans.com/new-york-times-infographics/" target="_blank">SmallMeans</a></h5><p>A gallery of favorited NYTimes graphics by a software engineering student.</p>
+<h3>Data Visualization Blogs:</h3>
+<h5><a href="http://flowingdata.com/" target="_blank">Flowing Data</a></h5><p>I suspect this is one of the most popular data visualization websites. It is the only one I have seen pop-up in my facebook feed several times</p>
+<h5><a href="http://www.informationisbeautiful.net/" target="_blank">Information is Beautiful</a></h5><p>Run by David McCandless. This website has data visualization &#8220;best of&#8221; contests and lots of generally cool data visualizations.</p>
+<h5><a href="http://feltron.com/">Nicholas Felton (website)</a></h5><p>More infographics than data visualizations, a big name worth checking out.</p><p><a href="http://feltron.tumblr.com/">Nicholar Felton (tumblr)</a></p><p>A curated selection put together by Felton. These are pieces of art as much as they are data visualizations.</p><p><a href="http://www.visualcinnamon.com/">Visual Cinnamon</a></p><p>Personal webpage of Nadieh Bremer who, in her own words, is a Astronomer-turned-Data-Scientist-turned-self-taught-Data-Visualization-Designer. In addition to her own work, which is stunning, she has a well curated list of internet resources and books on data visualization.</p><p><a href="http://fellinlovewithdata.com/" target="_blank">Fell In Love With Data</a></p><p>Not just pretty pictures, this blog has some excellent writing about what makes for good data visualizations. FILWD is edited by<a href="http://enrico.bertini.io/">Enrico Bertini</a>, Assistant Professor at the <a href="http://engineering.nyu.edu/">NYU Tandon School of Engineering</a>. He also has a podcast, <a href="http://datastori.es/">Data Stories</a>.</p>
+<p>The post <a rel="nofollow" href="/data-visualization-compilations/">Data Visualization Compilations</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/data-visualization-compilations/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">453</post-id>	</item>
+		<item>
+		<title>How to Study for GIS Certification Exams</title>
+		<link>/how-to-study-esri-gis-certification/</link>
+		<comments>/how-to-study-esri-gis-certification/#respond</comments>
+		<pubDate>Sat, 20 Feb 2016 22:12:56 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[maps]]></category>
+		<category><![CDATA[ArcGIS]]></category>
+		<category><![CDATA[ESRI]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[python and GIS]]></category>
+
+		<guid isPermaLink="false">/?p=416</guid>
+		<description><![CDATA[<p>GIS Certification:GIS certification is one of those certifications where no one is completely sure of its exact value. I don&#8217;t know of any business or organization where it is mandatory, but sometimes you see it listed under &#8220;preferred&#8221; on job advertisements. When I asked a question about the value of certification versus portfolios in a LinkedIN group devoted<a href="/how-to-study-esri-gis-certification/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/how-to-study-esri-gis-certification/">How to Study for GIS Certification Exams</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>GIS Certification:</h3><p>GIS certification is one of those certifications where no one is completely sure of its exact value. I don&#8217;t know of any business or organization where it is mandatory, but sometimes you see it listed under &#8220;preferred&#8221; on job advertisements. When I asked <a href="https://www.linkedin.com/groups/3887350/3887350-6056100582890942467">a question about the value of certification versus portfolios</a> in a <a href="https://www.linkedin.com/groups/3887350">LinkedIN group devoted to GIS</a> (GIS and GEOGRAPHY), I got a range of responses, but generally few saw it as something with very significant value, more a nice to have.</p>
+<h4>Why was I interested in Certification?</h4><p>Although I have experience with GIS, I never had GIS in my job title. Also, my previous work was all proprietary, so I couldn&#8217;t show anyone a portfolio of past work. Given these two limitations, I saw certification as a way to give myself more credibility.</p><p>The two most well known types of certification (at least in USA) are <a href="https://www.gisci.org/">GISP</a> and <a href="http://www.esri.com/training/main/certification">ESRI certification</a>. GISP is more of a longer process vs. simply taking a test, so I opted for the ESRI model.</p>
+<h4>Don&#8217;t Sue Me</h4><p>Before and after taking an ESRI certification test, you are provided with strongly worded legal warnings to not discuss anything on the test with anyone ever. Therefore, I&#8217;m not going to talk about anything I learned from taking the test. I&#8217;m only going to discuss observations gleaned from ESRI supplied study material and my own experiences studying for one of their certification exams. These are concepts that maybe aren&#8217;t stressed in the ESRI study directions, but I believe to be useful. Certainly, I will use them if I take additional ESRI certification tests. Others might find them useful as well.</p>
+<h3>Real World ArcGIS Use vs. Test Questions  &#8211;  Different Patterns:</h3><p>The ESRI certification tests are multiple choice. You do not use ArcGIS like a multiple choice test. This might seem a rather obvious observation. Perhaps it is, but it has value for understanding how you to study.</p><p>When I use ArcGIS or other ESRI product, I don&#8217;t necessarily remember the exact wording of buttons and menus. I remember where they are. I remember what they do. Maybe I remember something about what is written on a button or menu, but that memory is fuzzy. I may not remember the exact wording or phrasing. With the same task being accomplished on different programs by pushing buttons with very similar sounding names, there isn&#8217;t much reason to remember the exact name.</p><p>In contrast, in multiple choice questions asking what sequence of actions a user must follow to accomplish a specific GIS analysis, there is no spatial reference and exact phrasing matters. Hence, the information stored in your brain for how to do something in ArcGIS might not be stored in the same manner as it is asked in a multiple choice question.</p><p>This is a problem. <em><strong>If knowledge is stored in one semantic system and asked in another, you&#8217;re at risk of appearing less knowledgable</strong></em> than you actually are.</p>
+<blockquote><p>Note: Perhaps there are people who work in ArcGIS as if it is a sequence of exact words to click? I don&#8217;t, but maybe those people exist? If that is you, this post doesn&#8217;t really apply. Sorry.</p></blockquote>
+<h3>How I&#8217;m Going to Study for My Next GIS Certification Exam:</h3><p>Because of this difference in how my mind stores information required to do analysis in ArcGIS versus how questions are asked in a multiple choice test, <em><strong>I&#8217;m going to study in such a way to shift that knowledge out of spatial, visual, and procedure reference and into a sequence of exact words reference.</strong></em></p><p>In addition to the studying the ESRI supplied material, I will &#8230;</p>
+<ol>
+<li>Write down and remember the<strong><em> exact names</em></strong> <em>of button, menus, and options</em> found in the study material.</li>
+<li>Write down and remember the order of buttons to do a task <strong>as a sequence of words independent of spatial position</strong>.</li>
+<li>Note any <strong>differences</strong> in menu or button names <strong>between desktop and online applications</strong>.</li>
+</ol><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+<h3></h3>
+<h3></h3>
+<p>The post <a rel="nofollow" href="/how-to-study-esri-gis-certification/">How to Study for GIS Certification Exams</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/how-to-study-esri-gis-certification/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">416</post-id>	</item>
+		<item>
+		<title>Learning to Code</title>
+		<link>/learning-to-code/</link>
+		<comments>/learning-to-code/#respond</comments>
+		<pubDate>Sat, 09 Jan 2016 21:03:28 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[courses]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[The Iron Yard]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=325</guid>
+		<description><![CDATA[<p>&#8220;A Highly Opinionated &#038; Abbreviated Guide for Taking the First Steps to Learn a Bit of Code&#8221; Why Write this?Someone asked me for help figuring out where to start regarding learning how to code today. Fundamentally, that&#8217;s why I&#8217;m writing this. I figured I&#8217;d might as well put it in a post and send her the link.Additionally,<a href="/learning-to-code/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/learning-to-code/">Learning to Code</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<hr /><p><strong><em>&#8220;A Highly Opinionated & Abbreviated Guide for Taking the First Steps to Learn a Bit of Code&#8221;</em></strong></p>
+<h3>Why Write this?</h3><p>Someone asked me for help figuring out where to start regarding learning how to code today. Fundamentally, that&#8217;s why I&#8217;m writing this. I figured I&#8217;d might as well put it in a post and send her the link.</p><p>Additionally, the results you get from googling &#8220;best ways to learn how to code&#8221; can be a bit daunting. They tend to be long lists of 10 to 50 different websites or books with only a short description about each. That&#8217;s not very useful. I know from personal experience figuring out how and where to start can lead to decision paralysis due to the large number of options.</p>
+<h3>Warning!</h3><p>I&#8217;m still very much a newbie. Don&#8217;t put too much trust in anything I say. Some trust is okay, but let&#8217;s not go overboard.</p>
+<h3>Who am I Writing for?</h3><p><span style="text-decoration: underline;">My target audience is someone with no knowledge taking their first steps.</span> <strong>My goal is to help them avoid decision paralysis and simply start.</strong> Simply starting has a lot of value as it gets you to your first initial understanding of how exactly coding works and to the point where you can say, &#8220;I built that&#8221;. <span style="text-decoration: underline;">Once you have a tiny bit of experience under your belt, it will be a lot easier to decide how much you like coding, easier to pick what you want to learn, and more obvious how you want to learn it.</span></p>
+<h3>What am I Going to Cover?</h3><p><em>What language should you learn?</em></p>
+<ul>
+<li>I&#8217;m not going to describe the merits of every language. I&#8217;m going to focus on the most common languages and the easier languages to learn.</li>
+</ul><p><em>How should you go about learning?</em></p>
+<ul>
+<li>I&#8217;m not going to give a big list of 30 or a 100 options for different websites and books to use. Google will give you lots of those. I&#8217;m going to describe the categories of different learning resources.</li>
+</ul>
+<h3>What Languages Should You Learn?</h3>
+<h4>  If you want to build a website or put things on a website:</h4>
+<ol>
+<li>Sign up for a free web-builder like <a href="http://www.weebly.com/">Weebly</a>. Put something online quickly without coding knowledge to get some initial stoke.</li>
+<li>Learn <a href="http://www.w3schools.com/html/default.asp" target="blank">HTML</a>, <a href="http://www.w3schools.com/css/default.asp" target="blank">CSS</a>, <a href="http://www.w3schools.com/js/default.asp" target="blank">JavaScript</a> &#8211; in that order. Use them to make a better website with your free web-builder.</li>
+<li>Build simple web pages entirely from scratch without a web builder to hold your hand.</li>
+<li>Learn the additional languages and libraries listed on <a href="http://www.w3schools.com/" target="blank">W3 schools</a>.</li>
+</ol>
+<h4>  If you want to work with data:</h4>
+<ul>
+<li>Python! Python is what a lot of scientists and academics use. It is also relatively easy to learn.</li>
+<li>R is another good choice and very common in the social sciences.</li>
+<li>Alternatively, if you&#8217;re interested in data visualization and not data analysis, then JavaScript.
+<ul>
+<li>To get inspired&#8230; Check out <a href="https://github.com/mbostock/d3/wiki/Gallery" target="blank">D3.js examples</a> for data visualization or <a href="http://leafletjs.com/examples.html" target="blank">leaflet.js </a>for map examples.</li>
+</ul>
+</li>
+</ul>
+<h4>  If you want to make games:</h4>
+<ul>
+<li>Probably python.
+<ul>
+<li>Check out <a href="http://pygame.org/tags/example" target="blank">Pygame</a>.</li>
+<li>Other languages are used in professional gaming, but python is a better place to start in terms of learning resources, ease of learning it, and lots of free example code you can reuse.</li>
+<li>If you want to get very serious about games very quick, especially games with amazing graphics or in virtual reality, you might want to jump straight into Unity.</li>
+</ul>
+</li>
+</ul>
+<h4>  If you want to use a computer language that runs inside another piece of software, likely at work:</h4>
+<ul>
+<li>Learn that language. It will  be faster to learn that language directly than learn another one and then switch. Get good at one before you diversify too much is repeated advice I see everywhere.</li>
+</ul>
+<h4> If you have no idea or have a small child to learn with you / help you when you get stuck:</h4>
+<ul>
+<li><a href="http://Code.org/" target="blank">Code.org</a>   Start learning code concepts by playing games (Star Wars!) and moving around instruction blocks. Build up to writing actual code in the JavaScript language.</li>
+</ul>
+<hr />
+<hr />
+<blockquote><p><em><span style="color: #993300;">For a longer and more visual version of this discussion, check out this awesome <a href="http://carlcheo.com/wp-content/uploads/2014/12/which-programming-language-should-i-learn-first-pdf.pdf" target="blank">infographic</a> for what language to learn at </span><a style="color: #993300;" href="http://carlcheo.com/" target="blank">carlcheo.com</a><span style="color: #993300;">. In addition to providing a flow-diagram for what deciding what language to learn, it describes common computer languages in terms of Lord of the Rings character traits. While you&#8217;re there, browse around a little. The site has powerfully communicative articles and infographics for newbies that explain a lot of things that get missed elsewhere. </span></em></p></blockquote>
+<hr />
+<hr /><p>&nbsp;</p>
+<h3>What Are Your Options for Learning to Code?</h3><p>You have a huge variety of options. In fact, you probably have more options for learning code than most any subject out there. Instead of listing the websites and schools, I&#8217;m going to list the categories of different learning options. For some reason this approach is less common in google results.</p>
+<h4>Conventional Educational Institution</h4>
+<ul>
+<li>CON = Takes a long time</li>
+<li>CON = Expensive</li>
+<li>PRO = Learn a lot of the theoretical computer science fundamentals.</li>
+<li>PRO = Useful for getting a job</li>
+<li>SUMMARY = <span style="text-decoration: underline; color: #008000;">Not what you should do if you&#8217;re just starting out as we assumed for this post.</span></li>
+<li>EXAMPLE = Any four-year or two-year <a href="https://en.wikipedia.org/wiki/List_of_academic_computer_science_departments">university</a> with a computer science department.</li>
+</ul>
+<h4>Code Boot Camp</h4>
+<ul>
+<li>CON = Expensive (thousands of dollars)</li>
+<li>CON = As this is a relatively new concept, it is uncertain how it impacts your long-term job prospects.</li>
+<li>CON = These are often start-ups and can have related growing pains and quality problems. Research!</li>
+<li>PRO = Less time than conventional educational institutions</li>
+<li>PRO = Cram a lot of information into your head in a relatively short amount of time.</li>
+<li>PRO = Useful for getting a job</li>
+<li>SUMMARY = <span style="text-decoration: underline; color: #008000;">Not what you should do if you&#8217;re just starting out as we assumed for this post.</span></li>
+<li>EXAMPLE = <a href="https://www.theironyard.com/">The Iron Yard</a></li>
+</ul>
+<h4>MOOC = Massive Open Online Classes. (may or may not have certification & fixed schedule)</h4>
+<ul>
+<li>PRO = Learn from awesome professors in traditional lecture style without paying Harvard tuition.</li>
+<li>PRO = Usually has additional resources not available in the website learning options below, like discussion boards, tests that are more than monkey-see monkey-do, and advanced final products to show off (see some of my early python posts)</li>
+<li>PRO = Typically, you&#8217;ll be coding in the browser, which means you don&#8217;t have to worry about which version of python you have, how to set paths, or what the terminal is and how it differs from the PowerShell in Windows. This might not be true if the MOOC consists only of videos.</li>
+<li>CON/PRO = Typically 4 &#8211; 12 weeks & 3-10 hours per week.</li>
+<li>CON/PRO = If the class has fixed test and project deadlines, you can&#8217;t put it off for two weeks to deal with other stuff. On the other hand, deadlines make it more likely you&#8217;ll maintain forward momentum even if you have competing priorities. Some classes have deadlines with lots of tardy days to use up, which gives you best of both worlds.</li>
+<li>CON/PRO = Means something on your resume, not a lot, but a little more with certification</li>
+<li>SUMMARY = <span style="text-decoration: underline; color: #008000;">Can be great option if you like the traditional lecture learning methodology, want some personal interaction via discussion boards,</span> want at least a taste of computer science concepts, and are willing to commit to 3-8 hours a week for 5-12+ weeks. Whether or not it has a fixed schedule can be critical for whether it matches your needs.</li>
+<li>EXAMPLE = <a href="https://www.coursera.org/course/interactivepython1">An Introduction to Interactive Programming in Python</a>. By Rice Univ. C.S. dept. on Coursera.com or <a href="https://www.coursera.org/specializations/web-design">Learn to Design and Create Websites</a> by Univ. Michigan on Coursera.com</li>
+</ul>
+<h4>Free or Pay Website for Learning Code (may have little balloons that fall when you do good)</h4>
+<ul>
+<li>PRO = Short. Individual course segments can often be completed in a number of hours.</li>
+<li>PRO = Typically, you&#8217;ll be coding in the browser, which means you don&#8217;t have to worry about which version of python you have, how to set paths, or what the terminal is and how it differs from the PowerShell in Windows.</li>
+<li>PRO = Lots of silly things, great graphics, and quick immediate goals to keep you engaged and learning.</li>
+<li>CON = Doesn&#8217;t really help your resume. May not teach you all you need to know, depending on your needs.</li>
+<li>CON = No discussion board if you get stuck. Some have annoying mistakes in them.</li>
+<li>SUMMARY = <span style="text-decoration: underline;"><span style="color: #008000; text-decoration: underline;">If you like monkey see and monkey do learning</span></span> without in-depth discussion of concepts, this is perfect for you. If you want to <span style="text-decoration: underline;"><span style="color: #008000; text-decoration: underline;">try out coding in a relatively short amount of time</span></span>, this is also good. If you want a more serious approach, maybe you skip this and go to one of the options above, or maybe you start here and quickly move to book or MOOC.</li>
+<li>EXAMPLE: <a href="https://www.codecademy.com/">Codecademy.</a></li>
+</ul>
+<h4>Children&#8217;s Free Website for Learning Code</h4>
+<ul>
+<li>PRO/CON = Similar to above, but typically even less time to complete classes / segments.</li>
+<li>SUMMARY = Purposely built to be short, fun, cute, and put you on a learning progression with lots of little steps. Good if you want to do this with your kid. <span style="text-decoration: underline;"><span style="color: #008000; text-decoration: underline;">If you don&#8217;t know how interested you&#8217;ll be in coding and only want to spend &lt;2 hours to find out</span></span>, this is perhaps the option for you.</li>
+<li>EXAMPLE: <a href="http://Code.org/">Code.org</a></li>
+</ul>
+<h4>Online Book or Physical Book</h4>
+<ul>
+<li>PRO = You get a nice book out of it. Reference manuals are very useful for coding. You now have one.</li>
+<li>PRO = Step by step learning with a clear forward path to follow is very appealing for some people.</li>
+<li>PRO = Work at your own pace. You can even skip ahead!</li>
+<li>CON= You&#8217;ll likely have to download and install things. You&#8217;ll have to figure out how to use the terminal or command prompt to execute code and move files around. You&#8217;ll have to figure all this stuff out eventually, but, with learning out of a book, you have to figure it at the same time as you&#8217;re figuring out the coding part.</li>
+<li>SUMMARY = I&#8217;m going to be opinionated and say I <span style="text-decoration: underline;"><span style="color: #008000; text-decoration: underline;">don&#8217;t recommend just using a book as a learning method unless you  have some experience</span></span>. Too much installation and figuring out things in the terminal or command prompt before you actually get to learn what you want to learn. Go the book method in tandem with another option or after you&#8217;ve done another option.</li>
+<li>EXAMPLE: <a href="http://learnpythonthehardway.org/book/">Learn Python The Hard Way</a>, by Zed Shaw or <a href="https://play.google.com/store/books/details?id=blCyf8XF41sC&source=productsearch&utm_source=HA_Desktop_US&utm_medium=SEM&utm_campaign=PLA&pcampaignid=MKTAD0930BO1&gl=US&gclid=CPnp7YXIncoCFdNpfgod3ooK_A&gclsrc=ds">HTML and CSS: Design and Build Websites</a> by John Puckett</li>
+</ul>
+<h4>Mentor + Any of the Above</h4>
+<ul>
+<li>PRO =  Mentors can help you figure out <span style="text-decoration: underline;"><span style="color: #008000; text-decoration: underline;">how to address not knowing stuff</span></span>. How big a deal is not knowing something? What should you focus on learning? Why does this not work, and google won&#8217;t help me.</li>
+<li>EXAMPLE = More experienced people on the internet or in person, experienced people at work, that other guy at the hackathon, people on stack overflow, computer science meet-ups, random coding boot camp alumni you email for more information, anyone who knows anything relevant that will drink beer or coffee with you, etc.</li>
+</ul>
+<hr />
+<h3>How did I get started?</h3><p>My interest in coding resulted from my activities as a geologist. Although most of my time was spent on purpose-built software, sometimes I needed to do things that didn&#8217;t quite fit into standard software models or were annoyingly time intensive. I also ran up against memory limits in Excel on large datasets. Learning to code presented a way around these hurdles.</p><p>Once I put aside time for learning to write code in a more series manner, and not just editing example snippets run inside ArcGIS and other software packages, I found a set of classes taught by Rice Professors and offered online through Coursera to be very helpful. Course syllabi are available at this <a href="http://www.codeskulptor.org/coursera/interactivepython.html">link</a> and this <a href="http://www.codeskulptor.org/coursera/principlescomputing.html">link</a>. More general information about this sequence of python courses can be found <a href="https://www.coursera.org/specializations/fundamentalscomputing2">here</a>.</p><p>I took:</p>
+<blockquote>
+<p class="headline-2-text">An Introduction to Interactive Programming in Python (Part 1) . <a href="https://www.coursera.org/account/accomplishments/verify/9JJ2G6WVUA">Certificate</a> earned on April 10, 2015</p>
+<p class="headline-2-text">An Introduction to Interactive Programming in Python (Part 2). <a href="https://www.coursera.org/account/accomplishments/verify/Y5BQ7ZTRMD">Certificate</a> earned on May 14, 2015</p>
+<p class="headline-2-text">Principles of Computing (Part 1) by Rice University on Coursera. <a href="https://www.coursera.org/account/accomplishments/verify/XYXW9WQSXN">Certificate</a> earned on October 17, 2015</p>
+</blockquote>
+<hr />
+<p class="headline-2-text">
+<p class="headline-2-text"><b>Update</b>: Since I first wrote this, I&#8217;ve talked to many more people and been responsible for directing interns to learning resources. For people that want to spend a minimum amount of time to learn just a little, I&#8217;ve been directing them to resources that fall in the &#8220;Free or Pay Website for Learning Code&#8221; category. Additional learning resources that have worked well are:  <a href="https://code.org/">code.org</a> , <a href="http://w3schools.com/">w3schools.com</a> and <a href="https://www.codeschool.com/">codeschool.com</a> . Those options present a zero setup (everything can be run within their website) way to quickly dive-in.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+<hr /><p><em>Please feel free to leave any questions or comments via the comment box below!</em></p>
+<p>The post <a rel="nofollow" href="/learning-to-code/">Learning to Code</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/learning-to-code/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">325</post-id>	</item>
+		<item>
+		<title>Signed Up For The Iron Yard 12 week Course</title>
+		<link>/signed-up-for-the-iron-yard-12-week-course/</link>
+		<comments>/signed-up-for-the-iron-yard-12-week-course/#comments</comments>
+		<pubDate>Tue, 05 Jan 2016 18:22:21 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[courses]]></category>
+		<category><![CDATA[Front-End]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[The Iron Yard]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=296</guid>
+		<description><![CDATA[<p>The Iron Yard:I recently made the decision to sign up for the front-end engineering with javascript and MVC frameworks course at the Iron Yard here in Houston, which I&#8217;m very excited about.I&#8217;ve been considering this for a while. I talked to a bunch of alumni, visited The Iron Yard and Coder Camps, considered options outside<a href="/signed-up-for-the-iron-yard-12-week-course/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/signed-up-for-the-iron-yard-12-week-course/">Signed Up For The Iron Yard 12 week Course</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3><span style="color: #808080;">The Iron Yard:</span></h3><p><span style="color: #808080;">I recently made the decision to sign up for the <a style="color: #808080;" href="https://www.theironyard.com/courses/javascript-and-mvc-frameworks.html" target="blank">front-end engineering with javascript and MVC frameworks</a> course at the Iron Yard here in Houston, which I&#8217;m very excited about.</span></p><p><span style="color: #808080;">I&#8217;ve been considering this for a while. I talked to a bunch of alumni, visited The Iron Yard and Coder Camps, considered options outside Houston, researched the job market, and read about several languages and frameworks to explore their differences before finally making a decision. I&#8217;m excited about new career directions, learning lots of new technologies, and building cool new projects.</span></p>
+<h2><span style="color: #808080;"><del>Start date is February 1st!</del></span></h2><p><span style="color: #808080;">That gives me a month to absorb as much javascript as possible, gain a little exposure to back-end javascript frameworks, learn the first steps of leaflet, dabble in D3.js, and, hopefully, finish a few in-progress projects before class starts. As I&#8217;ve shifted to spending nearly 100% of my time on learning and applying code, there&#8217;s been some tension with how much to focus on learning vs. building a portfolio. Some of my project ideas will have to be put on the shelf, but I&#8217;m hoping to get the paddling experience map online before the end of the month and one or two other projects.</span></p>
+<h2>Update!</h2><p>Got a job offer I couldn&#8217;t refuse. I had to drop the class. Now I go to work in a building with a Gemini space capsule in front of it. More formation in the Resume section.</p><p>Although I was only at The Iron Yard for one week, I can whole-heartedly recommend them. If you&#8217;re interesting in learning what they&#8217;re teaching in a short amount of time, definitely give them a look. I was impressed by the instructors ability to cram information into your head quickly while walking the ever-shrinking fine line between challenging and supportive. I was also impressed with the extent to which it is an organization living its values. I can&#8217;t speak for all the Iron Yards, as they have many campuses, but the Houston one definitely makes a strong effort to put the students first. Not all coding boot camps deliver on this or other metrics. Please email me if you have any questions. I can also put you in touch with students who took more than the first week.</p>
+<p>The post <a rel="nofollow" href="/signed-up-for-the-iron-yard-12-week-course/">Signed Up For The Iron Yard 12 week Course</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/signed-up-for-the-iron-yard-12-week-course/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">296</post-id>	</item>
+		<item>
+		<title>ArcGIS Hackathon-ish</title>
+		<link>/arcgis_hackathon/</link>
+		<comments>/arcgis_hackathon/#comments</comments>
+		<pubDate>Sat, 19 Dec 2015 04:44:21 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[geology]]></category>
+		<category><![CDATA[maps]]></category>
+		<category><![CDATA[ArcGIS]]></category>
+		<category><![CDATA[ESRI]]></category>
+		<category><![CDATA[hackathon]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[Online Mapping]]></category>
+		<category><![CDATA[opendata]]></category>
+		<category><![CDATA[python and GIS]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=265</guid>
+		<description><![CDATA[<p>ESRI sponsored Geo-Development Hackathon:Today I took part in an event put on by ESRI, the company that provides the software on which the majority of enterprise,  academic, and government GIS work takes place. As compared to the Geophysics Hackathon run by AgileGeosciences at the Society of Exploration Geophysics Annual Conference, this was more about learning tools and<a href="/arcgis_hackathon/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/arcgis_hackathon/">ArcGIS Hackathon-ish</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>ESRI sponsored Geo-Development Hackathon:</h3><p>Today I took part in an event put on by <a href="http://www.esri.com/" target="blank">ESRI</a>, the company that provides the software on which the majority of enterprise,  academic, and government GIS work takes place. As compared to the <a href="/geophysics-hackathon-at-2015-s-e-g-annual-meeting/" target="blank">Geophysics Hackathon</a> run by <a href="http://www.agilegeoscience.com/" target="blank">AgileGeosciences</a> at the Society of Exploration Geophysics Annual Conference, this was more about learning tools and less a crazy two day race. Hence, the title for this post is ArcGIS Hackathon-ish. There wasn&#8217;t any beer and pizza, but the cookies and cheese were good. Also, I got another free t-shirt. You can never have too many free t-shirts. The event was five hours long. Half was explanation and questions. The other half was building maps using the tools.</p>
+<h4>The Tools</h4><p>The event focus was on a collection of tools accessed or associated with their ArcGIS developer <a href="https://developers.arcgis.com/en/" target="blank"><b>site</b></a>. ESRI staff provided a github <a href="https://github.com/ESRI/GEODEV-HACKERLABS" target="blank">repository</a> of links, instructions, and list of topics/tools to cover during the event or after. There were some useful step-by-step instructions included to get you started with several of the tools.</p>
+<ul>
+<li><b>Map Builder</b>: Load data & edit basic symbology for first level, static maps you might embed in a website</li>
+<li><b>App Builder</b>: Take a map you built from map builder and put it into a map application framework with lots of premade style, formatting, and widget options. A few example widgets are:
+<ol>
+<li>Turn layers off and on</li>
+<li>Add query box to show selection subset of a layer</li>
+<li>Show users&#8217; current location on the map</li>
+<li>Allow a user to edit the map</li>
+<li>Directions</li>
+<li>Measurement (line, path, area)</li>
+</ol>
+</li>
+<li><b>ArcGIS API Javascript</b>: Javascript is one of the three key languages used in front-end web development (HTML and CSS being the other two). Javascript is the part that makes websites interactive. ArcGIS API javascript allows you to pull different basemaps, layers, etc. from your ArcGIS Online account, based on user interactions with the website, and display just the right map to the website user. You have to know javascript to do this, but the advantage is you can automatically deliver a map based on a large number of possible inputs. The opensource equivalent would leaflet.js.</li>
+<li><b>Koop javascript</b>: Sometimes when you use open-source data, you get it in one file type and transform into appropriate file format before putting it in ArcGIS Online map. Koop.js is a version of javascript written to handle that data transformation for you automatically reducing some of the programming required. This might be particularly useful for dealing with realtime open-source data available on another website that you want to bring into your map. Apparently, it is new and still a little wobbly, but the presenter seemed very excited about it.</li>
+<li><b>App Studio</b>: App Studio is basically App Builder, except you&#8217;re writing the javascript for a new template instead of relying on a drag and drop user interface. For now, this is free and even allows you to output native binaries, which means it outputs something that can go into the Android or Apple App store, without needing to deal with learning the Swift or Java language. People are putting the code they&#8217;re writing to build new apps and widgets in a ArcGIS marketplace and available opensource on GitHub.</li>
+</ul>
+<h4>The Product From Those 5 Hours =</h4>
+<h4 style="text-align: center;">A Map App On Holocene Volcanoes and Historical Major Earthquakes</h4><p>Click on the icons to bring up some of the map widgets and turn layers off and on. A full page version, which just looks nicer, can be found <b><a href="https://gosses.maps.arcgis.com/apps/webappviewer/index.html?id=b34ea4b002e1471488c060bb9a9200b7" target="blank">here.</a> </b></p>
+<div class="embed-container"><iframe title="Global Holocene Volcanism and Major Historical Earthquake Distribution" src="https://gosses.maps.arcgis.com/apps/webappviewer/index.html?id=b34ea4b002e1471488c060bb9a9200b7" width="1000" height="600"></iframe></div>
+<h4 class="embed-container">Update: for those completely new to GIS</h4><p>You might not know that ArcGIS requires a license. If you don&#8217;t have access to a license through school or work, you can still get a free non-commercial <a href="http://www.esri.com/software/arcgis/arcgis-for-desktop/free-trial" target="blank">trial license</a> for 60 days. There are also annual <a href="http://www.esri.com/software/arcgis/arcgis-for-home" target="blank">ESRI</a> non-commercial licenses for $100.</p>
+<p>The post <a rel="nofollow" href="/arcgis_hackathon/">ArcGIS Hackathon-ish</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/arcgis_hackathon/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">265</post-id>	</item>
+		<item>
+		<title>Geophysics Hackathon at 2015 S.E.G. Annual Meeting</title>
+		<link>/geophysics-hackathon-at-2015-s-e-g-annual-meeting/</link>
+		<comments>/geophysics-hackathon-at-2015-s-e-g-annual-meeting/#respond</comments>
+		<pubDate>Mon, 23 Nov 2015 03:33:54 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[geology]]></category>
+		<category><![CDATA[Agile Geoscience]]></category>
+		<category><![CDATA[hackathon]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[python]]></category>
+
+		<guid isPermaLink="false">/?p=199</guid>
+		<description><![CDATA[<p>Geophysics Hackathon at S.E.G. annual conference, 2015 October 17th &#8211; October 18th, 2015 &#8211; New OrleansOver the weekend, I took part in a Geophysics Hackathon run by Agile Geosciences before the 2015 Society of Exploration Geophysicists annual meeting. A hackathon is when people get together and try to create one or more instances of software,<a href="/geophysics-hackathon-at-2015-s-e-g-annual-meeting/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/geophysics-hackathon-at-2015-s-e-g-annual-meeting/">Geophysics Hackathon at 2015 S.E.G. Annual Meeting</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h2>Geophysics Hackathon at S.E.G. annual conference, 2015</h2>
+<h5>October 17th &#8211; October 18th, 2015 &#8211; New Orleans</h5><p>Over the weekend, I took part in a <a href="http://www.agilegeoscience.com/blog/2015/9/7/the-hack-is-back-learn-new-skills-in-new-orleans">Geophysics Hackathon</a> run by <a href="http://www.agilegeoscience.com/"> Agile Geosciences </a> before the <a href="http://www.seg.org/web/seg-new-orleans-2015/#&panel1-1">2015 Society of Exploration Geophysicists annual meeting</a>. A hackathon is when people get together and try to create one or more instances of software, web app, webpage, etc. The themes for this hackathon were geophysics and <a href="https://en.wikipedia.org/wiki/Machine_learning">machine learning</a>.The event started with putting ideas up on a white board then splitting into groups to work on the ideas each group felt they could accomplish in two days.</p>
+<h4>Projects</h4><p>One group took on the problem of turning a map and color bar image into data that could be manipulated or parsed. To be more specific, they were trying to replace the color values in the image with data values, using the color bar as a guide.</p><p>I worked with a loosely connected group of subgroups whose goal was to do machine learning data analysis of paper information (author, title, abstract, keyword, etc.) scraped from the web. There was a front-end team that focused on building a website that ran and displayed other teams code/results. There was a machine-learning team that focused on using natural language algorithms and principal component analysis to find relationships within Geophysics paper data. I worked on the &#8220;back-end&#8221; team. We took a large messy json file containing data on paper title, author, DOI, keywords, citations, and abstract scraped from the S.E.G. website by Matt Hall and cleaned / parsed it using python.</p><p><!--
+
+
+<h4>Using Python to parse summary data from published Geophysics papers
+#</h4>
+
+
+#
+# To start, we built a python class called "Paper" that went through the json file and created a python #object for each paper. Attributes within the class included paper title, author, institution, DOI, #abstract, citations, etc. Functions in the class pulled out each attribute, printed a summary of each #paper, or checked if a given author or keyword was associated with the paper, etc. Other pieces of python #code used this class as a base. We also created a "Top" function that found the most common keywords, #institutions, or authors. This was used to find the most productive authors within our Geophysics dataset #between 1970 and 1979 for example. Keyword data was passed to the machine learning team who used it in #their project. Other outputs were designed for the front-end team building the visuals.
+#
+
+--></p>
+<h4>Lessons Learned</h4>
+<ol>
+<li><b>Pair coding was great at immediately catching small mistakes</b> that would otherwise hide in plain sight. Pair coding is when two people look at the same code as it is written, switching up who is typing.</li>
+<li>Having <b>multiple sub-groups was great for speed but led to some code being written that wasn&#8217;t useful</b>, at least in terms of being used for the demo at the end of Sunday.</li>
+<li>Something I already knew but was certainly reinforced this weekend was that I <b>need to learn more JavaScript and google app engine</b> to effectively put any python scripts I create on the web in a useful format.</li>
+</ol>
+<h4>Demos</h4><p>Sunday afternoon was a mad rush to turn ideas and code into an actual demo.</p><p>As the backend team, we had a PowerPoint that listed what our code did, basically reorganize data. I&#8217;ll admit not the most interesting presentation. The front end team, however, had been working on putting small quick visuals on the web. This <a href="https://geophyzviz.appspot.com/breakfast_learn">link</a> shows how the work of the machine learning team could be integrated to produce article recommendations based on authors the user selected. The idea was to have the user input a keyword to start, but the front-end team ran out of time, so for now it just asks what you had for breakfast (which doesn&#8217;t change anything).</p><p>Several of the projects from past years have gone from demos at the end of the two day hackathon to be developed into fully operational web apps. A great example is <a href="http://pickthis.io/">PickThis</a>, a crowdsourced seismic and medical imaging heat map.</p>
+<hr />
+<p>The post <a rel="nofollow" href="/geophysics-hackathon-at-2015-s-e-g-annual-meeting/">Geophysics Hackathon at 2015 S.E.G. Annual Meeting</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/geophysics-hackathon-at-2015-s-e-g-annual-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">199</post-id>	</item>
+	</channel>
+</rss>

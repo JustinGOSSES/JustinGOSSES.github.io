@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+
+<channel>
+	<title>draw.io &#8211; Justin Gosses Home</title>
+	<atom:link href="/tag/draw-io/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Geology, GIS, and CODE + Resumes</description>
+	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.11</generator>
+
+<image>
+	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
+	<title>draw.io &#8211; Justin Gosses Home</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+		<title>Flow Chart for Picking the Right Mapping Tool</title>
+		<link>/flow-chart-for-picking-the-right-mapping-tool/</link>
+		<comments>/flow-chart-for-picking-the-right-mapping-tool/#respond</comments>
+		<pubDate>Sat, 03 Sep 2016 19:05:18 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[maps]]></category>
+		<category><![CDATA[ArcGIS]]></category>
+		<category><![CDATA[CartoDB]]></category>
+		<category><![CDATA[data visualization]]></category>
+		<category><![CDATA[draw.io]]></category>
+		<category><![CDATA[flowcharts]]></category>
+		<category><![CDATA[GIS]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[Javascript library]]></category>
+		<category><![CDATA[leaflet.js]]></category>
+		<category><![CDATA[mapbox]]></category>
+		<category><![CDATA[Online Map]]></category>
+		<category><![CDATA[Online Mapping]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[tools]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=732</guid>
+		<description><![CDATA[<p>I did some research on different tools for creating flow charts today.Originally, I started down this path trying to figure out what open-source project I might be able to hack on and produce a project that would generate XKCD style flow charts, similar to how bokeh (python library) has XCKD style plots as built-in option. I<a href="/flow-chart-for-picking-the-right-mapping-tool/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/flow-chart-for-picking-the-right-mapping-tool/">Flow Chart for Picking the Right Mapping Tool</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>I did some research on different tools for creating flow charts today.</p><p>Originally, I started down this path trying to figure out what open-source project I might be able to hack on and produce a project that would generate XKCD style flow charts, similar to how bokeh (python library) has XCKD style plots as built-in option. I was also playing around with the notion of crowd-sourced flow charts to help pick among tools and libraries as the number of options explode.</p><p>Then I got distracted and made the flow-chart below. I&#8217;ll just leave it here. It was made with <a href="http://draw.io/">draw.io</a></p><p>&nbsp;</p>
+<div id="wrapper" style="width: 100%; height: 100%; overflow: scroll !important; -webkit-overflow-scrolling: touch;">
+<iframe src="http://www.justingosses.com/FlowChart_MakeMaps/" width="100%" height="1200px"></iframe>
+</div>
+<p>The post <a rel="nofollow" href="/flow-chart-for-picking-the-right-mapping-tool/">Flow Chart for Picking the Right Mapping Tool</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/flow-chart-for-picking-the-right-mapping-tool/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">732</post-id>	</item>
+	</channel>
+</rss>

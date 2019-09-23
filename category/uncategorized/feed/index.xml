@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+
+<channel>
+	<title>Uncategorized &#8211; Justin Gosses Home</title>
+	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Geology, GIS, and CODE + Resumes</description>
+	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.11</generator>
+
+<image>
+	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
+	<title>Uncategorized &#8211; Justin Gosses Home</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+		<title>half-baked thoughts on predicting chronostratigraphic surfaces</title>
+		<link>/thoughts-on-machine-learning-predictions-of-chronostratigraphic-surfaces/</link>
+		<comments>/thoughts-on-machine-learning-predictions-of-chronostratigraphic-surfaces/#respond</comments>
+		<pubDate>Fri, 18 May 2018 02:45:29 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">/?p=1075</guid>
+		<description><![CDATA[<p>EDIT: Released a package for predicting well log tops called, Predictatops&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;- Why make half-baked thoughts public? / DisclaimerI think predicting stratigraphic surfaces in well logs programmatically is a really interesting, if difficult, problem.  I&#8217;ve been working on it from time to time over the last few months as a side project after starting it as<a href="/thoughts-on-machine-learning-predictions-of-chronostratigraphic-surfaces/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/thoughts-on-machine-learning-predictions-of-chronostratigraphic-surfaces/">half-baked thoughts on predicting chronostratigraphic surfaces</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h2>EDIT: Released a package for predicting well log tops called, <a href=" https://justingosses.github.io/predictatops/html/index.html">Predictatops</a></h2><p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</p>
+<h3>Why make half-baked thoughts public? / Disclaimer</h3><p>I think predicting stratigraphic surfaces in well logs programmatically is a really interesting, if difficult, problem.  I&#8217;ve been working on it from time to time over the last few months as a side project after starting it as a hackathon project. A person I know from the twitter-verse is going to this years version of the same AAPG hackathon and wanted to work on the same problem. He contacted me for suggestions. Although I&#8217;ve gotten some encouraging results, there are lots of paths to improvement that have not been to be tested. That means I have a lot of interesting but very likely wrong ideas in my head, which I&#8217;m sharing below. I&#8217;m also coming of 13 hours of jet lag. I apologize in advance for everything being a bulleted list and maybe not entirely making sense at times. Good luck!</p><p>&nbsp;</p>
+<h3>Some Basics for the non-geologists:</h3>
+<h4>What are well logs?</h4><p>Well logs are basically point measurements taken at set intervals along a well bore drilled into the earth. Typically, a half a foot is a common interval. These measurements are often visualized as line graphs tilted on their side. Depth is the y axis. Measurement of some physical property is the x axis. The number of different types of measurements, well curves, in a well varies. Typically, it might be three to twelve different curves. Wikipedia has some <a href="https://en.wikipedia.org/wiki/Well_logging">good general information</a> on well logs.</p>
+<h4>What type of correlation?</h4><p>Geologists like to break things into formations and units. Basically, to say this bit of well A is the same as well B. Often, the implication is the rocks in unit A in one well are the same age as rocks in unit A in another well, hence chronostratigraphic correlation.</p><p>Due to the fact that well logs don&#8217;t directly measure age, chronostratigraphic correlations are interpretations by a geologist based on what they think formation A and formation B <em>should</em> look like.</p><p>If you&#8217;re not doing chronostratigraphic correlation, you&#8217;re likely doing lithostratigraphic correlation. In this type of correlation, you just correlating rocks with similar lithology. Sands to sands. Shales to Shales.</p><p>Lithostratigraphic correlation has an advantage in being done programmatically in that it doesn&#8217;t attempt to make very long correlations and the variance that has to be dealt with is smaller. For this reason, machine-learning or programmatic lithostratigraphic correlation between only two wells is possible, and probably preferred, where as you need a larger population of wells to do chronostratigraphic correlation using machine-learning.</p><p>A good example of programmatic lithostratigraphic correlation is the <a href="http://www.kgs.ku.edu/Publications/OFR/2002/OFR02_51/ManualOFR2002-51.pdf">CORRELATOR</a> Fortran-based software out of the <a href="http://www.kgs.ku.edu/software/softwareIndex.html">Kansas Geological Survey</a>.</p>
+<h3></h3>
+<h3>Geologic Truths that would be nice to include some how in any sort of automated approach?</h3>
+<ol>
+<li>Shales are more important than sands for correlating.</li>
+<li>Surfaces have appearances than change both gradually over a region and over very short distances.</li>
+<li>Usually if certain primary characteristics of a surface are not locally present, other secondary characteristics will still be present.</li>
+<li>Very large changes in characteristics are unlikely to only appear once. They are commonly caused by salt dissolution, faults, or channelized erosion, which means their distribution may be localized but unlikely to just one well.</li>
+</ol><p>&nbsp;</p>
+<h3>Big simplistic concepts I like</h3>
+<ol>
+<li>If we think carefully about the types of observations geologists make while looking at logs and correlating them, we can come up with good ways to mimic those observations with quantitative programmatically generated features for machine-learning.</li>
+<li>Class expression (whether or not a point is the surface in question) is highly variable. Your program should be able to deal with high variance and a some noise.</li>
+</ol><p>&nbsp;</p>
+<h3>Big simplistic concepts I don&#8217;t like</h3>
+<ol>
+<li>The idea that applying a single fancy math technique to raw data will work, because there is an underlying mathematical pattern to well log curves that makes them predictable (This is typically said by physicist or physics-inclined and really could be any domain they stumble into).</li>
+<li>Fractals (just because you can squint and see them everywhere doesn&#8217;t mean they are useful for prediction).</li>
+</ol><p>&nbsp;</p>
+<h3>Parts I&#8217;m very certain about</h3>
+<ol>
+<li>To predict whether or not a point in a well is a specific time surface, you need to leverage information about that point, the points above and below it, the transition of points above and below it, points in neighboring wells, and information about known surfaces both locally and regionally &#8211; all in regards to that point in question that you are trying to determine whether or not is ___ chronostratigraphic surface.</li>
+</ol><p>&nbsp;</p>
+<h3>Thoughts I like but might be wrong</h3>
+<ol>
+<li>The need for many engineered features (and more than I have right now 40-60 features in total)</li>
+<li>Tree-based machine-learning algorithms, like random forests or xgboost, are a way to go both as they are more self-explanatory (not a black box as you can see all the decision points) and deal well with spatial differences in class characteristics.</li>
+<li>The <a href="http://www.kgs.ku.edu/Publications/OFR/2002/OFR02_51/ManualOFR2002-51.pdf">pearson correlation & shale character based approach</a> for programmatic lithostratigraphic correlation taken by the CORRELATOR software can be used in a machine-learning based approach as additional features.</li>
+</ol><p>&nbsp;</p>
+<h3>Thoughts I give less weights but might be useful</h3>
+<ol>
+<li>Ideally, you&#8217;d leverage as many logs as possible but should start with Gamma-ray.</li>
+<li>Learning more and more towards some sort of multi-step approach in which a first round of prediction is done and then leveraged in second round.</li>
+<li>Leveraging aggregate and map-based information on groupings from known wells and applying those groupings manually is a good idea.</li>
+<li>Doing a two step machine-learning process where first step generates a class of unit name for each point and second step predicts a probability of each of the points being the pick in question. This might deal with some of the false positives and better take advantage of the some of the higher certainty information away from the point in question or away from the actual pick position.</li>
+<li>Wavelet transform and <a href="https://ieeexplore.ieee.org/abstract/document/993193/">other approaches </a>have been useful in ECG waveform classification in the medical field. Although, I think these approaches won&#8217;t be as useful in well log correlation due to the wide variance in surface character, there might be a way to use them for local comparison of 2-5 wells where appearances are more likely to be similar, though this risks becoming strongly lithostratigraphic.</li>
+</ol><p>&nbsp;</p>
+<h3>Things I wonder about</h3>
+<ol>
+<li>What is the best way to included information about the the sequence of log curve data significantly above or below the point in question?
+<ol>
+<li>What would be the best way to combine LSTM (long-short term memory) into the process?</li>
+<li>Is LSTM even needed or can that information be included in other ways?</li>
+<li>What are other ways?</li>
+</ol>
+</li>
+<li>What other features can I create from the well curve data?</li>
+<li>Normalization:
+<ol>
+<li>To what degree do I need to normalize both raw and calculated data?</li>
+<li>How much could this be throwing off the results?</li>
+<li>What would be the best way to go about doing that given the raw data isn&#8217;t collected the same way every time?</li>
+</ol>
+</li>
+</ol>
+<h3></h3>
+<h3>My current work in this problem space</h3>
+<ul>
+<li><a href="https://github.com/JustinGOSSES/MannvilleGroup_Strat_Hackathon">MannvilleGroup_Strat_Hackathon</a></li>
+</ul><p>&nbsp;</p>
+<h3>Good Reads</h3>
+<ol>
+<li><a href="http://www.kgs.ku.edu/Publications/OFR/2002/OFR02_51/ManualOFR2002-51.pdf">CORRELATOR User&#8217;s Manual : Lithostratigraphic Correlation in Fortran</a></li>
+<li>&#8220;<a href="https://csegrecorder.com/articles/view/using-the-scattering-transform-to-predict-strat-units-from-well-logs">Using the Scattering Transform to Predict Stratigraphic Units from Well Logs</a>&#8220;, by Ben Bougher, Felix J. Herrmann</li>
+</ol>
+<h3></h3>
+<h3>Possible algorithms<strong><br />
+</strong></h3><p>I like tree-based algorithms for this problem it seems like they would deal well with class characteristics changing spatially and there are ways to visualizing the resulting leaves of a decision tree, which eliminates a lot of the black-box problem some people have with machine-learning. Additionally, if you can see into the algorithm decision making process, it might inspire creation of additional features or even new ways of looking at the geology.</p>
+<ol>
+<li>Extreme boosted trees or <a href="http://xgboost.readthedocs.io/en/latest/model.html">XGBoost</a></li>
+<li>Random Forest</li>
+<li>Some combination of LSTM and random forest&#8230;. not sure the best way to combine? Do LTSM only locally?</li>
+</ol>
+<h3></h3>
+<h3>Notes on setting up the problem</h3>
+<ul>
+<li>If you judge success by trying to predict the formation of every point, you&#8217;ll appear to get decent results pretty easily. What you should really be going for is the picks. Error should not be % of formation points predicted successfully but rather the average error between predicted pick depth and actual pick depth.</li>
+<li>There are 3-4 wells in the Mannville dataset that might give you problems with certain types of feature creation as there is &#8220;bad&#8221; or &#8220;odd&#8221; data in them.</li>
+<li>Always useful to look at the actual wells before, during, and after trying to do machine-learning projects.</li>
+</ul>
+<div id="attachment_1091" style="width: 650px" class="wp-caption aligncenter"><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png"><img data-attachment-id="1091" data-permalink="/thoughts-on-machine-learning-predictions-of-chronostratigraphic-surfaces/mannville_xsection_b/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png?fit=2000%2C1412" data-orig-size="2000,1412" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Mannville_Xsection_B" data-image-description="&lt;p&gt;Alberta Geological Survey Open File Report 1994-14. Cross-section B to B`.&lt;/p&gt;
+" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png?fit=300%2C212" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png?fit=640%2C452" class="size-large wp-image-1091" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png?resize=640%2C452" alt="Alberta Geological Survey Open File Report 1994-14. Cross-section B to B&#96;." width="640" height="452" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png?resize=1024%2C723 1024w, https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png?resize=300%2C212 300w, https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png?resize=768%2C542 768w, https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png?w=1280 1280w, https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png?w=1920 1920w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Alberta Geological Survey Open File Report 1994-14. Cross-section B to B`.</p>
+</div>
+<div id="attachment_1092" style="width: 650px" class="wp-caption aligncenter"><a href="https://i1.wp.com/justingosses.com/wp-content/uploads/2018/05/MannvilleWellsMap.png"><img data-attachment-id="1092" data-permalink="/thoughts-on-machine-learning-predictions-of-chronostratigraphic-surfaces/mannvillewellsmap/" data-orig-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2018/05/MannvilleWellsMap.png?fit=1102%2C1369" data-orig-size="1102,1369" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="MannvilleWellsMap" data-image-description="&lt;p&gt;Map of Mannville wells in the Alberta Geological Survey open file report 1994-14 that are used in the project I&#8217;m doing at the github link.&lt;/p&gt;
+" data-medium-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2018/05/MannvilleWellsMap.png?fit=241%2C300" data-large-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2018/05/MannvilleWellsMap.png?fit=640%2C795" class="size-large wp-image-1092" src="https://i1.wp.com/justingosses.com/wp-content/uploads/2018/05/MannvilleWellsMap.png?resize=640%2C795" alt="Map of Mannville wells in the Alberta Geological Survey open file report 1994-14 that are used in the project I'm doing at the github link." width="640" height="795" srcset="https://i1.wp.com/justingosses.com/wp-content/uploads/2018/05/MannvilleWellsMap.png?resize=824%2C1024 824w, https://i1.wp.com/justingosses.com/wp-content/uploads/2018/05/MannvilleWellsMap.png?resize=241%2C300 241w, https://i1.wp.com/justingosses.com/wp-content/uploads/2018/05/MannvilleWellsMap.png?resize=768%2C954 768w, https://i1.wp.com/justingosses.com/wp-content/uploads/2018/05/MannvilleWellsMap.png?w=1102 1102w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Map of Mannville wells in the Alberta Geological Survey open file report 1994-14 that are used in the project I&#8217;m doing at the github link. The data is <a href="http://ags.aer.ca/publications/SPE_006.html">here</a> and the <a href="http://ags.aer.ca/document/OFR/OFR_1994_14.PDF">Open File 1994-14</a> report is useful reading.</p>
+</div><p>&nbsp;</p>
+<h3>Basic Features</h3>
+<ol>
+<li>Raw values at a depth in a well & normalized values</li>
+<li>For different windows above, below, around a point in question:
+<ol>
+<li>average, sum, max, min, max/min</li>
+<li>ranges</li>
+<li>slopes</li>
+<li>variance</li>
+<li>slope variance</li>
+<li>same as everything above but for higher or lower ___ number of points</li>
+</ol>
+</li>
+<li>Thickness of unit in question in nearby wells</li>
+<li>Where surface would be in well in question if thickness didn&#8217;t change from nearby well</li>
+<li>All characteristics from 1 & 2 in nearby wells with known surfaces</li>
+</ol>
+<h3></h3>
+<h3>Things that would make this problem easier but don&#8217;t exist yet?</h3>
+<ol>
+<li>Multiple datasets of equal size to the Manville dataset. These would be handy to test the degree of generalization of the methods (not the model).</li>
+<li>A widget for playing / creating new features that would let me see how new features relate to class identification across single and multiple wells without a lot of clicks but mostly just drags and rotates, such that the hypothesis space can be explored quickly.
+<ol>
+<li>EXAMPLE:
+<ol>
+<li>Elements of :
+<ol>
+<li>code input box</li>
+<li>Widgets that let your drag to change values of variables in the code.
+<ol>
+<li>Examples of variables changed via a slider:
+<ol>
+<li>window length</li>
+<li>Minimum slope angle</li>
+<li>etc.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>cross-section of well log(s)</li>
+<li>scatter plot in 3D with colors being classes (probably unit names or pick, near pick, and not pick.)</li>
+</ol>
+</li>
+<li>Behavior:
+<ol>
+<li>In real-time dragging the sliders back and forth changes the display of the feature along the well curve in each well. At the same time, the data for the well(s) in question is automatically altered in a scatter plot generated using three features as the x, y, z axis and class name (probably something like pick, within 5 meters of pick, and not pick) as the color of the point.</li>
+<li>By moving many sliders back and forth I can explore the hypothesis space quickly and find features that separate the classes better.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Need better way to visualize pick uncertainty and multiple pick possibilities in single well, multiple ways, and all wells.</li>
+</ol>
+<h3></h3>
+<h3>Hackathon-sized sub-problems to tackle</h3>
+<ol>
+<li>See number 2 in section directly above.</li>
+<li>See number 3 in section directly above.</li>
+<li>What&#8217;s the best way to identify sub-regional trends like thickness, background shale value, chance of confusing erosion surfaces, etc. that might correlate with surface appearance changes and be identified as within certain spatial areas from known wells.</li>
+<li>CORRELATOR used a small expert knowledge system with their more programmatic work. Can something similar be done here?</li>
+<li>What are the different ways to visualize error in pick prediction or multiple different potential pick positions based on probability?</li>
+<li>Optimize the feature creation code here: <a href="https://github.com/JustinGOSSES/MannvilleGroup_Strat_Hackathon">MannvilleGroup_Strat_Hackathon</a></li>
+<li>In the mannville dataset, there are a large number of wells with facies identified as well. Can the distribution of facies be used as another feature? What would it add?</li>
+<li>Re-build at least part of CORRELATOR in python, instead of Fortran, and then use comparisons of neighbor wells for features. Alternatively, use a completely different correlation coefficient approach that does something roughly similar (but easier) that could at least provide some ballpark constraints on where the other features should be looking.</li>
+<li>Can we create an expert system to quantitatively identify and describe circumstances where lithostratigraphy is likely fine or likely not fine?
+<ol>
+<li>Prograding parasquences?</li>
+<li>Transgressive surface hard grounds?</li>
+</ol>
+</li>
+</ol>
+<p>The post <a rel="nofollow" href="/thoughts-on-machine-learning-predictions-of-chronostratigraphic-surfaces/">half-baked thoughts on predicting chronostratigraphic surfaces</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/thoughts-on-machine-learning-predictions-of-chronostratigraphic-surfaces/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1075</post-id>	</item>
+		<item>
+		<title>What do I get out of conferences?</title>
+		<link>/what-do-i-get-out-of-conferences/</link>
+		<comments>/what-do-i-get-out-of-conferences/#respond</comments>
+		<pubDate>Tue, 30 May 2017 06:23:56 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[geology]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[AAPG]]></category>
+		<category><![CDATA[Agile Geoscience]]></category>
+		<category><![CDATA[conference]]></category>
+		<category><![CDATA[convention]]></category>
+		<category><![CDATA[data science]]></category>
+		<category><![CDATA[Geology]]></category>
+		<category><![CDATA[hackathon]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[Online Map]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[talks]]></category>
+		<category><![CDATA[tutorials]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=894</guid>
+		<description><![CDATA[<p>Four conferences, two hackathons, and a lot of meet-ups: Analyzing what I&#8217;ve gotten from technical gatherings outside of work this year&#160; Part 1 &#8211;  The PremiseOver the last year, I&#8217;ve been lucky to attend more than my usual number of conferences, meetups, and hackathons. Some of the events were paid by work, some were paid<a href="/what-do-i-get-out-of-conferences/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/what-do-i-get-out-of-conferences/">What do I get out of conferences?</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3 style="text-align: center;">Four conferences, two hackathons, and a lot of meet-ups: Analyzing what I&#8217;ve gotten from technical gatherings outside of work this year</h3><p>&nbsp;</p>
+<h2>Part 1 &#8211;  The Premise</h2><p>Over the last year, I&#8217;ve been lucky to attend more than my usual number of conferences, meetups, and hackathons. Some of the events were paid by work, some were paid by me, and some were free. As my last event for 2017 is coming up, I&#8217;m asking myself two questions.</p><p><strong>First, what did I get out of the gatherings I attended?</strong></p><p><strong>Second, what types of events should I attend next year in order to maximize the benefits I&#8217;m interested in?</strong></p><p>As I see it, attending technical gatherings can have a range of benefits:</p>
+<ol>
+<li>People
+<ul>
+<li>Meet leaders in the field</li>
+<li>Make new contacts and catch up with old contacts</li>
+<li>Meet many vendors at once</li>
+<li>Market yourself and your company</li>
+<li>Gain a better understanding of where your skills and knowledge rank</li>
+</ul>
+</li>
+<li>Skills
+<ul>
+<li>Pick up new &#8220;tricks of the trade&#8221;</li>
+<li>Learn what to do or not do from others&#8217; experiences</li>
+<li>Attend a tutorial and take the first few steps in a new skill with someone there to lead you</li>
+</ul>
+</li>
+<li>Knowledge of the environment beyond your immediate organization
+<ul>
+<li>Gain exposure to a wide range of tools, methods, and applications</li>
+<li>Learn what is upcoming and new</li>
+<li>Understand how the larger market or community is evolving</li>
+</ul>
+</li>
+</ol><p>Working under the assumption that understanding what I got out of the past events will help me plan ahead, I&#8217;ve compiled a description of various technical gatherings I&#8217;ve attended over the last twelve months.</p>
+<h2>Part 2 &#8211; The Data</h2><p>&nbsp;</p>
+<h2 style="text-align: center;">AAPG ACE 2017</h2>
+<h5><span style="color: #008000;">What is it?</span></h5><p><a href="http://www.aapg.org/">American Association of Petroleum Geologist</a>s Annual <a href="http://ace.aapg.org/2017/about">Conference & Exhibit</a>. It is the main conference for petroleum geologists and the largest of several AAPG conferences. The conference can cost between $65 and $650 depending on whether you are a student and when you purchase.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Geologists in the oil and gas industry and some geophysicists. Engineers have their own conferences. The focus is on technical aspects as opposed to business environment or deal making.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Most people dress like they do at work, which is to say dress pants, dress pants, and collared shirts if you&#8217;re a guy or the equivalent if female. If you&#8217;re presenting or looking for work, you might wear a suit and tie. A few people wear jeans. There are no funny t-shirts.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>This year it was in Houston. The conference moves every year between North American oil industry centers like Houston, Long Beach, Calgary, and Denver.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>The average over the last 5 years has been <a href="http://www.aapg.org/events/conferences/ace">6,900</a>.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>Most of the talks follow the pattern of a typical science talk explaining what they did in very rough terms and what their conclusions are.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Make new contacts and catch up with old contacts</em>
+<ul>
+<li>AAPG ACE was very good for making connections with people I haven&#8217;t seen in a while now that I&#8217;m out of the oil and gas industry.</li>
+</ul>
+</li>
+<li><em>Learn what is upcoming and new</em>
+<ul>
+<li>It is also a great place for seeing what is at the forefront of the intersection between industry and academia in geology as various research consortia present talks and posters.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em></li>
+<li><em>Attend a tutorial and take the first few steps in a new skill with someone to lead you</em>
+<ul>
+<li>Compared with tech conferences, the range of talk types is limited. There are almost no &#8220;how to&#8221; or &#8220;when to use blank method&#8221; talks. Everything is in the science talk mold.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>AAPG was great for catching up with people and getting a peek at what other people are working on, even if it is a small peak. Some of the talks can be frustratingly vague due to intellectual property constraints. Field trips provide some opportunity for improving technical skills, but they typically cost enough that you&#8217;ll only attend if your employer is paying. The main convention talks tend to focus on what someone has been done rather than what you could do.</p><p>If you&#8217;re interested in hearing more about what geology conferences are missing and what they might be able to learn from certain tech conference models, the Undersampled Radio podcast recent had a great conversation on this topic starting at 30 minutes into <a href="https://www.youtube.com/watch?v=vCeNA9btD9E"> episode 46</a>.</p>
+<h2 style="text-align: center;">SXSW Interactive</h2>
+<h5><span style="color: #008000;"> What is it?</span></h5><p>South by Southwest is a mega-conference in which the &#8220;<a href="https://www.sxsw.com/festivals/interactive/">Interactive</a>&#8221; sub-conference focuses on digital, internet, intelligent future, social impact, journalism, start-ups, AR/VR, music industry, sports industry, and the workplace. The interactive sub-conference takes place over 5 days and overlaps with the education, music, film, and comedy sub-conferences. More information <a href="https://www.sxsw.com/festivals/interactive/">here</a>. SXSW Interactive tickets cost $1,225.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Marketing companies, hip people, students who volunteer to get their otherwise expensive tickets paid for, and people in the digital space who want to see what is new or make connections.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Varies from nerdy t-shirts to professor jackets with elbow patches. If business casual, a little on the fashionable side.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>Austin, every year.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p><a href="https://en.wikipedia.org/wiki/South_by_Southwest">30,621</a></p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>The talks here range from &#8220;this is new&#8221; to &#8220;we did and you can too&#8221; to &#8220;let&#8217;s talk about the context of something&#8221; to &#8220;fluff and buzzwords&#8221;.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Meet leaders in the field</em>
+<ul>
+<li>I talked with <a href="https://homes.cs.washington.edu/~jheer/">Vint Cerf</a>, one of the &#8220;fathers of the internet, and <a href="https://homes.cs.washington.edu/~jheer/">Jeffrey Heer </a>, a professor who has had a role in many key data visualization code libraries, such as <a href="https://vega.github.io/vega/">vega.js</a>, <a href="https://vincent.readthedocs.io/en/latest/">vincent.py</a>, and <a href="https://d3js.org/">d3.js</a>.</li>
+</ul>
+</li>
+<li><em>Understand trends in the larger market or community. Learn what is new</em></li>
+<li><em>Learn what is upcoming and new</em>
+<ul>
+<li>Saw a lot in regards to VR/AR that was cutting edge.</li>
+</ul>
+</li>
+<li><em>Understand how the larger market or community is evolving</em></li>
+<li><em>Meet many vendors at once</em>
+<ul>
+<li>Largest exhibit showroom of any conference in this list.</li>
+<li>Met with two vendors afterward and used the experience to benchmark against other vendors post conference</li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li>There were several talks that inspired ideas for future projects based on what similar teams had done in other organizations. Post-talk discussions were great for identifying failures to avoid in upcoming projects.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em>
+<ul>
+<li>Talks tend to lack technical depth.</li>
+</ul>
+</li>
+<li><em>Attend a tutorial and take the first few steps in a new skill with someone to lead you</em>
+<ul>
+<li>There weren&#8217;t any tutorials.</li>
+</ul>
+</li>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>There are more talks about products and solutions than methods or tools.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>There were some great talks that inspired potential future projects, but meeting people was the more valuable activity at SXSW. Perhaps for that reason, there were <a href="http://schedule.sxsw.com/2017/03/10/events/conference/Interactive/type/panel">several time slots</a> for people to just &#8220;meet-up&#8221; in a room and talk about a specific topic.</p>
+<h3 style="text-align: center;">PyCon2017</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p><a href="https://us.pycon.org/2017/">PyCon</a> is the largest conference for Python developers. Web development and data analytics are the two focus areas. The base convention ticket for PyCon is $600 for corporate, $350 for individuals, and $125 for students. If sign-up for the max amount of tutorials, total ticket price can be up to $1200.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>People who write code in Python. The male/female ratio at PyCon was maybe 70/30, which made it the most unbalanced of all the conferences.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>There&#8217;s a range, but, compared to the other conferences, it was high on nerdy t-shirts and low on formal or business clothes.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>PyCon was held in Portland, Oregon. PyCon holds their conferences in the same city for two years before switching, which minimizes costs and planning requirements. Next year, it will be in Cleveland, Ohio. Previous to Portland, it was in Montreal.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p><a href="https://en.wikipedia.org/wiki/Python_Conference">3,391</a> badges were picked up from registration.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>PyCon is split into two days of tutorials, three days of talks, and then four days of open-source development sprints.</p>
+<ul>
+<li>Tutorials are half a day in length. Topics included Bayesian machine learning, time series analysis, network analysis, using flask for microservices, <a href="https://us.pycon.org/2017/schedule/tutorials/">etc</a>.</li>
+<li>During the main convention, talks ranged in style from:
+<ul>
+<li>We did this with Python</li>
+<li>Best practice in some aspect of writing code</li>
+<li>The &#8220;craft&#8221; of some part of writing python code</li>
+<li>Introduction to a new python module or open-source project</li>
+<li>Introduction to some activity that can be done with python</li>
+</ul>
+</li>
+<li>During the sprints, open-source Python <a href="https://us.pycon.org/2017/community/sprints/">projects</a> are built or extended.</li>
+</ul>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Meet leaders in the field</em>
+<ul>
+<li>Ended up at a bar with <a href="https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript">Gary Bernhardt</a> , who runs &#8220;destroyallsoftware.com&#8221;, and <a href="https://www.kennethreitz.org/projects/">Kenneth Reitz</a>, the main author of the &#8220;requests&#8221; python module.</li>
+</ul>
+</li>
+<li><em>Attend a tutorial and take the first few steps in a new skill with someone to lead you</em>
+<ul>
+<li>Attended excellent half-day <a href="https://us.pycon.org/2017/schedule/tutorials/">tutorials</a> on Bayesian machine learning, time series analysis, and MQTT protocol.</li>
+</ul>
+</li>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em>
+<ul>
+<li>Several talks were on the &#8220;craft&#8221; of some aspect of writing code, examples included documentation, testing, and sever reliability.</li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li>Talked to a variety of people doing similar work in different organizations and learned how their teams and approaches differ from mine.</li>
+</ul>
+</li>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>Got exposure to a range of new modules and methods and what they could be used for.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Meet many vendors at once</em>
+<ul>
+<li>Although there was an exhibit floor, the number and diversity of vendors were a bit lacking for a conference of that size.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>PyCon was excellent for picking up bits of new skills and improving my understanding of what python modules I might be able to use in future projects. Many of the talks had a focus on leaving the audience with something useful, which made it a great conference for learning. My <a href="https://docs.google.com/document/d/1zm0x1uLg-SKGI4nbu-_ND_44Bycl_wo4tTxVpjDDC6g/edit?usp=sharing">notes</a> have links to the slides and Jupyter Notebooks used by some of the presenters.</p>
+<h3 style="text-align: center;">Johnson Space Center Data Science Day</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p><a href="https://fal.jsc.nasa.gov/DSD/">Data Science Day 2.0</a> was two days of talks around various aspects of data science, data visualization, and analytics. It was free to attend.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>A mixture of NASA civil servants, NASA contractors, vendors, and the public who were interested in the subject matter.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Mostly business casual with some suits and ties.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>Gilruth Center just outside Johnson Space Center, Houston, Texas.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>I estimate 200-350.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>Talks ranged from programming newbie talks to &#8220;we built this&#8221; talks to &#8220;this capability exists&#8221; talks.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>Got exposure to skills and methods I haven&#8217;t used myself yet.</li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li>Made connections to others at Johnson Space Center who were interested in working with our team.</li>
+</ul>
+</li>
+<li><em>Market yourself and your company</em>
+<ul>
+<li>Presented a <a href="http://slides.com/justingosses/history_data_visualization_tools#/">talk</a> on the history of digital data visualization tools.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em>
+<ul>
+<li>There weren&#8217;t many talks about the craft of data science or data visualization.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>Given Johnson Space Center is a rather spread out campus with many buildings, events like this are really valuable for communicating about skills that cross normal organizational boundaries. Attending an event of this type wouldn&#8217;t replace something like PyCon, however, due to the lack of tutorials and in-depth skill sessions.</p>
+<h3 style="text-align: center;">Various Houston Tech Meetups</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p>There are a variety of <a href="https://www.meetup.com/find/?allMeetups=false&keywords=tech&radius=25&userFreeform=Houston%2C+TX&mcId=c77001&mcName=Houston%2C+TX&sort=default">meetups</a> in Houston that focus on t<a href="https://www.meetup.com/Collabonauts/">ech</a>, <a href="https://www.meetup.com/houston-js/events/240279389/">web development</a>, <a href="https://www.meetup.com/Houston-VR-Developers/events/239502556/">virtual reality</a>, <a href="https://www.meetup.com/Hackster-Hardware-Meetup-Houston/events/240263187/">IoT</a>, and <a href="https://www.meetup.com/Houston-Energy-Data-Science-Meetup/">data science</a>. These are typically 1.5 to 4-hour meetings around various topics held every month or two somewhere in Houston. I regularly go to ones on <a href="https://www.meetup.com/Houston-Data-Visualization-Meetup/">data visualization</a>, <a href="https://www.meetup.com/houston-js/">JavaScript</a>, <a href="https://www.meetup.com/python-web-houston/">Python</a>, <a href="https://www.meetup.com/sketchcity/events/239311484/">civic projects</a>, and <a href="https://www.meetup.com/Houston-React-Js-Group/events/240297939/">front-end web development</a>. They are free to attend although sometimes donations are requested for snacks.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Anyone interested in the subject. Attendees range from complete newbies to professional developers.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Casual to whatever people were wearing at work.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>It varies from civic community spaces to tech companies to coffee shops and bars.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>5-75, but many times a year.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>The two most common types are &#8220;introduction to blank&#8221; talks and &#8220;this is what I have done with blank&#8221; talks. My favorite is Houston data visualization meetup&#8217;s monthly &#8220;data jams&#8221;. A cleaned dataset is provided. Participants have 4 hours to build data visualizations with any code library or software tool they care to apply. This is a great way to learn about new tools and methods for data visualization.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>You&#8217;ll get exposure to a wide range of tools and approaches for a single topic.</li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li>Make connections across industries and organizations in Houston.</li>
+</ul>
+</li>
+<li>Make new contacts and catch up with old contacts</li>
+<li><em>Market yourself and your company</em>
+<ul>
+<li>The easiest place to present a talk or contribute to the local developer community.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Meet many vendors at once</em>
+<ul>
+<li>Vendor pitches are generally frowned upon, so there aren&#8217;t that many. Energy industry meetups are the exception.</li>
+</ul>
+</li>
+<li><em>Meet leaders in the field</em>
+<ul>
+<li>Unfortunately, Houston is not much of a tech hub, so there aren&#8217;t that many big names here.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>The main benefit of meetups for me is the exposure to a wide range of tools applied to the same topic or problem. This saves me a great amount of time in terms of researching and comparing new tools myself.</p>
+<h3 style="text-align: center;">Space-Apps Challenge Houston</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p>A <a href="https://2017.spaceappschallenge.org/">global hackathon</a> that uses NASA data, but is hosted locally in many cities around the world. This was the first year the event was hosted in Houston for several years. Participants form teams and have two days to hack together a solution, usually a web application but sometimes hardware, to one of the NASA <a href="https://2017.spaceappschallenge.org/challenges/">challenges</a>. It is free to attend. There was sponsor swag, coffee, beer, and food from <a href="http://stationhouston.com/">Station Houston</a>, Amazon Web Services, Intel, and <a href="https://www.yelp.com/biz/morningstar-houston">Morningstar Coffee</a>. I was a technical mentor during the event, not a participant.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Participants at the Houston event included high school students with a little coding knowledge, recent coding boot camp graduates, computer science undergraduates, IBM engineers, and professional web developers.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>85% jeans & t-shirt and 15% slightly fancier.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p><a href="https://www.theironyard.com/locations/houston">The Iron Yard</a>, a coding boot camp with locations in various cities, including Houston.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>~30</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>Aside from a 20-minute talk on NASA civilian science, the time was spent working on each team&#8217;s project. You can read more about some of the projects created at the Houston event <a href="https://2017.spaceappschallenge.org/locations/houston/">here</a>.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>Two of the teams used technologies I hadn&#8217;t worked with before.</li>
+</ul>
+</li>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em></li>
+<li><em>Make new contacts and catch up with old contacts</em>
+<ul>
+<li>Made connections with several or the participants</li>
+<li>Worked with <a href="http://stationhouston.com/">Station</a>, <a href="https://www.theironyard.com/locations/houston">The Iron Yard</a>, and several <a href="https://www.meetup.com/Houston-Data-Visualization-Meetup/">meet-up group</a> leads to organize the event.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Meet leaders in the field</em></li>
+<li><em>Meet people doing similar work and learn from their experiences</em></li>
+<li><em>Meet many vendors at once</em></li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>As a participant, hackathons are great for taking a method or technology that is new to you, cramming as much about it into your brain as possible, and then applying it in a very intense, short period of time. As a technical mentor, who also did a bit of event organization, it is a great way to expand your network, learn from others, and you get some of the previously mentioned technical benefits too.</p>
+<h3 style="text-align: center;">Agile Scientific Paris Subsurface Hackathon</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p>A hackathon associated with a geological society conference in Paris.  This is one of <a href="https://agilescientific.com/">Agile Scientific&#8217;s</a> hackathons that take place 1-3 times a year at geology and geophysics conferences. Total is co-organizing it. It is free to attend.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Geologists and geophysicists who know how to code, usually in Python. Web development skills are typically sparse. Several people, including myself, will be participating as &#8220;robots&#8221;. This means I&#8217;ll be teleconferencing into the hackathon and my face will be appearing on a little laptop there.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Most of the on-location participants will be French, so I&#8217;m assuming they will likely be better dressed than me.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>Virtual & Paris.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>Not sure as it hasn&#8217;t happened yet, but looks to be around 50.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>There will likely be an introduction talk and then lots of coding.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>This always seems to happen at hackathons.</li>
+</ul>
+</li>
+<li>Pick up new &#8220;tricks of the trade&#8221;
+<ul>
+<li>A lot of my coding ability was picked up after I left oil and gas, so it will be nice to work with geological datasets.</li>
+</ul>
+</li>
+<li>Make new contacts and catch up with old contacts
+<ul>
+<li>Several of the participants are people I know from a previous hackathon.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>I&#8217;m hoping to use this as an opportunity to apply a new skill area that I&#8217;ll be using at work eventually but haven&#8217;t had much opportunity to use yet. Possibilities include time-series analysis, deep-learning, web-scraping, and natural language processing.</p>
+<h2>Part 3  &#8211;  The Analysis</h2>
+<h3>Ranking of which events had which benefits the most</h3><p>Based on the notes above, I&#8217;ve ranked the events in terms of how well they fulfilled each benefit in my list. The event that most fulfilled each benefit is in <span style="color: #ff0000;">red<span style="color: #000000;">, with second in</span> <span style="color: #cc99ff;">purple</span><span style="color: #000000;">, etc</span></span>.</p>
+<ol>
+<li>People
+<ul>
+<li><em>Meet leaders in the field</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">SXSW &</span> <span style="color: #cc99ff;">PyCon</span></span></li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff6600;"><span style="color: #ff0000;">Meet-ups</span>,</span> <span style="color: #cc99ff;">PyCon</span><span style="color: #ff9900;"><span style="color: #cc99ff;">,</span> <span style="color: #99cc00;">JSC Data Science Day<span style="color: #99ccff;">,</span></span><span style="color: #99ccff;"> and meetups</span></span></span></li>
+</ul>
+</li>
+<li><em>Make new contacts and catch up with old contacts</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">AAPG,</span> <span style="color: #cc99ff;">meetups,</span> <span style="color: #99cc00;">and PyCon</span></span></li>
+</ul>
+</li>
+<li><em>Meet many vendors at once</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">SXSW <span style="color: #cc99ff;">and</span></span><span style="color: #cc99ff;"> AAPG</span></span></li>
+</ul>
+</li>
+<li><em>Market yourself and your company</em>
+<ul>
+<li><span style="color: #ff0000;">SXSW,</span><span style="color: #cc99ff;"> PyCON,</span><span style="color: #993300;"> </span><span style="color: #ff9900;"><span style="color: #99cc00;">AAPG,</span> <span style="color: #99ccff;">and meetups</span></span></li>
+</ul>
+</li>
+<li><em>Gain a better understanding of where your skills and knowledge rank</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">hackathons, </span><span style="color: #99cc00;">and meetups</span></span></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Skills
+<ul>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff6600;"><span style="color: #993300;"><span style="color: #ff0000;">Hackathons,</span><span style="color: #cc99ff;"> PyCon,</span></span></span> <span style="color: #99cc00;">meet-ups</span></span></li>
+</ul>
+</li>
+<li><em>Learn what to do or not do from others&#8217; experiences</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">meet-ups, </span><span style="color: #99cc00;">JSC Data Science Day</span></span></li>
+</ul>
+</li>
+<li><em>Attend a tutorial and take the first few steps in a new skill with someone to lead you</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">meet-ups, </span><span style="color: #99cc00;">hackathon</span></span></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Knowledge of the environment beyond your immediate organization
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">meet-ups, </span><span style="color: #99cc00;">JSC Data Science Day,</span><span style="color: #99ccff;"> SXSW</span><br />
+</span></li>
+</ul>
+</li>
+<li><em>Understand trends in the larger market or community</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">SXSW,</span> <span style="color: #cc99ff;">meet-ups,</span> <span style="color: #99cc00;">PyCon</span></span></li>
+</ul>
+</li>
+<li><em>Learn what is new</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;"><span style="color: #ff6600;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">SXSW,</span></span></span> <span style="color: #99cc00;">JSC Data Science Day</span></span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3>Discussion</h3><p>Some types of events I might not want to go to every year. Other types of events I would go every year, but I might trade one conference for another with a similar style but different focus area.</p>
+<h5>SXSW Interactive or another large conference of this type</h5><p>SXSW Interactive is great for getting a wide view of what is new and upcoming, but I&#8217;m not sure I need to go to it, or a conference like it, more than once every two to three years, even on a team that is responsible for keeping up with what is new.</p>
+<h5>AAPG or another large science or professional association conference</h5><p>AAPG is great in terms of what it tries to be, a science conference for oil and gas geologists, but there are definitely <a href="https://www.youtube.com/watch?v=vCeNA9btD9E">some aspects</a> of tech and computer language specific conferences that science and industry conferences could learn from. In-depth half-day tutorials, how-to sessions, and skill-building activities are all things that could be done in that conference space but just aren&#8217;t. A similar conference to this one, but in a computer science domain, would be <a href="https://www.ieee.org/conferences_events/index.html">IEEE</a>.</p>
+<h5>PyCon or similar tech conference</h5><p>PyCon had a wide range of benefits, including tutorials and &#8220;how to do this activity well&#8221; talks that are not always present at other technical gatherings. The year before I went to <a href="https://pydata.org/chicago2016/">PyData in Chicago</a>, which, although a smaller conference, had a similar range of talks. A conference that might be similar but with a different focus is <a href="https://scipy2017.scipy.org/ehome/index.php?eventid=220975&">SciPy</a>.</p>
+<h5>Hackathons</h5><p>They are great at both putting you in contact with the local developer community and showing you the range of approaching to a topic. However, they are intense. I participate or help out with 1-2 a year. More than that might be too much. I&#8217;ll do Space-Apps Houston again as there is definitely some value there both to me and to the community. Also, it is Houston! It was embarrassing there were several years when over a hundred Space-Apps hackathon events occurred globally, but there wasn&#8217;t an event in Houston. An alternative option that I seem to always be out of town for is the <a href="http://houstonhackathon.com/">Houston Hackathon</a>.</p>
+<h5>Johnson Space Center Data Science Day or similar 1-2 day, &lt;300 people,  local event.</h5><p>Johnson Space Center Data Science Day is useful for making local and NASA specific people connections and seeing what others are working on, however, it can&#8217;t replace something like PyCon or PyData for learning new skills. I&#8217;ll attend and present, but I don&#8217;t really count it as a learning opportunity in the same way. Similar type one to two-day speaker events are held at Rice University focusing on big data and <a href="http://ml2017.rice.edu/">machine learning</a>.</p>
+<h5>Houston tech meetups</h5><p>Tech meet-ups are my bread and butter learning opportunity. The combination of free, relatively easy to fit in your schedule as you don&#8217;t have to take days off, and leading directly into side projects works out well for me, especially as someone relatively new to writing code for a living. How many meetups I attend will depend on my schedule and number of side projects, which is difficult to predict in advance.</p>
+<h3>Next year plans</h3>
+<h5><em>Attend 0-1</em></h5><p>AAPG and SXSW style conferences have value but a more narrow range of benefits that ranks secondary to me right now. If options for travel and training are limited, I would focus my budget elsewhere next year.</p>
+<h5><em>Attend many, present at 1+, and organize at least 1</em></h5><p>Tech meetups and hackathons are great in that they&#8217;re free, local, and there&#8217;s something you could attend multiple times a week if you wanted, at least in a major US city. That frequency also represents a burn-out danger, however, so I&#8217;ll probably attend the same amount or shift to attending a little less next year.</p>
+<h5><em>Attend 1+ and present at 1+</em></h5><p>JSC Data Science Day is a great way to make local connections in a large and spread out organization, but I wouldn&#8217;t consider it a replacement for training or a major conference.</p>
+<h5><em>Attend 1 (consider presenting)</em></h5><p>PyCon and similar-type conferences probably offer the most value of the options examined due to the presence of many tutorials and &#8220;craft of coding&#8221; talks. My top focus for planning which conference to attend next year will be on finding a good PyCon-style conference that covers slightly different terrain but is still very applicable to work.</p>
+<h3>Conclusion</h3><p>Different outside of work technical gatherings have different benefits. An exercise like this helps organize experiences into data that is easier to analyze. My conclusions on what types of conferences are the most useful for me this year and next reflects what benefits I value the most right now. My main focus is on building skills and learning new tools, which shows up in my future conference preferences.</p><p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="/what-do-i-get-out-of-conferences/">What do I get out of conferences?</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/what-do-i-get-out-of-conferences/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">894</post-id>	</item>
+	</channel>
+</rss>

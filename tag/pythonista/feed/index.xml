@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+
+<channel>
+	<title>pythonista &#8211; Justin Gosses Home</title>
+	<atom:link href="/tag/pythonista/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Geology, GIS, and CODE + Resumes</description>
+	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.11</generator>
+
+<image>
+	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
+	<title>pythonista &#8211; Justin Gosses Home</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+		<title>&#8220;Get Current Address&#8221; python script on phone</title>
+		<link>/get-current-address-python-script-on-phone/</link>
+		<comments>/get-current-address-python-script-on-phone/#respond</comments>
+		<pubDate>Sat, 07 Nov 2015 20:23:38 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[maps]]></category>
+		<category><![CDATA[courses]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[python and GIS]]></category>
+		<category><![CDATA[pythonista]]></category>
+
+		<guid isPermaLink="false">/?p=141</guid>
+		<description><![CDATA[<p>&#8220;Get Current Address&#8221; A Pythonista Script running on iPhone:&#8220;Get Current Address&#8221; is a pythonista script I created based on some google research. I wanted to take advantage of the iphone&#8217;s geolocation and geocoding abilities.I was also attempting to fill a very small niche. Although google maps and apple maps are good at showing where you are<a href="/get-current-address-python-script-on-phone/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/get-current-address-python-script-on-phone/">&#8220;Get Current Address&#8221; python script on phone</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>&#8220;Get Current Address&#8221;</h3>
+<h4>A Pythonista Script running on iPhone:</h4><p>&#8220;Get Current Address&#8221; is a <a href="https://itunes.apple.com/us/app/pythonista/id528579881?mt=8 target=">pythonista</a> script I created based on some google research. I wanted to take advantage of the iphone&#8217;s geolocation and geocoding abilities.</p><p>I was also attempting to fill a very small niche. Although google maps and apple maps are good at showing where you are and where a certain address is, there is no built in functionality to quickly show you the address at which you and your phone are currently positioned within.</p><p>It can also output course direction and speed when the phone is moving.</p>
+<div id="attachment_142" style="width: 462px" class="wp-caption alignnone"><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png"><img data-attachment-id="142" data-permalink="/get-current-address-python-script-on-phone/getaddress/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png?fit=452%2C425" data-orig-size="452,425" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="GetAddress" data-image-description="&lt;p&gt;Screen shot of pythonista screen showing results of &#8220;Get Location&#8221; script.&lt;/p&gt;
+" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png?fit=300%2C282" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png?fit=452%2C425" class="size-full wp-image-142" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png?resize=452%2C425" alt="Screen shot of pythonista screen showing results of &quot;Get Location&quot; script." width="452" height="425" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png?w=452 452w, https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png?resize=300%2C282 300w" sizes="(max-width: 452px) 100vw, 452px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Screen shot of pythonista screen showing results of &#8220;Get Location&#8221; script.</p>
+</div><p>You can check out the code on github: <a href="https://github.com/JustinGOSSES/Pythonista" target="blank"><img data-attachment-id="224" data-permalink="/resume/github-mark-32px/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?fit=32%2C32" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="GitHub-Mark-32px" data-image-description="&lt;p&gt;GitHub-Mark-32px&lt;/p&gt;
+" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?fit=32%2C32" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?fit=32%2C32" class="alignnone size-full wp-image-224" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?resize=32%2C32" alt="GitHub-Mark-32px" width="32" height="32" data-recalc-dims="1" /></a></p>
+<p>The post <a rel="nofollow" href="/get-current-address-python-script-on-phone/">&#8220;Get Current Address&#8221; python script on phone</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/get-current-address-python-script-on-phone/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">141</post-id>	</item>
+		<item>
+		<title>Pythonista: An app to run Python on your phone</title>
+		<link>/pythonista-an-app-to-run-python-on-your-phone/</link>
+		<comments>/pythonista-an-app-to-run-python-on-your-phone/#respond</comments>
+		<pubDate>Sat, 07 Nov 2015 20:14:13 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[pythonista]]></category>
+
+		<guid isPermaLink="false">/?p=136</guid>
+		<description><![CDATA[<p>An App for Running Small Python Scripts On iPhone:Pythonista is an app for the iphone that allows you to run python scripts. It doesn&#8217;t have completely full python capabilities, but the modules available are still impressive. It has the full numpy and matlab lib for example. The examples that come with the app include python<a href="/pythonista-an-app-to-run-python-on-your-phone/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/pythonista-an-app-to-run-python-on-your-phone/">Pythonista: An app to run Python on your phone</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>An App for Running Small Python Scripts On iPhone:</h3><p><a href="https://itunes.apple.com/us/app/pythonista/id528579881?mt=8" target="blank">Pythonista</a> is an app for the iphone that allows you to run python scripts. It doesn&#8217;t have completely full python capabilities, but the modules available are still impressive. It has the full numpy and matlab lib for example. The examples that come with the app include python scripts for making quick memes using photos in your photo gallery, memory type card games, clocks, air hockey, and a quick color mixer (to find the RGB of that house color you like so much).</p><p>Apple usually blocks apps that allow you to write/run code on your iphone, and for a short time Pythonista was blocked, but apparently middle ground was found.</p>
+<h3>&#8220;Flowing Particle&#8221;</h3><p>&#8220;Flowing Particle&#8221; was my first attempt at using pythonista. My goal was make something simple and pretty to show my 2 year old nephew.</p><p>I started with an example script that came with the app called &#8220;particle&#8221;. It was modified to improve the degree to which the behavior of the particles seemed realistic and the aesthetic appearance. <span style="line-height: 1.5;">Any touch to the screen initiates creation of &#8220;particles&#8221;. I had the particles &#8220;fall&#8221; towards the direction farthest from where most people&#8217;s thumb rests. The particles also spread out if too many are piled up on top each other. As each particles&#8217; age increases, it changes in color. The more particles that overlap, the greater their brightness, until the color goes to white.</span></p><p>The result is colorful, relaxing, and interesting enough to briefly overcome his mother&#8217;s rule about no screen time.</p><p><a href="/wp-content/uploads/2015/11/Pythonista_Particles_v3.mov">Click here to Open a video of the python scrip in action</a></p><p>or check out the code on github: <a href="https://github.com/JustinGOSSES/Pythonista" target="blank"><img data-attachment-id="224" data-permalink="/resume/github-mark-32px/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?fit=32%2C32" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="GitHub-Mark-32px" data-image-description="&lt;p&gt;GitHub-Mark-32px&lt;/p&gt;
+" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?fit=32%2C32" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?fit=32%2C32" class="alignnone size-full wp-image-224" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?resize=32%2C32" alt="GitHub-Mark-32px" width="32" height="32" data-recalc-dims="1" /></a></p>
+<div id="attachment_137" style="width: 460px" class="wp-caption alignnone"><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/FloatingParticle_1.png"><img data-attachment-id="137" data-permalink="/pythonista-an-app-to-run-python-on-your-phone/floatingparticle_1/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/FloatingParticle_1.png?fit=450%2C800" data-orig-size="450,800" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="FloatingParticle_1" data-image-description="&lt;p&gt;Screen shot of &#8220;flowing particles&#8221; pythonista script that runs on iphone.&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/FloatingParticle_1.png?fit=169%2C300" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/FloatingParticle_1.png?fit=450%2C800" class="size-full wp-image-137" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/FloatingParticle_1.png?resize=450%2C800" alt="Screen shot of &quot;flowing particles&quot; pythonista script that runs on iphone." width="450" height="800" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/FloatingParticle_1.png?w=450 450w, https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/FloatingParticle_1.png?resize=169%2C300 169w" sizes="(max-width: 450px) 100vw, 450px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Screen shot of &#8220;flowing particles&#8221; pythonista script that runs on iphone.</p>
+</div>
+<p>The post <a rel="nofollow" href="/pythonista-an-app-to-run-python-on-your-phone/">Pythonista: An app to run Python on your phone</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/pythonista-an-app-to-run-python-on-your-phone/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="/wp-content/uploads/2015/11/Pythonista_Particles_v3.mov" length="44520931" type="video/quicktime" />
+	<post-id xmlns="com-wordpress:feed-additions:1">136</post-id>	</item>
+	</channel>
+</rss>

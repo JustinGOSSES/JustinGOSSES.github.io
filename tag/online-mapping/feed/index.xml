@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+
+<channel>
+	<title>Online Mapping &#8211; Justin Gosses Home</title>
+	<atom:link href="/tag/online-mapping/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Geology, GIS, and CODE + Resumes</description>
+	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.11</generator>
+
+<image>
+	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
+	<title>Online Mapping &#8211; Justin Gosses Home</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+		<title>Flow Chart for Picking the Right Mapping Tool</title>
+		<link>/flow-chart-for-picking-the-right-mapping-tool/</link>
+		<comments>/flow-chart-for-picking-the-right-mapping-tool/#respond</comments>
+		<pubDate>Sat, 03 Sep 2016 19:05:18 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[maps]]></category>
+		<category><![CDATA[ArcGIS]]></category>
+		<category><![CDATA[CartoDB]]></category>
+		<category><![CDATA[data visualization]]></category>
+		<category><![CDATA[draw.io]]></category>
+		<category><![CDATA[flowcharts]]></category>
+		<category><![CDATA[GIS]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[Javascript library]]></category>
+		<category><![CDATA[leaflet.js]]></category>
+		<category><![CDATA[mapbox]]></category>
+		<category><![CDATA[Online Map]]></category>
+		<category><![CDATA[Online Mapping]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[tools]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=732</guid>
+		<description><![CDATA[<p>I did some research on different tools for creating flow charts today.Originally, I started down this path trying to figure out what open-source project I might be able to hack on and produce a project that would generate XKCD style flow charts, similar to how bokeh (python library) has XCKD style plots as built-in option. I<a href="/flow-chart-for-picking-the-right-mapping-tool/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/flow-chart-for-picking-the-right-mapping-tool/">Flow Chart for Picking the Right Mapping Tool</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>I did some research on different tools for creating flow charts today.</p><p>Originally, I started down this path trying to figure out what open-source project I might be able to hack on and produce a project that would generate XKCD style flow charts, similar to how bokeh (python library) has XCKD style plots as built-in option. I was also playing around with the notion of crowd-sourced flow charts to help pick among tools and libraries as the number of options explode.</p><p>Then I got distracted and made the flow-chart below. I&#8217;ll just leave it here. It was made with <a href="http://draw.io/">draw.io</a></p><p>&nbsp;</p>
+<div id="wrapper" style="width: 100%; height: 100%; overflow: scroll !important; -webkit-overflow-scrolling: touch;">
+<iframe src="http://www.justingosses.com/FlowChart_MakeMaps/" width="100%" height="1200px"></iframe>
+</div>
+<p>The post <a rel="nofollow" href="/flow-chart-for-picking-the-right-mapping-tool/">Flow Chart for Picking the Right Mapping Tool</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/flow-chart-for-picking-the-right-mapping-tool/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">732</post-id>	</item>
+		<item>
+		<title>Data Visualization Compilations</title>
+		<link>/data-visualization-compilations/</link>
+		<comments>/data-visualization-compilations/#respond</comments>
+		<pubDate>Sun, 27 Mar 2016 04:40:19 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[CartoDB]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[Front-End]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[mapbox]]></category>
+		<category><![CDATA[Online Map]]></category>
+		<category><![CDATA[Online Mapping]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=453</guid>
+		<description><![CDATA[<p>A Compilation of Data Visualization Compilations:There are a wide variety of tools out there for data visualization. Some nice people have come up with compilations of their favorite tools. Other people have created galleries of really outstanding data visualizations that you can use as inspiration. Over the past year, I&#8217;ve bookmarked a lot of them.<a href="/data-visualization-compilations/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/data-visualization-compilations/">Data Visualization Compilations</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>A Compilation of Data Visualization Compilations:</h3><p>There are a wide variety of tools out there for data visualization. Some nice people have come up with compilations of their favorite tools. Other people have created galleries of really outstanding data visualizations that you can use as inspiration. Over the past year, I&#8217;ve bookmarked a lot of them. This post is a curated compilation of compilations. If you&#8217;re interested in learning about data visualization on the web, this post might save you some time digging around the internet. Alternatively, it might be a massive time sink.</p>
+<h3>Catalog of Data Visualization Types:</h3>
+<h4><a href="http://www.datavizcatalogue.com/" target="_blank">Dataviz Catalogue</a></h4><p>This is a great site for thinking about, or discussing with others, the various advantages and disadvantages of different data visualization styles. Not sure what data visualization style to use for a dataset that is hierarchal? This site might help you put things into a conceptual framework and make a decision.</p>
+<hr /><p>&nbsp;</p><p><iframe src="http://www.datavizcatalogue.com/" width="900" height="400">Your browser does not support iframes.</iframe></p>
+<hr />
+<h3>Three Compilations of Data Visualization Tools:</h3><p><a href="http://selection.datavisualization.ch/" target="_blank">Data Visualization</a><br />
+A fairly extensive compilation of data visualization tools:</p>
+<hr /><p><iframe src="http://selection.datavisualization.ch/" width="900" height="300">Your browser does not support iframes.</iframe></p>
+<hr />
+<h4></h4>
+<h4><a href="http://www.visualisingdata.com/">Visualizing Data</a></h4><p>Another extensive compilation of data visualization tools. It is definitely worth a visit. Between this one and the one above, there isn&#8217;t much not covered.</p>
+<h4><a href="http://10-open-source-projects-every-javascript-geo-dev-should-know-about/">10-open-source-projects-every-javascript-geo-dev-should-know-about</a></h4><p>This post on the ESRI blog is worth a look over, especially if you have map data locked into ESRI applications but want to do things in a more developer-centric and less GUI fashion.</p>
+<h3>Galleries of Data Visualization Examples:</h3>
+<h5 class="p1"><a href="http://Scientific/ Visualization Studio">Scientific Visualization Studio</a></h5>
+<p class="p1"><span class="s1">The Scientific Visualization Studio is out of NASA&#8217;s Goddard Space Flight Center. They make animated 2D and 3D visualizations. These look amazing on very large screens, especially if you have higher than normal resolution.  Download and run locally, rather than using the youtube player, to get the best picture possible. </span></p>
+<h5 class="p1"><a href="https://github.com/mbostock/d3/wiki/Gallery" target="_blank">D3.js Visual Index</a></h5><p>There are a lot of data visualization libraries written in the JavaScript language. D3.js is the reigning champion. D3 (or Data Driven Documents) favors configuration over convention. The advantages are that it is very flexible and powerful. The disadvantage is it has more of a learning curve compared to other JavaScript data visualization libraries that favor convention.</p>
+<h5><a href="http://bl.ocks.org/" target="_blank">Blocks</a> (D3.js)</h5>
+<p class="p1"><span class="s1">Bl.ocks (pronounced “Blocks”) is a simple viewer for sharing code examples hosted on <a href="https://gist.github.com/"><span class="s2">GitHub Gist</span></a>. Anyone can use it to easily display their d3 visualizations. If you go to &#8220;popular&#8221; tab in the upper right corner of the Blocks website, you can see some of the most population visualization on Blocks.</span></p><p><a href="http://collection.marijerooze.nl/" target="_blank">collection.marijerooze.nl</a></p><p>A collection of over 465 data visualizations put together by Marije Rooze, an Amsterdam based front-end developer. Examples largely come from the NYTimes and Guardian newspapers. The ability to filter makes it a good way to find examples.</p>
+<h5><a href="http://stamen.com/work/" target="_blank">Stamen</a></h5><p>A design studio focused on data visualization and mapping, Stamen produces some amazingly beautiful products for big clients like National Geographic. Definitely check them out if you have a map focus and want to be inspired/humbled.</p>
+<h5><a href="http://roadtolarissa.com/" target="_blank">Road To Larissa</a></h5><p>A gallery of data visualizations made by Adam Pearce of Bloomberg Graphics.</p>
+<h5><a href="http://www.smallmeans.com/new-york-times-infographics/" target="_blank">SmallMeans</a></h5><p>A gallery of favorited NYTimes graphics by a software engineering student.</p>
+<h3>Data Visualization Blogs:</h3>
+<h5><a href="http://flowingdata.com/" target="_blank">Flowing Data</a></h5><p>I suspect this is one of the most popular data visualization websites. It is the only one I have seen pop-up in my facebook feed several times</p>
+<h5><a href="http://www.informationisbeautiful.net/" target="_blank">Information is Beautiful</a></h5><p>Run by David McCandless. This website has data visualization &#8220;best of&#8221; contests and lots of generally cool data visualizations.</p>
+<h5><a href="http://feltron.com/">Nicholas Felton (website)</a></h5><p>More infographics than data visualizations, a big name worth checking out.</p><p><a href="http://feltron.tumblr.com/">Nicholar Felton (tumblr)</a></p><p>A curated selection put together by Felton. These are pieces of art as much as they are data visualizations.</p><p><a href="http://www.visualcinnamon.com/">Visual Cinnamon</a></p><p>Personal webpage of Nadieh Bremer who, in her own words, is a Astronomer-turned-Data-Scientist-turned-self-taught-Data-Visualization-Designer. In addition to her own work, which is stunning, she has a well curated list of internet resources and books on data visualization.</p><p><a href="http://fellinlovewithdata.com/" target="_blank">Fell In Love With Data</a></p><p>Not just pretty pictures, this blog has some excellent writing about what makes for good data visualizations. FILWD is edited by<a href="http://enrico.bertini.io/">Enrico Bertini</a>, Assistant Professor at the <a href="http://engineering.nyu.edu/">NYU Tandon School of Engineering</a>. He also has a podcast, <a href="http://datastori.es/">Data Stories</a>.</p>
+<p>The post <a rel="nofollow" href="/data-visualization-compilations/">Data Visualization Compilations</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/data-visualization-compilations/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">453</post-id>	</item>
+		<item>
+		<title>Tableau Data Visualization Animal Control Calls</title>
+		<link>/tableau-data-visualization/</link>
+		<comments>/tableau-data-visualization/#respond</comments>
+		<pubDate>Tue, 12 Jan 2016 20:39:39 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[maps]]></category>
+		<category><![CDATA[CartoDB]]></category>
+		<category><![CDATA[mapbox]]></category>
+		<category><![CDATA[Online Map]]></category>
+		<category><![CDATA[Online Mapping]]></category>
+		<category><![CDATA[opendata]]></category>
+		<category><![CDATA[Tableau]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=364</guid>
+		<description><![CDATA[<p>Tableau: Data Visualization Software (&#038; mapping)Tableau is similar to CartoDB and MapBox, which were discussed in earlier posts here and here. All are designed to allow the user to quickly drop in data and create visual representations of that data. All have free and paid versions. Tableau Public is the free version of Tableau. The main<a href="/tableau-data-visualization/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/tableau-data-visualization/">Tableau Data Visualization Animal Control Calls</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>Tableau: Data Visualization Software (& mapping)</h3><p>Tableau is similar to <a href="https://cartodb.com/" target="blank">CartoDB</a> and <a href="https://www.mapbox.com/" target="blank">MapBox</a>, which were discussed in earlier posts <a href="/cartodb-online-mapping/" target="blank">here</a> and <a href="/using-mapbox-an-online-map-service/" target="blank">here</a>. All are designed to allow the user to quickly drop in data and create visual representations of that data. All have free and paid versions. <a href="https://public.tableau.com/s/" target="blank">Tableau Public</a> is the free version of Tableau. The main limitations for Tableau Public vs. the paid version is more limited range of input data types (you still get xls and csv) and projects can only be saved to your public gallery.</p><p>What sets Tableau apart is <strong><em>Tableau</em><em><strong> is</strong>n&#8217;t just maps. It attempts to cover data visualization in general. </em></strong>Bar charts, pie charts, scatter plots, etc. Think of anything you have ever seen come out of Excel, plus some things you haven&#8217;t. Maps are just one more type of data visualization for Tableau. Tableau also excels at moving very quickly from &#8220;I have structured data&#8221; to &#8220;I have multiple visualizations of that data sliced multiple ways. It allows interactive visualization for the end-user too.&#8221;</p>
+<div></div>
+<div>
+<div id="attachment_397" style="width: 330px" class="wp-caption aligncenter"><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Screen-Shot-2016-01-12-at-2.56.18-PM.png" target="blank"><img data-attachment-id="397" data-permalink="/tableau-data-visualization/screen-shot-2016-01-12-at-2-56-18-pm/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Screen-Shot-2016-01-12-at-2.56.18-PM.png?fit=320%2C550" data-orig-size="320,550" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screen Shot 2016-01-12 at 2.56.18 PM" data-image-description="&lt;p&gt;Screenshot of menu options for different default data visualization types.&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Screen-Shot-2016-01-12-at-2.56.18-PM.png?fit=175%2C300" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Screen-Shot-2016-01-12-at-2.56.18-PM.png?fit=320%2C550" class="size-full wp-image-397" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Screen-Shot-2016-01-12-at-2.56.18-PM.png?resize=320%2C550" alt="Screenshot of menu options for different default data visualization types." width="320" height="550" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Screen-Shot-2016-01-12-at-2.56.18-PM.png?w=320 320w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Screen-Shot-2016-01-12-at-2.56.18-PM.png?resize=175%2C300 175w" sizes="(max-width: 320px) 100vw, 320px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Screenshot of menu options for different default data visualization types.</p>
+</div>
+<h3 style="text-align: left;">Houston Data Visualization Meet-up</h3>
+<p style="text-align: left;">This post was prompted by two talks at a <a href="http://www.meetup.com/Houston-Data-Visualization-Meetup/events/227238782/">recent</a><a href="http://www.meetup.com/Houston-Data-Visualization-Meetup/" target="blank">Houston Data Visualization</a> Meet-up. I attend meet-ups on data visualization, JavaScript, and python to see new things and get an idea what other people are working on locally. This meet-up was hosted at <a href="https://txrxlabs.org/" target="blank">TXRX labs</a>, which is a cool space if you ever have an opportunity to go. To quote their &#8220;about us&#8221; section:</p>
+<blockquote><p><em>Established in 2008, TXRX Labs is a non-profit hackerspace for the greater Houston area. Housed in the East End District, we offer courses in and access to our rapid prototyping lab, woodshop, machineshop, electronics lab, and a wide variety of other tools. Our goal is to educate the public about technology and show how seemingly complex techniques can be used by anyone.</em></p></blockquote>
+<p style="text-align: left;">The two mains talks at the Data Visualization Meet-up were on Tableau and used real estate data. I won&#8217;t attempt to replicate them here, but I will include a link to Clay Cohoon&#8217;s <a href="https://public.tableau.com/profile/clay.cahoon#!/" target="blank">public gallery</a> of visualizations. Clay delivered an entertaining talk that walked the audience through Tableau from data loading to sharing the final product. There is also a lot of great stuff on <a href="https://public.tableau.com/s/gallery">Tableau&#8217;s gallery</a>, basically a greatest hits collection.</p>
+<h4 style="text-align: left;">A static image of Clay&#8217;s Visualization Being Built in Tableau Public:</h4><p><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Trustee.png"><img data-attachment-id="410" data-permalink="/tableau-data-visualization/trustee/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Trustee.png?fit=1360%2C768" data-orig-size="1360,768" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Trustee" data-image-description="&lt;p&gt;Image of Clay Cahoon&#8217;s visualization dashboard from his talk.&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Trustee.png?fit=300%2C169" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Trustee.png?fit=640%2C361" class="size-full wp-image-410 aligncenter" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Trustee.png?resize=640%2C361" alt="Image of Clay Cahoon's visualization dashboard from his talk." width="640" height="361" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Trustee.png?w=1360 1360w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Trustee.png?resize=300%2C169 300w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Trustee.png?resize=1024%2C578 1024w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Trustee.png?w=1280 1280w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
+</div>
+<div>
+<h4 style="text-align: left;"><em>A few take away&#8217;s from Clay Cohoon&#8217;s talk were:</em></h4>
+<ol>
+<li style="text-align: left;">There&#8217;s <strong>a lot of interactivity baked into Tableau</strong> that allows the end-user to click a data point or label and have other maps or graphs in the dashboard automatically update to show only data for that label or datapoint.</li>
+<li style="text-align: left;">By right clicking on a point or axis, the <strong>end-user can bring up an option to download a selected portion of the data</strong> to their own computer.</li>
+<li style="text-align: left;">By including an option for calculated fields, Tableau allows you to do some <strong>data crunching right in Tableau, </strong>in addition the main purpose of data visualization. This <strong>saves time</strong> as you don&#8217;t have to go all the way back to start just to normalize your data using Excel.</li>
+</ol>
+</div>
+<h3>My Tableau Project: Animal Control Calls in 77009 Zip Code 2012-2015</h3><p>As I needed data to throw into Tableau, I decided to check out <a href="http://data.ohouston.org/ target=">Houston&#8217;s Open Data </a>portal. Mostly because I was curious what the data would look like, I decided to use <a href="http://data.ohouston.org/dataset/barc-animal-service-requests" target="blank">BARC call data</a> from the 77009 zip code. <a href="http://www.houstontx.gov/barc/aboutbarc.html" target="blank">BARC</a> is Houston&#8217;s city-run animal shelter. They respond to animal control calls from the public.</p><p>My main insights after being able to look at the data visually were: a sizable portion of the calls to BARC are cancelled instead of completed, wild-animal calls make up a very small percentage of total calls, and, although calls are pretty evenly distributed, the most expensive portion of the Houston Heights (SW portion of 77009 zip code) had less calls on average.</p>
+<h4><em>A few take aways from creating this visualization were:</em></h4>
+<ol>
+<li>The time it takes to go from opening Tableau to having your first visualization is very short. In the meet-up talks, it was approximately 15 minutes. In my first time using the program, it took me maybe an hour.</li>
+<li>The user interface is intuitive enough that I stopped watching a tutorial video after a couple of minutes. I made my way through pressing buttons and experimenting without any aggravating moments.</li>
+<li>Something that Clay Cahoon brought up during his talk, and that I noticed as well, is that although Tableau is super fast and easy to create first draft visualizations, adjusting the &#8220;fine details&#8221; like fonts and line widths is not nearly as quick. This is not a huge program, perhaps only surprising, given everything else is so intuitive and fast.</li>
+</ol><p>As you explore the visualization below, CLICK ON THE DATA. If you click on a map data point, it brings up extra data. If you click on the bar graph, it affects what is shown in the map. All this interactivity is baked into Tablea. Zero clicks were needed to make it happen.</p><p>You can bring up a new full-window view by <strong>clicking <a href="https://public.tableau.com/profile/justin.gosses#!/vizhome/Houston77009Zipcode-CallstoAnimalControl/Dashboard_Small" target="blank">here</a></strong>.</p><p>&nbsp;</p><p><embed src="https://public.tableau.com/shared/6K6WP2SGJ?:display_count=yes" width="1500" height="900"></embed></p>
+<p>The post <a rel="nofollow" href="/tableau-data-visualization/">Tableau Data Visualization Animal Control Calls</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/tableau-data-visualization/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">364</post-id>	</item>
+		<item>
+		<title>ArcGIS Hackathon-ish</title>
+		<link>/arcgis_hackathon/</link>
+		<comments>/arcgis_hackathon/#comments</comments>
+		<pubDate>Sat, 19 Dec 2015 04:44:21 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[geology]]></category>
+		<category><![CDATA[maps]]></category>
+		<category><![CDATA[ArcGIS]]></category>
+		<category><![CDATA[ESRI]]></category>
+		<category><![CDATA[hackathon]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[Online Mapping]]></category>
+		<category><![CDATA[opendata]]></category>
+		<category><![CDATA[python and GIS]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=265</guid>
+		<description><![CDATA[<p>ESRI sponsored Geo-Development Hackathon:Today I took part in an event put on by ESRI, the company that provides the software on which the majority of enterprise,  academic, and government GIS work takes place. As compared to the Geophysics Hackathon run by AgileGeosciences at the Society of Exploration Geophysics Annual Conference, this was more about learning tools and<a href="/arcgis_hackathon/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/arcgis_hackathon/">ArcGIS Hackathon-ish</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>ESRI sponsored Geo-Development Hackathon:</h3><p>Today I took part in an event put on by <a href="http://www.esri.com/" target="blank">ESRI</a>, the company that provides the software on which the majority of enterprise,  academic, and government GIS work takes place. As compared to the <a href="/geophysics-hackathon-at-2015-s-e-g-annual-meeting/" target="blank">Geophysics Hackathon</a> run by <a href="http://www.agilegeoscience.com/" target="blank">AgileGeosciences</a> at the Society of Exploration Geophysics Annual Conference, this was more about learning tools and less a crazy two day race. Hence, the title for this post is ArcGIS Hackathon-ish. There wasn&#8217;t any beer and pizza, but the cookies and cheese were good. Also, I got another free t-shirt. You can never have too many free t-shirts. The event was five hours long. Half was explanation and questions. The other half was building maps using the tools.</p>
+<h4>The Tools</h4><p>The event focus was on a collection of tools accessed or associated with their ArcGIS developer <a href="https://developers.arcgis.com/en/" target="blank"><b>site</b></a>. ESRI staff provided a github <a href="https://github.com/ESRI/GEODEV-HACKERLABS" target="blank">repository</a> of links, instructions, and list of topics/tools to cover during the event or after. There were some useful step-by-step instructions included to get you started with several of the tools.</p>
+<ul>
+<li><b>Map Builder</b>: Load data & edit basic symbology for first level, static maps you might embed in a website</li>
+<li><b>App Builder</b>: Take a map you built from map builder and put it into a map application framework with lots of premade style, formatting, and widget options. A few example widgets are:
+<ol>
+<li>Turn layers off and on</li>
+<li>Add query box to show selection subset of a layer</li>
+<li>Show users&#8217; current location on the map</li>
+<li>Allow a user to edit the map</li>
+<li>Directions</li>
+<li>Measurement (line, path, area)</li>
+</ol>
+</li>
+<li><b>ArcGIS API Javascript</b>: Javascript is one of the three key languages used in front-end web development (HTML and CSS being the other two). Javascript is the part that makes websites interactive. ArcGIS API javascript allows you to pull different basemaps, layers, etc. from your ArcGIS Online account, based on user interactions with the website, and display just the right map to the website user. You have to know javascript to do this, but the advantage is you can automatically deliver a map based on a large number of possible inputs. The opensource equivalent would leaflet.js.</li>
+<li><b>Koop javascript</b>: Sometimes when you use open-source data, you get it in one file type and transform into appropriate file format before putting it in ArcGIS Online map. Koop.js is a version of javascript written to handle that data transformation for you automatically reducing some of the programming required. This might be particularly useful for dealing with realtime open-source data available on another website that you want to bring into your map. Apparently, it is new and still a little wobbly, but the presenter seemed very excited about it.</li>
+<li><b>App Studio</b>: App Studio is basically App Builder, except you&#8217;re writing the javascript for a new template instead of relying on a drag and drop user interface. For now, this is free and even allows you to output native binaries, which means it outputs something that can go into the Android or Apple App store, without needing to deal with learning the Swift or Java language. People are putting the code they&#8217;re writing to build new apps and widgets in a ArcGIS marketplace and available opensource on GitHub.</li>
+</ul>
+<h4>The Product From Those 5 Hours =</h4>
+<h4 style="text-align: center;">A Map App On Holocene Volcanoes and Historical Major Earthquakes</h4><p>Click on the icons to bring up some of the map widgets and turn layers off and on. A full page version, which just looks nicer, can be found <b><a href="https://gosses.maps.arcgis.com/apps/webappviewer/index.html?id=b34ea4b002e1471488c060bb9a9200b7" target="blank">here.</a> </b></p>
+<div class="embed-container"><iframe title="Global Holocene Volcanism and Major Historical Earthquake Distribution" src="https://gosses.maps.arcgis.com/apps/webappviewer/index.html?id=b34ea4b002e1471488c060bb9a9200b7" width="1000" height="600"></iframe></div>
+<h4 class="embed-container">Update: for those completely new to GIS</h4><p>You might not know that ArcGIS requires a license. If you don&#8217;t have access to a license through school or work, you can still get a free non-commercial <a href="http://www.esri.com/software/arcgis/arcgis-for-desktop/free-trial" target="blank">trial license</a> for 60 days. There are also annual <a href="http://www.esri.com/software/arcgis/arcgis-for-home" target="blank">ESRI</a> non-commercial licenses for $100.</p>
+<p>The post <a rel="nofollow" href="/arcgis_hackathon/">ArcGIS Hackathon-ish</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/arcgis_hackathon/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">265</post-id>	</item>
+		<item>
+		<title>CartoDB &#038; Online Mapping</title>
+		<link>/cartodb-online-mapping/</link>
+		<comments>/cartodb-online-mapping/#respond</comments>
+		<pubDate>Fri, 20 Nov 2015 01:43:14 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[geology]]></category>
+		<category><![CDATA[maps]]></category>
+		<category><![CDATA[ArcGIS]]></category>
+		<category><![CDATA[CartoDB]]></category>
+		<category><![CDATA[Geology]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[Online Mapping]]></category>
+		<category><![CDATA[outcrops]]></category>
+		<category><![CDATA[subsurface]]></category>
+
+		<guid isPermaLink="false">/?p=179</guid>
+		<description><![CDATA[<p>Online Mapping:Recently, I&#8217;ve been improving my skills in both GIS, web development, and programming. As such, exploring online mapping services and methods, like leaflet, Mapbox and CartoDB, was on the &#8220;to do&#8221; list. Both CartoDB and Mapbox are sites that allow you to build maps on their webpage and then embed the maps in your webpage. Leaflet<a href="/cartodb-online-mapping/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/cartodb-online-mapping/">CartoDB &#038; Online Mapping</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h4>Online Mapping:</h4><p>Recently, I&#8217;ve been improving my skills in both GIS, web development, and programming. As such, exploring online mapping services and methods, like leaflet, Mapbox and CartoDB, was on the &#8220;to do&#8221; list. Both <a href="https://cartodb.com/">CartoDB</a> and <a href="https://www.mapbox.com/">Mapbox</a> are sites that allow you to build maps on their webpage and then embed the maps in your webpage. <a href="http://leafletjs.com/">Leaflet</a> is a javascript library for interactive maps.</p>
+<h4>Pro & Con</h4><p>The main advantages of these services are; you don&#8217;t need to purchase a desktop GIS software, you don&#8217;t need to know how to use ArcGIS or QGIS, and they provide a variety of polished base maps. The main drawback is the functionality is more limited than a full desktop GIS software package. For some maps, this lack of functionality will be a deal breaker. For the map below, however, it wasn&#8217;t an issue. Not only that, but CartoDB allowed me to make the map faster than I would have been able to with ArcGIS. That being said, CartoDB could use better instructions. Their writing was a bit too sparse in places.</p>
+<h4>Conclusion from my first map in CartoDB</h4><p>I think for quick maps, especially for maps that are largely points, a single path, or already created more complex layers overlaid on a base map, CartoDB is something I&#8217;ll continue to use. In a future post, I&#8217;ll try out MapBox and then Leaflet.</p>
+<p style="text-align: center;"><strong>&#8220;A Map of My Geology Experience&#8221; &#8211; built with CartDB</strong><br />
+<iframe src="https://jgosses82.cartodb.com/viz/a74cf9ea-8f1f-11e5-a802-0ecd1babdde5/embed_map" width="100%" height="520" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>The post <a rel="nofollow" href="/cartodb-online-mapping/">CartoDB &#038; Online Mapping</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/cartodb-online-mapping/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">179</post-id>	</item>
+	</channel>
+</rss>

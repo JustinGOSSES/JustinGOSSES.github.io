@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" 
+	>
+<channel>
+	<title>Comments on: Python Class Project &#8211; &#8220;Astroids&#8221; game</title>
+	<atom:link href="/python-class-project-astroids/feed/" rel="self" type="application/rss+xml" />
+	<link>/python-class-project-astroids/</link>
+	<description>Geology, GIS, and CODE + Resumes</description>
+	<lastBuildDate>Sat, 13 Jul 2019 05:20:39 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.11</generator>
+	<item>
+		<title>By: Python Online Training</title>
+		<link>/python-class-project-astroids/#comment-426</link>
+		<dc:creator><![CDATA[Python Online Training]]></dc:creator>
+		<pubDate>Sat, 15 Sep 2018 09:31:29 +0000</pubDate>
+		<guid isPermaLink="false">/?p=42#comment-426</guid>
+		<description><![CDATA[thanks for sharing nice infromation.....]]></description>
+		<content:encoded><![CDATA[<p>thanks for sharing nice infromation&#8230;..</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

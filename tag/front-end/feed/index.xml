@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+
+<channel>
+	<title>Front-End &#8211; Justin Gosses Home</title>
+	<atom:link href="/tag/front-end/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Geology, GIS, and CODE + Resumes</description>
+	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.11</generator>
+
+<image>
+	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
+	<title>Front-End &#8211; Justin Gosses Home</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+		<title>Game of Thrones Parallel Sets Data Visualization</title>
+		<link>/game-of-thrones-parallel-sets-data-visualization/</link>
+		<comments>/game-of-thrones-parallel-sets-data-visualization/#respond</comments>
+		<pubDate>Mon, 10 Oct 2016 18:31:19 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[d3]]></category>
+		<category><![CDATA[d3.js]]></category>
+		<category><![CDATA[data visualization]]></category>
+		<category><![CDATA[Front-End]]></category>
+		<category><![CDATA[Game of Thrones]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[opendata]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=748</guid>
+		<description><![CDATA[<p>User interface add-ons to make a better parallel sets visualizations: (skip to the data visualization here.)Parallel sets is a data visualization type that shows how attributes of different types are distributed across a large number of instances. Common examples include datasets of the characteristics of passengers on the Titanic disaster and nutrition information of many different types of<a href="/game-of-thrones-parallel-sets-data-visualization/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/game-of-thrones-parallel-sets-data-visualization/">Game of Thrones Parallel Sets Data Visualization</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h2>User interface add-ons to make a better parallel sets visualizations:</h2>
+<p style="text-align: center;">(skip to the data visualization <a href="/ParaSet_Oct2/" target="_blank">here</a>.)</p><p>Parallel sets is a data visualization type that shows how attributes of different types are distributed across a large number of instances. Common examples include datasets of the characteristics of passengers on the Titanic disaster and nutrition information of many different types of cereal. Parallel sets data visualizations are good at showing how attributes do or don&#8217;t cluster over a large dataset of instances. It is a data visualization type favored when the data is categorical and not strictly numerical.</p><p>I built a <a href="/parallel-sets-data-visualization/">parallel sets data visualization</a> based on a dataset of battles from the <a href="https://en.wikipedia.org/wiki/Game_of_Thrones">Game of Thrones series</a> (TV version, not book). Examples questions that can be answered by a <a href="/ParaSet_Oct2/" target="_blank">parallel sets</a> built from this data include: Which battle type has the best success rate? Which house has the best and track record in terms of number of battles won or lost? Were there more pitched battles versus ambushes in later years versus earlier years? Are battles in certain regions more likely to result in a major characters death?</p><p>The parallel sets visualizations that I&#8217;ve seen work best when the number of types of attributes is between 3 and 10, the number of different attributes within each type is &lt;10, and the total number of instances is &gt;100.  Outside this range, parallel sets tend to get too cluttered.</p><p>When I used parallel sets for a project at work, I found it be successful for the immediate problem but very easy to be cluttered and messy if I tried to include all characteristics found in the dataset. Although a subset of the data was fine for showing what I was interested in at the time, I knew eventually I would want to show a larger dataset and let the user explore the data. This led to brainstorming potential improvements for my initial parallel sets code base, which I had adopted from Jason Davis <a href="https://github.com/jasondavies/d3-parsets" target="_blank">parasets </a>project. Both us d3.js. <span style="color: #333399;">I&#8217;ve completed the first two interactivity improvements listed below in this</span> <a href="/ParaSet_Oct2/" target="_blank">visualization</a>.</p>
+<ol>
+<li><span style="color: #333399;">User can select which data dimensions to visualize (types of attributes: region, year, defender, etc.)</span></li>
+<li><span style="color: #333399;">User can limit the visualization to only data that contains a certain value in a certain dimension (battles with Stark as the defender)</span></li>
+<li>User can chose to turn numerical information into small categorical groups (size of battle was &gt; or &lt; some number)<br />
+a. user selects n number of divisions of the data between min and max<br />
+b. or n number of divisions based on equal number in each category<br />
+c. or by log divisions (&gt;10, &gt;100, &gt;1000, etc.)</li>
+<li>Interactive combination of histogram and parallel sets data visualizations via dc.js.</li>
+<li>Pre-determined combinations of data dimensions available via a series of buttons to assist in story-telling to user.</li>
+</ol><p>Letting the user select the input data and try different combinations reduces cluttering. Giving the user the option to pick the input data makes this data visualization more of a data exploration tool and less of a straight forward story telling image.</p><p>It is also useful if you don&#8217;t have HBO but want to study up for water cooler conversations.</p><p>&nbsp;</p>
+<h3>Examples from the Game of Thrones Parallel Sets Visualization:</h3>
+<p style="text-align: center;"><em>ribbon width = number of battles</em></p>
+<div id="attachment_750" style="width: 650px" class="wp-caption aligncenter"><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png"><img data-attachment-id="750" data-permalink="/game-of-thrones-parallel-sets-data-visualization/screen-shot-2016-10-10-at-12-29-28-pm/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?fit=2006%2C1396" data-orig-size="2006,1396" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="screen-shot-2016-10-10-at-12-29-28-pm" data-image-description="&lt;p&gt;Battles Type Vs. Outcome&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?fit=300%2C209" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?fit=640%2C446" class="wp-image-750 size-large" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?resize=640%2C446" alt="Battles Type Vs. Outcome" width="640" height="446" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?resize=1024%2C713 1024w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?resize=300%2C209 300w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?w=1280 1280w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?w=1920 1920w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Battles Type Vs. Outcome</p>
+</div>
+<p style="text-align: center;"><em>Ambushes, razing, and siege perform better for the attacker than a pitched battle. </em></p>
+<div id="attachment_751" style="width: 650px" class="wp-caption aligncenter"><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png"><img data-attachment-id="751" data-permalink="/game-of-thrones-parallel-sets-data-visualization/screen-shot-2016-10-10-at-12-36-24-pm/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?fit=1988%2C1226" data-orig-size="1988,1226" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="screen-shot-2016-10-10-at-12-36-24-pm" data-image-description="&lt;p&gt;Who loses battles vs. wins battles.&lt;/p&gt;
+" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?fit=300%2C185" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?fit=640%2C395" class="wp-image-751 size-large" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?resize=640%2C395" alt="Who loses battles vs. wins battles." width="640" height="395" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?resize=1024%2C632 1024w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?resize=300%2C185 300w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?w=1280 1280w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?w=1920 1920w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Who loses battles vs. wins battles.</p>
+</div>
+<p style="text-align: center;"><em>Freefolk (black ribbon) have a horrible track record at attacking. House Stark and Baratheon are also not that great.</em></p>
+<div id="attachment_752" style="width: 650px" class="wp-caption aligncenter"><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png"><img data-attachment-id="752" data-permalink="/game-of-thrones-parallel-sets-data-visualization/screen-shot-2016-10-10-at-12-37-40-pm/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?fit=1964%2C1236" data-orig-size="1964,1236" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="screen-shot-2016-10-10-at-12-37-40-pm" data-image-description="&lt;p&gt;Battles vs. character deaths&lt;/p&gt;
+" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?fit=300%2C189" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?fit=640%2C403" class="wp-image-752 size-large" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?resize=640%2C403" alt="Battles vs. character deaths" width="640" height="403" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?resize=1024%2C644 1024w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?resize=300%2C189 300w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?w=1280 1280w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?w=1920 1920w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Battles vs. character deaths: 1 = major character death, 0 = no major character death</p>
+</div><p><em>Lannister, Stark, and Baratheon have the highest number of battles where they are the main attacker and an important character dies. </em></p>
+<div id="attachment_754" style="width: 650px" class="wp-caption aligncenter"><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png"><img data-attachment-id="754" data-permalink="/game-of-thrones-parallel-sets-data-visualization/screen-shot-2016-10-10-at-1-24-35-pm/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?fit=1964%2C1222" data-orig-size="1964,1222" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="screen-shot-2016-10-10-at-1-24-35-pm" data-image-description="&lt;p&gt;Who wins when defending and major character deaths&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?fit=300%2C187" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?fit=640%2C398" class="wp-image-754 size-large" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?resize=640%2C398" alt="Who wins when defending and major character deaths" width="640" height="398" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?resize=1024%2C637 1024w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?resize=300%2C187 300w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?w=1280 1280w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?w=1920 1920w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Who wins when defending and major character deaths</p>
+</div>
+<p style="text-align: center;"><em>The attacker usually wins in a Game of Thrones battle, but when they lose, it tends to be when the main defender is a Lannister. In those battles where a defending Lannister wins, it is also common for a major character of some type to die. </em></p>
+<h2 style="text-align: center;">Explore the live data visualization <a href="/ParaSet_Oct2/" target="_blank">here</a>.</h2>
+<h2></h2>
+<p>The post <a rel="nofollow" href="/game-of-thrones-parallel-sets-data-visualization/">Game of Thrones Parallel Sets Data Visualization</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/game-of-thrones-parallel-sets-data-visualization/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">748</post-id>	</item>
+		<item>
+		<title>Gource &#8211; Log Visualization Tool</title>
+		<link>/gource/</link>
+		<comments>/gource/#respond</comments>
+		<pubDate>Mon, 11 Jul 2016 02:54:38 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[data visualization]]></category>
+		<category><![CDATA[Front-End]]></category>
+		<category><![CDATA[Gource]]></category>
+		<category><![CDATA[ISS]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[Javascript library]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[not open]]></category>
+		<category><![CDATA[npm]]></category>
+		<category><![CDATA[proprietary]]></category>
+
+		<guid isPermaLink="false">/?p=607</guid>
+		<description><![CDATA[<p>At work, I put projects I complete into our group&#8217;s gallery of data-visualization work. It is good internal marketing for what our group can deliver. Unfortunately, even behind a NASA firewall, there are some things I can&#8217;t put in the gallery. Examples have included data visualizations of human resource data and financial data where the public<a href="/gource/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/gource/">Gource &#8211; Log Visualization Tool</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>At work, I put projects I complete into our group&#8217;s gallery of data-visualization work. It is good internal marketing for what our group can deliver. Unfortunately, even behind a NASA firewall, there are some things I can&#8217;t put in the gallery. Examples have included data visualizations of human resource data and financial data where the public release process is laid out by Congress.</p><p>One way to still have something cool to show but keep data secure is to turn the process of making the data visualization into another data visualization. One super easy way to do this is to use <a href="http://gource.io/">Gource</a>.</p>
+<h3>Gource:</h3><p>My favorite thing about<a href="http://gource.io/"> Gource</a> is how easy it is to use. When I first downloaded it, I looked for instructions and couldn’t find any besides how to install it. Turns out, you just type “gource” into the folder of the code you want to visualize, and it does everything else. How great is that. If you use npm, you can install it using <em>npm install gource</em> -g in a terminal.</p><p>The small avatar(s) in the video shooting bolts of light are the developers of the project. Each file is a ball of light. Clusters of balls represent folders or directories.  The video is somewhat large, so it might take several seconds to load. If you want to see a Gource visualization of a larger project, check out <a href="https://www.youtube.com/watch?v=aPk1BqK8zzI" target="blank">this</a> youtube video of python development starting in 1990.</p><p><video style="visibility: visible;" src="/wp-content/uploads/2016/07/ISSflyOver_1.mov" controls="controls" width="100%" height="100%"></video></p><p>Gource video of a small project I wrote while writing the <a href="/issflyover/">previous blog post</a>. I used it to test out the open-notify API, which returns the current latitude and longitude of the International Space Station. The application then takes that lat/long and places it on a map using the <a href="http://leafletjs.com/">leaflet.js</a> library. Every 3 seconds, a new I.S.S. position is added.</p>
+<p>The post <a rel="nofollow" href="/gource/">Gource &#8211; Log Visualization Tool</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/gource/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="/wp-content/uploads/2016/07/ISSflyOver_1.mov" length="7004377" type="video/quicktime" />
+	<post-id xmlns="com-wordpress:feed-additions:1">607</post-id>	</item>
+		<item>
+		<title>ISS Fly Over</title>
+		<link>/issflyover/</link>
+		<comments>/issflyover/#respond</comments>
+		<pubDate>Sun, 26 Jun 2016 05:23:48 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[Front-End]]></category>
+		<category><![CDATA[ISS]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[Javascript library]]></category>
+		<category><![CDATA[leaflet.js]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[Online Map]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=530</guid>
+		<description><![CDATA[<p>ISS = International Space StationEarlier this week someone came into my office at work and asked to borrow three of our beanbags, so they could have recently returned astronauts sit in them while doing a facebook live-stream event. Apparently, it has become tradition. That prompted me to google ISS fly over application. I heard NASA<a href="/issflyover/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/issflyover/">ISS Fly Over</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><em>ISS = International Space Station</em></p><p>Earlier this week someone came into my office at work and asked to borrow three of our beanbags, so they could have recently returned astronauts sit in them while doing a facebook live-stream event. Apparently, it has become tradition. That prompted me to google ISS fly over application. I heard NASA had put out the code that runs their &#8220;check when the International Space Station will be in view from your location&#8221; webpage. Unfortunately, my impression wasn&#8217;t quite correct. What was provided wasn&#8217;t the code for their webpage or the application that does the calculations but merely an embed code snippet that lets you put an iframe in your own webpage to theirs. Basically, it is a well-built window from this webpage into their webpage.</p>
+<blockquote><p><span style="color: #ff6600;">&lt;div</span> <span style="color: #008000;">style=&#8221;display: inline-block; border: 1px solid #CCC; border-radius: 6px; -webkit-border-radius: 6px; -o-border-radius: 6px; position: relative; overflow: hidden; width: 310px; height: 450px;</span>&#8220;<span style="color: #ff6600;">&gt;<br />
+&lt;iframe</span> <span style="color: #ff6600;">src=</span>&#8220;<span style="color: #800080;">https://spotthestation.nasa.gov/widget/widget.cfm?country=United_States&amp;region=Texas&amp;city=Houston</span>&#8221; <span style="color: #008000;">width=&#8221;310&#8243; height=&#8221;450&#8243; frameborder=&#8221;0&#8243;</span>&gt;<span style="color: #ff6600;">&lt;/iframe&gt&lt/div&gt;</span></p></blockquote><p><span style="color: #ff6600;">Orange</span> = HTML, the pieces that make up the webpage. Boxes inside boxes with rules about where those boxes sit and their properties.</p><p><span style="color: #800080;">Purple</span> = URL, or address the browser goes to in order to ask politely for the NASA data to build the little ISS flyover screen.</p><p><span style="color: #008000;">Green</span> = CSS, the style rules.</p>
+<div style="display: block; margin: 0 auto; text-align: center; border: 1px solid #CCC; border-radius: 6px; -webkit-border-radius: 6px; -o-border-radius: 6px; position: relative; overflow: hidden; width: 310px; height: 450px;"><iframe src="https://spotthestation.nasa.gov/widget/widget.cfm?country=United_States&region=Texas&city=Houston" width="310" height="450" frameborder="0"></iframe></div><p>&nbsp;</p>
+<div><p>After googling around a bit, I found a different ISS flyover resource called <a href="http://open-notify.org/">OpenNotify</a>. Born from a hackathon, by <a href="mailto:nathan@open-notify.org">Nathan Bergey</a>, this site provides latitude and longitude, next station pass for your location, and the number of people in space. Instead of using an iframe, it uses an <a href="https://en.wikipedia.org/wiki/Application_programming_interface">API</a>. This means, instead of being a window to another webpage like the iframe method, your webpage is sending a question to another server that responds with some information.</p>
+</div><p>For example, we can get second by second updates on the lat and long of the International Space Station below.</p>
+<p style="text-align: center; background-color: lightgray;">The ISS is currently over <span id="isslat">?</span>° N, <span id="isslon">?</span>° E</p>
+<p style="text-align: left;">The line above is generated using the following code:</p>
+<blockquote>
+<p style="text-align: left;"><span style="color: #ff6600;">&lt;p</span> <span style="color: #008000;">style=&#8221;text-align: center;&#8221;</span><span style="color: #ff6600;">&gt;</span>The ISS is currently over <span style="color: #ff6600;">&lt;span id=&#8221;isslat&#8221;&gt;</span>?<span style="color: #ff6600;">&lt;/span&gt;</span>° N, <span style="color: #ff6600;">&lt;span id=&#8221;isslon&#8221;&gt;</span>?<span style="color: #ff6600;">&lt;/span&gt;</span>° E<span style="color: #ff6600;">&lt;/p&gt;</span></p>
+<p style="text-align: left;"><span style="color: #ff6600;">&lt;script src=&#8221;<span style="color: #800080;">https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js</span>&#8220;&gt;&lt;/script&gt;</span></p>
+<p style="text-align: left;"><span style="color: #ff6600;">&lt;script&gt;</span><br />
+<span style="color: #3366ff;">     function getISS () { $.getJSON(&#8216;</span><span style="color: #800080;">http://api.open-notify.org/iss-now.json?callback=?&#8217;, </span></p>
+<p style="text-align: left;"><span style="color: #800080;"><span style="color: #3366ff;">          function(data) { var lat = data[&#8216;iss_position&#8217;][&#8216;latitude&#8217;]; var lon = data[&#8216;iss_position&#8217;][&#8216;longitude&#8217;];</span></span></p>
+<p style="text-align: left;"><span style="color: #3366ff;">                    $(&#8216;#isslat&#8217;).html(Math.round(lat*1000)/1000.0); $(&#8216;#isslon&#8217;).html(Math.round(lon*1000)/1000.0); </span></p>
+<p style="text-align: left;"><span style="color: #3366ff;">          });</span></p>
+<p style="text-align: left;"><span style="color: #3366ff;">     setTimeout(getISS, 3000); } </span></p>
+<p style="text-align: left;"><span style="color: #3366ff;">     getISS();</span></p>
+<p style="text-align: left;"><span style="color: #ff6600;">&lt;/script&gt;</span></p>
+</blockquote>
+<p style="text-align: left;">Similarly to the first code block, there is html (<span style="color: #ff6600;">orange</span>), an URL (<span style="color: #800080;">purple</span>), and CSS (<span style="color: #008000;">green</span>). What is different is between the second pair of &lt;&gt;opening and &lt;/&gt;closing orange &lt;script&gt; tags we also have some <span style="color: #3366ff;">JavaScript code in blue</span>. JavasScript is the computer language that runs in your browser. You may or may not have python or some other language installed on your computer (perhaps as a default install by the company you bought it from), but any computer with a browser can run JavaScript. This particular JavaScript script does three things.</p>
+<ul>
+<li style="text-align: left;">First, &#8220;<span style="color: #3366ff;"><span style="text-decoration: underline;">function getISS ()</span></span>&#8221;  establishes the name of the function, &#8220;<span style="color: #3366ff;">getISS</span>&#8220;. What is between the <span style="color: #3366ff;">{ }</span> directly after <span style="color: #3366ff;">function getISS ()</span> is the code that runs when the function is called. In the last blue line, the function name <span style="color: #3366ff;">getISS()</span> is called and the function executes.</li>
+<li style="text-align: left;">Next, inside the getISS function is <span style="color: #3366ff;">$.getJSON</span>. The $ sign tells a library called Jquery to run. Jquery was previously downloaded to run locally using <span style="color: #ff6600;">&lt;script src=&#8221;<span style="color: #800080;">https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js</span>&#8220;&gt;&lt;/script&gt;<span style="color: #000000;">. <span style="color: #333333;">Jquery knows that </span><span style="color: #3366ff;">$.getJSON</span> <span style="color: #333333;">means to send a request to the following</span> <span style="color: #800080;">URL in purple</span> <span style="color: #333333;">and expect to get JSON formatted data back from that server. </span></span></span></li>
+<li style="text-align: left;"><span style="color: #ff6600;"><span style="color: #000000;"><span style="color: #333333;">The next JavaScript function in blue (<span style="color: #800080;"><span style="color: #3366ff;">function(data) { var lat = data[&#8216;iss_position&#8217;][&#8216;latitude&#8217;]; var lon = data[&#8216;iss_position&#8217;][&#8216;longitude&#8217;];</span></span> ) takes that JSON data, labeled here as &#8220;<span style="color: #3366ff;">data</span>&#8220;, pulls out the parts representing lat and long and turns them into variables we can use later in the code. </span></span></span></li>
+<li style="text-align: left;"><span style="color: #ff6600;"><span style="color: #000000;"><span style="color: #333333;">Those two variables are referred to in the next bit of JavaScript (<span style="color: #3366ff;">$(&#8216;#isslat&#8217;).html(Math.round(lat*1000)/1000.0); $(&#8216;#isslon&#8217;).html(Math.round(lon*1000)/1000.0); }); <span style="color: #333333;">) where the variables are changed into easier to read format using some math and then switched out in place of for the &#8220;<span style="color: #ff6600;">?</span>&#8221; in the following HTML (<span style="color: #ff6600;">&lt;span id=&#8221;isslat&#8221;&gt;</span>?<span style="color: #ff6600;">&lt;/span&gt;</span>° N, <span style="color: #ff6600;">&lt;span id=&#8221;isslon&#8221;&gt;</span>?<span style="color: #ff6600;">&lt;/span&gt;</span>) the script knows where to put them as the <span style="color: #3366ff;">#</span> in the script is equivalent to the <span style="color: #ff6600;">id=</span> in html. </span></span></span></span></span></li>
+</ul>
+<h3 style="text-align: left;">Leaflet.js</h3><p>Regenerating lat and long as digits is kinda boring though, so we&#8217;re going to put those on a map so we can see exactly where the ISS is over right now. We&#8217;re also going to have the map add a new marker every three seconds to get an idea just how fast the ISS is moving. We&#8217;re going to do this with another JavaScript library called <a href="http://leafletjs.com/">leaflet.js</a>.</p><p>Here it is at a large scale. Note, it initially takes three to five seconds for the first ISS lat and long position to load to the map. If you zoom in, you can more clearly see the ISS moving. If you leave it up for a while, you&#8217;ll get a line of markers stringing across the globe, which gives you a good idea how fast 17,150 miles per hour or slightly more than 5 miles a second actually is. The Space Station orbits Earth once every 92 minutes.</p>
+<div><iframe src="http://www.justingosses.com/ISSflyOver/" width="600" height="300" frameborder="0" seamless="seamless">Browser not compatible.</iframe></div>
+<div id="mapidC" class="maps center"></div><p><script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script></p><p><script>// <![CDATA[
+var map_1 = {"issLat":0,"issLong":0}
+var ISSmarkers = [];
+
+
+function getISS () {
+		    $.getJSON('http://api.open-notify.org/iss-now.json?callback=?', function(data) {
+		        var lat = data['iss_position']['latitude'];
+		        var lon = data['iss_position']['longitude'];
+		        $('#isslat').html(Math.round(lat*1000)/1000.0);
+		        $('#isslon').html(Math.round(lon*1000)/1000.0);
+
+		        window.map_1["issLat"]=(Math.round(lat*1000)/1000.0);
+		        window.map_1["issLong"]=(Math.round(lon*1000)/1000.0)
+		        console.log("ISSmarkers = ",ISSmarkers)
+
+		    });
+    	setTimeout(getISS, 3000); 
+		}
+		getISS();
+
+var mymap = L.map('mapid').setView([map_1["issLat"], map_1["issLong"]], 3);
+
+			L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/256/{z}/{x}/{y}?access_token={accessToken}',
+			{
+		    attribution: 'Map data &copy; <a href="http://openstreetmap.org/">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com/">Mapbox</a>',
+		    maxZoom: 20,
+		    level: 20,
+		    id: 'jgosses',
+		    accessToken: 'pk.eyJ1Ijoiamdvc3NlcyIsImEiOiJjaWk2aWhua2kwMWxidDBrZndhbHBraTd1In0.IIT7dwztvQhH9ZsiOLmnMg'
+		}).addTo(mymap);
+
+var marker = L.marker([map_1["issLat"], map_1["issLong"]]).addTo(mymap);
+// ]]&gt;</script></p>
+<p>The post <a rel="nofollow" href="/issflyover/">ISS Fly Over</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/issflyover/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">530</post-id>	</item>
+		<item>
+		<title>Space City JavaScript Conference</title>
+		<link>/space-city-javascript-conference/</link>
+		<comments>/space-city-javascript-conference/#respond</comments>
+		<pubDate>Sun, 15 May 2016 02:18:21 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[conference]]></category>
+		<category><![CDATA[Front-End]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=510</guid>
+		<description><![CDATA[<p>A Post-Conference Review of Space City JSI just got back from Space City JS, a JavaScript conference in Houston, Texas. Ideally, I&#8217;d write an intelligent piece of prose after long reflection. My schedule doesn&#8217;t allow for that, so here are some bullet points. The coffee was strong! and more than cream and sugar was provided<a href="/space-city-javascript-conference/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/space-city-javascript-conference/">Space City JavaScript Conference</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3 style="text-align: center;">A Post-Conference Review</h3>
+<h3 style="text-align: center;">of</h3>
+<h3 style="text-align: center;"><a href="http://www.spacecity.codes/#">Space City JS</a></h3><p><a href="http://www.spacecity.codes/#"><img data-attachment-id="512" data-permalink="/space-city-javascript-conference/spacecityjs/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/SpaceCityJS.png?fit=512%2C512" data-orig-size="512,512" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="SpaceCityJS" data-image-description="" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/SpaceCityJS.png?fit=300%2C300" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/SpaceCityJS.png?fit=512%2C512" class="aligncenter wp-image-512" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/SpaceCityJS.png?resize=228%2C234" alt="Space City JS Logo" width="228" height="234" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/SpaceCityJS.png?zoom=2&resize=228%2C234 456w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/SpaceCityJS.png?zoom=3&resize=228%2C234 684w" sizes="(max-width: 228px) 100vw, 228px" data-recalc-dims="1" /></a></p><p>I just got back from Space City JS, a JavaScript conference in Houston, Texas. Ideally, I&#8217;d write an intelligent piece of prose after long reflection. My schedule doesn&#8217;t allow for that, so here are some bullet points.</p>
+<ul>
+<li>The coffee was strong! and more than cream and sugar was provided if you wanted to get fancy. Katz coffee sponsored. They also sponsor the Buffalo Bayou Regatta every year.</li>
+<li>This was only the second year of the conference. The number of people participating was mentioned as evidence of the small but growing Houston tech scene.</li>
+<li>As compared to a scientific conference where talks are super specific, the pattern was for talks to be accessible by those with moderate amounts of topic-specific knowledge. The goal was less description and more inspiration and demonstration.</li>
+<li>One thing JavaScript certainly has going for it over the other languages is an active community of people in Houston who are willing to share their time and expertise with others.</li>
+<li>Hearing about new tools and libraries that experienced people find useful and think will grow in the future is useful knowledge for someone, like myself, making decisions about what things to learn.</li>
+<li>You leave with nice looking stickers & t-shirts.</li>
+<li>The conference was sponsored by 4 local breweries, which seemed excessive for a small conference, but can you ever have too many breweries sponsoring your event?</li>
+<li>There were just the right number of interesting talks. The subjects included connecting APIs, databases specifically built for real-time applications, using Node.js at NASA to overcome data silos, and contributing to open-source both from the contributor perspective and the project originator perspective.</li>
+<li>Brisket for lunch! Truly, there&#8217;s no point in having a conference in Texas if you don&#8217;t serve tacos or brisket.</li>
+</ul>
+<div id="attachment_511" style="width: 650px" class="wp-caption aligncenter"><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463279039183.jpg"><img data-attachment-id="511" data-permalink="/space-city-javascript-conference/image1/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?fit=1280%2C1280" data-orig-size="1280,1280" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 5s&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1463214201&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;320&quot;,&quot;shutter_speed&quot;:&quot;0.0588235294118&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;6&quot;}" data-image-title="image1" data-image-description="" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?fit=300%2C300" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?fit=640%2C640" class="wp-image-511 size-large" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764-1024x1024.jpg?resize=640%2C640" alt="post-it note of Space City JS version of NASA logo" width="640" height="640" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?resize=1024%2C1024 1024w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?resize=150%2C150 150w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?resize=300%2C300 300w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?resize=250%2C250 250w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?resize=174%2C174 174w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?w=1280 1280w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">A copyright infringing merger of Space City JS (S.C.J.S.) and the NASA logo made with Post-it notes.</p>
+</div><p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="/space-city-javascript-conference/">Space City JavaScript Conference</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/space-city-javascript-conference/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">510</post-id>	</item>
+		<item>
+		<title>Data Visualization Compilations</title>
+		<link>/data-visualization-compilations/</link>
+		<comments>/data-visualization-compilations/#respond</comments>
+		<pubDate>Sun, 27 Mar 2016 04:40:19 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[CartoDB]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[Front-End]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[mapbox]]></category>
+		<category><![CDATA[Online Map]]></category>
+		<category><![CDATA[Online Mapping]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=453</guid>
+		<description><![CDATA[<p>A Compilation of Data Visualization Compilations:There are a wide variety of tools out there for data visualization. Some nice people have come up with compilations of their favorite tools. Other people have created galleries of really outstanding data visualizations that you can use as inspiration. Over the past year, I&#8217;ve bookmarked a lot of them.<a href="/data-visualization-compilations/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/data-visualization-compilations/">Data Visualization Compilations</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>A Compilation of Data Visualization Compilations:</h3><p>There are a wide variety of tools out there for data visualization. Some nice people have come up with compilations of their favorite tools. Other people have created galleries of really outstanding data visualizations that you can use as inspiration. Over the past year, I&#8217;ve bookmarked a lot of them. This post is a curated compilation of compilations. If you&#8217;re interested in learning about data visualization on the web, this post might save you some time digging around the internet. Alternatively, it might be a massive time sink.</p>
+<h3>Catalog of Data Visualization Types:</h3>
+<h4><a href="http://www.datavizcatalogue.com/" target="_blank">Dataviz Catalogue</a></h4><p>This is a great site for thinking about, or discussing with others, the various advantages and disadvantages of different data visualization styles. Not sure what data visualization style to use for a dataset that is hierarchal? This site might help you put things into a conceptual framework and make a decision.</p>
+<hr /><p>&nbsp;</p><p><iframe src="http://www.datavizcatalogue.com/" width="900" height="400">Your browser does not support iframes.</iframe></p>
+<hr />
+<h3>Three Compilations of Data Visualization Tools:</h3><p><a href="http://selection.datavisualization.ch/" target="_blank">Data Visualization</a><br />
+A fairly extensive compilation of data visualization tools:</p>
+<hr /><p><iframe src="http://selection.datavisualization.ch/" width="900" height="300">Your browser does not support iframes.</iframe></p>
+<hr />
+<h4></h4>
+<h4><a href="http://www.visualisingdata.com/">Visualizing Data</a></h4><p>Another extensive compilation of data visualization tools. It is definitely worth a visit. Between this one and the one above, there isn&#8217;t much not covered.</p>
+<h4><a href="http://10-open-source-projects-every-javascript-geo-dev-should-know-about/">10-open-source-projects-every-javascript-geo-dev-should-know-about</a></h4><p>This post on the ESRI blog is worth a look over, especially if you have map data locked into ESRI applications but want to do things in a more developer-centric and less GUI fashion.</p>
+<h3>Galleries of Data Visualization Examples:</h3>
+<h5 class="p1"><a href="http://Scientific/ Visualization Studio">Scientific Visualization Studio</a></h5>
+<p class="p1"><span class="s1">The Scientific Visualization Studio is out of NASA&#8217;s Goddard Space Flight Center. They make animated 2D and 3D visualizations. These look amazing on very large screens, especially if you have higher than normal resolution.  Download and run locally, rather than using the youtube player, to get the best picture possible. </span></p>
+<h5 class="p1"><a href="https://github.com/mbostock/d3/wiki/Gallery" target="_blank">D3.js Visual Index</a></h5><p>There are a lot of data visualization libraries written in the JavaScript language. D3.js is the reigning champion. D3 (or Data Driven Documents) favors configuration over convention. The advantages are that it is very flexible and powerful. The disadvantage is it has more of a learning curve compared to other JavaScript data visualization libraries that favor convention.</p>
+<h5><a href="http://bl.ocks.org/" target="_blank">Blocks</a> (D3.js)</h5>
+<p class="p1"><span class="s1">Bl.ocks (pronounced “Blocks”) is a simple viewer for sharing code examples hosted on <a href="https://gist.github.com/"><span class="s2">GitHub Gist</span></a>. Anyone can use it to easily display their d3 visualizations. If you go to &#8220;popular&#8221; tab in the upper right corner of the Blocks website, you can see some of the most population visualization on Blocks.</span></p><p><a href="http://collection.marijerooze.nl/" target="_blank">collection.marijerooze.nl</a></p><p>A collection of over 465 data visualizations put together by Marije Rooze, an Amsterdam based front-end developer. Examples largely come from the NYTimes and Guardian newspapers. The ability to filter makes it a good way to find examples.</p>
+<h5><a href="http://stamen.com/work/" target="_blank">Stamen</a></h5><p>A design studio focused on data visualization and mapping, Stamen produces some amazingly beautiful products for big clients like National Geographic. Definitely check them out if you have a map focus and want to be inspired/humbled.</p>
+<h5><a href="http://roadtolarissa.com/" target="_blank">Road To Larissa</a></h5><p>A gallery of data visualizations made by Adam Pearce of Bloomberg Graphics.</p>
+<h5><a href="http://www.smallmeans.com/new-york-times-infographics/" target="_blank">SmallMeans</a></h5><p>A gallery of favorited NYTimes graphics by a software engineering student.</p>
+<h3>Data Visualization Blogs:</h3>
+<h5><a href="http://flowingdata.com/" target="_blank">Flowing Data</a></h5><p>I suspect this is one of the most popular data visualization websites. It is the only one I have seen pop-up in my facebook feed several times</p>
+<h5><a href="http://www.informationisbeautiful.net/" target="_blank">Information is Beautiful</a></h5><p>Run by David McCandless. This website has data visualization &#8220;best of&#8221; contests and lots of generally cool data visualizations.</p>
+<h5><a href="http://feltron.com/">Nicholas Felton (website)</a></h5><p>More infographics than data visualizations, a big name worth checking out.</p><p><a href="http://feltron.tumblr.com/">Nicholar Felton (tumblr)</a></p><p>A curated selection put together by Felton. These are pieces of art as much as they are data visualizations.</p><p><a href="http://www.visualcinnamon.com/">Visual Cinnamon</a></p><p>Personal webpage of Nadieh Bremer who, in her own words, is a Astronomer-turned-Data-Scientist-turned-self-taught-Data-Visualization-Designer. In addition to her own work, which is stunning, she has a well curated list of internet resources and books on data visualization.</p><p><a href="http://fellinlovewithdata.com/" target="_blank">Fell In Love With Data</a></p><p>Not just pretty pictures, this blog has some excellent writing about what makes for good data visualizations. FILWD is edited by<a href="http://enrico.bertini.io/">Enrico Bertini</a>, Assistant Professor at the <a href="http://engineering.nyu.edu/">NYU Tandon School of Engineering</a>. He also has a podcast, <a href="http://datastori.es/">Data Stories</a>.</p>
+<p>The post <a rel="nofollow" href="/data-visualization-compilations/">Data Visualization Compilations</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/data-visualization-compilations/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">453</post-id>	</item>
+		<item>
+		<title>Signed Up For The Iron Yard 12 week Course</title>
+		<link>/signed-up-for-the-iron-yard-12-week-course/</link>
+		<comments>/signed-up-for-the-iron-yard-12-week-course/#comments</comments>
+		<pubDate>Tue, 05 Jan 2016 18:22:21 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[courses]]></category>
+		<category><![CDATA[Front-End]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[The Iron Yard]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=296</guid>
+		<description><![CDATA[<p>The Iron Yard:I recently made the decision to sign up for the front-end engineering with javascript and MVC frameworks course at the Iron Yard here in Houston, which I&#8217;m very excited about.I&#8217;ve been considering this for a while. I talked to a bunch of alumni, visited The Iron Yard and Coder Camps, considered options outside<a href="/signed-up-for-the-iron-yard-12-week-course/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/signed-up-for-the-iron-yard-12-week-course/">Signed Up For The Iron Yard 12 week Course</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3><span style="color: #808080;">The Iron Yard:</span></h3><p><span style="color: #808080;">I recently made the decision to sign up for the <a style="color: #808080;" href="https://www.theironyard.com/courses/javascript-and-mvc-frameworks.html" target="blank">front-end engineering with javascript and MVC frameworks</a> course at the Iron Yard here in Houston, which I&#8217;m very excited about.</span></p><p><span style="color: #808080;">I&#8217;ve been considering this for a while. I talked to a bunch of alumni, visited The Iron Yard and Coder Camps, considered options outside Houston, researched the job market, and read about several languages and frameworks to explore their differences before finally making a decision. I&#8217;m excited about new career directions, learning lots of new technologies, and building cool new projects.</span></p>
+<h2><span style="color: #808080;"><del>Start date is February 1st!</del></span></h2><p><span style="color: #808080;">That gives me a month to absorb as much javascript as possible, gain a little exposure to back-end javascript frameworks, learn the first steps of leaflet, dabble in D3.js, and, hopefully, finish a few in-progress projects before class starts. As I&#8217;ve shifted to spending nearly 100% of my time on learning and applying code, there&#8217;s been some tension with how much to focus on learning vs. building a portfolio. Some of my project ideas will have to be put on the shelf, but I&#8217;m hoping to get the paddling experience map online before the end of the month and one or two other projects.</span></p>
+<h2>Update!</h2><p>Got a job offer I couldn&#8217;t refuse. I had to drop the class. Now I go to work in a building with a Gemini space capsule in front of it. More formation in the Resume section.</p><p>Although I was only at The Iron Yard for one week, I can whole-heartedly recommend them. If you&#8217;re interesting in learning what they&#8217;re teaching in a short amount of time, definitely give them a look. I was impressed by the instructors ability to cram information into your head quickly while walking the ever-shrinking fine line between challenging and supportive. I was also impressed with the extent to which it is an organization living its values. I can&#8217;t speak for all the Iron Yards, as they have many campuses, but the Houston one definitely makes a strong effort to put the students first. Not all coding boot camps deliver on this or other metrics. Please email me if you have any questions. I can also put you in touch with students who took more than the first week.</p>
+<p>The post <a rel="nofollow" href="/signed-up-for-the-iron-yard-12-week-course/">Signed Up For The Iron Yard 12 week Course</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/signed-up-for-the-iron-yard-12-week-course/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">296</post-id>	</item>
+	</channel>
+</rss>

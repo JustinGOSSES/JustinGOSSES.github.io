@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+
+<channel>
+	<title>leaflet.js &#8211; Justin Gosses Home</title>
+	<atom:link href="/tag/leaflet-js/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Geology, GIS, and CODE + Resumes</description>
+	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.11</generator>
+
+<image>
+	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
+	<title>leaflet.js &#8211; Justin Gosses Home</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+		<title>Flow Chart for Picking the Right Mapping Tool</title>
+		<link>/flow-chart-for-picking-the-right-mapping-tool/</link>
+		<comments>/flow-chart-for-picking-the-right-mapping-tool/#respond</comments>
+		<pubDate>Sat, 03 Sep 2016 19:05:18 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[maps]]></category>
+		<category><![CDATA[ArcGIS]]></category>
+		<category><![CDATA[CartoDB]]></category>
+		<category><![CDATA[data visualization]]></category>
+		<category><![CDATA[draw.io]]></category>
+		<category><![CDATA[flowcharts]]></category>
+		<category><![CDATA[GIS]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[Javascript library]]></category>
+		<category><![CDATA[leaflet.js]]></category>
+		<category><![CDATA[mapbox]]></category>
+		<category><![CDATA[Online Map]]></category>
+		<category><![CDATA[Online Mapping]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[tools]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=732</guid>
+		<description><![CDATA[<p>I did some research on different tools for creating flow charts today.Originally, I started down this path trying to figure out what open-source project I might be able to hack on and produce a project that would generate XKCD style flow charts, similar to how bokeh (python library) has XCKD style plots as built-in option. I<a href="/flow-chart-for-picking-the-right-mapping-tool/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/flow-chart-for-picking-the-right-mapping-tool/">Flow Chart for Picking the Right Mapping Tool</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>I did some research on different tools for creating flow charts today.</p><p>Originally, I started down this path trying to figure out what open-source project I might be able to hack on and produce a project that would generate XKCD style flow charts, similar to how bokeh (python library) has XCKD style plots as built-in option. I was also playing around with the notion of crowd-sourced flow charts to help pick among tools and libraries as the number of options explode.</p><p>Then I got distracted and made the flow-chart below. I&#8217;ll just leave it here. It was made with <a href="http://draw.io/">draw.io</a></p><p>&nbsp;</p>
+<div id="wrapper" style="width: 100%; height: 100%; overflow: scroll !important; -webkit-overflow-scrolling: touch;">
+<iframe src="http://www.justingosses.com/FlowChart_MakeMaps/" width="100%" height="1200px"></iframe>
+</div>
+<p>The post <a rel="nofollow" href="/flow-chart-for-picking-the-right-mapping-tool/">Flow Chart for Picking the Right Mapping Tool</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/flow-chart-for-picking-the-right-mapping-tool/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">732</post-id>	</item>
+		<item>
+		<title>ISS Fly Over</title>
+		<link>/issflyover/</link>
+		<comments>/issflyover/#respond</comments>
+		<pubDate>Sun, 26 Jun 2016 05:23:48 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[Front-End]]></category>
+		<category><![CDATA[ISS]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[Javascript library]]></category>
+		<category><![CDATA[leaflet.js]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[Online Map]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=530</guid>
+		<description><![CDATA[<p>ISS = International Space StationEarlier this week someone came into my office at work and asked to borrow three of our beanbags, so they could have recently returned astronauts sit in them while doing a facebook live-stream event. Apparently, it has become tradition. That prompted me to google ISS fly over application. I heard NASA<a href="/issflyover/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/issflyover/">ISS Fly Over</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><em>ISS = International Space Station</em></p><p>Earlier this week someone came into my office at work and asked to borrow three of our beanbags, so they could have recently returned astronauts sit in them while doing a facebook live-stream event. Apparently, it has become tradition. That prompted me to google ISS fly over application. I heard NASA had put out the code that runs their &#8220;check when the International Space Station will be in view from your location&#8221; webpage. Unfortunately, my impression wasn&#8217;t quite correct. What was provided wasn&#8217;t the code for their webpage or the application that does the calculations but merely an embed code snippet that lets you put an iframe in your own webpage to theirs. Basically, it is a well-built window from this webpage into their webpage.</p>
+<blockquote><p><span style="color: #ff6600;">&lt;div</span> <span style="color: #008000;">style=&#8221;display: inline-block; border: 1px solid #CCC; border-radius: 6px; -webkit-border-radius: 6px; -o-border-radius: 6px; position: relative; overflow: hidden; width: 310px; height: 450px;</span>&#8220;<span style="color: #ff6600;">&gt;<br />
+&lt;iframe</span> <span style="color: #ff6600;">src=</span>&#8220;<span style="color: #800080;">https://spotthestation.nasa.gov/widget/widget.cfm?country=United_States&amp;region=Texas&amp;city=Houston</span>&#8221; <span style="color: #008000;">width=&#8221;310&#8243; height=&#8221;450&#8243; frameborder=&#8221;0&#8243;</span>&gt;<span style="color: #ff6600;">&lt;/iframe&gt&lt/div&gt;</span></p></blockquote><p><span style="color: #ff6600;">Orange</span> = HTML, the pieces that make up the webpage. Boxes inside boxes with rules about where those boxes sit and their properties.</p><p><span style="color: #800080;">Purple</span> = URL, or address the browser goes to in order to ask politely for the NASA data to build the little ISS flyover screen.</p><p><span style="color: #008000;">Green</span> = CSS, the style rules.</p>
+<div style="display: block; margin: 0 auto; text-align: center; border: 1px solid #CCC; border-radius: 6px; -webkit-border-radius: 6px; -o-border-radius: 6px; position: relative; overflow: hidden; width: 310px; height: 450px;"><iframe src="https://spotthestation.nasa.gov/widget/widget.cfm?country=United_States&region=Texas&city=Houston" width="310" height="450" frameborder="0"></iframe></div><p>&nbsp;</p>
+<div><p>After googling around a bit, I found a different ISS flyover resource called <a href="http://open-notify.org/">OpenNotify</a>. Born from a hackathon, by <a href="mailto:nathan@open-notify.org">Nathan Bergey</a>, this site provides latitude and longitude, next station pass for your location, and the number of people in space. Instead of using an iframe, it uses an <a href="https://en.wikipedia.org/wiki/Application_programming_interface">API</a>. This means, instead of being a window to another webpage like the iframe method, your webpage is sending a question to another server that responds with some information.</p>
+</div><p>For example, we can get second by second updates on the lat and long of the International Space Station below.</p>
+<p style="text-align: center; background-color: lightgray;">The ISS is currently over <span id="isslat">?</span>° N, <span id="isslon">?</span>° E</p>
+<p style="text-align: left;">The line above is generated using the following code:</p>
+<blockquote>
+<p style="text-align: left;"><span style="color: #ff6600;">&lt;p</span> <span style="color: #008000;">style=&#8221;text-align: center;&#8221;</span><span style="color: #ff6600;">&gt;</span>The ISS is currently over <span style="color: #ff6600;">&lt;span id=&#8221;isslat&#8221;&gt;</span>?<span style="color: #ff6600;">&lt;/span&gt;</span>° N, <span style="color: #ff6600;">&lt;span id=&#8221;isslon&#8221;&gt;</span>?<span style="color: #ff6600;">&lt;/span&gt;</span>° E<span style="color: #ff6600;">&lt;/p&gt;</span></p>
+<p style="text-align: left;"><span style="color: #ff6600;">&lt;script src=&#8221;<span style="color: #800080;">https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js</span>&#8220;&gt;&lt;/script&gt;</span></p>
+<p style="text-align: left;"><span style="color: #ff6600;">&lt;script&gt;</span><br />
+<span style="color: #3366ff;">     function getISS () { $.getJSON(&#8216;</span><span style="color: #800080;">http://api.open-notify.org/iss-now.json?callback=?&#8217;, </span></p>
+<p style="text-align: left;"><span style="color: #800080;"><span style="color: #3366ff;">          function(data) { var lat = data[&#8216;iss_position&#8217;][&#8216;latitude&#8217;]; var lon = data[&#8216;iss_position&#8217;][&#8216;longitude&#8217;];</span></span></p>
+<p style="text-align: left;"><span style="color: #3366ff;">                    $(&#8216;#isslat&#8217;).html(Math.round(lat*1000)/1000.0); $(&#8216;#isslon&#8217;).html(Math.round(lon*1000)/1000.0); </span></p>
+<p style="text-align: left;"><span style="color: #3366ff;">          });</span></p>
+<p style="text-align: left;"><span style="color: #3366ff;">     setTimeout(getISS, 3000); } </span></p>
+<p style="text-align: left;"><span style="color: #3366ff;">     getISS();</span></p>
+<p style="text-align: left;"><span style="color: #ff6600;">&lt;/script&gt;</span></p>
+</blockquote>
+<p style="text-align: left;">Similarly to the first code block, there is html (<span style="color: #ff6600;">orange</span>), an URL (<span style="color: #800080;">purple</span>), and CSS (<span style="color: #008000;">green</span>). What is different is between the second pair of &lt;&gt;opening and &lt;/&gt;closing orange &lt;script&gt; tags we also have some <span style="color: #3366ff;">JavaScript code in blue</span>. JavasScript is the computer language that runs in your browser. You may or may not have python or some other language installed on your computer (perhaps as a default install by the company you bought it from), but any computer with a browser can run JavaScript. This particular JavaScript script does three things.</p>
+<ul>
+<li style="text-align: left;">First, &#8220;<span style="color: #3366ff;"><span style="text-decoration: underline;">function getISS ()</span></span>&#8221;  establishes the name of the function, &#8220;<span style="color: #3366ff;">getISS</span>&#8220;. What is between the <span style="color: #3366ff;">{ }</span> directly after <span style="color: #3366ff;">function getISS ()</span> is the code that runs when the function is called. In the last blue line, the function name <span style="color: #3366ff;">getISS()</span> is called and the function executes.</li>
+<li style="text-align: left;">Next, inside the getISS function is <span style="color: #3366ff;">$.getJSON</span>. The $ sign tells a library called Jquery to run. Jquery was previously downloaded to run locally using <span style="color: #ff6600;">&lt;script src=&#8221;<span style="color: #800080;">https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js</span>&#8220;&gt;&lt;/script&gt;<span style="color: #000000;">. <span style="color: #333333;">Jquery knows that </span><span style="color: #3366ff;">$.getJSON</span> <span style="color: #333333;">means to send a request to the following</span> <span style="color: #800080;">URL in purple</span> <span style="color: #333333;">and expect to get JSON formatted data back from that server. </span></span></span></li>
+<li style="text-align: left;"><span style="color: #ff6600;"><span style="color: #000000;"><span style="color: #333333;">The next JavaScript function in blue (<span style="color: #800080;"><span style="color: #3366ff;">function(data) { var lat = data[&#8216;iss_position&#8217;][&#8216;latitude&#8217;]; var lon = data[&#8216;iss_position&#8217;][&#8216;longitude&#8217;];</span></span> ) takes that JSON data, labeled here as &#8220;<span style="color: #3366ff;">data</span>&#8220;, pulls out the parts representing lat and long and turns them into variables we can use later in the code. </span></span></span></li>
+<li style="text-align: left;"><span style="color: #ff6600;"><span style="color: #000000;"><span style="color: #333333;">Those two variables are referred to in the next bit of JavaScript (<span style="color: #3366ff;">$(&#8216;#isslat&#8217;).html(Math.round(lat*1000)/1000.0); $(&#8216;#isslon&#8217;).html(Math.round(lon*1000)/1000.0); }); <span style="color: #333333;">) where the variables are changed into easier to read format using some math and then switched out in place of for the &#8220;<span style="color: #ff6600;">?</span>&#8221; in the following HTML (<span style="color: #ff6600;">&lt;span id=&#8221;isslat&#8221;&gt;</span>?<span style="color: #ff6600;">&lt;/span&gt;</span>° N, <span style="color: #ff6600;">&lt;span id=&#8221;isslon&#8221;&gt;</span>?<span style="color: #ff6600;">&lt;/span&gt;</span>) the script knows where to put them as the <span style="color: #3366ff;">#</span> in the script is equivalent to the <span style="color: #ff6600;">id=</span> in html. </span></span></span></span></span></li>
+</ul>
+<h3 style="text-align: left;">Leaflet.js</h3><p>Regenerating lat and long as digits is kinda boring though, so we&#8217;re going to put those on a map so we can see exactly where the ISS is over right now. We&#8217;re also going to have the map add a new marker every three seconds to get an idea just how fast the ISS is moving. We&#8217;re going to do this with another JavaScript library called <a href="http://leafletjs.com/">leaflet.js</a>.</p><p>Here it is at a large scale. Note, it initially takes three to five seconds for the first ISS lat and long position to load to the map. If you zoom in, you can more clearly see the ISS moving. If you leave it up for a while, you&#8217;ll get a line of markers stringing across the globe, which gives you a good idea how fast 17,150 miles per hour or slightly more than 5 miles a second actually is. The Space Station orbits Earth once every 92 minutes.</p>
+<div><iframe src="http://www.justingosses.com/ISSflyOver/" width="600" height="300" frameborder="0" seamless="seamless">Browser not compatible.</iframe></div>
+<div id="mapidC" class="maps center"></div><p><script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script></p><p><script>// <![CDATA[
+var map_1 = {"issLat":0,"issLong":0}
+var ISSmarkers = [];
+
+
+function getISS () {
+		    $.getJSON('http://api.open-notify.org/iss-now.json?callback=?', function(data) {
+		        var lat = data['iss_position']['latitude'];
+		        var lon = data['iss_position']['longitude'];
+		        $('#isslat').html(Math.round(lat*1000)/1000.0);
+		        $('#isslon').html(Math.round(lon*1000)/1000.0);
+
+		        window.map_1["issLat"]=(Math.round(lat*1000)/1000.0);
+		        window.map_1["issLong"]=(Math.round(lon*1000)/1000.0)
+		        console.log("ISSmarkers = ",ISSmarkers)
+
+		    });
+    	setTimeout(getISS, 3000); 
+		}
+		getISS();
+
+var mymap = L.map('mapid').setView([map_1["issLat"], map_1["issLong"]], 3);
+
+			L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/256/{z}/{x}/{y}?access_token={accessToken}',
+			{
+		    attribution: 'Map data &copy; <a href="http://openstreetmap.org/">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com/">Mapbox</a>',
+		    maxZoom: 20,
+		    level: 20,
+		    id: 'jgosses',
+		    accessToken: 'pk.eyJ1Ijoiamdvc3NlcyIsImEiOiJjaWk2aWhua2kwMWxidDBrZndhbHBraTd1In0.IIT7dwztvQhH9ZsiOLmnMg'
+		}).addTo(mymap);
+
+var marker = L.marker([map_1["issLat"], map_1["issLong"]]).addTo(mymap);
+// ]]&gt;</script></p>
+<p>The post <a rel="nofollow" href="/issflyover/">ISS Fly Over</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/issflyover/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">530</post-id>	</item>
+	</channel>
+</rss>

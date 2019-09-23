@@ -1,0 +1,373 @@
+{
+ "name": "",
+ "icon": "NASA.png",
+ "year1": "",
+ "year2": "",
+ "delta": "",
+ "children": [
+  {
+   "id": "70",
+   "name": "Science",
+   "icon": "1",
+   "year1": "5288.5",
+   "year2": "5600.5",
+   "delta": "6",
+   "level": "1",
+   "children": [
+    {"id": "69", "name": "James Webb Space Telescope", "icon": "1", "year1": "620", "year2": "569.4", "delta": "-8", "level": "2"},
+    {
+     "id": "68",
+     "name": "Heliophysics",
+     "icon": "",
+     "year1": "651",
+     "year2": "698.7",
+     "delta": "7",
+     "level": "2",
+     "children": [
+      {"id": "67", "name": "Heliophysics Explorer Program", "icon": "", "year1": "98.9", "year2": "104.6", "delta": "6", "level": "3"},
+      {"id": "64", "name": "Solar Terrestrial Probes", "icon": "", "year1": "50.5", "year2": "39.8", "delta": "-21", "level": "3"},
+      {"id": "61", "name": "Living with a Star", "icon": "1", "year1": "343", "year2": "374.2", "delta": "9", "level": "3"},
+      {"id": "57", "name": "Heliophysics Research", "icon": "1", "year1": "158.5", "year2": "374.2", "delta": "9", "level": "3"}
+     ]
+    },
+    {
+     "id": "52",
+     "name": "Astrophysics",
+     "icon": "",
+     "year1": "709.1",
+     "year2": "781.5",
+     "delta": "4",
+	 "level": "2",
+     "children": [
+      {"id": "51", "name": "Astrophysics Explorer", "icon": "1", "year1": "150.3", "year2": "129", "delta": "-14", "level": "3"},
+      {"id": "48", "name": "Exoplanet Exploration", "icon": "", "year1": "64.2", "year2": "133.8", "delta": "108", "level": "3"},
+      {"id": "47", "name": "Physics of the Cosmos", "icon": "", "year1": "107.6", "year2": "94.1", "delta": "-13", "level": "3"},
+      {"id": "46", "name": "Cosmic Origins", "icon": "1", "year1": "199.3", "year2": "198.5", "delta": "0", "level": "3"},
+      {"id": "42", "name": "Astrophysics Research", "icon": "1", "year1": "187.7", "year2": "226.1", "delta": "20", "level": "3"}
+     ]
+    },
+    {
+     "id": "37",
+     "name": "Planetary Science",
+     "icon": "1",
+     "year1": "1361.2",
+     "year2": "1518.8",
+     "delta": "12",
+	 "level": "2",
+     "children": [
+      {"id": "36", "name": "Technology", "icon": "1", "year1": "141.7", "year2": "165.5", "delta": "17", "level": "3"},
+      {"id": "35", "name": "Outer Planets", "icon": "", "year1": "116.2", "year2": "137.3", "delta": "18", "level": "3"},
+      {"id": "33", "name": "Mars Exploration", "icon": "1", "year1": "411.9", "year2": "584.8", "delta": "42", "level": "3"},
+      {"id": "30", "name": "New Frontiers", "icon": "1", "year1": "259", "year2": "144", "delta": "-44", "level": "3"},
+      {"id": "27", "name": "Discovery", "icon": "1", "year1": "156.1", "year2": "202.5", "delta": "30", "level": "3"},
+      {"id": "24", "name": "Lunar Quest Program", "icon": "", "year1": "0", "year2": "0", "delta": "0", "level": "3"},
+      {"id": "23", "name": "Planetary Science Research", "icon": "1", "year1": "276.3", "year2": "284.7", "delta": "3", "level": "3"}
+     ]
+    },
+    {
+     "id": "18",
+     "name": "Earth Science",
+     "icon": "1",
+     "year1": "1947.2",
+     "year2": "2032.1",
+     "delta": "4",
+	 "level": "2",
+     "children": [
+      {"id": "17", "name": "Applied Sciences", "icon": "", "year1": "47.6", "year2": "48.2", "delta": "1", "level": "3"},
+      {"id": "16", "name": "Earth Science Technology", "icon": "", "year1": "60.7", "year2": "61.4", "delta": "1", "level": "3"},
+      {"id": "15", "name": "Earth Science Multi-Mission Operations", "icon": "1", "year1": "190.7", "year2": "191.8", "delta": "1", "level": "3"},
+      {"id": "14", "name": "Earth System Science Pathfinder", "icon": "1", "year1": "267.7", "year2": "296", "delta": "11", "level": "3"},
+      {"id": "11", "name": "Earth Systematic Missions", "icon": "1", "year1": "895.2", "year2": "933", "delta": "4", "level": "3"},
+      {"id": "4", "name": "Earth Science Research", "icon": "1", "year1": "485.3", "year2": "501.7", "delta": "3", "level": "3"}
+     ]
+    }
+   ]
+  },
+  {
+   "id": "75",
+   "name": "Aeronautics",
+   "icon": "",
+   "year1": "571.4",
+   "year2": "790.3",
+   "delta": "38",
+   "level": "1",
+   "children": [
+    {"id": "74", "name": "Transformative Aero Concepts Program", "icon": "", "year1": "92.1", "year2": "122.3", "delta": "33", "level": "2"},
+    {"id": "73", "name": "Integrated Aviation Systems Program", "icon": "", "year1": "96", "year2": "210", "delta": "119", "level": "2"},
+    {"id": "72", "name": "Advanced Air Vehicles Program", "icon": "", "year1": "240.9", "year2": "298.6", "delta": "24", "level": "2"},
+    {"id": "71", "name": "Airspace Operations and Safety Program", "icon": "", "year1": "142.4", "year2": "159.4", "delta": "12", "level": "2"}
+   ]
+  },
+  {
+   "id": "79",
+   "name": "Space Technology",
+   "icon": "",
+   "year1": "724.9",
+   "year2": "826.7",
+   "delta": "14",
+   "level": "1",
+   "children": [
+    {"id": "78", "name": "Space Technology Research and Development", "icon": "", "year1": "491", "year2": "579.4", "delta": "18", "level": "2"},
+    {"id": "77", "name": "SBIR and STTR", "icon": "", "year1": "200.9", "year2": "213", "delta": "6", "level": "2"},
+    {"id": "76", "name": "Agency Technology and Innovation", "icon": "", "year1": "33", "year2": "34.3", "delta": "4", "level": "2"}
+   ]
+  },
+  {
+   "id": "94",
+   "name": "Exploration",
+   "icon": "1",
+   "year1": "4505.9",
+   "year2": "3336.9",
+   "delta": "-26",
+   "level": "1",
+   "children": [
+    {
+	 "id": "93",
+	 "name": "Exploration Research and Development",
+	 "icon": "",
+	 "year1": "399.2",
+	 "year2": "477.3",
+	 "delta": "20",
+	 "level": "2",
+     "children": [
+         {"id": "92", "name": "Advanced Exploration Systems", "icon": "", "year1": "231.4", "year2": "324.1", "delta": "40", "level": "3"},
+		 {"id": "91", "name": "Human Research Program", "icon": "", "year1": "167.8", "year2": "153.3", "delta": "-9", "level": "3"}
+     ]
+	 },
+    {"id": "90", "name": "Commercial Spaceflight", "icon": "", "year1": "1243.8", "year2": "0", "delta": "-100", "level": "2"},
+    {
+	 "id": "89",
+	 "name": "Exploration Systems Development",
+	 "icon": "",
+	 "year1": "2862.9",
+	 "year2": "2859.6",
+	 "delta": "0",
+	 "level": "2",
+     "children": [
+         {"id": "88", "name": "Exploration Ground Systems", "icon": "", "year1": "410.1", "year2": "429.4", "delta": "5", "level": "3"},
+		 {"id": "85", "name": "Space Launch System", "icon": "", "year1": "1356.5", "year2": "1310.3", "delta": "-3", "level": "3"},
+		 {"id": "82", "name": "Orion Program", "icon": "", "year1": "1096.3", "year2": "1119.8", "delta": "2", "level": "3"}
+     ]
+	 }
+   ]
+  },
+
+  {
+   "id": "111",
+   "name": "Space Operations",
+   "icon": "",
+   "year1": "4003.7",
+   "year2": "5075.8",
+   "delta": "27",
+   "level": "1",
+   "children": [
+    {
+	 "id": "110",
+	 "name": "Space and Flight Support",
+	 "icon": "1",
+	 "year1": "898.1",
+	 "year2": "887.4",
+	 "delta": "-1",
+	 "level": "2",
+     "children": [
+         {"id": "109", "name": "Rocket Propulsion Test", "icon": "", "year1": "47.2", "year2": "47.6", "delta": "1", "level": "3"},
+		 {"id": "108", "name": "Launch Services", "icon": "", "year1": "86.7", "year2": "87.2", "delta": "1", "level": "3"},
+		 {"id": "107", "name": "Human Space Flight Operations", "icon": "", "year1": "108.5", "year2": "128.3", "delta": "18", "level": "3"},
+		 {
+		  "id": "106",
+		  "name": "Space Communications and Navigation",
+		  "icon": "1",
+		  "year1": "632.4",
+		  "year2": "612.4",
+		  "delta": "-3",
+		  "level": "3",
+ 		  "children": [
+		      {"id": "105", "name": "Space Communication Support", "icon": "", "year1": "92.7", "year2": "86.3", "delta": "-7", "level": "4"},
+			  {"id": "104", "name": "Space Communication Networks", "icon": "", "year1": "539.7", "year2": "526", "delta": "-3", "level": "4"}
+		  ]
+		 },
+		 {"id": "103", "name": "21st Century Space Launch Complex", "icon": "", "year1": "23.3", "year2": "12", "delta": "-48", "level": "3"}
+     ]
+	 },
+    {
+	 "id": "102",
+	 "name": "Space Transportation",
+	 "icon": "",
+	 "year1": "0",
+	 "year2": "2757.7",
+	 "delta": "100",
+	 "level": "2",
+     "children": [
+         {"id": "101", "name": "Crew and Cargo", "icon": "", "year1": "0", "year2": "1572.8", "delta": "100", "level": "3"},
+		 {"id": "100", "name": "Commercial Crew", "icon": "", "year1": "0", "year2": "1184.8", "delta": "100", "level": "3"}
+     ]
+	 },
+    {
+	 "id": "99",
+	 "name": "International Space Station",
+	 "icon": "1",
+	 "year1": "3105.6",
+	 "year2": "1430.7",
+	 "delta": "-54",
+	 "level": "2",
+     "children": [
+         {
+		  "id": "",
+		  "name": "International Space Station Program",
+		  "icon": "",
+		  "year1": "3105.6",
+		  "year2": "1430.7",
+		  "delta": "-54",
+		  "level": "3",
+		  "children": [
+		      {"id": "97", "name": "ISS Crew and Cargo Transportation", "icon": "1", "year1": "1605.5", "year2": "0", "delta": "-100", "level": "4"},
+		      {"id": "96", "name": "ISS Research", "icon": "1", "year1": "394", "year2": "321.9", "delta": "-18", "level": "4"},
+		      {"id": "95", "name": "ISS Systems Operations and Maintenance", "icon": "1", "year1": "1106.1", "year2": "1108.9", "delta": "0", "level": "4"}
+		  ]
+		  }
+     ]
+	 }
+   ]
+  },
+  {
+   "id": "118",
+   "name": "Education",
+   "icon": "",
+   "year1": "88.9",
+   "year2": "100.1",
+   "delta": "13",
+   "level": "1",
+   "children": [
+    {
+	 "id": "117",
+	 "name": "STEM Education and Accountability",
+	 "icon": "",
+	 "year1": "55.9",
+	 "year2": "67.1",
+	 "delta": "20",
+	 "level": "2",
+     "children": [
+         {"id": "116", "name": "STEM Education and Accountability", "icon": "", "year1": "25.9", "year2": "37.1", "delta": "43", "level": "3"},
+	     {"id": "115", "name": "Minority University Research Education Project", "icon": "", "year1": "30", "year2": "30", "delta": "0", "level": "3"}
+     ]	 
+    },
+    {
+	 "id": "114",
+	 "name": "Aerospace Research and Career Development",
+	 "icon": "",
+	 "year1": "33",
+	 "year2": "33",
+	 "delta": "0",
+	 "level": "2",
+     "children": [
+         {"id": "113", "name": "Experimental Project to Stimulate Competitive Research", "icon": "", "year1": "9", "year2": "9", "delta": "0", "level": "3"},
+	     {"id": "112", "name": "National Space Grant College and Fellowship Project", "icon": "", "year1": "24", "year2": "2", "delta": "-92", "level": "3"}
+     ]	 
+    }
+    ]
+  },
+  {
+   "id": "134",
+   "name": "Safety, Security, and Mission Services",
+   "icon": "",
+   "year1": "2843.1",
+   "year2": "2836.8",
+   "delta": "0",
+   "level": "1",
+   "children": [
+    {
+	 "id": "133",
+	 "name": "Agency Management and Operations",
+	 "icon": "",
+	 "year1": "767.9",
+	 "year2": "819.1",
+	 "delta": "7",
+	 "level": "2",
+     "children": [
+         { "id": "132", "name": "Strategic Capabilties Asset Program", "icon": "", "year1": "26.9", "year2": "27", "delta": "0", "level": "3"},
+		 {
+		  "id": "131",
+		  "name": "Agency IT Services (AITS)",
+		  "icon": "",
+		  "year1": "179",
+		  "year2": "244.3",
+		  "delta": "36",
+		  "level": "3",
+	      "children": [
+		      {"id": "130", "name": "Infrastructure", "icon": "", "year1": "105.2", "year2": "166.3", "delta": "58", "level": "4"},
+		      {"id": "129", "name": "Applications", "icon": "", "year1": "60.6", "year2": "58", "delta": "-4", "level": "4"},
+		      {"id": "128", "name": "IT Management", "icon": "", "year1": "13.2", "year2": "0", "delta": "-100", "level": "4"}
+	      ]
+		  },
+		  {
+		   "id": "127",
+		   "name": "Safety and Mission Success",
+		   "icon": "",
+		   "year1": "166.6",
+		   "year2": "170.4",
+		   "delta": "2",
+		   "level": "3",
+		   "children": [
+		       {"id": "126", "name": "Independent Verification and Validation", "icon": "", "year1": "28.9", "year2": "29", "delta": "0", "level": "4"},
+		       {"id": "125", "name": "Chief Health and Medical Officer", "icon": "", "year1": "4.2", "year2": "4.1", "delta": "-2", "level": "4"},
+			   {"id": "124", "name": "Chief Engineer", "icon": "", "year1": "83.4", "year2": "86.1", "delta": "3", "level": "4"},
+			   {"id": "123", "name": "Safety and Mission Assurance", "icon": "", "year1": "50.1", "year2": "51.2", "delta": "2", "level": "4"}
+			]
+		   },
+		   {"id": "122", "name": "Agency Management", "icon": "", "year1": "395.4", "year2": "377.5", "delta": "-5", "level": "3"}
+     ]
+	},
+    {
+	 "id": "121",
+	 "name": "Center Management and Operations",
+	 "icon": "",
+	 "year1": "2075.2",
+	 "year2": "2017.7",
+	 "delta": "-3",
+	 "level": "2",
+	 "children": [
+	     {"id": "120", "name": "Center Programmatic Capabilities", "icon": "", "year1": "447.8", "year2": "453.8", "delta": "1", "level": "3"},
+	     {"id": "119", "name": "Center Institutional Capabilities", "icon": "", "year1": "1627.4", "year2": "1563.8", "delta": "-4", "level": "3"}
+	 ]
+	 }
+   ]
+  },
+  {
+   "id": "140",
+   "name": "Construction and Environmental Compliance and Restoration",
+   "icon": "1",
+   "year1": "465.3",
+   "year2": "419.8",
+   "delta": "-10",
+   "level": "1",
+   "children": [
+    {"id": "139", "name": "Environmental Compliance and Restoration", "icon": "", "year1": "90.5", "year2": "91.8", "delta": "1", "level": "2"	},
+    {
+	 "id": "138",
+	 "name": "Constuction of Facilities",
+	 "icon": "",
+	 "year1": "374.8",
+	 "year2": "328",
+	 "delta": "-12",
+	 "level": "2",
+     "children": [
+         {"id": "137", "name": "Space Operations CoF", "icon": "", "year1": "26.2", "year2": "28.5", "delta": "9", "level": "3"},
+		 {"id": "136", "name": "Exploration CoF", "icon": "", "year1": "10", "year2": "8.8", "delta": "-12", "level": "3"},
+		 {"id": "135", "name": "Institutional CoF", "icon": "", "year1": "338.8", "year2": "290.7", "delta": "-14", "level": "3"}
+     ]
+	 }
+   ]
+  },
+  {
+   "id": "141",
+   "name": "Inspector General",
+   "icon": "",
+   "year1": "37.4",
+   "year2": "38.1",
+   "delta": "2",
+   "level": "1"
+  }
+ ]
+}
+
+

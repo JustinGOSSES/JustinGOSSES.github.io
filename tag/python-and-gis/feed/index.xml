@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+
+<channel>
+	<title>python and GIS &#8211; Justin Gosses Home</title>
+	<atom:link href="/tag/python-and-gis/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Geology, GIS, and CODE + Resumes</description>
+	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.11</generator>
+
+<image>
+	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
+	<title>python and GIS &#8211; Justin Gosses Home</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+		<title>How to Study for GIS Certification Exams</title>
+		<link>/how-to-study-esri-gis-certification/</link>
+		<comments>/how-to-study-esri-gis-certification/#respond</comments>
+		<pubDate>Sat, 20 Feb 2016 22:12:56 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[maps]]></category>
+		<category><![CDATA[ArcGIS]]></category>
+		<category><![CDATA[ESRI]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[python and GIS]]></category>
+
+		<guid isPermaLink="false">/?p=416</guid>
+		<description><![CDATA[<p>GIS Certification:GIS certification is one of those certifications where no one is completely sure of its exact value. I don&#8217;t know of any business or organization where it is mandatory, but sometimes you see it listed under &#8220;preferred&#8221; on job advertisements. When I asked a question about the value of certification versus portfolios in a LinkedIN group devoted<a href="/how-to-study-esri-gis-certification/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/how-to-study-esri-gis-certification/">How to Study for GIS Certification Exams</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>GIS Certification:</h3><p>GIS certification is one of those certifications where no one is completely sure of its exact value. I don&#8217;t know of any business or organization where it is mandatory, but sometimes you see it listed under &#8220;preferred&#8221; on job advertisements. When I asked <a href="https://www.linkedin.com/groups/3887350/3887350-6056100582890942467">a question about the value of certification versus portfolios</a> in a <a href="https://www.linkedin.com/groups/3887350">LinkedIN group devoted to GIS</a> (GIS and GEOGRAPHY), I got a range of responses, but generally few saw it as something with very significant value, more a nice to have.</p>
+<h4>Why was I interested in Certification?</h4><p>Although I have experience with GIS, I never had GIS in my job title. Also, my previous work was all proprietary, so I couldn&#8217;t show anyone a portfolio of past work. Given these two limitations, I saw certification as a way to give myself more credibility.</p><p>The two most well known types of certification (at least in USA) are <a href="https://www.gisci.org/">GISP</a> and <a href="http://www.esri.com/training/main/certification">ESRI certification</a>. GISP is more of a longer process vs. simply taking a test, so I opted for the ESRI model.</p>
+<h4>Don&#8217;t Sue Me</h4><p>Before and after taking an ESRI certification test, you are provided with strongly worded legal warnings to not discuss anything on the test with anyone ever. Therefore, I&#8217;m not going to talk about anything I learned from taking the test. I&#8217;m only going to discuss observations gleaned from ESRI supplied study material and my own experiences studying for one of their certification exams. These are concepts that maybe aren&#8217;t stressed in the ESRI study directions, but I believe to be useful. Certainly, I will use them if I take additional ESRI certification tests. Others might find them useful as well.</p>
+<h3>Real World ArcGIS Use vs. Test Questions  &#8211;  Different Patterns:</h3><p>The ESRI certification tests are multiple choice. You do not use ArcGIS like a multiple choice test. This might seem a rather obvious observation. Perhaps it is, but it has value for understanding how you to study.</p><p>When I use ArcGIS or other ESRI product, I don&#8217;t necessarily remember the exact wording of buttons and menus. I remember where they are. I remember what they do. Maybe I remember something about what is written on a button or menu, but that memory is fuzzy. I may not remember the exact wording or phrasing. With the same task being accomplished on different programs by pushing buttons with very similar sounding names, there isn&#8217;t much reason to remember the exact name.</p><p>In contrast, in multiple choice questions asking what sequence of actions a user must follow to accomplish a specific GIS analysis, there is no spatial reference and exact phrasing matters. Hence, the information stored in your brain for how to do something in ArcGIS might not be stored in the same manner as it is asked in a multiple choice question.</p><p>This is a problem. <em><strong>If knowledge is stored in one semantic system and asked in another, you&#8217;re at risk of appearing less knowledgable</strong></em> than you actually are.</p>
+<blockquote><p>Note: Perhaps there are people who work in ArcGIS as if it is a sequence of exact words to click? I don&#8217;t, but maybe those people exist? If that is you, this post doesn&#8217;t really apply. Sorry.</p></blockquote>
+<h3>How I&#8217;m Going to Study for My Next GIS Certification Exam:</h3><p>Because of this difference in how my mind stores information required to do analysis in ArcGIS versus how questions are asked in a multiple choice test, <em><strong>I&#8217;m going to study in such a way to shift that knowledge out of spatial, visual, and procedure reference and into a sequence of exact words reference.</strong></em></p><p>In addition to the studying the ESRI supplied material, I will &#8230;</p>
+<ol>
+<li>Write down and remember the<strong><em> exact names</em></strong> <em>of button, menus, and options</em> found in the study material.</li>
+<li>Write down and remember the order of buttons to do a task <strong>as a sequence of words independent of spatial position</strong>.</li>
+<li>Note any <strong>differences</strong> in menu or button names <strong>between desktop and online applications</strong>.</li>
+</ol><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+<h3></h3>
+<h3></h3>
+<p>The post <a rel="nofollow" href="/how-to-study-esri-gis-certification/">How to Study for GIS Certification Exams</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/how-to-study-esri-gis-certification/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">416</post-id>	</item>
+		<item>
+		<title>ArcGIS Hackathon-ish</title>
+		<link>/arcgis_hackathon/</link>
+		<comments>/arcgis_hackathon/#comments</comments>
+		<pubDate>Sat, 19 Dec 2015 04:44:21 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[geology]]></category>
+		<category><![CDATA[maps]]></category>
+		<category><![CDATA[ArcGIS]]></category>
+		<category><![CDATA[ESRI]]></category>
+		<category><![CDATA[hackathon]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[Online Mapping]]></category>
+		<category><![CDATA[opendata]]></category>
+		<category><![CDATA[python and GIS]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=265</guid>
+		<description><![CDATA[<p>ESRI sponsored Geo-Development Hackathon:Today I took part in an event put on by ESRI, the company that provides the software on which the majority of enterprise,  academic, and government GIS work takes place. As compared to the Geophysics Hackathon run by AgileGeosciences at the Society of Exploration Geophysics Annual Conference, this was more about learning tools and<a href="/arcgis_hackathon/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/arcgis_hackathon/">ArcGIS Hackathon-ish</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>ESRI sponsored Geo-Development Hackathon:</h3><p>Today I took part in an event put on by <a href="http://www.esri.com/" target="blank">ESRI</a>, the company that provides the software on which the majority of enterprise,  academic, and government GIS work takes place. As compared to the <a href="/geophysics-hackathon-at-2015-s-e-g-annual-meeting/" target="blank">Geophysics Hackathon</a> run by <a href="http://www.agilegeoscience.com/" target="blank">AgileGeosciences</a> at the Society of Exploration Geophysics Annual Conference, this was more about learning tools and less a crazy two day race. Hence, the title for this post is ArcGIS Hackathon-ish. There wasn&#8217;t any beer and pizza, but the cookies and cheese were good. Also, I got another free t-shirt. You can never have too many free t-shirts. The event was five hours long. Half was explanation and questions. The other half was building maps using the tools.</p>
+<h4>The Tools</h4><p>The event focus was on a collection of tools accessed or associated with their ArcGIS developer <a href="https://developers.arcgis.com/en/" target="blank"><b>site</b></a>. ESRI staff provided a github <a href="https://github.com/ESRI/GEODEV-HACKERLABS" target="blank">repository</a> of links, instructions, and list of topics/tools to cover during the event or after. There were some useful step-by-step instructions included to get you started with several of the tools.</p>
+<ul>
+<li><b>Map Builder</b>: Load data & edit basic symbology for first level, static maps you might embed in a website</li>
+<li><b>App Builder</b>: Take a map you built from map builder and put it into a map application framework with lots of premade style, formatting, and widget options. A few example widgets are:
+<ol>
+<li>Turn layers off and on</li>
+<li>Add query box to show selection subset of a layer</li>
+<li>Show users&#8217; current location on the map</li>
+<li>Allow a user to edit the map</li>
+<li>Directions</li>
+<li>Measurement (line, path, area)</li>
+</ol>
+</li>
+<li><b>ArcGIS API Javascript</b>: Javascript is one of the three key languages used in front-end web development (HTML and CSS being the other two). Javascript is the part that makes websites interactive. ArcGIS API javascript allows you to pull different basemaps, layers, etc. from your ArcGIS Online account, based on user interactions with the website, and display just the right map to the website user. You have to know javascript to do this, but the advantage is you can automatically deliver a map based on a large number of possible inputs. The opensource equivalent would leaflet.js.</li>
+<li><b>Koop javascript</b>: Sometimes when you use open-source data, you get it in one file type and transform into appropriate file format before putting it in ArcGIS Online map. Koop.js is a version of javascript written to handle that data transformation for you automatically reducing some of the programming required. This might be particularly useful for dealing with realtime open-source data available on another website that you want to bring into your map. Apparently, it is new and still a little wobbly, but the presenter seemed very excited about it.</li>
+<li><b>App Studio</b>: App Studio is basically App Builder, except you&#8217;re writing the javascript for a new template instead of relying on a drag and drop user interface. For now, this is free and even allows you to output native binaries, which means it outputs something that can go into the Android or Apple App store, without needing to deal with learning the Swift or Java language. People are putting the code they&#8217;re writing to build new apps and widgets in a ArcGIS marketplace and available opensource on GitHub.</li>
+</ul>
+<h4>The Product From Those 5 Hours =</h4>
+<h4 style="text-align: center;">A Map App On Holocene Volcanoes and Historical Major Earthquakes</h4><p>Click on the icons to bring up some of the map widgets and turn layers off and on. A full page version, which just looks nicer, can be found <b><a href="https://gosses.maps.arcgis.com/apps/webappviewer/index.html?id=b34ea4b002e1471488c060bb9a9200b7" target="blank">here.</a> </b></p>
+<div class="embed-container"><iframe title="Global Holocene Volcanism and Major Historical Earthquake Distribution" src="https://gosses.maps.arcgis.com/apps/webappviewer/index.html?id=b34ea4b002e1471488c060bb9a9200b7" width="1000" height="600"></iframe></div>
+<h4 class="embed-container">Update: for those completely new to GIS</h4><p>You might not know that ArcGIS requires a license. If you don&#8217;t have access to a license through school or work, you can still get a free non-commercial <a href="http://www.esri.com/software/arcgis/arcgis-for-desktop/free-trial" target="blank">trial license</a> for 60 days. There are also annual <a href="http://www.esri.com/software/arcgis/arcgis-for-home" target="blank">ESRI</a> non-commercial licenses for $100.</p>
+<p>The post <a rel="nofollow" href="/arcgis_hackathon/">ArcGIS Hackathon-ish</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/arcgis_hackathon/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">265</post-id>	</item>
+		<item>
+		<title>ArcGIS Online WebMaps and MapApps</title>
+		<link>/arcgis_webmaps/</link>
+		<comments>/arcgis_webmaps/#comments</comments>
+		<pubDate>Tue, 15 Dec 2015 20:25:21 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[maps]]></category>
+		<category><![CDATA[ArcGIS]]></category>
+		<category><![CDATA[CartoDB]]></category>
+		<category><![CDATA[galveston]]></category>
+		<category><![CDATA[KayakMap]]></category>
+		<category><![CDATA[mapbox]]></category>
+		<category><![CDATA[Online Map]]></category>
+		<category><![CDATA[python and GIS]]></category>
+
+		<guid isPermaLink="false">/?p=233</guid>
+		<description><![CDATA[<p>ArcGIS:For those that might be new to GIS, ArcGIS is the default enterprise GIS solution. This isn&#8217;t a great comparison, but it is similar to Microsoft in the 1990s but less evil and with no Apple. The company behind ArcGIS is ESRI. They provide a variety of geospatial products and services; ArcGIS Desktop, ArcGIS Server,<a href="/arcgis_webmaps/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/arcgis_webmaps/">ArcGIS Online WebMaps and MapApps</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h4>ArcGIS:</h4><p>For those that might be new to GIS, ArcGIS is the default enterprise GIS solution. This isn&#8217;t a great comparison, but it is similar to Microsoft in the 1990s but less evil and with no Apple. The company behind ArcGIS is ESRI. They provide a variety of geospatial products and services; ArcGIS Desktop, ArcGIS Server, ArcGIS Online, etc. All of them do geospatial analysis, just differently. ArcGIS desktop is going to be what someone with &#8220;Geospatial Analyst&#8221; in their job title will be using on most days in a business setting. ArcGIS Server, as the name implies, is about supplying data to large organizations via a server. ArcGIS Online is geared to sharing maps through web maps and web apps.</p>
+<h4>Web Map vs. Map App</h4><p>Before we go any further, let&#8217;s get some terminology out of the way. Using ArcGIS Online, you can build either a web map or a map app. A Web map, for our purposes, is going to be something you&#8217;re probably going to embed into your own website. It might have a zoom feature and a legend, but it won&#8217;t have too many bells and whistles. A map app by contrast is more like a stand alone web application that exists as a single page with its own url address. Think of it as its own website. ArcGIS Online has both a gallery of Map App themes to choose from and a Map App builder. If you&#8217;re familiar WordPress. It is almost like WordPress for maps. There are widgets for adding a measuring button, a search tab to find locations, image analysis, feature editing, and various other options.</p>
+<h4>Comparison to Cartodb, Mapbox, etc.</h4><p>ArcGIS Online and the other online map services all try to be the service you use to easily embed maps in your webpage or share urls to your map on their site. ArcGIS online products have the advantage of the ESRI name, established support, and being one part of a wider enterprise solution.</p><p>For the purpose of this blog post (and as refresher before going to a GIS web development hackathon) I built a map using ArcGIS online, which is below. It was built with a small subset of the data I&#8217;m using for a map on Houston recreational paddling experiences. I also turned that map into a Map App.</p><p><b>The map app can be found at this <a href="https://gosses.maps.arcgis.com/apps/webappviewer/index.html?id=b432c7a82e8f4e42958df3f955f781e1" target="blank">link</a></b>, which will open another tab on your browser with a full page map app. In addition to opening up full screen,<span style="text-decoration: underline;"> the map app makes it possible to turn layers on and off, measure distance, get directions from your location to boat launches on the map, and brings the legend up as an option</span>.</p><p>My general impression was if all I needed was a really quick and simple map that only included a basemap and a few points, I&#8217;d probably go with Mapbox. The upload and selection of data is a little slower with ArcGIS Online. Plus, there are more buttons to push between start and finish. For very complicated maps, I suspect ArcGIS online would likely be what I&#8217;d use, because I could more easily build the map in desktop mode, where I&#8217;m not slowed by internet service and browser constraints, and then transition it online.</p><p><del>One disappointment I did have with ArcGIS online was the limited data types you were allowed to upload to your online map. In addition to limited data types, shape files couldn&#8217;t be above a certain size or number of features. I ended up having to dissolve every shapefile I uploaded, resulting in lost of attribute information I would have liked to be included in the map. Specifically, the names of small stream segments and stream environmental health information. As this was a quick trial map, I didn&#8217;t worry too much about it, but in the future I&#8217;ll likely have to use python to split shapefiles into many shapfiles by attribute criteria and then load up a larger total number of shapefiles. Doing it by hand would be too slower and annoying.</del>  <em> <strong>EDITED: </strong>It turns out I could upload it directly. I just needed to do it as a feature service instead of shape files. Thanks to Nick for the correction. </em></p><p>The best thing ArcGIS Online has going for it for putting very easy to moderate complexity maps on the web is the pre-built MapApp themes. Their <a href="http://doc.arcgis.com/en/web-appbuilder/" target="blank">WebApp gallery</a> has a portfolio of some of standard themes and others that people have built. If you&#8217;re a full blown web developer you might choose to use leaflet.js and more general javascript to build these types of polished feature rich map applications. If you don&#8217;t know what javascript is, ArcGIS Online Web App builder might be your best option.</p><p><em><strong>EDIT:</strong> For more information on ArcGIS online development tools, check out this <a href="/arcgis_hackathon/" target="blank"> more recent post</a>.</em></p><p>&nbsp;</p>
+<div class="embed-container"><iframe title="Kayak_Map_Rough1" src="https://gosses.maps.arcgis.com/apps/Embed/index.html?webmap=3c30321ce3a943409b37a966aa6c0360&extent=-96.031,29.1817,-94.0026,30.1186&home=true&zoom=true&scale=true&search=true&searchextent=true&legend=true&basemap_toggle=true&alt_basemap=hybrid&disable_scroll=true&theme=light" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div><p>Click the double arrow in the upper left corner &lt;&lt; to see the map legend. If you click the image in the lower left corner, the basemap will change to satellite imagery. Impaired segments are those with environmental issues according to the TCEQ or Texas Commission on Environmental Quality.</p><p><a href="http://arcg.is/1NRH4gK" target="blank">link to the map above that opens in a new tab</a></p><p><a href="https://gosses.maps.arcgis.com/apps/webappviewer/index.html?id=b432c7a82e8f4e42958df3f955f781e1" target="blank">link to <span style="color: #ff0000;"><strong>full screen map app</strong> </span>with additional features like legend, turning layers on and off, multiple basemap options, attribute table views, lat/long at mouse position, and directions.</a></p>
+<p>The post <a rel="nofollow" href="/arcgis_webmaps/">ArcGIS Online WebMaps and MapApps</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/arcgis_webmaps/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">233</post-id>	</item>
+		<item>
+		<title>&#8220;Get Current Address&#8221; python script on phone</title>
+		<link>/get-current-address-python-script-on-phone/</link>
+		<comments>/get-current-address-python-script-on-phone/#respond</comments>
+		<pubDate>Sat, 07 Nov 2015 20:23:38 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[maps]]></category>
+		<category><![CDATA[courses]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[python and GIS]]></category>
+		<category><![CDATA[pythonista]]></category>
+
+		<guid isPermaLink="false">/?p=141</guid>
+		<description><![CDATA[<p>&#8220;Get Current Address&#8221; A Pythonista Script running on iPhone:&#8220;Get Current Address&#8221; is a pythonista script I created based on some google research. I wanted to take advantage of the iphone&#8217;s geolocation and geocoding abilities.I was also attempting to fill a very small niche. Although google maps and apple maps are good at showing where you are<a href="/get-current-address-python-script-on-phone/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/get-current-address-python-script-on-phone/">&#8220;Get Current Address&#8221; python script on phone</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>&#8220;Get Current Address&#8221;</h3>
+<h4>A Pythonista Script running on iPhone:</h4><p>&#8220;Get Current Address&#8221; is a <a href="https://itunes.apple.com/us/app/pythonista/id528579881?mt=8 target=">pythonista</a> script I created based on some google research. I wanted to take advantage of the iphone&#8217;s geolocation and geocoding abilities.</p><p>I was also attempting to fill a very small niche. Although google maps and apple maps are good at showing where you are and where a certain address is, there is no built in functionality to quickly show you the address at which you and your phone are currently positioned within.</p><p>It can also output course direction and speed when the phone is moving.</p>
+<div id="attachment_142" style="width: 462px" class="wp-caption alignnone"><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png"><img data-attachment-id="142" data-permalink="/get-current-address-python-script-on-phone/getaddress/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png?fit=452%2C425" data-orig-size="452,425" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="GetAddress" data-image-description="&lt;p&gt;Screen shot of pythonista screen showing results of &#8220;Get Location&#8221; script.&lt;/p&gt;
+" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png?fit=300%2C282" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png?fit=452%2C425" class="size-full wp-image-142" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png?resize=452%2C425" alt="Screen shot of pythonista screen showing results of &quot;Get Location&quot; script." width="452" height="425" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png?w=452 452w, https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png?resize=300%2C282 300w" sizes="(max-width: 452px) 100vw, 452px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Screen shot of pythonista screen showing results of &#8220;Get Location&#8221; script.</p>
+</div><p>You can check out the code on github: <a href="https://github.com/JustinGOSSES/Pythonista" target="blank"><img data-attachment-id="224" data-permalink="/resume/github-mark-32px/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?fit=32%2C32" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="GitHub-Mark-32px" data-image-description="&lt;p&gt;GitHub-Mark-32px&lt;/p&gt;
+" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?fit=32%2C32" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?fit=32%2C32" class="alignnone size-full wp-image-224" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?resize=32%2C32" alt="GitHub-Mark-32px" width="32" height="32" data-recalc-dims="1" /></a></p>
+<p>The post <a rel="nofollow" href="/get-current-address-python-script-on-phone/">&#8220;Get Current Address&#8221; python script on phone</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/get-current-address-python-script-on-phone/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">141</post-id>	</item>
+	</channel>
+</rss>

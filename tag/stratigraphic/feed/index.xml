@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+
+<channel>
+	<title>stratigraphic &#8211; Justin Gosses Home</title>
+	<atom:link href="/tag/stratigraphic/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Geology, GIS, and CODE + Resumes</description>
+	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.11</generator>
+
+<image>
+	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
+	<title>stratigraphic &#8211; Justin Gosses Home</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+		<title>Using Machine-learning to Extend Stratigraphic Surfaces</title>
+		<link>/stratigraphicpicks/</link>
+		<comments>/stratigraphicpicks/#respond</comments>
+		<pubDate>Wed, 27 Sep 2017 23:25:57 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[geology]]></category>
+		<category><![CDATA[Geology]]></category>
+		<category><![CDATA[machine-learning]]></category>
+		<category><![CDATA[ML]]></category>
+		<category><![CDATA[stratigraphic]]></category>
+
+		<guid isPermaLink="false">/?p=965</guid>
+		<description><![CDATA[<p>[BLOG POST COMING SOON]This weekend I finally got to do a hackathon project I&#8217;ve been wanting to try for more than two years. It leverages machine-learning to mimic human-created stratigraphic picks. It uses a dataset of 2000 wells with picks from the Alberta Energy Regulator, which is one of the only public datasets I&#8217;m aware<a href="/stratigraphicpicks/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/stratigraphicpicks/">Using Machine-learning to Extend Stratigraphic Surfaces</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>[BLOG POST COMING SOON]</p><p>This weekend I finally got to do a hackathon project I&#8217;ve been wanting to try for more than two years. It leverages machine-learning to mimic human-created stratigraphic picks. It uses a <a href="http://ags.aer.ca/publications/SPE_006.html">dataset</a> of 2000 wells with picks from the Alberta Energy Regulator, which is one of the only public datasets I&#8217;m aware of with that many picks of the same surfaces done by people trying to pick in the same way. We only got the first pass done, as is the nature of hackathons, but we&#8217;re going to keep working on the idea. I think it has a lot of potential. We&#8217;re trying to take a more geologic approach and a less geophysicist or mathematical approach, which has been more typically been used in past efforts.</p><p>I&#8217;ll edit this to be a longer post later, but for now here is the link to the project on github.</p><p><a href="https://github.com/JustinGOSSES/MannvilleGroup_Strat_Hackathon">https://github.com/JustinGOSSES/MannvilleGroup_Strat_Hackathon</a></p>
+<div id="attachment_967" style="width: 894px" class="wp-caption aligncenter"><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2017/09/Screen-Shot-2017-09-27-at-6.22.31-PM.png"><img data-attachment-id="967" data-permalink="/stratigraphicpicks/screen-shot-2017-09-27-at-6-22-31-pm/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2017/09/Screen-Shot-2017-09-27-at-6.22.31-PM.png?fit=884%2C552" data-orig-size="884,552" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screen Shot 2017-09-27 at 6.22.31 PM" data-image-description="&lt;p&gt;Predicted (blue) vs. true depth (red) of the top McMurray pick. &lt;/p&gt;
+" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2017/09/Screen-Shot-2017-09-27-at-6.22.31-PM.png?fit=300%2C187" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2017/09/Screen-Shot-2017-09-27-at-6.22.31-PM.png?fit=640%2C400" class="size-full wp-image-967" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2017/09/Screen-Shot-2017-09-27-at-6.22.31-PM.png?resize=640%2C400" alt="Predicted (blue) vs. true depth (red) of the top McMurray pick. " width="640" height="400" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2017/09/Screen-Shot-2017-09-27-at-6.22.31-PM.png?w=884 884w, https://i2.wp.com/justingosses.com/wp-content/uploads/2017/09/Screen-Shot-2017-09-27-at-6.22.31-PM.png?resize=300%2C187 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Predicted (blue) vs. true depth (red) of the top McMurray pick.</p>
+</div><p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="/stratigraphicpicks/">Using Machine-learning to Extend Stratigraphic Surfaces</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/stratigraphicpicks/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">965</post-id>	</item>
+	</channel>
+</rss>

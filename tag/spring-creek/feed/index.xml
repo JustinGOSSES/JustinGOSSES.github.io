@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+
+<channel>
+	<title>Spring Creek &#8211; Justin Gosses Home</title>
+	<atom:link href="/tag/spring-creek/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Geology, GIS, and CODE + Resumes</description>
+	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.11</generator>
+
+<image>
+	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
+	<title>Spring Creek &#8211; Justin Gosses Home</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+		<title>Map of Houston Paddling Experiences: Post 1</title>
+		<link>/map-of-houston-area-paddling-experiences-post-1/</link>
+		<comments>/map-of-houston-area-paddling-experiences-post-1/#respond</comments>
+		<pubDate>Fri, 06 Nov 2015 18:41:12 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[maps]]></category>
+		<category><![CDATA[ArcGIS]]></category>
+		<category><![CDATA[KayakMap]]></category>
+		<category><![CDATA[opendata]]></category>
+		<category><![CDATA[San Jacinto River]]></category>
+		<category><![CDATA[Spring Creek]]></category>
+
+		<guid isPermaLink="false">/?p=60</guid>
+		<description><![CDATA[<p>One of the maps I am currently building is an attempt at a different style of map for kayaking and canoeing in the greater Houston &#8211; Galveston area.  Instead of focusing on getting to the put-in location and where to start and stop on the water, I wanted to convey more information about what type<a href="/map-of-houston-area-paddling-experiences-post-1/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/map-of-houston-area-paddling-experiences-post-1/">Map of Houston Paddling Experiences: Post 1</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>One of the maps I am currently building is an attempt at a different style of map for kayaking and canoeing in the greater Houston &#8211; Galveston area.  Instead of focusing on getting to the put-in location and where to start and stop on the water, I wanted to convey more information about what type of paddling experience could be had via map details.</p><p>This type of information, on the paddlers experiences, is usually kept within text and photos that must be scrolled through, making it slow for the user to gain a perspective on what types of paddling trips are available in the area.</p><p>An abstract that I&#8217;ve submitted to the 2016 ArcGIS user conference in San Diego based on this map is below.</p><p>Abstract:</p>
+<blockquote><p>Paddling recreation maps often focus on navigation. They consist of access points and known travel paths. An alternative is to map spatial variation of the characteristics that make up the paddling experience, information traditionally found only in text and images. Characteristics like natural or built shoreline, enclosed or panoramic views, forested versus grassy banks, types of wildlife sightings, etc. can all be mapped using public datasets and GIS to create a new type of paddling map.</p></blockquote><p>The plan is to publish a series of posts charting the process of building the map. This is the first post.</p><p>Below is a peak at early work: Green is forested areas, pink is urban, and gray is grassy areas. The larger river is San Jacinto River. The smaller is Spring Creek. The red lines are route 59. The shading is topography from a digital elevation model built from lidar data.</p><p><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/KayakMap_Peak_1.png"><img data-attachment-id="61" data-permalink="/map-of-houston-area-paddling-experiences-post-1/kayakmap_peak_1/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/KayakMap_Peak_1.png?fit=457%2C632" data-orig-size="457,632" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="KayakMap_Peak_1" data-image-description="" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/KayakMap_Peak_1.png?fit=217%2C300" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/KayakMap_Peak_1.png?fit=457%2C632" class="alignnone size-full wp-image-61" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/KayakMap_Peak_1.png?resize=457%2C632" alt="KayakMap_Peak_1" width="457" height="632" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/KayakMap_Peak_1.png?w=457 457w, https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/KayakMap_Peak_1.png?resize=217%2C300 217w" sizes="(max-width: 457px) 100vw, 457px" data-recalc-dims="1" /></a></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="/map-of-houston-area-paddling-experiences-post-1/">Map of Houston Paddling Experiences: Post 1</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/map-of-houston-area-paddling-experiences-post-1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">60</post-id>	</item>
+	</channel>
+</rss>

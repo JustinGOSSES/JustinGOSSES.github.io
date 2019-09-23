@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+
+<channel>
+	<title>python &#8211; Justin Gosses Home</title>
+	<atom:link href="/tag/python/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Geology, GIS, and CODE + Resumes</description>
+	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.11</generator>
+
+<image>
+	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
+	<title>python &#8211; Justin Gosses Home</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+		<title>Predictatops</title>
+		<link>/predictatops/</link>
+		<comments>/predictatops/#respond</comments>
+		<pubDate>Sat, 10 Aug 2019 20:34:18 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[geology]]></category>
+		<category><![CDATA[Canada]]></category>
+		<category><![CDATA[Geology]]></category>
+		<category><![CDATA[McMurray]]></category>
+		<category><![CDATA[Predicatops]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[Sphinx]]></category>
+		<category><![CDATA[stratigraphy]]></category>
+
+		<guid isPermaLink="false">/?p=1217</guid>
+		<description><![CDATA[<p>Stratigraphic pick prediction via supervised machine-learning: PredictatopsBack in May, I presented a talk at the 2019 AAPG ACE (American Association of Petroleum Geologist Annual Conference and Exhibit) on using machine-learning to predict stratigraphic surfaces in well logs. I described a Python package I have been working on as a side project called Predictatops. Given I&#8217;ve<a href="/predictatops/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/predictatops/">Predictatops</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h2>Stratigraphic pick prediction via supervised machine-learning: Predictatops</h2><p>Back in May, I presented a talk at the 2019 AAPG ACE (American Association of Petroleum Geologist Annual Conference and Exhibit) on using machine-learning to predict stratigraphic surfaces in well logs. I described a Python package I have been working on as a side project called <a href="https://github.com/JustinGOSSES/predictatops">Predictatops</a>. Given I&#8217;ve mentioned working on the issue of stratigraphic top prediction using machine-learning in previous blog posts, I thought it wise to announce Predictatops here on my website as well.</p>
+<div id="attachment_1227" style="width: 310px" class="wp-caption alignleft"><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/Yale-Peabody-Triceratops-004Trp.png"><img data-attachment-id="1227" data-permalink="/predictatops/yale-peabody-triceratops-004trp/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/Yale-Peabody-Triceratops-004Trp.png?fit=1280%2C850" data-orig-size="1280,850" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Yale-Peabody-Triceratops-004Trp" data-image-description="" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/Yale-Peabody-Triceratops-004Trp.png?fit=300%2C199" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/Yale-Peabody-Triceratops-004Trp.png?fit=640%2C425" class="size-medium wp-image-1227" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/Yale-Peabody-Triceratops-004Trp.png?resize=300%2C199" alt="" width="300" height="199" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/Yale-Peabody-Triceratops-004Trp.png?resize=300%2C199 300w, https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/Yale-Peabody-Triceratops-004Trp.png?resize=768%2C510 768w, https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/Yale-Peabody-Triceratops-004Trp.png?resize=1024%2C680 1024w, https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/Yale-Peabody-Triceratops-004Trp.png?resize=750%2C500 750w, https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/Yale-Peabody-Triceratops-004Trp.png?w=1280 1280w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Predictatops Logo</p>
+</div><p>First, some definitions for the machine-learning folks who stumbled into a geologist blog post and the geologists who stumbled into a machine-learning blog post&#8230;</p><p><strong>Wells:</strong></p><p>Holes drilled in the ground.</p><p><strong>Well Logs:</strong></p><p>Well logs are created when a geophysical measurements are made along a well. These are usually 1D measurements in the sense that a measurement is made at the bottom, then the tool is pulled up a little bit and then another measur<span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;">ement is made. This continues until the entirety of the well is measured. Often, many different types of tools are used that measure different properties, resulting in multiple well logs for a single well. They measure things like how fast sound travels between two parts of the well or how much signal is bounced back and measured by a tool after a certain type of radiation is given off by a tool. These measurements are then turned into rock properties like density, grain size, etc. Further explanations of well log measurements are </span><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;" href="https://www.rigzone.com/training/insight.asp?insight_id=298&c_id=">here</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;"> and </span><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;" href="https://www.spec2000.net/05-logaliastable.htm">here</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;">. The picture below is of a well log.</span></p>
+<div id="attachment_1225" style="width: 233px" class="wp-caption alignleft"><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/hall_et_all_2016_well_log.png"><img data-attachment-id="1225" data-permalink="/predictatops/hall_et_all_2016_well_log/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/hall_et_all_2016_well_log.png?fit=375%2C504" data-orig-size="375,504" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="hall_et_all_2016_well_log" data-image-description="" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/hall_et_all_2016_well_log.png?fit=223%2C300" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/hall_et_all_2016_well_log.png?fit=375%2C504" class="wp-image-1225 size-medium" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/hall_et_all_2016_well_log.png?resize=223%2C300" alt="Well logs from a single well. Interpretation of lithology of the rocks on the right in colored bars." width="223" height="300" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/hall_et_all_2016_well_log.png?resize=223%2C300 223w, https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/hall_et_all_2016_well_log.png?w=375 375w" sizes="(max-width: 223px) 100vw, 223px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Well logs from a single well. Interpretation of lithology of the rocks on the right in colored bars. Hall at al., 2015</p>
+</div><p>&nbsp;</p><p><strong>Tops:</strong></p><p>Tops are markers for the tops of things. Specifically, tops of geologic units. Everything below a top is one geologic layer and everything above a top is another geology layer.</p><p><strong>Different Types of Tops:</strong></p><p>Tops can divide different categories of layers. Sometimes the layers are based on characteristics of the rock. For example a top can separate rock made from small grains from rock made of large grains. Tops based on physical make-up of rocks are often called lithologic tops. Lithology is term for describing what a rock is made up of. Facies is another term that refers to categories of rocks in a well with similar characteristics.</p><p>Alternatively, tops can be boundaries based on more actionable characteristics like the ability for fluids to flow. A top might separate a geologic layer where you think the rock will allow fast flow of fluids like water, oil, or gas from a layer below the top where fluids will flow very slowly.</p><p>Geologist&#8217;s favorite way to place a top, however, is to place tops based on time. A top can separate rock deposited at one point in time from rock deposited at the next point of time. This is a stratigraphic or chronostratigraphic top! Also, called a time surface.</p><p>You might have noticed that the lithologic, flow-based, and stratigraphic tops are increasingly abstract.</p><p>The first, lithologic-tops are based on what the rock is made up of, which can be measured, at least indirectly. Flow is a little harder to predict from well logs but the ability of fluids to flow is fundamentally also based on physical characteristics, which can be measured, just with more difficulty as very small characteristics at the level of pores in rocks are what matter.</p><p>Stratigraphic tops are based on age of the rocks. There is no measurement that relates to time that can be done routinely in well logs. You can collect fossils and interpret time based on the fossils found in different units (biostratigraphy). You can find volcanic ash and date it by looking at how much one type of element has turned into a different type of element due to decay (geochronology). However, neither of these can be done on all, or even most, wells. They&#8217;re too expensive and time consuming. Not all depth points will have fossils or ash layers for dating.</p><p><strong>Stratigraphic Correlation:</strong></p><p><em>How then does one go from well logs to stratigraphic tops representing time surfaces? That requires a model, and a head to put it in.</em></p><p>In practice, chronostratigraphic (mapping out time surfaces) well log correlation (correlation means interpreting where a top in well A exists in well B) is a combination of lithostratigraphic correlation (looking at 2 wells and matching curves of the well logs using the assumption that similar looking curves, have similar properties, and are the same layers) and application of conceptual models. These conceptual models cover how sediment is transported and deposited. They are very helpful for stratigraphic correlations as they predict the spatial distribution of different types rocks deposited at the same time and how those spatial associations can change over time. <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;">These conceptual models come from two places, outcrop studies (going out in the field and looking at rocks) and modern analogues studies (going out to the valley, rivers, lakes, oceans, etc. and seeing how sediment gets deposited). The geology name for these conceptual models is depositional environments. Some additional information on them can be found <a href="https://wiki.aapg.org/Depositional_environments">here and</a> <a href="https://en.wikipedia.org/wiki/Depositional_environment">here.</a> Another key conceptual model is <a href="http://www.sepmstrata.org/page.aspx?&pageid=32&3">sequence stratigraphy</a>. </span></p><p>An example of lithostratigraphic vs. chronostratigraphic interpretation below.</p>
+<div id="attachment_1224" style="width: 984px" class="wp-caption aligncenter"><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2019/08/Gani_and_Bhattacharya_2006_.png"><img data-attachment-id="1224" data-permalink="/predictatops/gani_and_bhattacharya_2006_/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2019/08/Gani_and_Bhattacharya_2006_.png?fit=974%2C547" data-orig-size="974,547" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Gani_and_Bhattacharya_2006_" data-image-description="" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2019/08/Gani_and_Bhattacharya_2006_.png?fit=300%2C168" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2019/08/Gani_and_Bhattacharya_2006_.png?fit=640%2C359" class="wp-image-1224 size-full" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2019/08/Gani_and_Bhattacharya_2006_.png?resize=640%2C359" alt="The top picture shows lithostratigraph correlation where the assumption is that rocks with similar characteristics are deposited the same way. The bottom is a chronostratigraphic interpretation where models from outcrop studies of deltas are used as a guide. In this environment, the coarser grains are deposited first and then finer grains, which build up over time as sheets angled towards the deeper water." width="640" height="359" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2019/08/Gani_and_Bhattacharya_2006_.png?w=974 974w, https://i2.wp.com/justingosses.com/wp-content/uploads/2019/08/Gani_and_Bhattacharya_2006_.png?resize=300%2C168 300w, https://i2.wp.com/justingosses.com/wp-content/uploads/2019/08/Gani_and_Bhattacharya_2006_.png?resize=768%2C431 768w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">The top picture shows lithostratigraph correlation where the assumption is that rocks with similar characteristics are deposited at the same time. The bottom is a chronostratigraphic interpretation where models from outcrop studies of deltas are used as a guide. In the deltaic depositional environment, the coarser grains are deposited first and then finer grains, which build up over time as sheets angled towards the deeper water. The lower interpretation is correct.</p>
+</div><p>You can read more about stratigraphic well log correlation from <a href="http://www.sepmstrata.org/page.aspx?pageid=61">this page by SEPM </a>(a national sedimentology association).</p><p><em>Just to be clear, with Predictatops, we&#8217;re wanting to do chronostratigraphic correlation, not lithostratigraphic correlation.</em></p><p><strong>Supervised Machine-learning:</strong></p><p>In our context, supervised machine-learning means, instead of letting the computer going on fun field trips like geologists to gradually build up mental conceptual models to use for correlating well logs chronostratigraphically, we&#8217;ll give the computer a dataset of already human-picked tops for one time surface and ask the computer to figure out a model that lets it mimic the geologist.</p><p>For more detailed explanations of machine-learning, there are lots of things on the web that google will provide for you. I&#8217;m a fan of the <a href="https://towardsdatascience.com/explaining-supervised-learning-to-a-kid-c2236f423e0f?source=---------62------------------">medium articles</a> by &#8220;Cassie Kozyrkov&#8221; whose title is &#8220;Chief Decision Intelligence Engineer, Google&#8221; and does a good job at packaging key points in an entirely dense but fun to read space.</p><p><strong>Building Geologic Observations into Features:</strong></p><p>Features in a machine-learning context are new data characteristics built from the original data. An basic example might be the sum of three other original data characteristics. Feature creation is a very common part of machine-learning. Rarely would you only use original raw data.</p><p>Unlike some of the demo datasets traditionally used in machine-learning demos where each row of the dataset is an independent entity and features are only created within each row, a key aspect of building features for stratigraphy applications is that a lot of valuable information can be gleaned if one creates features based on comparisons or aggregate observations from multiple depth points or even across wells. One type of comparison is between each depth point in question and the depth points above, below, and around it within different length windows. Another type of comparison is between the characteristics of the well that holds the depth point being predicted for and the neighboring wells.</p><p>These comparison-based features are similar to what a geologist does visually when they put wells in a cross-section, or a sequence of wells&#8217; well logs, and attempt to pick where stratigraphic tops should be correlated as shown below.</p>
+<div id="attachment_1091" style="width: 504px" class="wp-caption alignleft"><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;" href="https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png"><img data-attachment-id="1091" data-permalink="/thoughts-on-machine-learning-predictions-of-chronostratigraphic-surfaces/mannville_xsection_b/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png?fit=2000%2C1412" data-orig-size="2000,1412" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Mannville_Xsection_B" data-image-description="&lt;p&gt;Alberta Geological Survey Open File Report 1994-14. Cross-section B to B`.&lt;/p&gt;
+" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png?fit=300%2C212" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png?fit=640%2C452" class="wp-image-1091" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png?resize=494%2C349" alt="Alberta Geological Survey Open File Report 1994-14. Cross-section B to B&#96;." width="494" height="349" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png?resize=1024%2C723 1024w, https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png?resize=300%2C212 300w, https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png?resize=768%2C542 768w, https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png?w=1280 1280w, https://i2.wp.com/justingosses.com/wp-content/uploads/2018/05/Mannville_Xsection_B.png?w=1920 1920w" sizes="(max-width: 494px) 100vw, 494px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">A cross-section showing different tops in different wells. Vertical curvy lines are gamma-ray well log curves. Alberta Geological Survey Open File Report 1994-14. Cross-section B to B`.</p>
+</div>
+<div id="attachment_1092" style="width: 251px" class="wp-caption alignright"><a href="https://i1.wp.com/justingosses.com/wp-content/uploads/2018/05/MannvilleWellsMap.png"><img data-attachment-id="1092" data-permalink="/thoughts-on-machine-learning-predictions-of-chronostratigraphic-surfaces/mannvillewellsmap/" data-orig-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2018/05/MannvilleWellsMap.png?fit=1102%2C1369" data-orig-size="1102,1369" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="MannvilleWellsMap" data-image-description="&lt;p&gt;Map of Mannville wells in the Alberta Geological Survey open file report 1994-14 that are used in the project I&#8217;m doing at the github link.&lt;/p&gt;
+" data-medium-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2018/05/MannvilleWellsMap.png?fit=241%2C300" data-large-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2018/05/MannvilleWellsMap.png?fit=640%2C795" class="size-medium wp-image-1092" src="https://i1.wp.com/justingosses.com/wp-content/uploads/2018/05/MannvilleWellsMap.png?resize=241%2C300" alt="Map of Mannville wells in the Alberta Geological Survey open file report 1994-14 that are used in the project I'm doing at the github link." width="241" height="300" srcset="https://i1.wp.com/justingosses.com/wp-content/uploads/2018/05/MannvilleWellsMap.png?resize=241%2C300 241w, https://i1.wp.com/justingosses.com/wp-content/uploads/2018/05/MannvilleWellsMap.png?resize=768%2C954 768w, https://i1.wp.com/justingosses.com/wp-content/uploads/2018/05/MannvilleWellsMap.png?resize=824%2C1024 824w, https://i1.wp.com/justingosses.com/wp-content/uploads/2018/05/MannvilleWellsMap.png?w=1102 1102w" sizes="(max-width: 241px) 100vw, 241px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Map of Mannville wells in the Alberta Geological Survey open file report 1994-14 that are used in the project I&#8217;m doing at the github link.</p>
+</div><p>Only creating features based on data in individual depth points in individual wells would like cutting up all your well logs from all your wells into little bits, giving them to your geologist in a bucket, shaking the bucket, and then ask the geologist which depth point pieces are the same depth as the top you&#8217;re trying to predict for. Obviously, that wouldn&#8217;t work out so well. If you were to set up a stratigraphic machine-learning project and only create features from data at the same depth points for each well, you&#8217;d be doing the same thing to your machine-learning model.</p>
+<h2>Predictatops: Supervised Machine-Learning of Stratigraphic Surfaces</h2><p><strong>Predictatops&#8217; Supervised Machine-learning Goal:</strong></p><p>The goal of Predictatops is to be able to give it a training datasets of wells (that include both well logs and trusted human-assigned tops) for a single time surface and a test datasets of just well logs and get back where it thinks the top should be in each well in the test dataset.</p><p><strong>How to judge success:</strong></p><p>We want to minimize the distance between where the ML model predicted the top should be in each well and where the human(s) put the top. That difference will be our error. For comparing different runs we&#8217;ll return the RMSE (root mean squared error) for the top we&#8217;re trying to predict across all the wells.</p><p>We could have picked a different way to judge prediction success, so I&#8217;ll explain a bit about why I think this is a better way.</p><p>You might be tempted to set the problem up as a classification problem where we don&#8217;t predict a single pick but rather for each depth point in every well predict what formation (another geology word for layer) that depth point is. The problem with doing it this way, is that geologist really don&#8217;t care whether you got the formation correct far away from any top. That might not even be a hard problem. Additionally, how good your statistics appear to be will be affected by how thick the layers are, which isn&#8217;t ideal.</p><p>You could also frame the problem in terms of a binary question of whether or not the top was predicted to be in the exact same place as the geologist put it. The problem with this approach is two-fold. First, you immediately have a huge imbalanced class problem on your hands. If your well logs have a different measurement every 1/3 of a meter and typically are 300 meters long, every well will have 1 instance of data to represent the top and 899 instances to represent not the top. This will make machine-learning very difficult. Second, a binary prediction approach will affect the way you judge accuracy resulting in some not particularly useful information. You might get 4% of the depths predicted exactly right and 96% wrong. However, if all your 96% wrong tops are within plus or minus 2 meters of the actual tops, that&#8217;s amazing good. If the average distance between the actual top and predicted top is plus or minus 56 meters, that&#8217;s not good. In both cases, you were only 4% accurate.</p><p><strong>Project setup:</strong></p><p>If we can&#8217;t set-up the problem as a binary machine-learning program or a classification machine-learning problem, how do we set up the problem?</p><p>In Predictatops, we handled this by making it a two-step prediction with the first step being classification, not on formation labels, but on distance zones away from the pick we were trying to predict. Imaginary zones were created at the pick, slightly away from the pick below, slightly away from pick above, farther form pick below, farther from pick above, and everything else. We then ran classification to predict the zone of each depth point in each well. Those results were then run through an additional process that produced higher numbers for depth points that had the most predictions for being at the top or very near to the top around it. More of this process is described in <a href="https://github.com/JustinGOSSES/predictatops/blob/master/docs/ACE2019_Gosses_theme8_StratigraphicTopML_201905018_submitted.pdf">this presentation given at AAPG ACE</a> and in the <a href="https://justingosses.github.io/predictatops/html/index.html">documentation of Predictatops</a>.</p><p><strong>Data Requirements:</strong></p><p>The supervised part of supervised machine-learning means you have to have human-labeled tops to start. In addition, you have to have enough wells from enough places that the full complexity of the stratigraphy is captured in the training wells. The exact number required is hard to define as it depends on the complexity of the problem, how generalizable we want to the solution, and the algorithms used. If you had to press me, I&#8217;ll say you&#8217;ll need several hundred tops, if not more than a thousand, for your training datasets.</p><p>While we&#8217;re discussing training dataset sizes, a point of interest here is that the number of required training wells goes down is someone is kinda enough to create and release open-source a pre-trained model on say 200,000+ wells in a depositional environment similar to yours. Then you might be able to use that model as a starting point and retrain it with your use-case specific training dataset. This is a over-simplistic description of transfer-learning, which has resulted in incredible gains in image and natural language processing machine-learning.</p><p>An additional data requirement is that these wells have the same, or at least very similar, well log types. Machine-learning likes all the inputs to be collected and prepped the same way. Although this may seem like a simple ask to those not in oil & gas, the reality is that many wells will be drilled with different well logs. Some types will be always present. Some types will be mostly present. Others rarely present. Some types, like sonic, will be very common but different tool vendors used that measure the same property in different ways. Well log normalization by petrophysicists may be required.</p><p>In the demo dataset from the McMurray formation, a collection of well logs that were in the highest number of wells were found. <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;">The impact of that constraint was that instead of 2000 wells used, just over 1200 wells were used. There are classes in Predictatops to help identify what well logs are the most common in a given dataset. </span></p><p><strong>Predictatops Project Status:</strong></p><p>Predictatops is functional but still changing. I tried to organize things such that large pieces could be skipped and others added without too much trouble. It has a demo data from the McMurray in Alberta, Canada and instructions for how to run it with that demo dataset. The documentation is still a work in process but the basics are all there.  I&#8217;ve made some changes to make it more generalizable, but there is more to be done in that area.</p><p><strong>Predictatops Performance:</strong></p><p>The top McMurray currently has a RMSE (root mean squared error) of 6.6 meters. More information is available in <a href="https://github.com/JustinGOSSES/predictatops/blob/master/docs/ACE2019_Gosses_theme8_StratigraphicTopML_201905018_submitted.pdf">this presentation given at AAPG ACE</a> and in the <a href="https://justingosses.github.io/predictatops/html/index.html">documentation of Predictatops</a>.</p>
+<div id="attachment_1229" style="width: 1022px" class="wp-caption aligncenter"><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/Histogram_Error_predictatops_6.6_vA.png"><img data-attachment-id="1229" data-permalink="/predictatops/histogram_error_predictatops_6-6_va/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/Histogram_Error_predictatops_6.6_vA.png?fit=1012%2C387" data-orig-size="1012,387" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Histogram_Error_predictatops_6.6_vA" data-image-description="" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/Histogram_Error_predictatops_6.6_vA.png?fit=300%2C115" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/Histogram_Error_predictatops_6.6_vA.png?fit=640%2C245" class="wp-image-1229 size-full" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/Histogram_Error_predictatops_6.6_vA.png?resize=640%2C245" alt="" width="640" height="245" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/Histogram_Error_predictatops_6.6_vA.png?w=1012 1012w, https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/Histogram_Error_predictatops_6.6_vA.png?resize=300%2C115 300w, https://i0.wp.com/justingosses.com/wp-content/uploads/2019/08/Histogram_Error_predictatops_6.6_vA.png?resize=768%2C294 768w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">A histogram showing the distribution of McMurray Top prediction error. Bars count how many wells where in each group. Groups are based on difference in depth between actual human-picked top and machine-picked top. RMSE is 6.6 m.</p>
+</div>
+<h4>Wait, but I don&#8217;t trust my geologist.</h4><p>Yes, one limitation of all of this is that fundamentally the machine-learning model is trying to mimic a person&#8217;s (or multiple people&#8217;s) top interpretations. The best you&#8217;ll get out of the machine-learning model in terms of performance accuracy is slightly worse than the training dataset supplied by human geologist(s).</p>
+<h4>When would you want to use this type of approach?</h4>
+<ol>
+<li>When you don&#8217;t have enough time for a geologist to interpret all the wells, but you have enough time to interpret 1000 out of 7000 wells.</li>
+<li>When you have two areas worked by different geologists and you want to see how the interpretation of geologist A transfers to the neighboring area worked by geologist B.</li>
+<li>When you want to identify the 5% of the wells with the most uncertainty and have your best geologists focus on those.</li>
+</ol>
+<h4 class="graf graf--h4">Are there uses for this type of approach even if I already have human tops for all my wells?</h4>
+<p class="graf graf--p">Yes, the great thing about this type of approach is it scores each depth point in every well. That score can be normalized to a probability of how likely each depth point is to actually be the top. There are wells where only one depth point or a small cluster of depth points have higher scores. Other wells have high scores spread more widely throughout the well. Additionally, some wells have predicted tops at similar depths to their neighbors. Other wells do not. <em class="markup--em markup--p-em">This information can be used to generate uncertainty scores/maps/curves and help geologists know where to focus their efforts.</em> I haven’t done this with Predictatops yet, but it is totally possible!</p>
+<h2><strong>Making it easy to use the demo dataset:</strong></h2><p>As mentioned before, the <a href="https://ags.aer.ca/publications/SPE_006.html">demo dataset</a> comes from the McMurray formation in Alberta, Canada. There&#8217;s information on it in the <a href="https://github.com/JustinGOSSES/predictatops">README.md</a> and <a href="https://justingosses.github.io/predictatops/html/index.html">documentation of Predictatops</a>. The full reference is: Wynne et al., (1994) Athabasca Oil Sands Database McMurray/Wabiskaw Deposit, Open-File-Report 1994–14, Alberta, Canada; Alberta Geological Survey. Links to <a class="markup--anchor markup--p-anchor" href="https://ags.aer.ca/document/OFR/OFR_1994_14.PDF" target="_blank" rel="noopener" data-href="https://ags.aer.ca/document/OFR/OFR_1994_14.PDF">report</a> & <a class="markup--anchor markup--p-anchor" href="http://ags.aer.ca/publications/SPE_006.html" target="_blank" rel="noopener" data-href="http://ags.aer.ca/publications/SPE_006.html">dataset</a>. This is a great open-source dataset from the Alberta Energy Regulator and Alberta Geological Survey that could be used in a lot of other machine-learning focused work as it is one of the larger open-source datasets of a single formation already compiled and prepped by a single group.</p><p>Discovering, evaluating, loading, and transforming data takes a lot of time. There&#8217;s always a risk you&#8217;ll get through some or all of those steps and then discovery the dataset won&#8217;t work for your purposes. This dataset is already put together and can be used for both stratigraphic top prediction and facies prediction.</p><p>I&#8217;ve been working on a pull request for the <a href="https://github.com/fatiando/rockhound">Rockhound</a> Python package, a project to make loading geologic demo datasets super quick and easy, that will let you pull in the fully prepped and merged McMurray dataset with two lines of code. Currently, <a href="https://github.com/JustinGOSSES/rockhound">there is this pull request</a> for the McMurray dataset prepped for facies prediction. Once that pull request is accepted, I&#8217;ll push another dataset prepped for stratigraphic prediction.</p>
+<h2>Other Machine-Learning Approaches to Stratigraphy</h2><p><strong>Lithostratigraphy:</strong></p><p>Lithostratigraphy is basically curve matching, so computational approaches go back to the 1970s. Some of the better results seem to be geologic specific variations on dynamic time warping. One example is <a href="http://www.kgs.ku.edu/Publications/OFR/2002/OFR02_51/ManualOFR2002-51.pdf">CORRELATOR</a> from Kansas Geological Survey, but there are more modern approaches in Python as well.</p><p>The reasons for why this type of computational approach seemed to have never caught on are likely complex. I don&#8217;t claim to understand all of them, but I suspect it was related to the fact that they often didn&#8217;t return a single surface but rather an arbitrary number of surfaces. This meant the geologist still had to look at the well logs in order to use the results. Hence, the time savings aren&#8217;t there.</p><p><strong>Chronostratigraphy:</strong></p><p>If you&#8217;re interesting in this type of thing, here are two other recent examples of applying machine-learning to stratigraphy that I think are very interesting.</p>
+<ol>
+<li>Alex Bayeh, Michael Ashby, Darrin Burton, and Seth Brazell at Anadarko (now Occidental) published &#8220;<a href="https://www.onepetro.org/journal-paper/SPWLA-2019-v60n4a1?sort=&start=0&q=brazell&from_year=&peer_reviewed=&published_between=&fromSearchResults=true&to_year=&rows=25">A Machine-Learning-Based Approach to Assistive Well-Log Correlation</a>&#8220;, which uses thousands of pairs of well logs that are and are not representing the same layer to train a model, which is then used with a small number of tops from a specific formation and tops for that formation predicted. I was excited to see this type of approach because (1) I thought an approach sort of like this might be possible but don&#8217;t have access to large enough open-source dataset to actually attempt it myself (2) it demonstrates a different approach to supervised machine-learning applied to stratigraphy.</li>
+<li>Additionally, there&#8217;s been a variety of papers trying to apply wavelet transform theory to well log correlation for the past two decades. My opinion of these approaches has typically been that there is a lot of complexity without that much to show for it in terms of useful predictions. A recent exemption to this was <a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;" href="https://www.onepetro.org/conference-paper/SPE-183860-MS">Ye at al., 2017</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;">&#8216;s &#8220;</span><em style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;">Rapid and Consistent Identification of Stratigraphic Boundaries and Stacking Patterns in Well Logs &#8211; An Automated Process Utilizing Wavelet Transforms and Beta Distributions</em><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;">&#8220;, which looks like it would be an excellent feature creation step to use in supervised, or event unsupervised machine-learning, applied to stratigraphy.</span></li>
+</ol>
+<h3 class="graf graf--h3">Contributing to Predictatops</h3>
+<p class="graf graf--p">Pulls requests and issues (in the form of bugs, enhancements, comments, and even idle observations) are very welcome on Predictatops. I currently have 18+ issues on the repository for things to do. It is a side project, so please don’t expect it to be perfect, but I&#8217;m interested in hearing feedback as well as other peoples’ approaches to this type of problem.</p><p>References are available on the last slide of <a href="https://github.com/JustinGOSSES/predictatops/blob/master/docs/ACE2019_Gosses_theme8_StratigraphicTopML_201905018_submitted.pdf">this presentation</a>.</p>
+<p>The post <a rel="nofollow" href="/predictatops/">Predictatops</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/predictatops/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1217</post-id>	</item>
+		<item>
+		<title>Shortening the distance between creators and creation in geo-computing</title>
+		<link>/shortening-the-distance-between-creators-and-creation/</link>
+		<comments>/shortening-the-distance-between-creators-and-creation/#respond</comments>
+		<pubDate>Mon, 04 Jun 2018 04:33:51 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[geology]]></category>
+		<category><![CDATA[Bret Victor]]></category>
+		<category><![CDATA[Geology]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[wellio.js]]></category>
+		<category><![CDATA[widget]]></category>
+
+		<guid isPermaLink="false">/?p=1066</guid>
+		<description><![CDATA[<p>InspirationBret Victor is a well known thinker on the future and possibilities of human &#8211; computer interface. His website contains a variety of thought provoking projects, and his talks have inspired many other works.Currently, he&#8217;s leading development of Dynamicland, a new way of interacting with and creating computer programs that involves image recognition, paper, and<a href="/shortening-the-distance-between-creators-and-creation/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/shortening-the-distance-between-creators-and-creation/">Shortening the distance between creators and creation in geo-computing</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>Inspiration</h3><p><a href="https://en.wikipedia.org/wiki/Bret_Victor">Bret Victor</a> is a well known thinker on the future and possibilities of human &#8211; computer interface. <em>His <a href="http://worrydream.com/">website</a> contains a variety of thought provoking projects, and his talks have inspired many other <a href="https://hacks.mozilla.org/2012/04/bret-victors-inventing-on-principle-and-a-few-things-it-inspired/">works</a>.</em></p><p>Currently, he&#8217;s leading development of <a href="https://dynamicland.org/">Dynamicland</a>, a new way of interacting with and creating computer programs that involves image recognition, paper, and projectors. The best way to understand it is by watching <a href="https://twitter.com/dynamicland1?lang=en">videos of people using it</a>.</p><p>In one of his most well known talks &#8220;<a href="https://www.youtube.com/watch?v=PUv66718DII">Inventing on Principle</a>&#8221; he discusses his principle that <em><strong>&#8220;creators need an immediate connection to what they create&#8221;</strong></em>. <span style="text-align: center;">Although it can be interpreted as a call to create completely new ways for interacting with computers, like in </span><a style="text-align: center;" href="https://dynamicland.org/">Dynamicland</a><span style="text-align: center;">, or creating reactive programming interfaces with more immediate feedback, like Nicky Case&#8217;s <a href="http://ncase.me/joy/">joy.js</a>, we can also read this as an encouragement to look for more incremental improvements that shorten the distance between creator and what they create. </span><strong style="text-align: center;">I think the incremental version of this concept is illustrative in regards to what open-source side products people might work on in geo-computing. </strong></p>
+<h3>State of things</h3><p>I previously worked for nine years in the oil and gas industry. Most oil and gas software is a collection of clicks and drop-down menus. Sometimes the steps users follow are not too different from the original process done with paper and pencil. Although I no longer work with that type of data professionally, I still play with geoscience data via side projects. I leverage open-source libraries and although they are more flexible, I&#8217;ve sometimes found myself struggling to quickly try different things, visualize the result, and iterate. Too often I have to re-type code, hit return, repeat and see the result. Additionally, getting geoscience data into open-source software built for other types of data at times feels either hacky or too great a leap. This is especially true in JavaScript where, I would argue, most of the current amazing new things in data visualization tend to occur but few geoscientists venture, as they tend to stay to Python. In all of these cases, the distance between creator and creation is a bit larger than it could be, which makes exploring hypothesis spaces slow. This slowness limits what you can or might end up doing.</p>
+<blockquote>
+<p style="text-align: center;"><em>How can we shrink the distance between creator and creation in geo-computing?</em></p><p>&nbsp;</p></blockquote><p>I often see two ways.</p><p><em>First</em>, we can make it easier to leverage the wide variety of open-source libraries when working with geoscience data, <em><strong>a glue and adapter approach</strong>.</em> Too often getting data into the right form is either slow and hacky or simply doesn&#8217;t exist. Small tools that solve common problems.</p><p><em>Second</em>, we can make it easier to do many iterations quickly, <strong><em>a widgetization approach</em></strong>. Specifically, iterate more through mouse movements and other inputs that are continuous more and iterate less through discrete inputs like typing, clicking, or recalculating. This makes it faster and more enjoyable to explore a hypothesis space and stumble onto different ways to visualize raw data in aggregate or other form.</p>
+<h2>Glue & adapters</h2><p>Working with geoscience data in any open-source library requires getting the data in. This is less of a problem in analytics focused Python libraries like SciPy and Pandas, in part because people have built great tools like <a href="https://github.com/Statoil/segyio">SEGYIO (seismic)</a>, <a href="https://github.com/kinverarity1/lasio">LASIO</a> (well logs), and <a href="https://github.com/agile-geoscience/welly">WELLY</a> (well logs). Adapters and glue libraries in JavaScript are more lacking. This is understandable as most scientists learn Python, for <a href="https://www.researchgate.net/journal/0885-7156_Powder_Diffraction">good reasons</a>, but unfortunate because many of the cool new projects in data visualization are written in JavaScript, as that&#8217;s the language of the web. To give an example of the limitations, I can&#8217;t find a library for loading and displaying seismic in HTML, CSS, JavaScript that is open-source. This isn&#8217;t because it isn&#8217;t possible to do. <a href="https://info.drillinginfo.com/seismic-analysis-drillinginfo-acquired-transform-software/">Several</a> <a href="https://www.int.com/products/geotoolkit/">companies</a> offer seismic web visualization as part off their cloud services. It is either that no one has made an open-source version, or it isn&#8217;t used much so is hard to find.</p>
+<h4>Wellio.js</h4><p>As an example of trying to fill this glue and adapter gap for getting well log data to be easily usable in JavaScript data visualization libraries, I&#8217;ve started <a href="https://github.com/JustinGOSSES/wellio.js">Wellio.js</a> as a side project. Wellio.js is both a front-end and back-end (node.js) JavaScript library. It takes in native well log files in LAS 2.0 format and transforms them to <a href="https://en.wikipedia.org/wiki/JSON">JSON</a> format, which JavaScript libraries can read.</p><p>Some libraries and tasks that now become easier include:</p>
+<ul>
+<li><a href="https://github.com/d3/d3/wiki/gallery">D3.js</a>
+<ul>
+<li>One of the most popular data visualization libraries, it lets you access lower level control so can make pretty much <a href="https://github.com/d3/d3/wiki/gallery">anything.</a></li>
+</ul>
+</li>
+<li><a href="https://vega.github.io/vega/">Vega.js</a>
+<ul>
+<li>Sorta like d3.js but based on a visualization grammar. You trade some power and flexibility for speed and ease of use.</li>
+</ul>
+</li>
+<li><a href="https://threejs.org/">Three.js</a>
+<ul>
+<li>Arguably the current standard for quickly making three-dimensional content on the web. You can go in a million directions with it and people <a href="https://threejs.org/examples/#webgl_camera_cinematic">do</a>.</li>
+</ul>
+</li>
+<li><a href="https://github.com/jeromeetienne/AR.js/blob/master/README.md">AR.js</a>
+<ul>
+<li>Augmented reality without an app or headset, just your browser and your regular smart phone.</li>
+</ul>
+</li>
+</ul><p>So what could you do with seismic or well data with the libraries above? With d3.js you can replicate just about any traditional visualization of well log data. <a href="https://github.com/agile-geoscience/g3">G3.js</a> is a partially completed library but still pretty cool library that attempts this. The Wellio.js github page has <a href="https://justingosses.github.io/wellio.js/">a demo that uses g3.js.</a> One of the advantages of using JavaScript is all the computation can be done client side. This means you can upload to a web application your own well logs to be visualized or analyzed and no data gets sent to a cloud server, it all stays in your browser. Additionally, you don&#8217;t have to install any software or code.</p><p>With vega.js, wellio.js, and ObservableHQ you can then quickly & interactively <a href="https://beta.observablehq.com/@justingosses/spearman-correlation-coefficient-using-i-spearmanrho-i">visualize</a> & <a href="https://beta.observablehq.com/@justingosses/spearman-correlation-coefficient-using-i-spearmanrho-i">analyze</a> well curves in the browser and write little bits of code to interactively try new things. Here is <a href="https://beta.observablehq.com/@justingosses/spearman-correlation-coefficient-using-i-spearmanrho-i">an example</a> that plays around with the spearman&#8217;s correlation coefficient.</p>
+<div id="attachment_1102" style="width: 650px" class="wp-caption aligncenter"><a href="https://beta.observablehq.com/@justingosses/three-js-well-log-demo-geology"><img data-attachment-id="1102" data-permalink="/shortening-the-distance-between-creators-and-creation/screen-shot-2018-06-03-at-11-38-55-pm/" data-orig-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2018/06/Screen-Shot-2018-06-03-at-11.38.55-PM.png?fit=1890%2C1350" data-orig-size="1890,1350" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screen Shot 2018-06-03 at 11.38.55 PM" data-image-description="" data-medium-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2018/06/Screen-Shot-2018-06-03-at-11.38.55-PM.png?fit=300%2C214" data-large-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2018/06/Screen-Shot-2018-06-03-at-11.38.55-PM.png?fit=640%2C457" class="wp-image-1102 size-large" src="https://i1.wp.com/justingosses.com/wp-content/uploads/2018/06/Screen-Shot-2018-06-03-at-11.38.55-PM.png?resize=640%2C457" alt="3D well logs in three.js" width="640" height="457" srcset="https://i1.wp.com/justingosses.com/wp-content/uploads/2018/06/Screen-Shot-2018-06-03-at-11.38.55-PM.png?resize=1024%2C731 1024w, https://i1.wp.com/justingosses.com/wp-content/uploads/2018/06/Screen-Shot-2018-06-03-at-11.38.55-PM.png?resize=300%2C214 300w, https://i1.wp.com/justingosses.com/wp-content/uploads/2018/06/Screen-Shot-2018-06-03-at-11.38.55-PM.png?resize=768%2C549 768w, https://i1.wp.com/justingosses.com/wp-content/uploads/2018/06/Screen-Shot-2018-06-03-at-11.38.55-PM.png?w=1280 1280w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">3D well logs in three.js</p>
+</div><p>Once well log data is in JSON, it becomes easy to work with it in <a href="https://threejs.org/">three.js</a> to make <a href="https://beta.observablehq.com/@justingosses/three-js-well-log-demo-geology">3D visualizations as shown in this basic example</a> on Observable that you can edit and change.</p><p>AR.js is a library I have some experience with in the augmented reality space. I&#8217;ve used it to create <a href="https://twitter.com/JustinGosses/status/848636777028096001">an Augmented Reality business card with a 3D depiction of Gale Crater on Mars</a>. AR.js can use three dimensional visualizations created in three.js. As shown above, we can visualize well logs in three.js after converting the well logs LAS 2.0 formatted file into JSON. There is nothing stopping us from having a paper map with symbols on it that bring up augmented reality well logs and surfaces such that we could look at the subsurface in field using only a paper map and the cell phone you already have in your pocket.</p>
+<h2>Widgetization</h2><p>How do we make exploring hypothesis spaces faster and easier and less constrained with widgets? I&#8217;ll start off by saying I&#8217;m not entirely satisfied with any of the solutions out there. The level of immediate feedback depicted in <a href="https://www.youtube.com/watch?v=PUv66718DII">this Bret Victor video</a> with the programmatically drawn tree is hard to get to and still be flexible enough to tackle a different problem quickly. Generally the approaches to these types of problems describe themselves as either a GUI (graphic user interface) library, a widget library, or a reactive computer library or language. GUIs are all about building a graphic user interface for the end-user where code is probably not exposed. Widgets are sliders, buttons, wheels, and other sorts of graphical conventions that users can use to quickly change a variable&#8217;s value across a continuous range. Reactive libraries like <a href="http://ncase.me/joy/">joy.js</a> attempt to mimic some of the magic depicted in Bret Victor&#8217;s talk while flexible enough to allow people to build their own.</p>
+<h4>Example tools for widgetization:</h4>
+<ul>
+<li><a href="https://beta.observablehq.com/collection/explorables">ObservableHQ (webpage that executes end-user-typed JavaScript in real time inside notebook like enviornment)</a></li>
+<li><a href="http://ipywidgets.readthedocs.io/en/stable/user_guide.html">Jupyter Widgets (widget add-on for Jupyter notebooks)</a></li>
+<li><a href="https://bokeh.pydata.org/en/latest/docs/user_guide/interaction/widgets.html">Bokeh Widgets (Like Jupyter widgets but for Python Bokeh data visualization library)</a></li>
+<li><a href="https://wiki.python.org/moin/Intro%20to%20programming%20with%20Python%20and%20Tkinter">TKinter (Old school but still works GUI builder for Python)</a></li>
+<li><a href="https://wxpython.org/pages/overview/">WXpython </a><a href="https://wiki.python.org/moin/Intro%20to%20programming%20with%20Python%20and%20Tkinter">(Old school but still works GUI builder for Python)</a></li>
+<li><a href="https://idyll-lang.org/gallery">Idyll-lang(JavaScript library, for explorable explanations)</a></li>
+<li><a href="http://ncase.me/joy/">Joy.js (reactive style JavaScript Library, the closest to Bret Victor flower demo)</a></li>
+</ul>
+<h4>Two Small Examples</h4><p>Examples of some experiments I&#8217;ve done recently in ObservableHQ with a little widgetization include <a href="https://beta.observablehq.com/@justingosses/spearman-correlation-coefficient-using-i-spearmanrho-i">this quick demo of well logs and a correlation coefficient </a> and this experiment in <a href="https://beta.observablehq.com/@justingosses/1st-try-converting-well-log-data-into-audio-not-very-success">sonifying well logs</a>.</p>
+<h4>Example of a widget-ed data visualization I want that doesn&#8217;t exist yet:</h4><p>There&#8217;s a widget I&#8217;ve been wanting but haven&#8217;t built yet. It would be useful for machine-learning predictions of either stratigraphic surfaces or facies. I would like to have a function that creates a new feature from original features along a well bore. All the variables in the function would be draggable widgets like in <a href="http://ncase.me/joy/demo/nonlinear/">this</a> joy.js example. There would be immediate linkage between this function and several other visualization on the page, similar to how <a href="https://dc-js.github.io/dc.js/">dc.js works</a>. One would be a <a href="https://www.spec2000.net/01-beginnersguide.htm">typical vertical well curve visualization</a>. The other a scatter plot with points colored by label class. Labels might be facies or at &#8220;pick&#8221;, &#8220;near pick&#8221;, and &#8220;away from pick&#8221;. Lastly, there would be a random forest tree visualized as a tree of links and nodes. I would be able to select all the data downstream of a specific node and use that data in the visualizations. Both the well curve plot and the scatter plot would be <a href="https://www.visualcinnamon.com/2016/07/brush-bar-chart-d3.html">brushable</a>, meaning data selected in one visualization is highlighted in the others. I think this type setup, where you can immediately see the effect of different choices in your feature creation function on how labels are clustered could greatly speed up the process of engineering effective features as a replacement for all the different types of observations we make when we look at a log.</p>
+<h4>And now for something completely different: Alternative Means of User Input?</h4><p><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2018/06/KinectPottery.jpg"><img data-attachment-id="1101" data-permalink="/shortening-the-distance-between-creators-and-creation/kinectpottery/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2018/06/KinectPottery.jpg?fit=900%2C1200" data-orig-size="900,1200" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="KinectPottery" data-image-description="&lt;p&gt;KinectPottery&lt;/p&gt;
+" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2018/06/KinectPottery.jpg?fit=225%2C300" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2018/06/KinectPottery.jpg?fit=640%2C853" class="wp-image-1101 size-medium alignleft" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2018/06/KinectPottery.jpg?resize=225%2C300" alt="KinectPottery" width="225" height="300" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2018/06/KinectPottery.jpg?resize=225%2C300 225w, https://i2.wp.com/justingosses.com/wp-content/uploads/2018/06/KinectPottery.jpg?resize=768%2C1024 768w, https://i2.wp.com/justingosses.com/wp-content/uploads/2018/06/KinectPottery.jpg?w=900 900w" sizes="(max-width: 225px) 100vw, 225px" data-recalc-dims="1" /></a></p><p>Another way to make user input and exploration continuous instead of discrete and get real-time feedback, is to change the means of input away from mouse and keyword entirely. This is related to widgetization but maybe another step down the line? In <a href="https://twitter.com/JustinGosses/status/999417519877312512">the</a> image above taken at the Cleveland Museum of Art, a user is molding a digital representation of clay with their hands. Could the same technique work for salt bodies in 3D seismic? Clicking takes a lot of time for seismic interpretation and has health and safety implications. Why not drawing? I can draw lines over seismic with a digital pen significantly better than I can with a mouse click hold. Kinect cameras capture 3D surfaces and create digital topography on a small human scale. A popular geoscience education use of Kinect cameras is an <a href="https://arsandbox.ucdavis.edu/">augmented reality sandboxes</a>. Can kinect&#8217;s be used for input into technical problems too? Additionally <a href="https://webgazer.cs.brown.edu/">eye tracking</a> and <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">body tracking</a> technology that leverage machine-learning is getting good enough to start considering practical use. Are there use-cases where these types of inputs are preferred or could be used in addition to mouse clicking?</p>
+<h3></h3>
+<h3>Conclusion</h3><p>I&#8217;m not Bret Victor, and you&#8217;re probably not either (if you&#8217;re actually Bret Victor, hi). Although creating things at his level is inspiring, it is also difficult. Aiming for a little in that direction, however, is perhaps instructive in terms of identifying  opportunities to make something cool and even potentially useful.</p><p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="/shortening-the-distance-between-creators-and-creation/">Shortening the distance between creators and creation in geo-computing</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/shortening-the-distance-between-creators-and-creation/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1066</post-id>	</item>
+		<item>
+		<title>What do I get out of conferences?</title>
+		<link>/what-do-i-get-out-of-conferences/</link>
+		<comments>/what-do-i-get-out-of-conferences/#respond</comments>
+		<pubDate>Tue, 30 May 2017 06:23:56 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[geology]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[AAPG]]></category>
+		<category><![CDATA[Agile Geoscience]]></category>
+		<category><![CDATA[conference]]></category>
+		<category><![CDATA[convention]]></category>
+		<category><![CDATA[data science]]></category>
+		<category><![CDATA[Geology]]></category>
+		<category><![CDATA[hackathon]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[Online Map]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[talks]]></category>
+		<category><![CDATA[tutorials]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=894</guid>
+		<description><![CDATA[<p>Four conferences, two hackathons, and a lot of meet-ups: Analyzing what I&#8217;ve gotten from technical gatherings outside of work this year&#160; Part 1 &#8211;  The PremiseOver the last year, I&#8217;ve been lucky to attend more than my usual number of conferences, meetups, and hackathons. Some of the events were paid by work, some were paid<a href="/what-do-i-get-out-of-conferences/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/what-do-i-get-out-of-conferences/">What do I get out of conferences?</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3 style="text-align: center;">Four conferences, two hackathons, and a lot of meet-ups: Analyzing what I&#8217;ve gotten from technical gatherings outside of work this year</h3><p>&nbsp;</p>
+<h2>Part 1 &#8211;  The Premise</h2><p>Over the last year, I&#8217;ve been lucky to attend more than my usual number of conferences, meetups, and hackathons. Some of the events were paid by work, some were paid by me, and some were free. As my last event for 2017 is coming up, I&#8217;m asking myself two questions.</p><p><strong>First, what did I get out of the gatherings I attended?</strong></p><p><strong>Second, what types of events should I attend next year in order to maximize the benefits I&#8217;m interested in?</strong></p><p>As I see it, attending technical gatherings can have a range of benefits:</p>
+<ol>
+<li>People
+<ul>
+<li>Meet leaders in the field</li>
+<li>Make new contacts and catch up with old contacts</li>
+<li>Meet many vendors at once</li>
+<li>Market yourself and your company</li>
+<li>Gain a better understanding of where your skills and knowledge rank</li>
+</ul>
+</li>
+<li>Skills
+<ul>
+<li>Pick up new &#8220;tricks of the trade&#8221;</li>
+<li>Learn what to do or not do from others&#8217; experiences</li>
+<li>Attend a tutorial and take the first few steps in a new skill with someone there to lead you</li>
+</ul>
+</li>
+<li>Knowledge of the environment beyond your immediate organization
+<ul>
+<li>Gain exposure to a wide range of tools, methods, and applications</li>
+<li>Learn what is upcoming and new</li>
+<li>Understand how the larger market or community is evolving</li>
+</ul>
+</li>
+</ol><p>Working under the assumption that understanding what I got out of the past events will help me plan ahead, I&#8217;ve compiled a description of various technical gatherings I&#8217;ve attended over the last twelve months.</p>
+<h2>Part 2 &#8211; The Data</h2><p>&nbsp;</p>
+<h2 style="text-align: center;">AAPG ACE 2017</h2>
+<h5><span style="color: #008000;">What is it?</span></h5><p><a href="http://www.aapg.org/">American Association of Petroleum Geologist</a>s Annual <a href="http://ace.aapg.org/2017/about">Conference & Exhibit</a>. It is the main conference for petroleum geologists and the largest of several AAPG conferences. The conference can cost between $65 and $650 depending on whether you are a student and when you purchase.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Geologists in the oil and gas industry and some geophysicists. Engineers have their own conferences. The focus is on technical aspects as opposed to business environment or deal making.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Most people dress like they do at work, which is to say dress pants, dress pants, and collared shirts if you&#8217;re a guy or the equivalent if female. If you&#8217;re presenting or looking for work, you might wear a suit and tie. A few people wear jeans. There are no funny t-shirts.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>This year it was in Houston. The conference moves every year between North American oil industry centers like Houston, Long Beach, Calgary, and Denver.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>The average over the last 5 years has been <a href="http://www.aapg.org/events/conferences/ace">6,900</a>.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>Most of the talks follow the pattern of a typical science talk explaining what they did in very rough terms and what their conclusions are.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Make new contacts and catch up with old contacts</em>
+<ul>
+<li>AAPG ACE was very good for making connections with people I haven&#8217;t seen in a while now that I&#8217;m out of the oil and gas industry.</li>
+</ul>
+</li>
+<li><em>Learn what is upcoming and new</em>
+<ul>
+<li>It is also a great place for seeing what is at the forefront of the intersection between industry and academia in geology as various research consortia present talks and posters.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em></li>
+<li><em>Attend a tutorial and take the first few steps in a new skill with someone to lead you</em>
+<ul>
+<li>Compared with tech conferences, the range of talk types is limited. There are almost no &#8220;how to&#8221; or &#8220;when to use blank method&#8221; talks. Everything is in the science talk mold.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>AAPG was great for catching up with people and getting a peek at what other people are working on, even if it is a small peak. Some of the talks can be frustratingly vague due to intellectual property constraints. Field trips provide some opportunity for improving technical skills, but they typically cost enough that you&#8217;ll only attend if your employer is paying. The main convention talks tend to focus on what someone has been done rather than what you could do.</p><p>If you&#8217;re interested in hearing more about what geology conferences are missing and what they might be able to learn from certain tech conference models, the Undersampled Radio podcast recent had a great conversation on this topic starting at 30 minutes into <a href="https://www.youtube.com/watch?v=vCeNA9btD9E"> episode 46</a>.</p>
+<h2 style="text-align: center;">SXSW Interactive</h2>
+<h5><span style="color: #008000;"> What is it?</span></h5><p>South by Southwest is a mega-conference in which the &#8220;<a href="https://www.sxsw.com/festivals/interactive/">Interactive</a>&#8221; sub-conference focuses on digital, internet, intelligent future, social impact, journalism, start-ups, AR/VR, music industry, sports industry, and the workplace. The interactive sub-conference takes place over 5 days and overlaps with the education, music, film, and comedy sub-conferences. More information <a href="https://www.sxsw.com/festivals/interactive/">here</a>. SXSW Interactive tickets cost $1,225.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Marketing companies, hip people, students who volunteer to get their otherwise expensive tickets paid for, and people in the digital space who want to see what is new or make connections.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Varies from nerdy t-shirts to professor jackets with elbow patches. If business casual, a little on the fashionable side.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>Austin, every year.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p><a href="https://en.wikipedia.org/wiki/South_by_Southwest">30,621</a></p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>The talks here range from &#8220;this is new&#8221; to &#8220;we did and you can too&#8221; to &#8220;let&#8217;s talk about the context of something&#8221; to &#8220;fluff and buzzwords&#8221;.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Meet leaders in the field</em>
+<ul>
+<li>I talked with <a href="https://homes.cs.washington.edu/~jheer/">Vint Cerf</a>, one of the &#8220;fathers of the internet, and <a href="https://homes.cs.washington.edu/~jheer/">Jeffrey Heer </a>, a professor who has had a role in many key data visualization code libraries, such as <a href="https://vega.github.io/vega/">vega.js</a>, <a href="https://vincent.readthedocs.io/en/latest/">vincent.py</a>, and <a href="https://d3js.org/">d3.js</a>.</li>
+</ul>
+</li>
+<li><em>Understand trends in the larger market or community. Learn what is new</em></li>
+<li><em>Learn what is upcoming and new</em>
+<ul>
+<li>Saw a lot in regards to VR/AR that was cutting edge.</li>
+</ul>
+</li>
+<li><em>Understand how the larger market or community is evolving</em></li>
+<li><em>Meet many vendors at once</em>
+<ul>
+<li>Largest exhibit showroom of any conference in this list.</li>
+<li>Met with two vendors afterward and used the experience to benchmark against other vendors post conference</li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li>There were several talks that inspired ideas for future projects based on what similar teams had done in other organizations. Post-talk discussions were great for identifying failures to avoid in upcoming projects.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em>
+<ul>
+<li>Talks tend to lack technical depth.</li>
+</ul>
+</li>
+<li><em>Attend a tutorial and take the first few steps in a new skill with someone to lead you</em>
+<ul>
+<li>There weren&#8217;t any tutorials.</li>
+</ul>
+</li>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>There are more talks about products and solutions than methods or tools.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>There were some great talks that inspired potential future projects, but meeting people was the more valuable activity at SXSW. Perhaps for that reason, there were <a href="http://schedule.sxsw.com/2017/03/10/events/conference/Interactive/type/panel">several time slots</a> for people to just &#8220;meet-up&#8221; in a room and talk about a specific topic.</p>
+<h3 style="text-align: center;">PyCon2017</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p><a href="https://us.pycon.org/2017/">PyCon</a> is the largest conference for Python developers. Web development and data analytics are the two focus areas. The base convention ticket for PyCon is $600 for corporate, $350 for individuals, and $125 for students. If sign-up for the max amount of tutorials, total ticket price can be up to $1200.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>People who write code in Python. The male/female ratio at PyCon was maybe 70/30, which made it the most unbalanced of all the conferences.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>There&#8217;s a range, but, compared to the other conferences, it was high on nerdy t-shirts and low on formal or business clothes.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>PyCon was held in Portland, Oregon. PyCon holds their conferences in the same city for two years before switching, which minimizes costs and planning requirements. Next year, it will be in Cleveland, Ohio. Previous to Portland, it was in Montreal.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p><a href="https://en.wikipedia.org/wiki/Python_Conference">3,391</a> badges were picked up from registration.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>PyCon is split into two days of tutorials, three days of talks, and then four days of open-source development sprints.</p>
+<ul>
+<li>Tutorials are half a day in length. Topics included Bayesian machine learning, time series analysis, network analysis, using flask for microservices, <a href="https://us.pycon.org/2017/schedule/tutorials/">etc</a>.</li>
+<li>During the main convention, talks ranged in style from:
+<ul>
+<li>We did this with Python</li>
+<li>Best practice in some aspect of writing code</li>
+<li>The &#8220;craft&#8221; of some part of writing python code</li>
+<li>Introduction to a new python module or open-source project</li>
+<li>Introduction to some activity that can be done with python</li>
+</ul>
+</li>
+<li>During the sprints, open-source Python <a href="https://us.pycon.org/2017/community/sprints/">projects</a> are built or extended.</li>
+</ul>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Meet leaders in the field</em>
+<ul>
+<li>Ended up at a bar with <a href="https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript">Gary Bernhardt</a> , who runs &#8220;destroyallsoftware.com&#8221;, and <a href="https://www.kennethreitz.org/projects/">Kenneth Reitz</a>, the main author of the &#8220;requests&#8221; python module.</li>
+</ul>
+</li>
+<li><em>Attend a tutorial and take the first few steps in a new skill with someone to lead you</em>
+<ul>
+<li>Attended excellent half-day <a href="https://us.pycon.org/2017/schedule/tutorials/">tutorials</a> on Bayesian machine learning, time series analysis, and MQTT protocol.</li>
+</ul>
+</li>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em>
+<ul>
+<li>Several talks were on the &#8220;craft&#8221; of some aspect of writing code, examples included documentation, testing, and sever reliability.</li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li>Talked to a variety of people doing similar work in different organizations and learned how their teams and approaches differ from mine.</li>
+</ul>
+</li>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>Got exposure to a range of new modules and methods and what they could be used for.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Meet many vendors at once</em>
+<ul>
+<li>Although there was an exhibit floor, the number and diversity of vendors were a bit lacking for a conference of that size.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>PyCon was excellent for picking up bits of new skills and improving my understanding of what python modules I might be able to use in future projects. Many of the talks had a focus on leaving the audience with something useful, which made it a great conference for learning. My <a href="https://docs.google.com/document/d/1zm0x1uLg-SKGI4nbu-_ND_44Bycl_wo4tTxVpjDDC6g/edit?usp=sharing">notes</a> have links to the slides and Jupyter Notebooks used by some of the presenters.</p>
+<h3 style="text-align: center;">Johnson Space Center Data Science Day</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p><a href="https://fal.jsc.nasa.gov/DSD/">Data Science Day 2.0</a> was two days of talks around various aspects of data science, data visualization, and analytics. It was free to attend.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>A mixture of NASA civil servants, NASA contractors, vendors, and the public who were interested in the subject matter.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Mostly business casual with some suits and ties.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>Gilruth Center just outside Johnson Space Center, Houston, Texas.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>I estimate 200-350.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>Talks ranged from programming newbie talks to &#8220;we built this&#8221; talks to &#8220;this capability exists&#8221; talks.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>Got exposure to skills and methods I haven&#8217;t used myself yet.</li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li>Made connections to others at Johnson Space Center who were interested in working with our team.</li>
+</ul>
+</li>
+<li><em>Market yourself and your company</em>
+<ul>
+<li>Presented a <a href="http://slides.com/justingosses/history_data_visualization_tools#/">talk</a> on the history of digital data visualization tools.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em>
+<ul>
+<li>There weren&#8217;t many talks about the craft of data science or data visualization.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>Given Johnson Space Center is a rather spread out campus with many buildings, events like this are really valuable for communicating about skills that cross normal organizational boundaries. Attending an event of this type wouldn&#8217;t replace something like PyCon, however, due to the lack of tutorials and in-depth skill sessions.</p>
+<h3 style="text-align: center;">Various Houston Tech Meetups</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p>There are a variety of <a href="https://www.meetup.com/find/?allMeetups=false&keywords=tech&radius=25&userFreeform=Houston%2C+TX&mcId=c77001&mcName=Houston%2C+TX&sort=default">meetups</a> in Houston that focus on t<a href="https://www.meetup.com/Collabonauts/">ech</a>, <a href="https://www.meetup.com/houston-js/events/240279389/">web development</a>, <a href="https://www.meetup.com/Houston-VR-Developers/events/239502556/">virtual reality</a>, <a href="https://www.meetup.com/Hackster-Hardware-Meetup-Houston/events/240263187/">IoT</a>, and <a href="https://www.meetup.com/Houston-Energy-Data-Science-Meetup/">data science</a>. These are typically 1.5 to 4-hour meetings around various topics held every month or two somewhere in Houston. I regularly go to ones on <a href="https://www.meetup.com/Houston-Data-Visualization-Meetup/">data visualization</a>, <a href="https://www.meetup.com/houston-js/">JavaScript</a>, <a href="https://www.meetup.com/python-web-houston/">Python</a>, <a href="https://www.meetup.com/sketchcity/events/239311484/">civic projects</a>, and <a href="https://www.meetup.com/Houston-React-Js-Group/events/240297939/">front-end web development</a>. They are free to attend although sometimes donations are requested for snacks.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Anyone interested in the subject. Attendees range from complete newbies to professional developers.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Casual to whatever people were wearing at work.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>It varies from civic community spaces to tech companies to coffee shops and bars.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>5-75, but many times a year.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>The two most common types are &#8220;introduction to blank&#8221; talks and &#8220;this is what I have done with blank&#8221; talks. My favorite is Houston data visualization meetup&#8217;s monthly &#8220;data jams&#8221;. A cleaned dataset is provided. Participants have 4 hours to build data visualizations with any code library or software tool they care to apply. This is a great way to learn about new tools and methods for data visualization.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>You&#8217;ll get exposure to a wide range of tools and approaches for a single topic.</li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li>Make connections across industries and organizations in Houston.</li>
+</ul>
+</li>
+<li>Make new contacts and catch up with old contacts</li>
+<li><em>Market yourself and your company</em>
+<ul>
+<li>The easiest place to present a talk or contribute to the local developer community.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Meet many vendors at once</em>
+<ul>
+<li>Vendor pitches are generally frowned upon, so there aren&#8217;t that many. Energy industry meetups are the exception.</li>
+</ul>
+</li>
+<li><em>Meet leaders in the field</em>
+<ul>
+<li>Unfortunately, Houston is not much of a tech hub, so there aren&#8217;t that many big names here.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>The main benefit of meetups for me is the exposure to a wide range of tools applied to the same topic or problem. This saves me a great amount of time in terms of researching and comparing new tools myself.</p>
+<h3 style="text-align: center;">Space-Apps Challenge Houston</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p>A <a href="https://2017.spaceappschallenge.org/">global hackathon</a> that uses NASA data, but is hosted locally in many cities around the world. This was the first year the event was hosted in Houston for several years. Participants form teams and have two days to hack together a solution, usually a web application but sometimes hardware, to one of the NASA <a href="https://2017.spaceappschallenge.org/challenges/">challenges</a>. It is free to attend. There was sponsor swag, coffee, beer, and food from <a href="http://stationhouston.com/">Station Houston</a>, Amazon Web Services, Intel, and <a href="https://www.yelp.com/biz/morningstar-houston">Morningstar Coffee</a>. I was a technical mentor during the event, not a participant.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Participants at the Houston event included high school students with a little coding knowledge, recent coding boot camp graduates, computer science undergraduates, IBM engineers, and professional web developers.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>85% jeans & t-shirt and 15% slightly fancier.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p><a href="https://www.theironyard.com/locations/houston">The Iron Yard</a>, a coding boot camp with locations in various cities, including Houston.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>~30</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>Aside from a 20-minute talk on NASA civilian science, the time was spent working on each team&#8217;s project. You can read more about some of the projects created at the Houston event <a href="https://2017.spaceappschallenge.org/locations/houston/">here</a>.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>Two of the teams used technologies I hadn&#8217;t worked with before.</li>
+</ul>
+</li>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em></li>
+<li><em>Make new contacts and catch up with old contacts</em>
+<ul>
+<li>Made connections with several or the participants</li>
+<li>Worked with <a href="http://stationhouston.com/">Station</a>, <a href="https://www.theironyard.com/locations/houston">The Iron Yard</a>, and several <a href="https://www.meetup.com/Houston-Data-Visualization-Meetup/">meet-up group</a> leads to organize the event.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Meet leaders in the field</em></li>
+<li><em>Meet people doing similar work and learn from their experiences</em></li>
+<li><em>Meet many vendors at once</em></li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>As a participant, hackathons are great for taking a method or technology that is new to you, cramming as much about it into your brain as possible, and then applying it in a very intense, short period of time. As a technical mentor, who also did a bit of event organization, it is a great way to expand your network, learn from others, and you get some of the previously mentioned technical benefits too.</p>
+<h3 style="text-align: center;">Agile Scientific Paris Subsurface Hackathon</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p>A hackathon associated with a geological society conference in Paris.  This is one of <a href="https://agilescientific.com/">Agile Scientific&#8217;s</a> hackathons that take place 1-3 times a year at geology and geophysics conferences. Total is co-organizing it. It is free to attend.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Geologists and geophysicists who know how to code, usually in Python. Web development skills are typically sparse. Several people, including myself, will be participating as &#8220;robots&#8221;. This means I&#8217;ll be teleconferencing into the hackathon and my face will be appearing on a little laptop there.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Most of the on-location participants will be French, so I&#8217;m assuming they will likely be better dressed than me.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>Virtual & Paris.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>Not sure as it hasn&#8217;t happened yet, but looks to be around 50.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>There will likely be an introduction talk and then lots of coding.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>This always seems to happen at hackathons.</li>
+</ul>
+</li>
+<li>Pick up new &#8220;tricks of the trade&#8221;
+<ul>
+<li>A lot of my coding ability was picked up after I left oil and gas, so it will be nice to work with geological datasets.</li>
+</ul>
+</li>
+<li>Make new contacts and catch up with old contacts
+<ul>
+<li>Several of the participants are people I know from a previous hackathon.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>I&#8217;m hoping to use this as an opportunity to apply a new skill area that I&#8217;ll be using at work eventually but haven&#8217;t had much opportunity to use yet. Possibilities include time-series analysis, deep-learning, web-scraping, and natural language processing.</p>
+<h2>Part 3  &#8211;  The Analysis</h2>
+<h3>Ranking of which events had which benefits the most</h3><p>Based on the notes above, I&#8217;ve ranked the events in terms of how well they fulfilled each benefit in my list. The event that most fulfilled each benefit is in <span style="color: #ff0000;">red<span style="color: #000000;">, with second in</span> <span style="color: #cc99ff;">purple</span><span style="color: #000000;">, etc</span></span>.</p>
+<ol>
+<li>People
+<ul>
+<li><em>Meet leaders in the field</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">SXSW &</span> <span style="color: #cc99ff;">PyCon</span></span></li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff6600;"><span style="color: #ff0000;">Meet-ups</span>,</span> <span style="color: #cc99ff;">PyCon</span><span style="color: #ff9900;"><span style="color: #cc99ff;">,</span> <span style="color: #99cc00;">JSC Data Science Day<span style="color: #99ccff;">,</span></span><span style="color: #99ccff;"> and meetups</span></span></span></li>
+</ul>
+</li>
+<li><em>Make new contacts and catch up with old contacts</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">AAPG,</span> <span style="color: #cc99ff;">meetups,</span> <span style="color: #99cc00;">and PyCon</span></span></li>
+</ul>
+</li>
+<li><em>Meet many vendors at once</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">SXSW <span style="color: #cc99ff;">and</span></span><span style="color: #cc99ff;"> AAPG</span></span></li>
+</ul>
+</li>
+<li><em>Market yourself and your company</em>
+<ul>
+<li><span style="color: #ff0000;">SXSW,</span><span style="color: #cc99ff;"> PyCON,</span><span style="color: #993300;"> </span><span style="color: #ff9900;"><span style="color: #99cc00;">AAPG,</span> <span style="color: #99ccff;">and meetups</span></span></li>
+</ul>
+</li>
+<li><em>Gain a better understanding of where your skills and knowledge rank</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">hackathons, </span><span style="color: #99cc00;">and meetups</span></span></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Skills
+<ul>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff6600;"><span style="color: #993300;"><span style="color: #ff0000;">Hackathons,</span><span style="color: #cc99ff;"> PyCon,</span></span></span> <span style="color: #99cc00;">meet-ups</span></span></li>
+</ul>
+</li>
+<li><em>Learn what to do or not do from others&#8217; experiences</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">meet-ups, </span><span style="color: #99cc00;">JSC Data Science Day</span></span></li>
+</ul>
+</li>
+<li><em>Attend a tutorial and take the first few steps in a new skill with someone to lead you</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">meet-ups, </span><span style="color: #99cc00;">hackathon</span></span></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Knowledge of the environment beyond your immediate organization
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">meet-ups, </span><span style="color: #99cc00;">JSC Data Science Day,</span><span style="color: #99ccff;"> SXSW</span><br />
+</span></li>
+</ul>
+</li>
+<li><em>Understand trends in the larger market or community</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">SXSW,</span> <span style="color: #cc99ff;">meet-ups,</span> <span style="color: #99cc00;">PyCon</span></span></li>
+</ul>
+</li>
+<li><em>Learn what is new</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;"><span style="color: #ff6600;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">SXSW,</span></span></span> <span style="color: #99cc00;">JSC Data Science Day</span></span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3>Discussion</h3><p>Some types of events I might not want to go to every year. Other types of events I would go every year, but I might trade one conference for another with a similar style but different focus area.</p>
+<h5>SXSW Interactive or another large conference of this type</h5><p>SXSW Interactive is great for getting a wide view of what is new and upcoming, but I&#8217;m not sure I need to go to it, or a conference like it, more than once every two to three years, even on a team that is responsible for keeping up with what is new.</p>
+<h5>AAPG or another large science or professional association conference</h5><p>AAPG is great in terms of what it tries to be, a science conference for oil and gas geologists, but there are definitely <a href="https://www.youtube.com/watch?v=vCeNA9btD9E">some aspects</a> of tech and computer language specific conferences that science and industry conferences could learn from. In-depth half-day tutorials, how-to sessions, and skill-building activities are all things that could be done in that conference space but just aren&#8217;t. A similar conference to this one, but in a computer science domain, would be <a href="https://www.ieee.org/conferences_events/index.html">IEEE</a>.</p>
+<h5>PyCon or similar tech conference</h5><p>PyCon had a wide range of benefits, including tutorials and &#8220;how to do this activity well&#8221; talks that are not always present at other technical gatherings. The year before I went to <a href="https://pydata.org/chicago2016/">PyData in Chicago</a>, which, although a smaller conference, had a similar range of talks. A conference that might be similar but with a different focus is <a href="https://scipy2017.scipy.org/ehome/index.php?eventid=220975&">SciPy</a>.</p>
+<h5>Hackathons</h5><p>They are great at both putting you in contact with the local developer community and showing you the range of approaching to a topic. However, they are intense. I participate or help out with 1-2 a year. More than that might be too much. I&#8217;ll do Space-Apps Houston again as there is definitely some value there both to me and to the community. Also, it is Houston! It was embarrassing there were several years when over a hundred Space-Apps hackathon events occurred globally, but there wasn&#8217;t an event in Houston. An alternative option that I seem to always be out of town for is the <a href="http://houstonhackathon.com/">Houston Hackathon</a>.</p>
+<h5>Johnson Space Center Data Science Day or similar 1-2 day, &lt;300 people,  local event.</h5><p>Johnson Space Center Data Science Day is useful for making local and NASA specific people connections and seeing what others are working on, however, it can&#8217;t replace something like PyCon or PyData for learning new skills. I&#8217;ll attend and present, but I don&#8217;t really count it as a learning opportunity in the same way. Similar type one to two-day speaker events are held at Rice University focusing on big data and <a href="http://ml2017.rice.edu/">machine learning</a>.</p>
+<h5>Houston tech meetups</h5><p>Tech meet-ups are my bread and butter learning opportunity. The combination of free, relatively easy to fit in your schedule as you don&#8217;t have to take days off, and leading directly into side projects works out well for me, especially as someone relatively new to writing code for a living. How many meetups I attend will depend on my schedule and number of side projects, which is difficult to predict in advance.</p>
+<h3>Next year plans</h3>
+<h5><em>Attend 0-1</em></h5><p>AAPG and SXSW style conferences have value but a more narrow range of benefits that ranks secondary to me right now. If options for travel and training are limited, I would focus my budget elsewhere next year.</p>
+<h5><em>Attend many, present at 1+, and organize at least 1</em></h5><p>Tech meetups and hackathons are great in that they&#8217;re free, local, and there&#8217;s something you could attend multiple times a week if you wanted, at least in a major US city. That frequency also represents a burn-out danger, however, so I&#8217;ll probably attend the same amount or shift to attending a little less next year.</p>
+<h5><em>Attend 1+ and present at 1+</em></h5><p>JSC Data Science Day is a great way to make local connections in a large and spread out organization, but I wouldn&#8217;t consider it a replacement for training or a major conference.</p>
+<h5><em>Attend 1 (consider presenting)</em></h5><p>PyCon and similar-type conferences probably offer the most value of the options examined due to the presence of many tutorials and &#8220;craft of coding&#8221; talks. My top focus for planning which conference to attend next year will be on finding a good PyCon-style conference that covers slightly different terrain but is still very applicable to work.</p>
+<h3>Conclusion</h3><p>Different outside of work technical gatherings have different benefits. An exercise like this helps organize experiences into data that is easier to analyze. My conclusions on what types of conferences are the most useful for me this year and next reflects what benefits I value the most right now. My main focus is on building skills and learning new tools, which shows up in my future conference preferences.</p><p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="/what-do-i-get-out-of-conferences/">What do I get out of conferences?</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/what-do-i-get-out-of-conferences/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">894</post-id>	</item>
+		<item>
+		<title>Flow Chart for Picking the Right Mapping Tool</title>
+		<link>/flow-chart-for-picking-the-right-mapping-tool/</link>
+		<comments>/flow-chart-for-picking-the-right-mapping-tool/#respond</comments>
+		<pubDate>Sat, 03 Sep 2016 19:05:18 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[maps]]></category>
+		<category><![CDATA[ArcGIS]]></category>
+		<category><![CDATA[CartoDB]]></category>
+		<category><![CDATA[data visualization]]></category>
+		<category><![CDATA[draw.io]]></category>
+		<category><![CDATA[flowcharts]]></category>
+		<category><![CDATA[GIS]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[Javascript library]]></category>
+		<category><![CDATA[leaflet.js]]></category>
+		<category><![CDATA[mapbox]]></category>
+		<category><![CDATA[Online Map]]></category>
+		<category><![CDATA[Online Mapping]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[tools]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=732</guid>
+		<description><![CDATA[<p>I did some research on different tools for creating flow charts today.Originally, I started down this path trying to figure out what open-source project I might be able to hack on and produce a project that would generate XKCD style flow charts, similar to how bokeh (python library) has XCKD style plots as built-in option. I<a href="/flow-chart-for-picking-the-right-mapping-tool/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/flow-chart-for-picking-the-right-mapping-tool/">Flow Chart for Picking the Right Mapping Tool</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>I did some research on different tools for creating flow charts today.</p><p>Originally, I started down this path trying to figure out what open-source project I might be able to hack on and produce a project that would generate XKCD style flow charts, similar to how bokeh (python library) has XCKD style plots as built-in option. I was also playing around with the notion of crowd-sourced flow charts to help pick among tools and libraries as the number of options explode.</p><p>Then I got distracted and made the flow-chart below. I&#8217;ll just leave it here. It was made with <a href="http://draw.io/">draw.io</a></p><p>&nbsp;</p>
+<div id="wrapper" style="width: 100%; height: 100%; overflow: scroll !important; -webkit-overflow-scrolling: touch;">
+<iframe src="http://www.justingosses.com/FlowChart_MakeMaps/" width="100%" height="1200px"></iframe>
+</div>
+<p>The post <a rel="nofollow" href="/flow-chart-for-picking-the-right-mapping-tool/">Flow Chart for Picking the Right Mapping Tool</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/flow-chart-for-picking-the-right-mapping-tool/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">732</post-id>	</item>
+		<item>
+		<title>Learning to Code</title>
+		<link>/learning-to-code/</link>
+		<comments>/learning-to-code/#respond</comments>
+		<pubDate>Sat, 09 Jan 2016 21:03:28 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[courses]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[The Iron Yard]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=325</guid>
+		<description><![CDATA[<p>&#8220;A Highly Opinionated &#038; Abbreviated Guide for Taking the First Steps to Learn a Bit of Code&#8221; Why Write this?Someone asked me for help figuring out where to start regarding learning how to code today. Fundamentally, that&#8217;s why I&#8217;m writing this. I figured I&#8217;d might as well put it in a post and send her the link.Additionally,<a href="/learning-to-code/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/learning-to-code/">Learning to Code</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<hr /><p><strong><em>&#8220;A Highly Opinionated & Abbreviated Guide for Taking the First Steps to Learn a Bit of Code&#8221;</em></strong></p>
+<h3>Why Write this?</h3><p>Someone asked me for help figuring out where to start regarding learning how to code today. Fundamentally, that&#8217;s why I&#8217;m writing this. I figured I&#8217;d might as well put it in a post and send her the link.</p><p>Additionally, the results you get from googling &#8220;best ways to learn how to code&#8221; can be a bit daunting. They tend to be long lists of 10 to 50 different websites or books with only a short description about each. That&#8217;s not very useful. I know from personal experience figuring out how and where to start can lead to decision paralysis due to the large number of options.</p>
+<h3>Warning!</h3><p>I&#8217;m still very much a newbie. Don&#8217;t put too much trust in anything I say. Some trust is okay, but let&#8217;s not go overboard.</p>
+<h3>Who am I Writing for?</h3><p><span style="text-decoration: underline;">My target audience is someone with no knowledge taking their first steps.</span> <strong>My goal is to help them avoid decision paralysis and simply start.</strong> Simply starting has a lot of value as it gets you to your first initial understanding of how exactly coding works and to the point where you can say, &#8220;I built that&#8221;. <span style="text-decoration: underline;">Once you have a tiny bit of experience under your belt, it will be a lot easier to decide how much you like coding, easier to pick what you want to learn, and more obvious how you want to learn it.</span></p>
+<h3>What am I Going to Cover?</h3><p><em>What language should you learn?</em></p>
+<ul>
+<li>I&#8217;m not going to describe the merits of every language. I&#8217;m going to focus on the most common languages and the easier languages to learn.</li>
+</ul><p><em>How should you go about learning?</em></p>
+<ul>
+<li>I&#8217;m not going to give a big list of 30 or a 100 options for different websites and books to use. Google will give you lots of those. I&#8217;m going to describe the categories of different learning resources.</li>
+</ul>
+<h3>What Languages Should You Learn?</h3>
+<h4>  If you want to build a website or put things on a website:</h4>
+<ol>
+<li>Sign up for a free web-builder like <a href="http://www.weebly.com/">Weebly</a>. Put something online quickly without coding knowledge to get some initial stoke.</li>
+<li>Learn <a href="http://www.w3schools.com/html/default.asp" target="blank">HTML</a>, <a href="http://www.w3schools.com/css/default.asp" target="blank">CSS</a>, <a href="http://www.w3schools.com/js/default.asp" target="blank">JavaScript</a> &#8211; in that order. Use them to make a better website with your free web-builder.</li>
+<li>Build simple web pages entirely from scratch without a web builder to hold your hand.</li>
+<li>Learn the additional languages and libraries listed on <a href="http://www.w3schools.com/" target="blank">W3 schools</a>.</li>
+</ol>
+<h4>  If you want to work with data:</h4>
+<ul>
+<li>Python! Python is what a lot of scientists and academics use. It is also relatively easy to learn.</li>
+<li>R is another good choice and very common in the social sciences.</li>
+<li>Alternatively, if you&#8217;re interested in data visualization and not data analysis, then JavaScript.
+<ul>
+<li>To get inspired&#8230; Check out <a href="https://github.com/mbostock/d3/wiki/Gallery" target="blank">D3.js examples</a> for data visualization or <a href="http://leafletjs.com/examples.html" target="blank">leaflet.js </a>for map examples.</li>
+</ul>
+</li>
+</ul>
+<h4>  If you want to make games:</h4>
+<ul>
+<li>Probably python.
+<ul>
+<li>Check out <a href="http://pygame.org/tags/example" target="blank">Pygame</a>.</li>
+<li>Other languages are used in professional gaming, but python is a better place to start in terms of learning resources, ease of learning it, and lots of free example code you can reuse.</li>
+<li>If you want to get very serious about games very quick, especially games with amazing graphics or in virtual reality, you might want to jump straight into Unity.</li>
+</ul>
+</li>
+</ul>
+<h4>  If you want to use a computer language that runs inside another piece of software, likely at work:</h4>
+<ul>
+<li>Learn that language. It will  be faster to learn that language directly than learn another one and then switch. Get good at one before you diversify too much is repeated advice I see everywhere.</li>
+</ul>
+<h4> If you have no idea or have a small child to learn with you / help you when you get stuck:</h4>
+<ul>
+<li><a href="http://Code.org/" target="blank">Code.org</a>   Start learning code concepts by playing games (Star Wars!) and moving around instruction blocks. Build up to writing actual code in the JavaScript language.</li>
+</ul>
+<hr />
+<hr />
+<blockquote><p><em><span style="color: #993300;">For a longer and more visual version of this discussion, check out this awesome <a href="http://carlcheo.com/wp-content/uploads/2014/12/which-programming-language-should-i-learn-first-pdf.pdf" target="blank">infographic</a> for what language to learn at </span><a style="color: #993300;" href="http://carlcheo.com/" target="blank">carlcheo.com</a><span style="color: #993300;">. In addition to providing a flow-diagram for what deciding what language to learn, it describes common computer languages in terms of Lord of the Rings character traits. While you&#8217;re there, browse around a little. The site has powerfully communicative articles and infographics for newbies that explain a lot of things that get missed elsewhere. </span></em></p></blockquote>
+<hr />
+<hr /><p>&nbsp;</p>
+<h3>What Are Your Options for Learning to Code?</h3><p>You have a huge variety of options. In fact, you probably have more options for learning code than most any subject out there. Instead of listing the websites and schools, I&#8217;m going to list the categories of different learning options. For some reason this approach is less common in google results.</p>
+<h4>Conventional Educational Institution</h4>
+<ul>
+<li>CON = Takes a long time</li>
+<li>CON = Expensive</li>
+<li>PRO = Learn a lot of the theoretical computer science fundamentals.</li>
+<li>PRO = Useful for getting a job</li>
+<li>SUMMARY = <span style="text-decoration: underline; color: #008000;">Not what you should do if you&#8217;re just starting out as we assumed for this post.</span></li>
+<li>EXAMPLE = Any four-year or two-year <a href="https://en.wikipedia.org/wiki/List_of_academic_computer_science_departments">university</a> with a computer science department.</li>
+</ul>
+<h4>Code Boot Camp</h4>
+<ul>
+<li>CON = Expensive (thousands of dollars)</li>
+<li>CON = As this is a relatively new concept, it is uncertain how it impacts your long-term job prospects.</li>
+<li>CON = These are often start-ups and can have related growing pains and quality problems. Research!</li>
+<li>PRO = Less time than conventional educational institutions</li>
+<li>PRO = Cram a lot of information into your head in a relatively short amount of time.</li>
+<li>PRO = Useful for getting a job</li>
+<li>SUMMARY = <span style="text-decoration: underline; color: #008000;">Not what you should do if you&#8217;re just starting out as we assumed for this post.</span></li>
+<li>EXAMPLE = <a href="https://www.theironyard.com/">The Iron Yard</a></li>
+</ul>
+<h4>MOOC = Massive Open Online Classes. (may or may not have certification & fixed schedule)</h4>
+<ul>
+<li>PRO = Learn from awesome professors in traditional lecture style without paying Harvard tuition.</li>
+<li>PRO = Usually has additional resources not available in the website learning options below, like discussion boards, tests that are more than monkey-see monkey-do, and advanced final products to show off (see some of my early python posts)</li>
+<li>PRO = Typically, you&#8217;ll be coding in the browser, which means you don&#8217;t have to worry about which version of python you have, how to set paths, or what the terminal is and how it differs from the PowerShell in Windows. This might not be true if the MOOC consists only of videos.</li>
+<li>CON/PRO = Typically 4 &#8211; 12 weeks & 3-10 hours per week.</li>
+<li>CON/PRO = If the class has fixed test and project deadlines, you can&#8217;t put it off for two weeks to deal with other stuff. On the other hand, deadlines make it more likely you&#8217;ll maintain forward momentum even if you have competing priorities. Some classes have deadlines with lots of tardy days to use up, which gives you best of both worlds.</li>
+<li>CON/PRO = Means something on your resume, not a lot, but a little more with certification</li>
+<li>SUMMARY = <span style="text-decoration: underline; color: #008000;">Can be great option if you like the traditional lecture learning methodology, want some personal interaction via discussion boards,</span> want at least a taste of computer science concepts, and are willing to commit to 3-8 hours a week for 5-12+ weeks. Whether or not it has a fixed schedule can be critical for whether it matches your needs.</li>
+<li>EXAMPLE = <a href="https://www.coursera.org/course/interactivepython1">An Introduction to Interactive Programming in Python</a>. By Rice Univ. C.S. dept. on Coursera.com or <a href="https://www.coursera.org/specializations/web-design">Learn to Design and Create Websites</a> by Univ. Michigan on Coursera.com</li>
+</ul>
+<h4>Free or Pay Website for Learning Code (may have little balloons that fall when you do good)</h4>
+<ul>
+<li>PRO = Short. Individual course segments can often be completed in a number of hours.</li>
+<li>PRO = Typically, you&#8217;ll be coding in the browser, which means you don&#8217;t have to worry about which version of python you have, how to set paths, or what the terminal is and how it differs from the PowerShell in Windows.</li>
+<li>PRO = Lots of silly things, great graphics, and quick immediate goals to keep you engaged and learning.</li>
+<li>CON = Doesn&#8217;t really help your resume. May not teach you all you need to know, depending on your needs.</li>
+<li>CON = No discussion board if you get stuck. Some have annoying mistakes in them.</li>
+<li>SUMMARY = <span style="text-decoration: underline;"><span style="color: #008000; text-decoration: underline;">If you like monkey see and monkey do learning</span></span> without in-depth discussion of concepts, this is perfect for you. If you want to <span style="text-decoration: underline;"><span style="color: #008000; text-decoration: underline;">try out coding in a relatively short amount of time</span></span>, this is also good. If you want a more serious approach, maybe you skip this and go to one of the options above, or maybe you start here and quickly move to book or MOOC.</li>
+<li>EXAMPLE: <a href="https://www.codecademy.com/">Codecademy.</a></li>
+</ul>
+<h4>Children&#8217;s Free Website for Learning Code</h4>
+<ul>
+<li>PRO/CON = Similar to above, but typically even less time to complete classes / segments.</li>
+<li>SUMMARY = Purposely built to be short, fun, cute, and put you on a learning progression with lots of little steps. Good if you want to do this with your kid. <span style="text-decoration: underline;"><span style="color: #008000; text-decoration: underline;">If you don&#8217;t know how interested you&#8217;ll be in coding and only want to spend &lt;2 hours to find out</span></span>, this is perhaps the option for you.</li>
+<li>EXAMPLE: <a href="http://Code.org/">Code.org</a></li>
+</ul>
+<h4>Online Book or Physical Book</h4>
+<ul>
+<li>PRO = You get a nice book out of it. Reference manuals are very useful for coding. You now have one.</li>
+<li>PRO = Step by step learning with a clear forward path to follow is very appealing for some people.</li>
+<li>PRO = Work at your own pace. You can even skip ahead!</li>
+<li>CON= You&#8217;ll likely have to download and install things. You&#8217;ll have to figure out how to use the terminal or command prompt to execute code and move files around. You&#8217;ll have to figure all this stuff out eventually, but, with learning out of a book, you have to figure it at the same time as you&#8217;re figuring out the coding part.</li>
+<li>SUMMARY = I&#8217;m going to be opinionated and say I <span style="text-decoration: underline;"><span style="color: #008000; text-decoration: underline;">don&#8217;t recommend just using a book as a learning method unless you  have some experience</span></span>. Too much installation and figuring out things in the terminal or command prompt before you actually get to learn what you want to learn. Go the book method in tandem with another option or after you&#8217;ve done another option.</li>
+<li>EXAMPLE: <a href="http://learnpythonthehardway.org/book/">Learn Python The Hard Way</a>, by Zed Shaw or <a href="https://play.google.com/store/books/details?id=blCyf8XF41sC&source=productsearch&utm_source=HA_Desktop_US&utm_medium=SEM&utm_campaign=PLA&pcampaignid=MKTAD0930BO1&gl=US&gclid=CPnp7YXIncoCFdNpfgod3ooK_A&gclsrc=ds">HTML and CSS: Design and Build Websites</a> by John Puckett</li>
+</ul>
+<h4>Mentor + Any of the Above</h4>
+<ul>
+<li>PRO =  Mentors can help you figure out <span style="text-decoration: underline;"><span style="color: #008000; text-decoration: underline;">how to address not knowing stuff</span></span>. How big a deal is not knowing something? What should you focus on learning? Why does this not work, and google won&#8217;t help me.</li>
+<li>EXAMPLE = More experienced people on the internet or in person, experienced people at work, that other guy at the hackathon, people on stack overflow, computer science meet-ups, random coding boot camp alumni you email for more information, anyone who knows anything relevant that will drink beer or coffee with you, etc.</li>
+</ul>
+<hr />
+<h3>How did I get started?</h3><p>My interest in coding resulted from my activities as a geologist. Although most of my time was spent on purpose-built software, sometimes I needed to do things that didn&#8217;t quite fit into standard software models or were annoyingly time intensive. I also ran up against memory limits in Excel on large datasets. Learning to code presented a way around these hurdles.</p><p>Once I put aside time for learning to write code in a more series manner, and not just editing example snippets run inside ArcGIS and other software packages, I found a set of classes taught by Rice Professors and offered online through Coursera to be very helpful. Course syllabi are available at this <a href="http://www.codeskulptor.org/coursera/interactivepython.html">link</a> and this <a href="http://www.codeskulptor.org/coursera/principlescomputing.html">link</a>. More general information about this sequence of python courses can be found <a href="https://www.coursera.org/specializations/fundamentalscomputing2">here</a>.</p><p>I took:</p>
+<blockquote>
+<p class="headline-2-text">An Introduction to Interactive Programming in Python (Part 1) . <a href="https://www.coursera.org/account/accomplishments/verify/9JJ2G6WVUA">Certificate</a> earned on April 10, 2015</p>
+<p class="headline-2-text">An Introduction to Interactive Programming in Python (Part 2). <a href="https://www.coursera.org/account/accomplishments/verify/Y5BQ7ZTRMD">Certificate</a> earned on May 14, 2015</p>
+<p class="headline-2-text">Principles of Computing (Part 1) by Rice University on Coursera. <a href="https://www.coursera.org/account/accomplishments/verify/XYXW9WQSXN">Certificate</a> earned on October 17, 2015</p>
+</blockquote>
+<hr />
+<p class="headline-2-text">
+<p class="headline-2-text"><b>Update</b>: Since I first wrote this, I&#8217;ve talked to many more people and been responsible for directing interns to learning resources. For people that want to spend a minimum amount of time to learn just a little, I&#8217;ve been directing them to resources that fall in the &#8220;Free or Pay Website for Learning Code&#8221; category. Additional learning resources that have worked well are:  <a href="https://code.org/">code.org</a> , <a href="http://w3schools.com/">w3schools.com</a> and <a href="https://www.codeschool.com/">codeschool.com</a> . Those options present a zero setup (everything can be run within their website) way to quickly dive-in.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+<hr /><p><em>Please feel free to leave any questions or comments via the comment box below!</em></p>
+<p>The post <a rel="nofollow" href="/learning-to-code/">Learning to Code</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/learning-to-code/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">325</post-id>	</item>
+		<item>
+		<title>Geophysics Hackathon at 2015 S.E.G. Annual Meeting</title>
+		<link>/geophysics-hackathon-at-2015-s-e-g-annual-meeting/</link>
+		<comments>/geophysics-hackathon-at-2015-s-e-g-annual-meeting/#respond</comments>
+		<pubDate>Mon, 23 Nov 2015 03:33:54 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[geology]]></category>
+		<category><![CDATA[Agile Geoscience]]></category>
+		<category><![CDATA[hackathon]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[python]]></category>
+
+		<guid isPermaLink="false">/?p=199</guid>
+		<description><![CDATA[<p>Geophysics Hackathon at S.E.G. annual conference, 2015 October 17th &#8211; October 18th, 2015 &#8211; New OrleansOver the weekend, I took part in a Geophysics Hackathon run by Agile Geosciences before the 2015 Society of Exploration Geophysicists annual meeting. A hackathon is when people get together and try to create one or more instances of software,<a href="/geophysics-hackathon-at-2015-s-e-g-annual-meeting/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/geophysics-hackathon-at-2015-s-e-g-annual-meeting/">Geophysics Hackathon at 2015 S.E.G. Annual Meeting</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h2>Geophysics Hackathon at S.E.G. annual conference, 2015</h2>
+<h5>October 17th &#8211; October 18th, 2015 &#8211; New Orleans</h5><p>Over the weekend, I took part in a <a href="http://www.agilegeoscience.com/blog/2015/9/7/the-hack-is-back-learn-new-skills-in-new-orleans">Geophysics Hackathon</a> run by <a href="http://www.agilegeoscience.com/"> Agile Geosciences </a> before the <a href="http://www.seg.org/web/seg-new-orleans-2015/#&panel1-1">2015 Society of Exploration Geophysicists annual meeting</a>. A hackathon is when people get together and try to create one or more instances of software, web app, webpage, etc. The themes for this hackathon were geophysics and <a href="https://en.wikipedia.org/wiki/Machine_learning">machine learning</a>.The event started with putting ideas up on a white board then splitting into groups to work on the ideas each group felt they could accomplish in two days.</p>
+<h4>Projects</h4><p>One group took on the problem of turning a map and color bar image into data that could be manipulated or parsed. To be more specific, they were trying to replace the color values in the image with data values, using the color bar as a guide.</p><p>I worked with a loosely connected group of subgroups whose goal was to do machine learning data analysis of paper information (author, title, abstract, keyword, etc.) scraped from the web. There was a front-end team that focused on building a website that ran and displayed other teams code/results. There was a machine-learning team that focused on using natural language algorithms and principal component analysis to find relationships within Geophysics paper data. I worked on the &#8220;back-end&#8221; team. We took a large messy json file containing data on paper title, author, DOI, keywords, citations, and abstract scraped from the S.E.G. website by Matt Hall and cleaned / parsed it using python.</p><p><!--
+
+
+<h4>Using Python to parse summary data from published Geophysics papers
+#</h4>
+
+
+#
+# To start, we built a python class called "Paper" that went through the json file and created a python #object for each paper. Attributes within the class included paper title, author, institution, DOI, #abstract, citations, etc. Functions in the class pulled out each attribute, printed a summary of each #paper, or checked if a given author or keyword was associated with the paper, etc. Other pieces of python #code used this class as a base. We also created a "Top" function that found the most common keywords, #institutions, or authors. This was used to find the most productive authors within our Geophysics dataset #between 1970 and 1979 for example. Keyword data was passed to the machine learning team who used it in #their project. Other outputs were designed for the front-end team building the visuals.
+#
+
+--></p>
+<h4>Lessons Learned</h4>
+<ol>
+<li><b>Pair coding was great at immediately catching small mistakes</b> that would otherwise hide in plain sight. Pair coding is when two people look at the same code as it is written, switching up who is typing.</li>
+<li>Having <b>multiple sub-groups was great for speed but led to some code being written that wasn&#8217;t useful</b>, at least in terms of being used for the demo at the end of Sunday.</li>
+<li>Something I already knew but was certainly reinforced this weekend was that I <b>need to learn more JavaScript and google app engine</b> to effectively put any python scripts I create on the web in a useful format.</li>
+</ol>
+<h4>Demos</h4><p>Sunday afternoon was a mad rush to turn ideas and code into an actual demo.</p><p>As the backend team, we had a PowerPoint that listed what our code did, basically reorganize data. I&#8217;ll admit not the most interesting presentation. The front end team, however, had been working on putting small quick visuals on the web. This <a href="https://geophyzviz.appspot.com/breakfast_learn">link</a> shows how the work of the machine learning team could be integrated to produce article recommendations based on authors the user selected. The idea was to have the user input a keyword to start, but the front-end team ran out of time, so for now it just asks what you had for breakfast (which doesn&#8217;t change anything).</p><p>Several of the projects from past years have gone from demos at the end of the two day hackathon to be developed into fully operational web apps. A great example is <a href="http://pickthis.io/">PickThis</a>, a crowdsourced seismic and medical imaging heat map.</p>
+<hr />
+<p>The post <a rel="nofollow" href="/geophysics-hackathon-at-2015-s-e-g-annual-meeting/">Geophysics Hackathon at 2015 S.E.G. Annual Meeting</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/geophysics-hackathon-at-2015-s-e-g-annual-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">199</post-id>	</item>
+		<item>
+		<title>Pythonista: An app to run Python on your phone</title>
+		<link>/pythonista-an-app-to-run-python-on-your-phone/</link>
+		<comments>/pythonista-an-app-to-run-python-on-your-phone/#respond</comments>
+		<pubDate>Sat, 07 Nov 2015 20:14:13 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[pythonista]]></category>
+
+		<guid isPermaLink="false">/?p=136</guid>
+		<description><![CDATA[<p>An App for Running Small Python Scripts On iPhone:Pythonista is an app for the iphone that allows you to run python scripts. It doesn&#8217;t have completely full python capabilities, but the modules available are still impressive. It has the full numpy and matlab lib for example. The examples that come with the app include python<a href="/pythonista-an-app-to-run-python-on-your-phone/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/pythonista-an-app-to-run-python-on-your-phone/">Pythonista: An app to run Python on your phone</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>An App for Running Small Python Scripts On iPhone:</h3><p><a href="https://itunes.apple.com/us/app/pythonista/id528579881?mt=8" target="blank">Pythonista</a> is an app for the iphone that allows you to run python scripts. It doesn&#8217;t have completely full python capabilities, but the modules available are still impressive. It has the full numpy and matlab lib for example. The examples that come with the app include python scripts for making quick memes using photos in your photo gallery, memory type card games, clocks, air hockey, and a quick color mixer (to find the RGB of that house color you like so much).</p><p>Apple usually blocks apps that allow you to write/run code on your iphone, and for a short time Pythonista was blocked, but apparently middle ground was found.</p>
+<h3>&#8220;Flowing Particle&#8221;</h3><p>&#8220;Flowing Particle&#8221; was my first attempt at using pythonista. My goal was make something simple and pretty to show my 2 year old nephew.</p><p>I started with an example script that came with the app called &#8220;particle&#8221;. It was modified to improve the degree to which the behavior of the particles seemed realistic and the aesthetic appearance. <span style="line-height: 1.5;">Any touch to the screen initiates creation of &#8220;particles&#8221;. I had the particles &#8220;fall&#8221; towards the direction farthest from where most people&#8217;s thumb rests. The particles also spread out if too many are piled up on top each other. As each particles&#8217; age increases, it changes in color. The more particles that overlap, the greater their brightness, until the color goes to white.</span></p><p>The result is colorful, relaxing, and interesting enough to briefly overcome his mother&#8217;s rule about no screen time.</p><p><a href="/wp-content/uploads/2015/11/Pythonista_Particles_v3.mov">Click here to Open a video of the python scrip in action</a></p><p>or check out the code on github: <a href="https://github.com/JustinGOSSES/Pythonista" target="blank"><img data-attachment-id="224" data-permalink="/resume/github-mark-32px/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?fit=32%2C32" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="GitHub-Mark-32px" data-image-description="&lt;p&gt;GitHub-Mark-32px&lt;/p&gt;
+" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?fit=32%2C32" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?fit=32%2C32" class="alignnone size-full wp-image-224" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?resize=32%2C32" alt="GitHub-Mark-32px" width="32" height="32" data-recalc-dims="1" /></a></p>
+<div id="attachment_137" style="width: 460px" class="wp-caption alignnone"><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/FloatingParticle_1.png"><img data-attachment-id="137" data-permalink="/pythonista-an-app-to-run-python-on-your-phone/floatingparticle_1/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/FloatingParticle_1.png?fit=450%2C800" data-orig-size="450,800" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="FloatingParticle_1" data-image-description="&lt;p&gt;Screen shot of &#8220;flowing particles&#8221; pythonista script that runs on iphone.&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/FloatingParticle_1.png?fit=169%2C300" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/FloatingParticle_1.png?fit=450%2C800" class="size-full wp-image-137" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/FloatingParticle_1.png?resize=450%2C800" alt="Screen shot of &quot;flowing particles&quot; pythonista script that runs on iphone." width="450" height="800" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/FloatingParticle_1.png?w=450 450w, https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/FloatingParticle_1.png?resize=169%2C300 169w" sizes="(max-width: 450px) 100vw, 450px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Screen shot of &#8220;flowing particles&#8221; pythonista script that runs on iphone.</p>
+</div>
+<p>The post <a rel="nofollow" href="/pythonista-an-app-to-run-python-on-your-phone/">Pythonista: An app to run Python on your phone</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/pythonista-an-app-to-run-python-on-your-phone/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="/wp-content/uploads/2015/11/Pythonista_Particles_v3.mov" length="44520931" type="video/quicktime" />
+	<post-id xmlns="com-wordpress:feed-additions:1">136</post-id>	</item>
+		<item>
+		<title>Python Class Project &#8211; 2048</title>
+		<link>/python-class-project-2048/</link>
+		<comments>/python-class-project-2048/#respond</comments>
+		<pubDate>Sat, 07 Nov 2015 19:57:33 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[courses]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[rice university]]></category>
+
+		<guid isPermaLink="false">/?p=130</guid>
+		<description><![CDATA[<p>2048 Numbers Game Another project built for the online Python Class I was taking, 2048 is a game in which you move numbers around a board. Like numbers merge in pairs. For example blocks of 2 and 2 becomes a single 4. You move all the blocks at once in whatever direction you pick using<a href="/python-class-project-2048/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/python-class-project-2048/">Python Class Project &#8211; 2048</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h2>2048 Numbers Game</h2>
+<div align="center">
+<p style="text-align: left;">Another project built for the online Python <a href="https://www.coursera.org/specializations/fundamentalscomputing2?utm_medium=spark_cdp_sidebar" target="blank">Class</a> I was taking, 2048 is a game in which you move numbers around a board. Like numbers merge in pairs. For example blocks of 2 and 2 becomes a single 4. You move all the blocks at once in whatever direction you pick using the arrow keys. Every time you make a move, a new block is added. If you run out of free spaces, you lose. The goal is to get a block whose score is exactly 2048.</p>
+<p style="text-align: left;"><i>You must have pop-ups enabled to play, can’t run it on a mobile device, and any older browsers that haven’t been updated in a couple years may or may not work. I am using <a href="http://www.codeskulptor.org/docs.html#tabs-Python" target="blank">CodeSkulptor</a> to run my python code in your browser. CodeSkulptor is a very nice tool, but it does have these limitations.</i></p>
+<div id="attachment_131" style="width: 441px" class="wp-caption alignnone"><a href="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png"><img data-attachment-id="131" data-permalink="/python-class-project-2048/2048_1/" data-orig-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png?fit=431%2C455" data-orig-size="431,455" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2048_1" data-image-description="&lt;p&gt;Screen shot of 2048 numbers game. Built with python by Justin Gosses 2015.&lt;/p&gt;
+" data-medium-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png?fit=284%2C300" data-large-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png?fit=431%2C455" class="size-full wp-image-131" src="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png?resize=431%2C455" alt="Screen shot of 2048 numbers game. Built with python by Justin Gosses 2015." width="431" height="455" srcset="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png?w=431 431w, https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png?resize=284%2C300 284w" sizes="(max-width: 431px) 100vw, 431px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Screen shot of 2048 numbers game. Built with python by Justin Gosses 2015.</p>
+</div><p><iframe class="center" src="http://www.codeskulptor.org/#user40_2fVApewnkR_1.py" width="100%" height="600"></iframe></p>
+</div>
+<p>The post <a rel="nofollow" href="/python-class-project-2048/">Python Class Project &#8211; 2048</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/python-class-project-2048/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">130</post-id>	</item>
+		<item>
+		<title>Python Class Project &#8211; Excessive Pong</title>
+		<link>/python-class-project-excessive-pong/</link>
+		<comments>/python-class-project-excessive-pong/#respond</comments>
+		<pubDate>Sat, 07 Nov 2015 19:43:16 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[courses]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[rice university]]></category>
+
+		<guid isPermaLink="false">/?p=125</guid>
+		<description><![CDATA[<p>Excessive PongAnother project for the online python class was to build your own version of the home arcade game, pong. The project applied what we had previously learned about user interface, use of time functions, lists, dictionaries, etc.The project instructions stipulated that the ball speed should include a certain percentage each time it hit a<a href="/python-class-project-excessive-pong/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/python-class-project-excessive-pong/">Python Class Project &#8211; Excessive Pong</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<hr />
+<h2>Excessive Pong</h2><p>Another project for the online python <a href="https://www.coursera.org/specializations/fundamentalscomputing2?utm_medium=spark_cdp_sidebar" target="blank">class</a> was to build your own version of the home arcade game, pong. The project applied what we had previously learned about user interface, use of time functions, lists, dictionaries, etc.</p><p>The project instructions stipulated that the ball speed should include a certain percentage each time it hit a paddle to limit the length of each game. I added a bunch of other &#8220;features&#8221; of my own making to make it &#8220;excessive&#8221; pong.</p>
+<h4>Extra settings included:</h4>
+<ul>
+<ul>
+<li>ball color choice</li>
+<li>semi-perfect computer player</li>
+<li>sloppy computer player</li>
+<li>computer player on one or both sides</li>
+<li>two more balls</li>
+<li>too many balls</li>
+<li>a curve ball mode</li>
+<li>and a teleporter</li>
+</ul>
+</ul><p>&nbsp;</p><p>The left side of the window below contains the code I wrote that makes up the game. To play &#8220;Excessive Pong&#8221;, hit the play button on the screen below. Use W & S keys to move the paddle for the left player. Up and Down arrows move the paddle for the right sided player. To activate the various &#8220;play options&#8221; buttons that appear on the left side of the pop-up, click them once. Clicking them again will de-activate.</p><p><i><br />
+I am using <a href="http://www.codeskulptor.org/docs.html#tabs-Python" target="blank">CodeSkulptor</a> to run my python code in your browser. CodeSkulptor is a very nice tool, but it does have limitations. You must have pop-ups enabled to play, can&#8217;t run it on a mobile device, and older browsers may or may not work. Safari works inconsistently. Firefox works the best.</i></p><p><iframe class="center" src="http://www.codeskulptor.org/#user40_L9g9vymraq_10.py" width="100%" height="600"></iframe></p>
+<div id="attachment_126" style="width: 821px" class="wp-caption alignnone"><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png"><img data-attachment-id="126" data-permalink="/python-class-project-excessive-pong/excessivepong/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png?fit=811%2C451" data-orig-size="811,451" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ExcessivePong" data-image-description="&lt;p&gt;Screen shot of &#8220;Excessive Pong&#8221; python program. by Justin Gosses, 2015&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png?fit=300%2C167" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png?fit=640%2C356" class="size-full wp-image-126" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png?resize=640%2C356" alt="Screen shot of &quot;Excessive Pong&quot; python program. by Justin Gosses, 2015" width="640" height="356" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png?w=811 811w, https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png?resize=300%2C167 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Screen shot of &#8220;Excessive Pong&#8221; python program. by Justin Gosses, 2015</p>
+</div>
+<p>The post <a rel="nofollow" href="/python-class-project-excessive-pong/">Python Class Project &#8211; Excessive Pong</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/python-class-project-excessive-pong/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">125</post-id>	</item>
+		<item>
+		<title>Python Class Project &#8211; &#8220;Astroids&#8221; game</title>
+		<link>/python-class-project-astroids/</link>
+		<comments>/python-class-project-astroids/#comments</comments>
+		<pubDate>Fri, 06 Nov 2015 06:46:29 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[courses]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[rice university]]></category>
+
+		<guid isPermaLink="false">/?p=42</guid>
+		<description><![CDATA[<p>Building an arcade game for class:As part of a series of classes I&#8217;ve been taking through Coursera / Rice University, I&#8217;ve built a few clones of old school arcade games. The idea is building games is fun (because you can play them) and therefore students will be more motivated to learn and finish projects. Rice<a href="/python-class-project-astroids/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/python-class-project-astroids/">Python Class Project &#8211; &#8220;Astroids&#8221; game</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h2>Building an arcade game for class:</h2><p>As part of a series of classes I&#8217;ve been taking through <a href="https://www.coursera.org/specializations/fundamentalscomputing2?utm_medium=courseDescripTop" target="blank">Coursera / Rice University</a>, I&#8217;ve built a few clones of old school arcade games. The idea is building games is fun (because you can play them) and therefore students will be more motivated to learn and finish projects.</p>
+<hr />
+<h2>Rice Rocks or &#8220;Astroids&#8221;</h2><p>The screen shot below is from my version of the old &#8220;astroids&#8221; arcade game. To play the game, follow the instructions below the screenshot.</p>
+<div id="attachment_45" style="width: 610px" class="wp-caption alignnone"><a href="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png"><img data-attachment-id="45" data-permalink="/python-class-project-astroids/astroids_screen_shot/" data-orig-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?fit=1082%2C717" data-orig-size="1082,717" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Astroids_screen_shot" data-image-description="&lt;p&gt;Screen shot of game built/run with python&lt;/p&gt;
+" data-medium-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?fit=300%2C199" data-large-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?fit=640%2C424" class="size-thumbnail wp-image-45" src="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?resize=600%2C600" alt="Screen shot of game built/run with python" width="600" height="600" srcset="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?resize=150%2C150 150w, https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?resize=250%2C250 250w, https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?resize=174%2C174 174w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Screen shot of game built/run with python</p>
+</div>
+<div align="center"><p>The left side of the window below contains the code I wrote that makes up the game. To play &#8220;Astroids&#8221; game, hit the play button on the screen below. It will open a pop-up window with the game. Hit the back buttom (left hand turn arrow) to turn off sound when finished.</p><p>Use arrow keys to power the thruster and turn the spaceship. Spacebar fires the missiles.You can use the input forms on the left side of the pop-up screen to change some elements of the game play, but they are only applied after you lose one game and go onto the next game.</p><p><i><br />
+I am using <a href="http://www.codeskulptor.org/docs.html#tabs-Python" target="blank">CodeSkulptor</a> to run my python code in your browser. CodeSkulptor is a very nice tool, but it does have limitations. You must have pop-ups enabled to play, can’t run it on a mobile device, and older browsers may or may not work. Safari works inconsistently. Firefox and Chrome work the best.<br />
+</i></p><p><iframe class="center" src="http://www.codeskulptor.org/#user39_TX7MZeGm6m_10.py" width="100%" height="600"></iframe></p>
+</div>
+<p>The post <a rel="nofollow" href="/python-class-project-astroids/">Python Class Project &#8211; &#8220;Astroids&#8221; game</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/python-class-project-astroids/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">42</post-id>	</item>
+	</channel>
+</rss>

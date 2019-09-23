@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+
+<channel>
+	<title>tutorials &#8211; Justin Gosses Home</title>
+	<atom:link href="/tag/tutorials/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Geology, GIS, and CODE + Resumes</description>
+	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.11</generator>
+
+<image>
+	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
+	<title>tutorials &#8211; Justin Gosses Home</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+		<title>What do I get out of conferences?</title>
+		<link>/what-do-i-get-out-of-conferences/</link>
+		<comments>/what-do-i-get-out-of-conferences/#respond</comments>
+		<pubDate>Tue, 30 May 2017 06:23:56 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[geology]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[AAPG]]></category>
+		<category><![CDATA[Agile Geoscience]]></category>
+		<category><![CDATA[conference]]></category>
+		<category><![CDATA[convention]]></category>
+		<category><![CDATA[data science]]></category>
+		<category><![CDATA[Geology]]></category>
+		<category><![CDATA[hackathon]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[Online Map]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[talks]]></category>
+		<category><![CDATA[tutorials]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=894</guid>
+		<description><![CDATA[<p>Four conferences, two hackathons, and a lot of meet-ups: Analyzing what I&#8217;ve gotten from technical gatherings outside of work this year&#160; Part 1 &#8211;  The PremiseOver the last year, I&#8217;ve been lucky to attend more than my usual number of conferences, meetups, and hackathons. Some of the events were paid by work, some were paid<a href="/what-do-i-get-out-of-conferences/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/what-do-i-get-out-of-conferences/">What do I get out of conferences?</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3 style="text-align: center;">Four conferences, two hackathons, and a lot of meet-ups: Analyzing what I&#8217;ve gotten from technical gatherings outside of work this year</h3><p>&nbsp;</p>
+<h2>Part 1 &#8211;  The Premise</h2><p>Over the last year, I&#8217;ve been lucky to attend more than my usual number of conferences, meetups, and hackathons. Some of the events were paid by work, some were paid by me, and some were free. As my last event for 2017 is coming up, I&#8217;m asking myself two questions.</p><p><strong>First, what did I get out of the gatherings I attended?</strong></p><p><strong>Second, what types of events should I attend next year in order to maximize the benefits I&#8217;m interested in?</strong></p><p>As I see it, attending technical gatherings can have a range of benefits:</p>
+<ol>
+<li>People
+<ul>
+<li>Meet leaders in the field</li>
+<li>Make new contacts and catch up with old contacts</li>
+<li>Meet many vendors at once</li>
+<li>Market yourself and your company</li>
+<li>Gain a better understanding of where your skills and knowledge rank</li>
+</ul>
+</li>
+<li>Skills
+<ul>
+<li>Pick up new &#8220;tricks of the trade&#8221;</li>
+<li>Learn what to do or not do from others&#8217; experiences</li>
+<li>Attend a tutorial and take the first few steps in a new skill with someone there to lead you</li>
+</ul>
+</li>
+<li>Knowledge of the environment beyond your immediate organization
+<ul>
+<li>Gain exposure to a wide range of tools, methods, and applications</li>
+<li>Learn what is upcoming and new</li>
+<li>Understand how the larger market or community is evolving</li>
+</ul>
+</li>
+</ol><p>Working under the assumption that understanding what I got out of the past events will help me plan ahead, I&#8217;ve compiled a description of various technical gatherings I&#8217;ve attended over the last twelve months.</p>
+<h2>Part 2 &#8211; The Data</h2><p>&nbsp;</p>
+<h2 style="text-align: center;">AAPG ACE 2017</h2>
+<h5><span style="color: #008000;">What is it?</span></h5><p><a href="http://www.aapg.org/">American Association of Petroleum Geologist</a>s Annual <a href="http://ace.aapg.org/2017/about">Conference & Exhibit</a>. It is the main conference for petroleum geologists and the largest of several AAPG conferences. The conference can cost between $65 and $650 depending on whether you are a student and when you purchase.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Geologists in the oil and gas industry and some geophysicists. Engineers have their own conferences. The focus is on technical aspects as opposed to business environment or deal making.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Most people dress like they do at work, which is to say dress pants, dress pants, and collared shirts if you&#8217;re a guy or the equivalent if female. If you&#8217;re presenting or looking for work, you might wear a suit and tie. A few people wear jeans. There are no funny t-shirts.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>This year it was in Houston. The conference moves every year between North American oil industry centers like Houston, Long Beach, Calgary, and Denver.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>The average over the last 5 years has been <a href="http://www.aapg.org/events/conferences/ace">6,900</a>.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>Most of the talks follow the pattern of a typical science talk explaining what they did in very rough terms and what their conclusions are.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Make new contacts and catch up with old contacts</em>
+<ul>
+<li>AAPG ACE was very good for making connections with people I haven&#8217;t seen in a while now that I&#8217;m out of the oil and gas industry.</li>
+</ul>
+</li>
+<li><em>Learn what is upcoming and new</em>
+<ul>
+<li>It is also a great place for seeing what is at the forefront of the intersection between industry and academia in geology as various research consortia present talks and posters.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em></li>
+<li><em>Attend a tutorial and take the first few steps in a new skill with someone to lead you</em>
+<ul>
+<li>Compared with tech conferences, the range of talk types is limited. There are almost no &#8220;how to&#8221; or &#8220;when to use blank method&#8221; talks. Everything is in the science talk mold.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>AAPG was great for catching up with people and getting a peek at what other people are working on, even if it is a small peak. Some of the talks can be frustratingly vague due to intellectual property constraints. Field trips provide some opportunity for improving technical skills, but they typically cost enough that you&#8217;ll only attend if your employer is paying. The main convention talks tend to focus on what someone has been done rather than what you could do.</p><p>If you&#8217;re interested in hearing more about what geology conferences are missing and what they might be able to learn from certain tech conference models, the Undersampled Radio podcast recent had a great conversation on this topic starting at 30 minutes into <a href="https://www.youtube.com/watch?v=vCeNA9btD9E"> episode 46</a>.</p>
+<h2 style="text-align: center;">SXSW Interactive</h2>
+<h5><span style="color: #008000;"> What is it?</span></h5><p>South by Southwest is a mega-conference in which the &#8220;<a href="https://www.sxsw.com/festivals/interactive/">Interactive</a>&#8221; sub-conference focuses on digital, internet, intelligent future, social impact, journalism, start-ups, AR/VR, music industry, sports industry, and the workplace. The interactive sub-conference takes place over 5 days and overlaps with the education, music, film, and comedy sub-conferences. More information <a href="https://www.sxsw.com/festivals/interactive/">here</a>. SXSW Interactive tickets cost $1,225.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Marketing companies, hip people, students who volunteer to get their otherwise expensive tickets paid for, and people in the digital space who want to see what is new or make connections.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Varies from nerdy t-shirts to professor jackets with elbow patches. If business casual, a little on the fashionable side.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>Austin, every year.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p><a href="https://en.wikipedia.org/wiki/South_by_Southwest">30,621</a></p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>The talks here range from &#8220;this is new&#8221; to &#8220;we did and you can too&#8221; to &#8220;let&#8217;s talk about the context of something&#8221; to &#8220;fluff and buzzwords&#8221;.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Meet leaders in the field</em>
+<ul>
+<li>I talked with <a href="https://homes.cs.washington.edu/~jheer/">Vint Cerf</a>, one of the &#8220;fathers of the internet, and <a href="https://homes.cs.washington.edu/~jheer/">Jeffrey Heer </a>, a professor who has had a role in many key data visualization code libraries, such as <a href="https://vega.github.io/vega/">vega.js</a>, <a href="https://vincent.readthedocs.io/en/latest/">vincent.py</a>, and <a href="https://d3js.org/">d3.js</a>.</li>
+</ul>
+</li>
+<li><em>Understand trends in the larger market or community. Learn what is new</em></li>
+<li><em>Learn what is upcoming and new</em>
+<ul>
+<li>Saw a lot in regards to VR/AR that was cutting edge.</li>
+</ul>
+</li>
+<li><em>Understand how the larger market or community is evolving</em></li>
+<li><em>Meet many vendors at once</em>
+<ul>
+<li>Largest exhibit showroom of any conference in this list.</li>
+<li>Met with two vendors afterward and used the experience to benchmark against other vendors post conference</li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li>There were several talks that inspired ideas for future projects based on what similar teams had done in other organizations. Post-talk discussions were great for identifying failures to avoid in upcoming projects.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em>
+<ul>
+<li>Talks tend to lack technical depth.</li>
+</ul>
+</li>
+<li><em>Attend a tutorial and take the first few steps in a new skill with someone to lead you</em>
+<ul>
+<li>There weren&#8217;t any tutorials.</li>
+</ul>
+</li>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>There are more talks about products and solutions than methods or tools.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>There were some great talks that inspired potential future projects, but meeting people was the more valuable activity at SXSW. Perhaps for that reason, there were <a href="http://schedule.sxsw.com/2017/03/10/events/conference/Interactive/type/panel">several time slots</a> for people to just &#8220;meet-up&#8221; in a room and talk about a specific topic.</p>
+<h3 style="text-align: center;">PyCon2017</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p><a href="https://us.pycon.org/2017/">PyCon</a> is the largest conference for Python developers. Web development and data analytics are the two focus areas. The base convention ticket for PyCon is $600 for corporate, $350 for individuals, and $125 for students. If sign-up for the max amount of tutorials, total ticket price can be up to $1200.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>People who write code in Python. The male/female ratio at PyCon was maybe 70/30, which made it the most unbalanced of all the conferences.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>There&#8217;s a range, but, compared to the other conferences, it was high on nerdy t-shirts and low on formal or business clothes.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>PyCon was held in Portland, Oregon. PyCon holds their conferences in the same city for two years before switching, which minimizes costs and planning requirements. Next year, it will be in Cleveland, Ohio. Previous to Portland, it was in Montreal.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p><a href="https://en.wikipedia.org/wiki/Python_Conference">3,391</a> badges were picked up from registration.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>PyCon is split into two days of tutorials, three days of talks, and then four days of open-source development sprints.</p>
+<ul>
+<li>Tutorials are half a day in length. Topics included Bayesian machine learning, time series analysis, network analysis, using flask for microservices, <a href="https://us.pycon.org/2017/schedule/tutorials/">etc</a>.</li>
+<li>During the main convention, talks ranged in style from:
+<ul>
+<li>We did this with Python</li>
+<li>Best practice in some aspect of writing code</li>
+<li>The &#8220;craft&#8221; of some part of writing python code</li>
+<li>Introduction to a new python module or open-source project</li>
+<li>Introduction to some activity that can be done with python</li>
+</ul>
+</li>
+<li>During the sprints, open-source Python <a href="https://us.pycon.org/2017/community/sprints/">projects</a> are built or extended.</li>
+</ul>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Meet leaders in the field</em>
+<ul>
+<li>Ended up at a bar with <a href="https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript">Gary Bernhardt</a> , who runs &#8220;destroyallsoftware.com&#8221;, and <a href="https://www.kennethreitz.org/projects/">Kenneth Reitz</a>, the main author of the &#8220;requests&#8221; python module.</li>
+</ul>
+</li>
+<li><em>Attend a tutorial and take the first few steps in a new skill with someone to lead you</em>
+<ul>
+<li>Attended excellent half-day <a href="https://us.pycon.org/2017/schedule/tutorials/">tutorials</a> on Bayesian machine learning, time series analysis, and MQTT protocol.</li>
+</ul>
+</li>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em>
+<ul>
+<li>Several talks were on the &#8220;craft&#8221; of some aspect of writing code, examples included documentation, testing, and sever reliability.</li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li>Talked to a variety of people doing similar work in different organizations and learned how their teams and approaches differ from mine.</li>
+</ul>
+</li>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>Got exposure to a range of new modules and methods and what they could be used for.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Meet many vendors at once</em>
+<ul>
+<li>Although there was an exhibit floor, the number and diversity of vendors were a bit lacking for a conference of that size.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>PyCon was excellent for picking up bits of new skills and improving my understanding of what python modules I might be able to use in future projects. Many of the talks had a focus on leaving the audience with something useful, which made it a great conference for learning. My <a href="https://docs.google.com/document/d/1zm0x1uLg-SKGI4nbu-_ND_44Bycl_wo4tTxVpjDDC6g/edit?usp=sharing">notes</a> have links to the slides and Jupyter Notebooks used by some of the presenters.</p>
+<h3 style="text-align: center;">Johnson Space Center Data Science Day</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p><a href="https://fal.jsc.nasa.gov/DSD/">Data Science Day 2.0</a> was two days of talks around various aspects of data science, data visualization, and analytics. It was free to attend.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>A mixture of NASA civil servants, NASA contractors, vendors, and the public who were interested in the subject matter.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Mostly business casual with some suits and ties.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>Gilruth Center just outside Johnson Space Center, Houston, Texas.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>I estimate 200-350.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>Talks ranged from programming newbie talks to &#8220;we built this&#8221; talks to &#8220;this capability exists&#8221; talks.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>Got exposure to skills and methods I haven&#8217;t used myself yet.</li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li>Made connections to others at Johnson Space Center who were interested in working with our team.</li>
+</ul>
+</li>
+<li><em>Market yourself and your company</em>
+<ul>
+<li>Presented a <a href="http://slides.com/justingosses/history_data_visualization_tools#/">talk</a> on the history of digital data visualization tools.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em>
+<ul>
+<li>There weren&#8217;t many talks about the craft of data science or data visualization.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>Given Johnson Space Center is a rather spread out campus with many buildings, events like this are really valuable for communicating about skills that cross normal organizational boundaries. Attending an event of this type wouldn&#8217;t replace something like PyCon, however, due to the lack of tutorials and in-depth skill sessions.</p>
+<h3 style="text-align: center;">Various Houston Tech Meetups</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p>There are a variety of <a href="https://www.meetup.com/find/?allMeetups=false&keywords=tech&radius=25&userFreeform=Houston%2C+TX&mcId=c77001&mcName=Houston%2C+TX&sort=default">meetups</a> in Houston that focus on t<a href="https://www.meetup.com/Collabonauts/">ech</a>, <a href="https://www.meetup.com/houston-js/events/240279389/">web development</a>, <a href="https://www.meetup.com/Houston-VR-Developers/events/239502556/">virtual reality</a>, <a href="https://www.meetup.com/Hackster-Hardware-Meetup-Houston/events/240263187/">IoT</a>, and <a href="https://www.meetup.com/Houston-Energy-Data-Science-Meetup/">data science</a>. These are typically 1.5 to 4-hour meetings around various topics held every month or two somewhere in Houston. I regularly go to ones on <a href="https://www.meetup.com/Houston-Data-Visualization-Meetup/">data visualization</a>, <a href="https://www.meetup.com/houston-js/">JavaScript</a>, <a href="https://www.meetup.com/python-web-houston/">Python</a>, <a href="https://www.meetup.com/sketchcity/events/239311484/">civic projects</a>, and <a href="https://www.meetup.com/Houston-React-Js-Group/events/240297939/">front-end web development</a>. They are free to attend although sometimes donations are requested for snacks.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Anyone interested in the subject. Attendees range from complete newbies to professional developers.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Casual to whatever people were wearing at work.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>It varies from civic community spaces to tech companies to coffee shops and bars.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>5-75, but many times a year.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>The two most common types are &#8220;introduction to blank&#8221; talks and &#8220;this is what I have done with blank&#8221; talks. My favorite is Houston data visualization meetup&#8217;s monthly &#8220;data jams&#8221;. A cleaned dataset is provided. Participants have 4 hours to build data visualizations with any code library or software tool they care to apply. This is a great way to learn about new tools and methods for data visualization.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>You&#8217;ll get exposure to a wide range of tools and approaches for a single topic.</li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li>Make connections across industries and organizations in Houston.</li>
+</ul>
+</li>
+<li>Make new contacts and catch up with old contacts</li>
+<li><em>Market yourself and your company</em>
+<ul>
+<li>The easiest place to present a talk or contribute to the local developer community.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Meet many vendors at once</em>
+<ul>
+<li>Vendor pitches are generally frowned upon, so there aren&#8217;t that many. Energy industry meetups are the exception.</li>
+</ul>
+</li>
+<li><em>Meet leaders in the field</em>
+<ul>
+<li>Unfortunately, Houston is not much of a tech hub, so there aren&#8217;t that many big names here.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>The main benefit of meetups for me is the exposure to a wide range of tools applied to the same topic or problem. This saves me a great amount of time in terms of researching and comparing new tools myself.</p>
+<h3 style="text-align: center;">Space-Apps Challenge Houston</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p>A <a href="https://2017.spaceappschallenge.org/">global hackathon</a> that uses NASA data, but is hosted locally in many cities around the world. This was the first year the event was hosted in Houston for several years. Participants form teams and have two days to hack together a solution, usually a web application but sometimes hardware, to one of the NASA <a href="https://2017.spaceappschallenge.org/challenges/">challenges</a>. It is free to attend. There was sponsor swag, coffee, beer, and food from <a href="http://stationhouston.com/">Station Houston</a>, Amazon Web Services, Intel, and <a href="https://www.yelp.com/biz/morningstar-houston">Morningstar Coffee</a>. I was a technical mentor during the event, not a participant.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Participants at the Houston event included high school students with a little coding knowledge, recent coding boot camp graduates, computer science undergraduates, IBM engineers, and professional web developers.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>85% jeans & t-shirt and 15% slightly fancier.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p><a href="https://www.theironyard.com/locations/houston">The Iron Yard</a>, a coding boot camp with locations in various cities, including Houston.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>~30</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>Aside from a 20-minute talk on NASA civilian science, the time was spent working on each team&#8217;s project. You can read more about some of the projects created at the Houston event <a href="https://2017.spaceappschallenge.org/locations/houston/">here</a>.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>Two of the teams used technologies I hadn&#8217;t worked with before.</li>
+</ul>
+</li>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em></li>
+<li><em>Make new contacts and catch up with old contacts</em>
+<ul>
+<li>Made connections with several or the participants</li>
+<li>Worked with <a href="http://stationhouston.com/">Station</a>, <a href="https://www.theironyard.com/locations/houston">The Iron Yard</a>, and several <a href="https://www.meetup.com/Houston-Data-Visualization-Meetup/">meet-up group</a> leads to organize the event.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Benefit areas that were lacking</span></h5>
+<ul>
+<li><em>Meet leaders in the field</em></li>
+<li><em>Meet people doing similar work and learn from their experiences</em></li>
+<li><em>Meet many vendors at once</em></li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>As a participant, hackathons are great for taking a method or technology that is new to you, cramming as much about it into your brain as possible, and then applying it in a very intense, short period of time. As a technical mentor, who also did a bit of event organization, it is a great way to expand your network, learn from others, and you get some of the previously mentioned technical benefits too.</p>
+<h3 style="text-align: center;">Agile Scientific Paris Subsurface Hackathon</h3>
+<h5><span style="color: #008000;">What is it?</span></h5><p>A hackathon associated with a geological society conference in Paris.  This is one of <a href="https://agilescientific.com/">Agile Scientific&#8217;s</a> hackathons that take place 1-3 times a year at geology and geophysics conferences. Total is co-organizing it. It is free to attend.</p>
+<h5><span style="color: #008000;">Who goes?</span></h5><p>Geologists and geophysicists who know how to code, usually in Python. Web development skills are typically sparse. Several people, including myself, will be participating as &#8220;robots&#8221;. This means I&#8217;ll be teleconferencing into the hackathon and my face will be appearing on a little laptop there.</p>
+<h5><span style="color: #008000;">Dress?</span></h5><p>Most of the on-location participants will be French, so I&#8217;m assuming they will likely be better dressed than me.</p>
+<h5><span style="color: #008000;">Where?</span></h5><p>Virtual & Paris.</p>
+<h5><span style="color: #008000;">How big?</span></h5><p>Not sure as it hasn&#8217;t happened yet, but looks to be around 50.</p>
+<h5><span style="color: #008000;">Types of talks?</span></h5><p>There will likely be an introduction talk and then lots of coding.</p>
+<h5><span style="color: #008000;">Main Benefits for me</span></h5>
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li>This always seems to happen at hackathons.</li>
+</ul>
+</li>
+<li>Pick up new &#8220;tricks of the trade&#8221;
+<ul>
+<li>A lot of my coding ability was picked up after I left oil and gas, so it will be nice to work with geological datasets.</li>
+</ul>
+</li>
+<li>Make new contacts and catch up with old contacts
+<ul>
+<li>Several of the participants are people I know from a previous hackathon.</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #008000;">Summary</span></h5><p>I&#8217;m hoping to use this as an opportunity to apply a new skill area that I&#8217;ll be using at work eventually but haven&#8217;t had much opportunity to use yet. Possibilities include time-series analysis, deep-learning, web-scraping, and natural language processing.</p>
+<h2>Part 3  &#8211;  The Analysis</h2>
+<h3>Ranking of which events had which benefits the most</h3><p>Based on the notes above, I&#8217;ve ranked the events in terms of how well they fulfilled each benefit in my list. The event that most fulfilled each benefit is in <span style="color: #ff0000;">red<span style="color: #000000;">, with second in</span> <span style="color: #cc99ff;">purple</span><span style="color: #000000;">, etc</span></span>.</p>
+<ol>
+<li>People
+<ul>
+<li><em>Meet leaders in the field</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">SXSW &</span> <span style="color: #cc99ff;">PyCon</span></span></li>
+</ul>
+</li>
+<li><em>Meet people doing similar work and learn from their experiences</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff6600;"><span style="color: #ff0000;">Meet-ups</span>,</span> <span style="color: #cc99ff;">PyCon</span><span style="color: #ff9900;"><span style="color: #cc99ff;">,</span> <span style="color: #99cc00;">JSC Data Science Day<span style="color: #99ccff;">,</span></span><span style="color: #99ccff;"> and meetups</span></span></span></li>
+</ul>
+</li>
+<li><em>Make new contacts and catch up with old contacts</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">AAPG,</span> <span style="color: #cc99ff;">meetups,</span> <span style="color: #99cc00;">and PyCon</span></span></li>
+</ul>
+</li>
+<li><em>Meet many vendors at once</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">SXSW <span style="color: #cc99ff;">and</span></span><span style="color: #cc99ff;"> AAPG</span></span></li>
+</ul>
+</li>
+<li><em>Market yourself and your company</em>
+<ul>
+<li><span style="color: #ff0000;">SXSW,</span><span style="color: #cc99ff;"> PyCON,</span><span style="color: #993300;"> </span><span style="color: #ff9900;"><span style="color: #99cc00;">AAPG,</span> <span style="color: #99ccff;">and meetups</span></span></li>
+</ul>
+</li>
+<li><em>Gain a better understanding of where your skills and knowledge rank</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">hackathons, </span><span style="color: #99cc00;">and meetups</span></span></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Skills
+<ul>
+<li><em>Pick up new &#8220;tricks of the trade&#8221;</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff6600;"><span style="color: #993300;"><span style="color: #ff0000;">Hackathons,</span><span style="color: #cc99ff;"> PyCon,</span></span></span> <span style="color: #99cc00;">meet-ups</span></span></li>
+</ul>
+</li>
+<li><em>Learn what to do or not do from others&#8217; experiences</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">meet-ups, </span><span style="color: #99cc00;">JSC Data Science Day</span></span></li>
+</ul>
+</li>
+<li><em>Attend a tutorial and take the first few steps in a new skill with someone to lead you</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">meet-ups, </span><span style="color: #99cc00;">hackathon</span></span></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Knowledge of the environment beyond your immediate organization
+<ul>
+<li><em>Learn about the larger range of tools, methods, and applications out there</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">meet-ups, </span><span style="color: #99cc00;">JSC Data Science Day,</span><span style="color: #99ccff;"> SXSW</span><br />
+</span></li>
+</ul>
+</li>
+<li><em>Understand trends in the larger market or community</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;">SXSW,</span> <span style="color: #cc99ff;">meet-ups,</span> <span style="color: #99cc00;">PyCon</span></span></li>
+</ul>
+</li>
+<li><em>Learn what is new</em>
+<ul>
+<li><span style="color: #993300;"><span style="color: #ff0000;"><span style="color: #ff6600;"><span style="color: #ff0000;">PyCon,</span> <span style="color: #cc99ff;">SXSW,</span></span></span> <span style="color: #99cc00;">JSC Data Science Day</span></span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3>Discussion</h3><p>Some types of events I might not want to go to every year. Other types of events I would go every year, but I might trade one conference for another with a similar style but different focus area.</p>
+<h5>SXSW Interactive or another large conference of this type</h5><p>SXSW Interactive is great for getting a wide view of what is new and upcoming, but I&#8217;m not sure I need to go to it, or a conference like it, more than once every two to three years, even on a team that is responsible for keeping up with what is new.</p>
+<h5>AAPG or another large science or professional association conference</h5><p>AAPG is great in terms of what it tries to be, a science conference for oil and gas geologists, but there are definitely <a href="https://www.youtube.com/watch?v=vCeNA9btD9E">some aspects</a> of tech and computer language specific conferences that science and industry conferences could learn from. In-depth half-day tutorials, how-to sessions, and skill-building activities are all things that could be done in that conference space but just aren&#8217;t. A similar conference to this one, but in a computer science domain, would be <a href="https://www.ieee.org/conferences_events/index.html">IEEE</a>.</p>
+<h5>PyCon or similar tech conference</h5><p>PyCon had a wide range of benefits, including tutorials and &#8220;how to do this activity well&#8221; talks that are not always present at other technical gatherings. The year before I went to <a href="https://pydata.org/chicago2016/">PyData in Chicago</a>, which, although a smaller conference, had a similar range of talks. A conference that might be similar but with a different focus is <a href="https://scipy2017.scipy.org/ehome/index.php?eventid=220975&">SciPy</a>.</p>
+<h5>Hackathons</h5><p>They are great at both putting you in contact with the local developer community and showing you the range of approaching to a topic. However, they are intense. I participate or help out with 1-2 a year. More than that might be too much. I&#8217;ll do Space-Apps Houston again as there is definitely some value there both to me and to the community. Also, it is Houston! It was embarrassing there were several years when over a hundred Space-Apps hackathon events occurred globally, but there wasn&#8217;t an event in Houston. An alternative option that I seem to always be out of town for is the <a href="http://houstonhackathon.com/">Houston Hackathon</a>.</p>
+<h5>Johnson Space Center Data Science Day or similar 1-2 day, &lt;300 people,  local event.</h5><p>Johnson Space Center Data Science Day is useful for making local and NASA specific people connections and seeing what others are working on, however, it can&#8217;t replace something like PyCon or PyData for learning new skills. I&#8217;ll attend and present, but I don&#8217;t really count it as a learning opportunity in the same way. Similar type one to two-day speaker events are held at Rice University focusing on big data and <a href="http://ml2017.rice.edu/">machine learning</a>.</p>
+<h5>Houston tech meetups</h5><p>Tech meet-ups are my bread and butter learning opportunity. The combination of free, relatively easy to fit in your schedule as you don&#8217;t have to take days off, and leading directly into side projects works out well for me, especially as someone relatively new to writing code for a living. How many meetups I attend will depend on my schedule and number of side projects, which is difficult to predict in advance.</p>
+<h3>Next year plans</h3>
+<h5><em>Attend 0-1</em></h5><p>AAPG and SXSW style conferences have value but a more narrow range of benefits that ranks secondary to me right now. If options for travel and training are limited, I would focus my budget elsewhere next year.</p>
+<h5><em>Attend many, present at 1+, and organize at least 1</em></h5><p>Tech meetups and hackathons are great in that they&#8217;re free, local, and there&#8217;s something you could attend multiple times a week if you wanted, at least in a major US city. That frequency also represents a burn-out danger, however, so I&#8217;ll probably attend the same amount or shift to attending a little less next year.</p>
+<h5><em>Attend 1+ and present at 1+</em></h5><p>JSC Data Science Day is a great way to make local connections in a large and spread out organization, but I wouldn&#8217;t consider it a replacement for training or a major conference.</p>
+<h5><em>Attend 1 (consider presenting)</em></h5><p>PyCon and similar-type conferences probably offer the most value of the options examined due to the presence of many tutorials and &#8220;craft of coding&#8221; talks. My top focus for planning which conference to attend next year will be on finding a good PyCon-style conference that covers slightly different terrain but is still very applicable to work.</p>
+<h3>Conclusion</h3><p>Different outside of work technical gatherings have different benefits. An exercise like this helps organize experiences into data that is easier to analyze. My conclusions on what types of conferences are the most useful for me this year and next reflects what benefits I value the most right now. My main focus is on building skills and learning new tools, which shows up in my future conference preferences.</p><p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="/what-do-i-get-out-of-conferences/">What do I get out of conferences?</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/what-do-i-get-out-of-conferences/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">894</post-id>	</item>
+	</channel>
+</rss>

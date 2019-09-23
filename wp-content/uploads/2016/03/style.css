@@ -1,0 +1,114 @@
+/*
+//
+//  style.css
+//
+//  Created by Philip Stroh and Sean Yao on 3/11/16.
+//  Copyright ? 2016 Valador, Inc. All rights reserved.
+//
+*/
+
+body {
+  background-color:black;
+}
+
+#infographic {
+    margin-left:0px;
+}
+
+section.page .inner-box {
+	background:black;
+}
+
+section.page .inner-box h3 {
+	color:#fff;
+}
+
+.node circle {
+  /*fill: #636363;*/
+  stroke: #fff;
+  stroke-width: 2.5px;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.link {
+  fill: none;
+  stroke: #3b3a3a;
+  stroke-width: 1.5px;
+}
+
+.name {
+    fill: white;
+    font-size: 0.9em;
+    font-family: "arial";
+}
+
+.amount {
+    fill: #828282;
+    font-size: 0.9em;
+    font-family: "arial";
+}
+
+.deltaNeg {
+    fill: #f60e10;
+    font-size: 0.9em;
+    font-family: "arial";
+}
+
+.deltaPos {
+    fill: #5eca36;
+    font-size: 0.9em;
+    font-family: "arial";
+}
+
+.yearbutton {
+    margin: 0px 0px 0px 0px;
+    background: #000;
+    border: 3px solid #ffffff;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    font-family: "arial";
+    font-weight: bold;
+}
+
+#year2 {
+	margin: 0px 0px 0px 0px;
+}
+
+.yearbutton:hover {
+	border: 3px solid #1a5dad;
+	cursor:pointer;
+}
+
+.selected {
+	background: #1a5dad;
+    border: 3px solid #1a5dad;
+    cursor:none;
+}
+
+#breadcrumbInfographic {
+    margin: 20px 0px 20px 10px;
+    color: #828282;
+    font-size: 14px;
+    font-family: "arial";
+    font-weight: normal;
+    height: 10px;
+    text-decoration: none;
+}
+
+#option {
+	margin-left: 10px;
+}
+
+/** loading **/
+.loader {
+	position: absolute;
+	width: 210px;
+	height: 15px;
+	z-index: 9999;
+	background: url('http://wpvalador.com/datalaboratory-test/img/page-loader.gif') 50% 50% no-repeat rgb(0, 0, 0);
+}

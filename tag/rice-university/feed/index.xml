@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+
+<channel>
+	<title>rice university &#8211; Justin Gosses Home</title>
+	<atom:link href="/tag/rice-university/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Geology, GIS, and CODE + Resumes</description>
+	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.11</generator>
+
+<image>
+	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
+	<title>rice university &#8211; Justin Gosses Home</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+		<title>Python Class Project &#8211; 2048</title>
+		<link>/python-class-project-2048/</link>
+		<comments>/python-class-project-2048/#respond</comments>
+		<pubDate>Sat, 07 Nov 2015 19:57:33 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[courses]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[rice university]]></category>
+
+		<guid isPermaLink="false">/?p=130</guid>
+		<description><![CDATA[<p>2048 Numbers Game Another project built for the online Python Class I was taking, 2048 is a game in which you move numbers around a board. Like numbers merge in pairs. For example blocks of 2 and 2 becomes a single 4. You move all the blocks at once in whatever direction you pick using<a href="/python-class-project-2048/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/python-class-project-2048/">Python Class Project &#8211; 2048</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h2>2048 Numbers Game</h2>
+<div align="center">
+<p style="text-align: left;">Another project built for the online Python <a href="https://www.coursera.org/specializations/fundamentalscomputing2?utm_medium=spark_cdp_sidebar" target="blank">Class</a> I was taking, 2048 is a game in which you move numbers around a board. Like numbers merge in pairs. For example blocks of 2 and 2 becomes a single 4. You move all the blocks at once in whatever direction you pick using the arrow keys. Every time you make a move, a new block is added. If you run out of free spaces, you lose. The goal is to get a block whose score is exactly 2048.</p>
+<p style="text-align: left;"><i>You must have pop-ups enabled to play, can’t run it on a mobile device, and any older browsers that haven’t been updated in a couple years may or may not work. I am using <a href="http://www.codeskulptor.org/docs.html#tabs-Python" target="blank">CodeSkulptor</a> to run my python code in your browser. CodeSkulptor is a very nice tool, but it does have these limitations.</i></p>
+<div id="attachment_131" style="width: 441px" class="wp-caption alignnone"><a href="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png"><img data-attachment-id="131" data-permalink="/python-class-project-2048/2048_1/" data-orig-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png?fit=431%2C455" data-orig-size="431,455" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2048_1" data-image-description="&lt;p&gt;Screen shot of 2048 numbers game. Built with python by Justin Gosses 2015.&lt;/p&gt;
+" data-medium-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png?fit=284%2C300" data-large-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png?fit=431%2C455" class="size-full wp-image-131" src="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png?resize=431%2C455" alt="Screen shot of 2048 numbers game. Built with python by Justin Gosses 2015." width="431" height="455" srcset="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png?w=431 431w, https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png?resize=284%2C300 284w" sizes="(max-width: 431px) 100vw, 431px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Screen shot of 2048 numbers game. Built with python by Justin Gosses 2015.</p>
+</div><p><iframe class="center" src="http://www.codeskulptor.org/#user40_2fVApewnkR_1.py" width="100%" height="600"></iframe></p>
+</div>
+<p>The post <a rel="nofollow" href="/python-class-project-2048/">Python Class Project &#8211; 2048</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/python-class-project-2048/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">130</post-id>	</item>
+		<item>
+		<title>Python Class Project &#8211; Excessive Pong</title>
+		<link>/python-class-project-excessive-pong/</link>
+		<comments>/python-class-project-excessive-pong/#respond</comments>
+		<pubDate>Sat, 07 Nov 2015 19:43:16 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[courses]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[rice university]]></category>
+
+		<guid isPermaLink="false">/?p=125</guid>
+		<description><![CDATA[<p>Excessive PongAnother project for the online python class was to build your own version of the home arcade game, pong. The project applied what we had previously learned about user interface, use of time functions, lists, dictionaries, etc.The project instructions stipulated that the ball speed should include a certain percentage each time it hit a<a href="/python-class-project-excessive-pong/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/python-class-project-excessive-pong/">Python Class Project &#8211; Excessive Pong</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<hr />
+<h2>Excessive Pong</h2><p>Another project for the online python <a href="https://www.coursera.org/specializations/fundamentalscomputing2?utm_medium=spark_cdp_sidebar" target="blank">class</a> was to build your own version of the home arcade game, pong. The project applied what we had previously learned about user interface, use of time functions, lists, dictionaries, etc.</p><p>The project instructions stipulated that the ball speed should include a certain percentage each time it hit a paddle to limit the length of each game. I added a bunch of other &#8220;features&#8221; of my own making to make it &#8220;excessive&#8221; pong.</p>
+<h4>Extra settings included:</h4>
+<ul>
+<ul>
+<li>ball color choice</li>
+<li>semi-perfect computer player</li>
+<li>sloppy computer player</li>
+<li>computer player on one or both sides</li>
+<li>two more balls</li>
+<li>too many balls</li>
+<li>a curve ball mode</li>
+<li>and a teleporter</li>
+</ul>
+</ul><p>&nbsp;</p><p>The left side of the window below contains the code I wrote that makes up the game. To play &#8220;Excessive Pong&#8221;, hit the play button on the screen below. Use W & S keys to move the paddle for the left player. Up and Down arrows move the paddle for the right sided player. To activate the various &#8220;play options&#8221; buttons that appear on the left side of the pop-up, click them once. Clicking them again will de-activate.</p><p><i><br />
+I am using <a href="http://www.codeskulptor.org/docs.html#tabs-Python" target="blank">CodeSkulptor</a> to run my python code in your browser. CodeSkulptor is a very nice tool, but it does have limitations. You must have pop-ups enabled to play, can&#8217;t run it on a mobile device, and older browsers may or may not work. Safari works inconsistently. Firefox works the best.</i></p><p><iframe class="center" src="http://www.codeskulptor.org/#user40_L9g9vymraq_10.py" width="100%" height="600"></iframe></p>
+<div id="attachment_126" style="width: 821px" class="wp-caption alignnone"><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png"><img data-attachment-id="126" data-permalink="/python-class-project-excessive-pong/excessivepong/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png?fit=811%2C451" data-orig-size="811,451" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ExcessivePong" data-image-description="&lt;p&gt;Screen shot of &#8220;Excessive Pong&#8221; python program. by Justin Gosses, 2015&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png?fit=300%2C167" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png?fit=640%2C356" class="size-full wp-image-126" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png?resize=640%2C356" alt="Screen shot of &quot;Excessive Pong&quot; python program. by Justin Gosses, 2015" width="640" height="356" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png?w=811 811w, https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png?resize=300%2C167 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Screen shot of &#8220;Excessive Pong&#8221; python program. by Justin Gosses, 2015</p>
+</div>
+<p>The post <a rel="nofollow" href="/python-class-project-excessive-pong/">Python Class Project &#8211; Excessive Pong</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/python-class-project-excessive-pong/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">125</post-id>	</item>
+		<item>
+		<title>Python Class Project &#8211; &#8220;Astroids&#8221; game</title>
+		<link>/python-class-project-astroids/</link>
+		<comments>/python-class-project-astroids/#comments</comments>
+		<pubDate>Fri, 06 Nov 2015 06:46:29 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[courses]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[rice university]]></category>
+
+		<guid isPermaLink="false">/?p=42</guid>
+		<description><![CDATA[<p>Building an arcade game for class:As part of a series of classes I&#8217;ve been taking through Coursera / Rice University, I&#8217;ve built a few clones of old school arcade games. The idea is building games is fun (because you can play them) and therefore students will be more motivated to learn and finish projects. Rice<a href="/python-class-project-astroids/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/python-class-project-astroids/">Python Class Project &#8211; &#8220;Astroids&#8221; game</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h2>Building an arcade game for class:</h2><p>As part of a series of classes I&#8217;ve been taking through <a href="https://www.coursera.org/specializations/fundamentalscomputing2?utm_medium=courseDescripTop" target="blank">Coursera / Rice University</a>, I&#8217;ve built a few clones of old school arcade games. The idea is building games is fun (because you can play them) and therefore students will be more motivated to learn and finish projects.</p>
+<hr />
+<h2>Rice Rocks or &#8220;Astroids&#8221;</h2><p>The screen shot below is from my version of the old &#8220;astroids&#8221; arcade game. To play the game, follow the instructions below the screenshot.</p>
+<div id="attachment_45" style="width: 610px" class="wp-caption alignnone"><a href="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png"><img data-attachment-id="45" data-permalink="/python-class-project-astroids/astroids_screen_shot/" data-orig-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?fit=1082%2C717" data-orig-size="1082,717" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Astroids_screen_shot" data-image-description="&lt;p&gt;Screen shot of game built/run with python&lt;/p&gt;
+" data-medium-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?fit=300%2C199" data-large-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?fit=640%2C424" class="size-thumbnail wp-image-45" src="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?resize=600%2C600" alt="Screen shot of game built/run with python" width="600" height="600" srcset="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?resize=150%2C150 150w, https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?resize=250%2C250 250w, https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?resize=174%2C174 174w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></a></p>
+<p class="wp-caption-text">Screen shot of game built/run with python</p>
+</div>
+<div align="center"><p>The left side of the window below contains the code I wrote that makes up the game. To play &#8220;Astroids&#8221; game, hit the play button on the screen below. It will open a pop-up window with the game. Hit the back buttom (left hand turn arrow) to turn off sound when finished.</p><p>Use arrow keys to power the thruster and turn the spaceship. Spacebar fires the missiles.You can use the input forms on the left side of the pop-up screen to change some elements of the game play, but they are only applied after you lose one game and go onto the next game.</p><p><i><br />
+I am using <a href="http://www.codeskulptor.org/docs.html#tabs-Python" target="blank">CodeSkulptor</a> to run my python code in your browser. CodeSkulptor is a very nice tool, but it does have limitations. You must have pop-ups enabled to play, can’t run it on a mobile device, and older browsers may or may not work. Safari works inconsistently. Firefox and Chrome work the best.<br />
+</i></p><p><iframe class="center" src="http://www.codeskulptor.org/#user39_TX7MZeGm6m_10.py" width="100%" height="600"></iframe></p>
+</div>
+<p>The post <a rel="nofollow" href="/python-class-project-astroids/">Python Class Project &#8211; &#8220;Astroids&#8221; game</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/python-class-project-astroids/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">42</post-id>	</item>
+	</channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" 
+	>
+<channel>
+	<title>Comments on: ArcGIS Online WebMaps and MapApps</title>
+	<atom:link href="/arcgis_webmaps/feed/" rel="self" type="application/rss+xml" />
+	<link>/arcgis_webmaps/</link>
+	<description>Geology, GIS, and CODE + Resumes</description>
+	<lastBuildDate>Sat, 13 Jul 2019 05:20:39 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.11</generator>
+	<item>
+		<title>By: Justin</title>
+		<link>/arcgis_webmaps/#comment-8</link>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Sat, 09 Jan 2016 06:52:01 +0000</pubDate>
+		<guid isPermaLink="false">/?p=233#comment-8</guid>
+		<description><![CDATA[Excellent! Thanks for the link. I&#039;ll check you that help doc.]]></description>
+		<content:encoded><![CDATA[<p>Excellent! Thanks for the link. I&#8217;ll check you that help doc.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Nick P</title>
+		<link>/arcgis_webmaps/#comment-6</link>
+		<dc:creator><![CDATA[Nick P]]></dc:creator>
+		<pubDate>Fri, 08 Jan 2016 20:22:27 +0000</pubDate>
+		<guid isPermaLink="false">/?p=233#comment-6</guid>
+		<description><![CDATA[good article Jason - one note, you can avoid having to limit the number of features in a shapefile by publishing the shapefile as a feature service - this is different than adding the shapefile to the map, you add it as content in ArcGIS Online - there is no limit to the number of features, I have uploaded shapefiles with over 400,000 parcels into ArcFIS Online with no problems
+
+here is a help doc about it http://support.esri.com/cn/knowledgebase/techarticles/detail/42465
+
+enjoy your blog - keep writing :)]]></description>
+		<content:encoded><![CDATA[<p>good article Jason &#8211; one note, you can avoid having to limit the number of features in a shapefile by publishing the shapefile as a feature service &#8211; this is different than adding the shapefile to the map, you add it as content in ArcGIS Online &#8211; there is no limit to the number of features, I have uploaded shapefiles with over 400,000 parcels into ArcFIS Online with no problems</p>
+<p>here is a help doc about it <a href="http://support.esri.com/cn/knowledgebase/techarticles/detail/42465" rel="nofollow">http://support.esri.com/cn/knowledgebase/techarticles/detail/42465</a></p>
+<p>enjoy your blog &#8211; keep writing 🙂</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

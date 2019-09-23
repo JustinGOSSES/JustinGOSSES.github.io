@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+
+<channel>
+	<title>ESRI &#8211; Justin Gosses Home</title>
+	<atom:link href="/tag/esri/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Geology, GIS, and CODE + Resumes</description>
+	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.11</generator>
+
+<image>
+	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
+	<title>ESRI &#8211; Justin Gosses Home</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+		<title>How to Study for GIS Certification Exams</title>
+		<link>/how-to-study-esri-gis-certification/</link>
+		<comments>/how-to-study-esri-gis-certification/#respond</comments>
+		<pubDate>Sat, 20 Feb 2016 22:12:56 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[maps]]></category>
+		<category><![CDATA[ArcGIS]]></category>
+		<category><![CDATA[ESRI]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[python and GIS]]></category>
+
+		<guid isPermaLink="false">/?p=416</guid>
+		<description><![CDATA[<p>GIS Certification:GIS certification is one of those certifications where no one is completely sure of its exact value. I don&#8217;t know of any business or organization where it is mandatory, but sometimes you see it listed under &#8220;preferred&#8221; on job advertisements. When I asked a question about the value of certification versus portfolios in a LinkedIN group devoted<a href="/how-to-study-esri-gis-certification/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/how-to-study-esri-gis-certification/">How to Study for GIS Certification Exams</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>GIS Certification:</h3><p>GIS certification is one of those certifications where no one is completely sure of its exact value. I don&#8217;t know of any business or organization where it is mandatory, but sometimes you see it listed under &#8220;preferred&#8221; on job advertisements. When I asked <a href="https://www.linkedin.com/groups/3887350/3887350-6056100582890942467">a question about the value of certification versus portfolios</a> in a <a href="https://www.linkedin.com/groups/3887350">LinkedIN group devoted to GIS</a> (GIS and GEOGRAPHY), I got a range of responses, but generally few saw it as something with very significant value, more a nice to have.</p>
+<h4>Why was I interested in Certification?</h4><p>Although I have experience with GIS, I never had GIS in my job title. Also, my previous work was all proprietary, so I couldn&#8217;t show anyone a portfolio of past work. Given these two limitations, I saw certification as a way to give myself more credibility.</p><p>The two most well known types of certification (at least in USA) are <a href="https://www.gisci.org/">GISP</a> and <a href="http://www.esri.com/training/main/certification">ESRI certification</a>. GISP is more of a longer process vs. simply taking a test, so I opted for the ESRI model.</p>
+<h4>Don&#8217;t Sue Me</h4><p>Before and after taking an ESRI certification test, you are provided with strongly worded legal warnings to not discuss anything on the test with anyone ever. Therefore, I&#8217;m not going to talk about anything I learned from taking the test. I&#8217;m only going to discuss observations gleaned from ESRI supplied study material and my own experiences studying for one of their certification exams. These are concepts that maybe aren&#8217;t stressed in the ESRI study directions, but I believe to be useful. Certainly, I will use them if I take additional ESRI certification tests. Others might find them useful as well.</p>
+<h3>Real World ArcGIS Use vs. Test Questions  &#8211;  Different Patterns:</h3><p>The ESRI certification tests are multiple choice. You do not use ArcGIS like a multiple choice test. This might seem a rather obvious observation. Perhaps it is, but it has value for understanding how you to study.</p><p>When I use ArcGIS or other ESRI product, I don&#8217;t necessarily remember the exact wording of buttons and menus. I remember where they are. I remember what they do. Maybe I remember something about what is written on a button or menu, but that memory is fuzzy. I may not remember the exact wording or phrasing. With the same task being accomplished on different programs by pushing buttons with very similar sounding names, there isn&#8217;t much reason to remember the exact name.</p><p>In contrast, in multiple choice questions asking what sequence of actions a user must follow to accomplish a specific GIS analysis, there is no spatial reference and exact phrasing matters. Hence, the information stored in your brain for how to do something in ArcGIS might not be stored in the same manner as it is asked in a multiple choice question.</p><p>This is a problem. <em><strong>If knowledge is stored in one semantic system and asked in another, you&#8217;re at risk of appearing less knowledgable</strong></em> than you actually are.</p>
+<blockquote><p>Note: Perhaps there are people who work in ArcGIS as if it is a sequence of exact words to click? I don&#8217;t, but maybe those people exist? If that is you, this post doesn&#8217;t really apply. Sorry.</p></blockquote>
+<h3>How I&#8217;m Going to Study for My Next GIS Certification Exam:</h3><p>Because of this difference in how my mind stores information required to do analysis in ArcGIS versus how questions are asked in a multiple choice test, <em><strong>I&#8217;m going to study in such a way to shift that knowledge out of spatial, visual, and procedure reference and into a sequence of exact words reference.</strong></em></p><p>In addition to the studying the ESRI supplied material, I will &#8230;</p>
+<ol>
+<li>Write down and remember the<strong><em> exact names</em></strong> <em>of button, menus, and options</em> found in the study material.</li>
+<li>Write down and remember the order of buttons to do a task <strong>as a sequence of words independent of spatial position</strong>.</li>
+<li>Note any <strong>differences</strong> in menu or button names <strong>between desktop and online applications</strong>.</li>
+</ol><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+<h3></h3>
+<h3></h3>
+<p>The post <a rel="nofollow" href="/how-to-study-esri-gis-certification/">How to Study for GIS Certification Exams</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/how-to-study-esri-gis-certification/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">416</post-id>	</item>
+		<item>
+		<title>ArcGIS Hackathon-ish</title>
+		<link>/arcgis_hackathon/</link>
+		<comments>/arcgis_hackathon/#comments</comments>
+		<pubDate>Sat, 19 Dec 2015 04:44:21 +0000</pubDate>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[geology]]></category>
+		<category><![CDATA[maps]]></category>
+		<category><![CDATA[ArcGIS]]></category>
+		<category><![CDATA[ESRI]]></category>
+		<category><![CDATA[hackathon]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[Online Mapping]]></category>
+		<category><![CDATA[opendata]]></category>
+		<category><![CDATA[python and GIS]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=265</guid>
+		<description><![CDATA[<p>ESRI sponsored Geo-Development Hackathon:Today I took part in an event put on by ESRI, the company that provides the software on which the majority of enterprise,  academic, and government GIS work takes place. As compared to the Geophysics Hackathon run by AgileGeosciences at the Society of Exploration Geophysics Annual Conference, this was more about learning tools and<a href="/arcgis_hackathon/">[...]</a></p>
+<p>The post <a rel="nofollow" href="/arcgis_hackathon/">ArcGIS Hackathon-ish</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>ESRI sponsored Geo-Development Hackathon:</h3><p>Today I took part in an event put on by <a href="http://www.esri.com/" target="blank">ESRI</a>, the company that provides the software on which the majority of enterprise,  academic, and government GIS work takes place. As compared to the <a href="/geophysics-hackathon-at-2015-s-e-g-annual-meeting/" target="blank">Geophysics Hackathon</a> run by <a href="http://www.agilegeoscience.com/" target="blank">AgileGeosciences</a> at the Society of Exploration Geophysics Annual Conference, this was more about learning tools and less a crazy two day race. Hence, the title for this post is ArcGIS Hackathon-ish. There wasn&#8217;t any beer and pizza, but the cookies and cheese were good. Also, I got another free t-shirt. You can never have too many free t-shirts. The event was five hours long. Half was explanation and questions. The other half was building maps using the tools.</p>
+<h4>The Tools</h4><p>The event focus was on a collection of tools accessed or associated with their ArcGIS developer <a href="https://developers.arcgis.com/en/" target="blank"><b>site</b></a>. ESRI staff provided a github <a href="https://github.com/ESRI/GEODEV-HACKERLABS" target="blank">repository</a> of links, instructions, and list of topics/tools to cover during the event or after. There were some useful step-by-step instructions included to get you started with several of the tools.</p>
+<ul>
+<li><b>Map Builder</b>: Load data & edit basic symbology for first level, static maps you might embed in a website</li>
+<li><b>App Builder</b>: Take a map you built from map builder and put it into a map application framework with lots of premade style, formatting, and widget options. A few example widgets are:
+<ol>
+<li>Turn layers off and on</li>
+<li>Add query box to show selection subset of a layer</li>
+<li>Show users&#8217; current location on the map</li>
+<li>Allow a user to edit the map</li>
+<li>Directions</li>
+<li>Measurement (line, path, area)</li>
+</ol>
+</li>
+<li><b>ArcGIS API Javascript</b>: Javascript is one of the three key languages used in front-end web development (HTML and CSS being the other two). Javascript is the part that makes websites interactive. ArcGIS API javascript allows you to pull different basemaps, layers, etc. from your ArcGIS Online account, based on user interactions with the website, and display just the right map to the website user. You have to know javascript to do this, but the advantage is you can automatically deliver a map based on a large number of possible inputs. The opensource equivalent would leaflet.js.</li>
+<li><b>Koop javascript</b>: Sometimes when you use open-source data, you get it in one file type and transform into appropriate file format before putting it in ArcGIS Online map. Koop.js is a version of javascript written to handle that data transformation for you automatically reducing some of the programming required. This might be particularly useful for dealing with realtime open-source data available on another website that you want to bring into your map. Apparently, it is new and still a little wobbly, but the presenter seemed very excited about it.</li>
+<li><b>App Studio</b>: App Studio is basically App Builder, except you&#8217;re writing the javascript for a new template instead of relying on a drag and drop user interface. For now, this is free and even allows you to output native binaries, which means it outputs something that can go into the Android or Apple App store, without needing to deal with learning the Swift or Java language. People are putting the code they&#8217;re writing to build new apps and widgets in a ArcGIS marketplace and available opensource on GitHub.</li>
+</ul>
+<h4>The Product From Those 5 Hours =</h4>
+<h4 style="text-align: center;">A Map App On Holocene Volcanoes and Historical Major Earthquakes</h4><p>Click on the icons to bring up some of the map widgets and turn layers off and on. A full page version, which just looks nicer, can be found <b><a href="https://gosses.maps.arcgis.com/apps/webappviewer/index.html?id=b34ea4b002e1471488c060bb9a9200b7" target="blank">here.</a> </b></p>
+<div class="embed-container"><iframe title="Global Holocene Volcanism and Major Historical Earthquake Distribution" src="https://gosses.maps.arcgis.com/apps/webappviewer/index.html?id=b34ea4b002e1471488c060bb9a9200b7" width="1000" height="600"></iframe></div>
+<h4 class="embed-container">Update: for those completely new to GIS</h4><p>You might not know that ArcGIS requires a license. If you don&#8217;t have access to a license through school or work, you can still get a free non-commercial <a href="http://www.esri.com/software/arcgis/arcgis-for-desktop/free-trial" target="blank">trial license</a> for 60 days. There are also annual <a href="http://www.esri.com/software/arcgis/arcgis-for-home" target="blank">ESRI</a> non-commercial licenses for $100.</p>
+<p>The post <a rel="nofollow" href="/arcgis_hackathon/">ArcGIS Hackathon-ish</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/arcgis_hackathon/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">265</post-id>	</item>
+	</channel>
+</rss>
