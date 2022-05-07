@@ -5,32 +5,35 @@
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+	>
 
 <channel>
-	<title>courses &#8211; Justin Gosses Home</title>
+	<title>courses</title>
 	<atom:link href="/tag/courses/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Geology, GIS, and CODE + Resumes</description>
-	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<description>Geology, Maps, and Code</description>
+	<lastBuildDate>Wed, 27 Sep 2017 22:26:02 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.11</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 
 <image>
-	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
-	<title>courses &#8211; Justin Gosses Home</title>
+	<url>/wp-content/uploads/2017/02/cropped-JustinGosses_logo-32x32.jpg</url>
+	<title>courses</title>
 	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
-<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+	<item>
 		<title>Learning to Code</title>
 		<link>/learning-to-code/</link>
-		<comments>/learning-to-code/#respond</comments>
-		<pubDate>Sat, 09 Jan 2016 21:03:28 +0000</pubDate>
+					<comments>/learning-to-code/#respond</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Sat, 09 Jan 2016 21:03:28 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[courses]]></category>
 		<category><![CDATA[CSS]]></category>
@@ -41,19 +44,24 @@
 		<category><![CDATA[python]]></category>
 		<category><![CDATA[The Iron Yard]]></category>
 		<category><![CDATA[web development]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=325</guid>
 
-		<guid isPermaLink="false">/?p=325</guid>
-		<description><![CDATA[<p>&#8220;A Highly Opinionated &#038; Abbreviated Guide for Taking the First Steps to Learn a Bit of Code&#8221; Why Write this?Someone asked me for help figuring out where to start regarding learning how to code today. Fundamentally, that&#8217;s why I&#8217;m writing this. I figured I&#8217;d might as well put it in a post and send her the link.Additionally,<a href="/learning-to-code/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/learning-to-code/">Learning to Code</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<hr /><p><strong><em>&#8220;A Highly Opinionated & Abbreviated Guide for Taking the First Steps to Learn a Bit of Code&#8221;</em></strong></p>
-<h3>Why Write this?</h3><p>Someone asked me for help figuring out where to start regarding learning how to code today. Fundamentally, that&#8217;s why I&#8217;m writing this. I figured I&#8217;d might as well put it in a post and send her the link.</p><p>Additionally, the results you get from googling &#8220;best ways to learn how to code&#8221; can be a bit daunting. They tend to be long lists of 10 to 50 different websites or books with only a short description about each. That&#8217;s not very useful. I know from personal experience figuring out how and where to start can lead to decision paralysis due to the large number of options.</p>
-<h3>Warning!</h3><p>I&#8217;m still very much a newbie. Don&#8217;t put too much trust in anything I say. Some trust is okay, but let&#8217;s not go overboard.</p>
-<h3>Who am I Writing for?</h3><p><span style="text-decoration: underline;">My target audience is someone with no knowledge taking their first steps.</span> <strong>My goal is to help them avoid decision paralysis and simply start.</strong> Simply starting has a lot of value as it gets you to your first initial understanding of how exactly coding works and to the point where you can say, &#8220;I built that&#8221;. <span style="text-decoration: underline;">Once you have a tiny bit of experience under your belt, it will be a lot easier to decide how much you like coding, easier to pick what you want to learn, and more obvious how you want to learn it.</span></p>
-<h3>What am I Going to Cover?</h3><p><em>What language should you learn?</em></p>
+					<description><![CDATA[&#8220;A Highly Opinionated &#38; Abbreviated Guide for Taking the First Steps to Learn a Bit of Code&#8221; Why Write this? Someone asked me for help figuring out where to start regarding learning how to code today. Fundamentally, that&#8217;s why I&#8217;m writing this. I figured I&#8217;d might as well put it in a<a class="moretag" href="/learning-to-code/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<hr />
+<p><strong><em>&#8220;A Highly Opinionated &amp; Abbreviated Guide for Taking the First Steps to Learn a Bit of Code&#8221;</em></strong></p>
+<h3>Why Write this?</h3>
+<p>Someone asked me for help figuring out where to start regarding learning how to code today. Fundamentally, that&#8217;s why I&#8217;m writing this. I figured I&#8217;d might as well put it in a post and send her the link.</p>
+<p>Additionally, the results you get from googling &#8220;best ways to learn how to code&#8221; can be a bit daunting. They tend to be long lists of 10 to 50 different websites or books with only a short description about each. That&#8217;s not very useful. I know from personal experience figuring out how and where to start can lead to decision paralysis due to the large number of options.</p>
+<h3>Warning!</h3>
+<p>I&#8217;m still very much a newbie. Don&#8217;t put too much trust in anything I say. Some trust is okay, but let&#8217;s not go overboard.</p>
+<h3>Who am I Writing for?</h3>
+<p><span style="text-decoration: underline;">My target audience is someone with no knowledge taking their first steps.</span> <strong>My goal is to help them avoid decision paralysis and simply start.</strong> Simply starting has a lot of value as it gets you to your first initial understanding of how exactly coding works and to the point where you can say, &#8220;I built that&#8221;. <span style="text-decoration: underline;">Once you have a tiny bit of experience under your belt, it will be a lot easier to decide how much you like coding, easier to pick what you want to learn, and more obvious how you want to learn it.</span></p>
+<h3>What am I Going to Cover?</h3>
+<p><em>What language should you learn?</em></p>
 <ul>
 <li>I&#8217;m not going to describe the merits of every language. I&#8217;m going to focus on the most common languages and the easier languages to learn.</li>
-</ul><p><em>How should you go about learning?</em></p>
+</ul>
+<p><em>How should you go about learning?</em></p>
 <ul>
 <li>I&#8217;m not going to give a big list of 30 or a 100 options for different websites and books to use. Google will give you lots of those. I&#8217;m going to describe the categories of different learning resources.</li>
 </ul>
@@ -97,8 +105,10 @@
 <hr />
 <blockquote><p><em><span style="color: #993300;">For a longer and more visual version of this discussion, check out this awesome <a href="http://carlcheo.com/wp-content/uploads/2014/12/which-programming-language-should-i-learn-first-pdf.pdf" target="blank">infographic</a> for what language to learn at </span><a style="color: #993300;" href="http://carlcheo.com/" target="blank">carlcheo.com</a><span style="color: #993300;">. In addition to providing a flow-diagram for what deciding what language to learn, it describes common computer languages in terms of Lord of the Rings character traits. While you&#8217;re there, browse around a little. The site has powerfully communicative articles and infographics for newbies that explain a lot of things that get missed elsewhere. </span></em></p></blockquote>
 <hr />
-<hr /><p>&nbsp;</p>
-<h3>What Are Your Options for Learning to Code?</h3><p>You have a huge variety of options. In fact, you probably have more options for learning code than most any subject out there. Instead of listing the websites and schools, I&#8217;m going to list the categories of different learning options. For some reason this approach is less common in google results.</p>
+<hr />
+<p>&nbsp;</p>
+<h3>What Are Your Options for Learning to Code?</h3>
+<p>You have a huge variety of options. In fact, you probably have more options for learning code than most any subject out there. Instead of listing the websites and schools, I&#8217;m going to list the categories of different learning options. For some reason this approach is less common in google results.</p>
 <h4>Conventional Educational Institution</h4>
 <ul>
 <li>CON = Takes a long time</li>
@@ -119,12 +129,12 @@
 <li>SUMMARY = <span style="text-decoration: underline; color: #008000;">Not what you should do if you&#8217;re just starting out as we assumed for this post.</span></li>
 <li>EXAMPLE = <a href="https://www.theironyard.com/">The Iron Yard</a></li>
 </ul>
-<h4>MOOC = Massive Open Online Classes. (may or may not have certification & fixed schedule)</h4>
+<h4>MOOC = Massive Open Online Classes. (may or may not have certification &amp; fixed schedule)</h4>
 <ul>
 <li>PRO = Learn from awesome professors in traditional lecture style without paying Harvard tuition.</li>
 <li>PRO = Usually has additional resources not available in the website learning options below, like discussion boards, tests that are more than monkey-see monkey-do, and advanced final products to show off (see some of my early python posts)</li>
 <li>PRO = Typically, you&#8217;ll be coding in the browser, which means you don&#8217;t have to worry about which version of python you have, how to set paths, or what the terminal is and how it differs from the PowerShell in Windows. This might not be true if the MOOC consists only of videos.</li>
-<li>CON/PRO = Typically 4 &#8211; 12 weeks & 3-10 hours per week.</li>
+<li>CON/PRO = Typically 4 &#8211; 12 weeks &amp; 3-10 hours per week.</li>
 <li>CON/PRO = If the class has fixed test and project deadlines, you can&#8217;t put it off for two weeks to deal with other stuff. On the other hand, deadlines make it more likely you&#8217;ll maintain forward momentum even if you have competing priorities. Some classes have deadlines with lots of tardy days to use up, which gives you best of both worlds.</li>
 <li>CON/PRO = Means something on your resume, not a lot, but a little more with certification</li>
 <li>SUMMARY = <span style="text-decoration: underline; color: #008000;">Can be great option if you like the traditional lecture learning methodology, want some personal interaction via discussion boards,</span> want at least a taste of computer science concepts, and are willing to commit to 3-8 hours a week for 5-12+ weeks. Whether or not it has a fixed schedule can be critical for whether it matches your needs.</li>
@@ -153,7 +163,7 @@
 <li>PRO = Work at your own pace. You can even skip ahead!</li>
 <li>CON= You&#8217;ll likely have to download and install things. You&#8217;ll have to figure out how to use the terminal or command prompt to execute code and move files around. You&#8217;ll have to figure all this stuff out eventually, but, with learning out of a book, you have to figure it at the same time as you&#8217;re figuring out the coding part.</li>
 <li>SUMMARY = I&#8217;m going to be opinionated and say I <span style="text-decoration: underline;"><span style="color: #008000; text-decoration: underline;">don&#8217;t recommend just using a book as a learning method unless you  have some experience</span></span>. Too much installation and figuring out things in the terminal or command prompt before you actually get to learn what you want to learn. Go the book method in tandem with another option or after you&#8217;ve done another option.</li>
-<li>EXAMPLE: <a href="http://learnpythonthehardway.org/book/">Learn Python The Hard Way</a>, by Zed Shaw or <a href="https://play.google.com/store/books/details?id=blCyf8XF41sC&source=productsearch&utm_source=HA_Desktop_US&utm_medium=SEM&utm_campaign=PLA&pcampaignid=MKTAD0930BO1&gl=US&gclid=CPnp7YXIncoCFdNpfgod3ooK_A&gclsrc=ds">HTML and CSS: Design and Build Websites</a> by John Puckett</li>
+<li>EXAMPLE: <a href="http://learnpythonthehardway.org/book/">Learn Python The Hard Way</a>, by Zed Shaw or <a href="https://play.google.com/store/books/details?id=blCyf8XF41sC&amp;source=productsearch&amp;utm_source=HA_Desktop_US&amp;utm_medium=SEM&amp;utm_campaign=PLA&amp;pcampaignid=MKTAD0930BO1&amp;gl=US&amp;gclid=CPnp7YXIncoCFdNpfgod3ooK_A&amp;gclsrc=ds">HTML and CSS: Design and Build Websites</a> by John Puckett</li>
 </ul>
 <h4>Mentor + Any of the Above</h4>
 <ul>
@@ -161,7 +171,10 @@
 <li>EXAMPLE = More experienced people on the internet or in person, experienced people at work, that other guy at the hackathon, people on stack overflow, computer science meet-ups, random coding boot camp alumni you email for more information, anyone who knows anything relevant that will drink beer or coffee with you, etc.</li>
 </ul>
 <hr />
-<h3>How did I get started?</h3><p>My interest in coding resulted from my activities as a geologist. Although most of my time was spent on purpose-built software, sometimes I needed to do things that didn&#8217;t quite fit into standard software models or were annoyingly time intensive. I also ran up against memory limits in Excel on large datasets. Learning to code presented a way around these hurdles.</p><p>Once I put aside time for learning to write code in a more series manner, and not just editing example snippets run inside ArcGIS and other software packages, I found a set of classes taught by Rice Professors and offered online through Coursera to be very helpful. Course syllabi are available at this <a href="http://www.codeskulptor.org/coursera/interactivepython.html">link</a> and this <a href="http://www.codeskulptor.org/coursera/principlescomputing.html">link</a>. More general information about this sequence of python courses can be found <a href="https://www.coursera.org/specializations/fundamentalscomputing2">here</a>.</p><p>I took:</p>
+<h3>How did I get started?</h3>
+<p>My interest in coding resulted from my activities as a geologist. Although most of my time was spent on purpose-built software, sometimes I needed to do things that didn&#8217;t quite fit into standard software models or were annoyingly time intensive. I also ran up against memory limits in Excel on large datasets. Learning to code presented a way around these hurdles.</p>
+<p>Once I put aside time for learning to write code in a more series manner, and not just editing example snippets run inside ArcGIS and other software packages, I found a set of classes taught by Rice Professors and offered online through Coursera to be very helpful. Course syllabi are available at this <a href="http://www.codeskulptor.org/coursera/interactivepython.html">link</a> and this <a href="http://www.codeskulptor.org/coursera/principlescomputing.html">link</a>. More general information about this sequence of python courses can be found <a href="https://www.coursera.org/specializations/fundamentalscomputing2">here</a>.</p>
+<p>I took:</p>
 <blockquote>
 <p class="headline-2-text">An Introduction to Interactive Programming in Python (Part 1) . <a href="https://www.coursera.org/account/accomplishments/verify/9JJ2G6WVUA">Certificate</a> earned on April 10, 2015</p>
 <p class="headline-2-text">An Introduction to Interactive Programming in Python (Part 2). <a href="https://www.coursera.org/account/accomplishments/verify/Y5BQ7ZTRMD">Certificate</a> earned on May 14, 2015</p>
@@ -169,19 +182,27 @@
 </blockquote>
 <hr />
 <p class="headline-2-text">
-<p class="headline-2-text"><b>Update</b>: Since I first wrote this, I&#8217;ve talked to many more people and been responsible for directing interns to learning resources. For people that want to spend a minimum amount of time to learn just a little, I&#8217;ve been directing them to resources that fall in the &#8220;Free or Pay Website for Learning Code&#8221; category. Additional learning resources that have worked well are:  <a href="https://code.org/">code.org</a> , <a href="http://w3schools.com/">w3schools.com</a> and <a href="https://www.codeschool.com/">codeschool.com</a> . Those options present a zero setup (everything can be run within their website) way to quickly dive-in.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<hr /><p><em>Please feel free to leave any questions or comments via the comment box below!</em></p>
-<p>The post <a rel="nofollow" href="/learning-to-code/">Learning to Code</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+<p class="headline-2-text"><b>Update</b>: Since I first wrote this, I&#8217;ve talked to many more people and been responsible for directing interns to learning resources. For people that want to spend a minimum amount of time to learn just a little, I&#8217;ve been directing them to resources that fall in the &#8220;Free or Pay Website for Learning Code&#8221; category. Additional learning resources that have worked well are:  <a href="https://code.org/">code.org</a> , <a href="http://w3schools.com/">w3schools.com</a> and <a href="https://www.codeschool.com/">codeschool.com</a> . Those options present a zero setup (everything can be run within their website) way to quickly dive-in.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<hr />
+<p><em>Please feel free to leave any questions or comments via the comment box below!</em></p>
 ]]></content:encoded>
-			<wfw:commentRss>/learning-to-code/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">325</post-id>	</item>
+					
+					<wfw:commentRss>/learning-to-code/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Signed Up For The Iron Yard 12 week Course</title>
 		<link>/signed-up-for-the-iron-yard-12-week-course/</link>
-		<comments>/signed-up-for-the-iron-yard-12-week-course/#comments</comments>
-		<pubDate>Tue, 05 Jan 2016 18:22:21 +0000</pubDate>
+					<comments>/signed-up-for-the-iron-yard-12-week-course/#comments</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Tue, 05 Jan 2016 18:22:21 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[courses]]></category>
 		<category><![CDATA[Front-End]]></category>
@@ -189,96 +210,102 @@
 		<category><![CDATA[learning]]></category>
 		<category><![CDATA[The Iron Yard]]></category>
 		<category><![CDATA[web development]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=296</guid>
 
-		<guid isPermaLink="false">/?p=296</guid>
-		<description><![CDATA[<p>The Iron Yard:I recently made the decision to sign up for the front-end engineering with javascript and MVC frameworks course at the Iron Yard here in Houston, which I&#8217;m very excited about.I&#8217;ve been considering this for a while. I talked to a bunch of alumni, visited The Iron Yard and Coder Camps, considered options outside<a href="/signed-up-for-the-iron-yard-12-week-course/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/signed-up-for-the-iron-yard-12-week-course/">Signed Up For The Iron Yard 12 week Course</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<h3><span style="color: #808080;">The Iron Yard:</span></h3><p><span style="color: #808080;">I recently made the decision to sign up for the <a style="color: #808080;" href="https://www.theironyard.com/courses/javascript-and-mvc-frameworks.html" target="blank">front-end engineering with javascript and MVC frameworks</a> course at the Iron Yard here in Houston, which I&#8217;m very excited about.</span></p><p><span style="color: #808080;">I&#8217;ve been considering this for a while. I talked to a bunch of alumni, visited The Iron Yard and Coder Camps, considered options outside Houston, researched the job market, and read about several languages and frameworks to explore their differences before finally making a decision. I&#8217;m excited about new career directions, learning lots of new technologies, and building cool new projects.</span></p>
-<h2><span style="color: #808080;"><del>Start date is February 1st!</del></span></h2><p><span style="color: #808080;">That gives me a month to absorb as much javascript as possible, gain a little exposure to back-end javascript frameworks, learn the first steps of leaflet, dabble in D3.js, and, hopefully, finish a few in-progress projects before class starts. As I&#8217;ve shifted to spending nearly 100% of my time on learning and applying code, there&#8217;s been some tension with how much to focus on learning vs. building a portfolio. Some of my project ideas will have to be put on the shelf, but I&#8217;m hoping to get the paddling experience map online before the end of the month and one or two other projects.</span></p>
-<h2>Update!</h2><p>Got a job offer I couldn&#8217;t refuse. I had to drop the class. Now I go to work in a building with a Gemini space capsule in front of it. More formation in the Resume section.</p><p>Although I was only at The Iron Yard for one week, I can whole-heartedly recommend them. If you&#8217;re interesting in learning what they&#8217;re teaching in a short amount of time, definitely give them a look. I was impressed by the instructors ability to cram information into your head quickly while walking the ever-shrinking fine line between challenging and supportive. I was also impressed with the extent to which it is an organization living its values. I can&#8217;t speak for all the Iron Yards, as they have many campuses, but the Houston one definitely makes a strong effort to put the students first. Not all coding boot camps deliver on this or other metrics. Please email me if you have any questions. I can also put you in touch with students who took more than the first week.</p>
-<p>The post <a rel="nofollow" href="/signed-up-for-the-iron-yard-12-week-course/">Signed Up For The Iron Yard 12 week Course</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+					<description><![CDATA[The Iron Yard: I recently made the decision to sign up for the front-end engineering with javascript and MVC frameworks course at the Iron Yard here in Houston, which I&#8217;m very excited about. I&#8217;ve been considering this for a while. I talked to a bunch of alumni, visited The Iron<a class="moretag" href="/signed-up-for-the-iron-yard-12-week-course/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<h3><span style="color: #808080;">The Iron Yard:</span></h3>
+<p><span style="color: #808080;">I recently made the decision to sign up for the <a style="color: #808080;" href="https://www.theironyard.com/courses/javascript-and-mvc-frameworks.html" target="blank">front-end engineering with javascript and MVC frameworks</a> course at the Iron Yard here in Houston, which I&#8217;m very excited about.</span></p>
+<p><span style="color: #808080;">I&#8217;ve been considering this for a while. I talked to a bunch of alumni, visited The Iron Yard and Coder Camps, considered options outside Houston, researched the job market, and read about several languages and frameworks to explore their differences before finally making a decision. I&#8217;m excited about new career directions, learning lots of new technologies, and building cool new projects.</span></p>
+<h2><span style="color: #808080;"><del>Start date is February 1st!</del></span></h2>
+<p><span style="color: #808080;">That gives me a month to absorb as much javascript as possible, gain a little exposure to back-end javascript frameworks, learn the first steps of leaflet, dabble in D3.js, and, hopefully, finish a few in-progress projects before class starts. As I&#8217;ve shifted to spending nearly 100% of my time on learning and applying code, there&#8217;s been some tension with how much to focus on learning vs. building a portfolio. Some of my project ideas will have to be put on the shelf, but I&#8217;m hoping to get the paddling experience map online before the end of the month and one or two other projects.</span></p>
+<h2>Update!</h2>
+<p>Got a job offer I couldn&#8217;t refuse. I had to drop the class. Now I go to work in a building with a Gemini space capsule in front of it. More formation in the Resume section.</p>
+<p>Although I was only at The Iron Yard for one week, I can whole-heartedly recommend them. If you&#8217;re interesting in learning what they&#8217;re teaching in a short amount of time, definitely give them a look. I was impressed by the instructors ability to cram information into your head quickly while walking the ever-shrinking fine line between challenging and supportive. I was also impressed with the extent to which it is an organization living its values. I can&#8217;t speak for all the Iron Yards, as they have many campuses, but the Houston one definitely makes a strong effort to put the students first. Not all coding boot camps deliver on this or other metrics. Please email me if you have any questions. I can also put you in touch with students who took more than the first week.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/signed-up-for-the-iron-yard-12-week-course/feed/</wfw:commentRss>
-		<slash:comments>2</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">296</post-id>	</item>
+					
+					<wfw:commentRss>/signed-up-for-the-iron-yard-12-week-course/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>&#8220;Get Current Address&#8221; python script on phone</title>
 		<link>/get-current-address-python-script-on-phone/</link>
-		<comments>/get-current-address-python-script-on-phone/#respond</comments>
-		<pubDate>Sat, 07 Nov 2015 20:23:38 +0000</pubDate>
+					<comments>/get-current-address-python-script-on-phone/#respond</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Sat, 07 Nov 2015 20:23:38 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[maps]]></category>
 		<category><![CDATA[courses]]></category>
 		<category><![CDATA[mobile]]></category>
 		<category><![CDATA[python and GIS]]></category>
 		<category><![CDATA[pythonista]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=141</guid>
 
-		<guid isPermaLink="false">/?p=141</guid>
-		<description><![CDATA[<p>&#8220;Get Current Address&#8221; A Pythonista Script running on iPhone:&#8220;Get Current Address&#8221; is a pythonista script I created based on some google research. I wanted to take advantage of the iphone&#8217;s geolocation and geocoding abilities.I was also attempting to fill a very small niche. Although google maps and apple maps are good at showing where you are<a href="/get-current-address-python-script-on-phone/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/get-current-address-python-script-on-phone/">&#8220;Get Current Address&#8221; python script on phone</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<h3>&#8220;Get Current Address&#8221;</h3>
-<h4>A Pythonista Script running on iPhone:</h4><p>&#8220;Get Current Address&#8221; is a <a href="https://itunes.apple.com/us/app/pythonista/id528579881?mt=8 target=">pythonista</a> script I created based on some google research. I wanted to take advantage of the iphone&#8217;s geolocation and geocoding abilities.</p><p>I was also attempting to fill a very small niche. Although google maps and apple maps are good at showing where you are and where a certain address is, there is no built in functionality to quickly show you the address at which you and your phone are currently positioned within.</p><p>It can also output course direction and speed when the phone is moving.</p>
-<div id="attachment_142" style="width: 462px" class="wp-caption alignnone"><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png"><img data-attachment-id="142" data-permalink="/get-current-address-python-script-on-phone/getaddress/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png?fit=452%2C425" data-orig-size="452,425" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="GetAddress" data-image-description="&lt;p&gt;Screen shot of pythonista screen showing results of &#8220;Get Location&#8221; script.&lt;/p&gt;
-" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png?fit=300%2C282" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png?fit=452%2C425" class="size-full wp-image-142" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png?resize=452%2C425" alt="Screen shot of pythonista screen showing results of &quot;Get Location&quot; script." width="452" height="425" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png?w=452 452w, https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GetAddress.png?resize=300%2C282 300w" sizes="(max-width: 452px) 100vw, 452px" data-recalc-dims="1" /></a></p>
-<p class="wp-caption-text">Screen shot of pythonista screen showing results of &#8220;Get Location&#8221; script.</p>
-</div><p>You can check out the code on github: <a href="https://github.com/JustinGOSSES/Pythonista" target="blank"><img data-attachment-id="224" data-permalink="/resume/github-mark-32px/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?fit=32%2C32" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="GitHub-Mark-32px" data-image-description="&lt;p&gt;GitHub-Mark-32px&lt;/p&gt;
-" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?fit=32%2C32" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?fit=32%2C32" class="alignnone size-full wp-image-224" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2015/11/GitHub-Mark-32px.png?resize=32%2C32" alt="GitHub-Mark-32px" width="32" height="32" data-recalc-dims="1" /></a></p>
-<p>The post <a rel="nofollow" href="/get-current-address-python-script-on-phone/">&#8220;Get Current Address&#8221; python script on phone</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+					<description><![CDATA[&#8220;Get Current Address&#8221; A Pythonista Script running on iPhone: &#8220;Get Current Address&#8221; is a pythonista script I created based on some google research. I wanted to take advantage of the iphone&#8217;s geolocation and geocoding abilities. I was also attempting to fill a very small niche. Although google maps and apple maps<a class="moretag" href="/get-current-address-python-script-on-phone/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<h3>&#8220;Get Current Address&#8221;</h3>
+<h4>A Pythonista Script running on iPhone:</h4>
+<p>&#8220;Get Current Address&#8221; is a <a href="https://itunes.apple.com/us/app/pythonista/id528579881?mt=8 target=">pythonista</a> script I created based on some google research. I wanted to take advantage of the iphone&#8217;s geolocation and geocoding abilities.</p>
+<p>I was also attempting to fill a very small niche. Although google maps and apple maps are good at showing where you are and where a certain address is, there is no built in functionality to quickly show you the address at which you and your phone are currently positioned within.</p>
+<p>It can also output course direction and speed when the phone is moving.</p>
+<div id="attachment_142" style="width: 462px" class="wp-caption alignnone"><a href="http://54.87.153.110/wp-content/uploads/2015/11/GetAddress.png"><img aria-describedby="caption-attachment-142" loading="lazy" class="size-full wp-image-142" src="http://54.87.153.110/wp-content/uploads/2015/11/GetAddress.png" alt="Screen shot of pythonista screen showing results of &quot;Get Location&quot; script." width="452" height="425" srcset="/wp-content/uploads/2015/11/GetAddress.png 452w, /wp-content/uploads/2015/11/GetAddress-300x282.png 300w" sizes="(max-width: 452px) 100vw, 452px" /></a><p id="caption-attachment-142" class="wp-caption-text">Screen shot of pythonista screen showing results of &#8220;Get Location&#8221; script.</p></div>
+<p>You can check out the code on github: <a href="https://github.com/JustinGOSSES/Pythonista" target="blank"><img loading="lazy" class="alignnone size-full wp-image-224" src="http://54.87.153.110/wp-content/uploads/2015/11/GitHub-Mark-32px.png" alt="GitHub-Mark-32px" width="32" height="32" /></a></p>
 ]]></content:encoded>
-			<wfw:commentRss>/get-current-address-python-script-on-phone/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">141</post-id>	</item>
+					
+					<wfw:commentRss>/get-current-address-python-script-on-phone/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Python Class Project &#8211; 2048</title>
 		<link>/python-class-project-2048/</link>
-		<comments>/python-class-project-2048/#respond</comments>
-		<pubDate>Sat, 07 Nov 2015 19:57:33 +0000</pubDate>
+					<comments>/python-class-project-2048/#respond</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Sat, 07 Nov 2015 19:57:33 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[courses]]></category>
 		<category><![CDATA[learning]]></category>
 		<category><![CDATA[python]]></category>
 		<category><![CDATA[rice university]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=130</guid>
 
-		<guid isPermaLink="false">/?p=130</guid>
-		<description><![CDATA[<p>2048 Numbers Game Another project built for the online Python Class I was taking, 2048 is a game in which you move numbers around a board. Like numbers merge in pairs. For example blocks of 2 and 2 becomes a single 4. You move all the blocks at once in whatever direction you pick using<a href="/python-class-project-2048/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/python-class-project-2048/">Python Class Project &#8211; 2048</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<h2>2048 Numbers Game</h2>
+					<description><![CDATA[2048 Numbers Game Another project built for the online Python Class I was taking, 2048 is a game in which you move numbers around a board. Like numbers merge in pairs. For example blocks of 2 and 2 becomes a single 4. You move all the blocks at once in<a class="moretag" href="/python-class-project-2048/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<h2>2048 Numbers Game</h2>
 <div align="center">
 <p style="text-align: left;">Another project built for the online Python <a href="https://www.coursera.org/specializations/fundamentalscomputing2?utm_medium=spark_cdp_sidebar" target="blank">Class</a> I was taking, 2048 is a game in which you move numbers around a board. Like numbers merge in pairs. For example blocks of 2 and 2 becomes a single 4. You move all the blocks at once in whatever direction you pick using the arrow keys. Every time you make a move, a new block is added. If you run out of free spaces, you lose. The goal is to get a block whose score is exactly 2048.</p>
 <p style="text-align: left;"><i>You must have pop-ups enabled to play, can’t run it on a mobile device, and any older browsers that haven’t been updated in a couple years may or may not work. I am using <a href="http://www.codeskulptor.org/docs.html#tabs-Python" target="blank">CodeSkulptor</a> to run my python code in your browser. CodeSkulptor is a very nice tool, but it does have these limitations.</i></p>
-<div id="attachment_131" style="width: 441px" class="wp-caption alignnone"><a href="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png"><img data-attachment-id="131" data-permalink="/python-class-project-2048/2048_1/" data-orig-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png?fit=431%2C455" data-orig-size="431,455" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2048_1" data-image-description="&lt;p&gt;Screen shot of 2048 numbers game. Built with python by Justin Gosses 2015.&lt;/p&gt;
-" data-medium-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png?fit=284%2C300" data-large-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png?fit=431%2C455" class="size-full wp-image-131" src="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png?resize=431%2C455" alt="Screen shot of 2048 numbers game. Built with python by Justin Gosses 2015." width="431" height="455" srcset="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png?w=431 431w, https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/2048_1.png?resize=284%2C300 284w" sizes="(max-width: 431px) 100vw, 431px" data-recalc-dims="1" /></a></p>
-<p class="wp-caption-text">Screen shot of 2048 numbers game. Built with python by Justin Gosses 2015.</p>
-</div><p><iframe class="center" src="http://www.codeskulptor.org/#user40_2fVApewnkR_1.py" width="100%" height="600"></iframe></p>
+<div id="attachment_131" style="width: 441px" class="wp-caption alignnone"><a href="http://54.87.153.110/wp-content/uploads/2015/11/2048_1.png"><img aria-describedby="caption-attachment-131" loading="lazy" class="size-full wp-image-131" src="http://54.87.153.110/wp-content/uploads/2015/11/2048_1.png" alt="Screen shot of 2048 numbers game. Built with python by Justin Gosses 2015." width="431" height="455" srcset="/wp-content/uploads/2015/11/2048_1.png 431w, /wp-content/uploads/2015/11/2048_1-284x300.png 284w" sizes="(max-width: 431px) 100vw, 431px" /></a><p id="caption-attachment-131" class="wp-caption-text">Screen shot of 2048 numbers game. Built with python by Justin Gosses 2015.</p></div>
+<p><iframe loading="lazy" class="center" src="http://www.codeskulptor.org/#user40_2fVApewnkR_1.py" width="100%" height="600"></iframe></p>
 </div>
-<p>The post <a rel="nofollow" href="/python-class-project-2048/">Python Class Project &#8211; 2048</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/python-class-project-2048/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">130</post-id>	</item>
+					
+					<wfw:commentRss>/python-class-project-2048/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Python Class Project &#8211; Excessive Pong</title>
 		<link>/python-class-project-excessive-pong/</link>
-		<comments>/python-class-project-excessive-pong/#respond</comments>
-		<pubDate>Sat, 07 Nov 2015 19:43:16 +0000</pubDate>
+					<comments>/python-class-project-excessive-pong/#respond</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Sat, 07 Nov 2015 19:43:16 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[courses]]></category>
 		<category><![CDATA[learning]]></category>
 		<category><![CDATA[python]]></category>
 		<category><![CDATA[rice university]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=125</guid>
 
-		<guid isPermaLink="false">/?p=125</guid>
-		<description><![CDATA[<p>Excessive PongAnother project for the online python class was to build your own version of the home arcade game, pong. The project applied what we had previously learned about user interface, use of time functions, lists, dictionaries, etc.The project instructions stipulated that the ball speed should include a certain percentage each time it hit a<a href="/python-class-project-excessive-pong/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/python-class-project-excessive-pong/">Python Class Project &#8211; Excessive Pong</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<hr />
-<h2>Excessive Pong</h2><p>Another project for the online python <a href="https://www.coursera.org/specializations/fundamentalscomputing2?utm_medium=spark_cdp_sidebar" target="blank">class</a> was to build your own version of the home arcade game, pong. The project applied what we had previously learned about user interface, use of time functions, lists, dictionaries, etc.</p><p>The project instructions stipulated that the ball speed should include a certain percentage each time it hit a paddle to limit the length of each game. I added a bunch of other &#8220;features&#8221; of my own making to make it &#8220;excessive&#8221; pong.</p>
+					<description><![CDATA[Excessive Pong Another project for the online python class was to build your own version of the home arcade game, pong. The project applied what we had previously learned about user interface, use of time functions, lists, dictionaries, etc. The project instructions stipulated that the ball speed should include a<a class="moretag" href="/python-class-project-excessive-pong/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<hr />
+<h2>Excessive Pong</h2>
+<p>Another project for the online python <a href="https://www.coursera.org/specializations/fundamentalscomputing2?utm_medium=spark_cdp_sidebar" target="blank">class</a> was to build your own version of the home arcade game, pong. The project applied what we had previously learned about user interface, use of time functions, lists, dictionaries, etc.</p>
+<p>The project instructions stipulated that the ball speed should include a certain percentage each time it hit a paddle to limit the length of each game. I added a bunch of other &#8220;features&#8221; of my own making to make it &#8220;excessive&#8221; pong.</p>
 <h4>Extra settings included:</h4>
 <ul>
 <ul>
@@ -291,48 +318,55 @@
 <li>a curve ball mode</li>
 <li>and a teleporter</li>
 </ul>
-</ul><p>&nbsp;</p><p>The left side of the window below contains the code I wrote that makes up the game. To play &#8220;Excessive Pong&#8221;, hit the play button on the screen below. Use W & S keys to move the paddle for the left player. Up and Down arrows move the paddle for the right sided player. To activate the various &#8220;play options&#8221; buttons that appear on the left side of the pop-up, click them once. Clicking them again will de-activate.</p><p><i><br />
-I am using <a href="http://www.codeskulptor.org/docs.html#tabs-Python" target="blank">CodeSkulptor</a> to run my python code in your browser. CodeSkulptor is a very nice tool, but it does have limitations. You must have pop-ups enabled to play, can&#8217;t run it on a mobile device, and older browsers may or may not work. Safari works inconsistently. Firefox works the best.</i></p><p><iframe class="center" src="http://www.codeskulptor.org/#user40_L9g9vymraq_10.py" width="100%" height="600"></iframe></p>
-<div id="attachment_126" style="width: 821px" class="wp-caption alignnone"><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png"><img data-attachment-id="126" data-permalink="/python-class-project-excessive-pong/excessivepong/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png?fit=811%2C451" data-orig-size="811,451" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ExcessivePong" data-image-description="&lt;p&gt;Screen shot of &#8220;Excessive Pong&#8221; python program. by Justin Gosses, 2015&lt;/p&gt;
-" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png?fit=300%2C167" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png?fit=640%2C356" class="size-full wp-image-126" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png?resize=640%2C356" alt="Screen shot of &quot;Excessive Pong&quot; python program. by Justin Gosses, 2015" width="640" height="356" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png?w=811 811w, https://i0.wp.com/justingosses.com/wp-content/uploads/2015/11/ExcessivePong.png?resize=300%2C167 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
-<p class="wp-caption-text">Screen shot of &#8220;Excessive Pong&#8221; python program. by Justin Gosses, 2015</p>
-</div>
-<p>The post <a rel="nofollow" href="/python-class-project-excessive-pong/">Python Class Project &#8211; Excessive Pong</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+</ul>
+<p>&nbsp;</p>
+<p>The left side of the window below contains the code I wrote that makes up the game. To play &#8220;Excessive Pong&#8221;, hit the play button on the screen below. Use W &amp; S keys to move the paddle for the left player. Up and Down arrows move the paddle for the right sided player. To activate the various &#8220;play options&#8221; buttons that appear on the left side of the pop-up, click them once. Clicking them again will de-activate.</p>
+<p><i><br />
+I am using <a href="http://www.codeskulptor.org/docs.html#tabs-Python" target="blank">CodeSkulptor</a> to run my python code in your browser. CodeSkulptor is a very nice tool, but it does have limitations. You must have pop-ups enabled to play, can&#8217;t run it on a mobile device, and older browsers may or may not work. Safari works inconsistently. Firefox works the best.</i></p>
+<p><iframe loading="lazy" class="center" src="http://www.codeskulptor.org/#user40_L9g9vymraq_10.py" width="100%" height="600"></iframe></p>
+<div id="attachment_126" style="width: 821px" class="wp-caption alignnone"><a href="http://54.87.153.110/wp-content/uploads/2015/11/ExcessivePong.png"><img aria-describedby="caption-attachment-126" loading="lazy" class="size-full wp-image-126" src="http://54.87.153.110/wp-content/uploads/2015/11/ExcessivePong.png" alt="Screen shot of &quot;Excessive Pong&quot; python program. by Justin Gosses, 2015" width="811" height="451" srcset="/wp-content/uploads/2015/11/ExcessivePong.png 811w, /wp-content/uploads/2015/11/ExcessivePong-300x167.png 300w" sizes="(max-width: 811px) 100vw, 811px" /></a><p id="caption-attachment-126" class="wp-caption-text">Screen shot of &#8220;Excessive Pong&#8221; python program. by Justin Gosses, 2015</p></div>
 ]]></content:encoded>
-			<wfw:commentRss>/python-class-project-excessive-pong/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">125</post-id>	</item>
+					
+					<wfw:commentRss>/python-class-project-excessive-pong/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Python Class Project &#8211; &#8220;Astroids&#8221; game</title>
 		<link>/python-class-project-astroids/</link>
-		<comments>/python-class-project-astroids/#comments</comments>
-		<pubDate>Fri, 06 Nov 2015 06:46:29 +0000</pubDate>
+					<comments>/python-class-project-astroids/#comments</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Fri, 06 Nov 2015 06:46:29 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[courses]]></category>
 		<category><![CDATA[learning]]></category>
 		<category><![CDATA[python]]></category>
 		<category><![CDATA[rice university]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=42</guid>
 
-		<guid isPermaLink="false">/?p=42</guid>
-		<description><![CDATA[<p>Building an arcade game for class:As part of a series of classes I&#8217;ve been taking through Coursera / Rice University, I&#8217;ve built a few clones of old school arcade games. The idea is building games is fun (because you can play them) and therefore students will be more motivated to learn and finish projects. Rice<a href="/python-class-project-astroids/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/python-class-project-astroids/">Python Class Project &#8211; &#8220;Astroids&#8221; game</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<h2>Building an arcade game for class:</h2><p>As part of a series of classes I&#8217;ve been taking through <a href="https://www.coursera.org/specializations/fundamentalscomputing2?utm_medium=courseDescripTop" target="blank">Coursera / Rice University</a>, I&#8217;ve built a few clones of old school arcade games. The idea is building games is fun (because you can play them) and therefore students will be more motivated to learn and finish projects.</p>
+					<description><![CDATA[Building an arcade game for class: As part of a series of classes I&#8217;ve been taking through Coursera / Rice University, I&#8217;ve built a few clones of old school arcade games. The idea is building games is fun (because you can play them) and therefore students will be more motivated<a class="moretag" href="/python-class-project-astroids/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<h2>Building an arcade game for class:</h2>
+<p>As part of a series of classes I&#8217;ve been taking through <a href="https://www.coursera.org/specializations/fundamentalscomputing2?utm_medium=courseDescripTop" target="blank">Coursera / Rice University</a>, I&#8217;ve built a few clones of old school arcade games. The idea is building games is fun (because you can play them) and therefore students will be more motivated to learn and finish projects.</p>
 <hr />
-<h2>Rice Rocks or &#8220;Astroids&#8221;</h2><p>The screen shot below is from my version of the old &#8220;astroids&#8221; arcade game. To play the game, follow the instructions below the screenshot.</p>
-<div id="attachment_45" style="width: 610px" class="wp-caption alignnone"><a href="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png"><img data-attachment-id="45" data-permalink="/python-class-project-astroids/astroids_screen_shot/" data-orig-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?fit=1082%2C717" data-orig-size="1082,717" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Astroids_screen_shot" data-image-description="&lt;p&gt;Screen shot of game built/run with python&lt;/p&gt;
-" data-medium-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?fit=300%2C199" data-large-file="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?fit=640%2C424" class="size-thumbnail wp-image-45" src="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?resize=600%2C600" alt="Screen shot of game built/run with python" width="600" height="600" srcset="https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?resize=150%2C150 150w, https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?resize=250%2C250 250w, https://i1.wp.com/justingosses.com/wp-content/uploads/2015/11/Astroids_screen_shot.png?resize=174%2C174 174w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></a></p>
-<p class="wp-caption-text">Screen shot of game built/run with python</p>
-</div>
-<div align="center"><p>The left side of the window below contains the code I wrote that makes up the game. To play &#8220;Astroids&#8221; game, hit the play button on the screen below. It will open a pop-up window with the game. Hit the back buttom (left hand turn arrow) to turn off sound when finished.</p><p>Use arrow keys to power the thruster and turn the spaceship. Spacebar fires the missiles.You can use the input forms on the left side of the pop-up screen to change some elements of the game play, but they are only applied after you lose one game and go onto the next game.</p><p><i><br />
+<h2>Rice Rocks or &#8220;Astroids&#8221;</h2>
+<p>The screen shot below is from my version of the old &#8220;astroids&#8221; arcade game. To play the game, follow the instructions below the screenshot.</p>
+<div id="attachment_45" style="width: 610px" class="wp-caption alignnone"><a href="http://54.87.153.110/wp-content/uploads/2015/11/Astroids_screen_shot.png"><img aria-describedby="caption-attachment-45" loading="lazy" class="size-thumbnail wp-image-45" src="http://54.87.153.110/wp-content/uploads/2015/11/Astroids_screen_shot.png" alt="Screen shot of game built/run with python" width="600" height="600" srcset="/wp-content/uploads/2015/11/Astroids_screen_shot-150x150.png 150w, /wp-content/uploads/2015/11/Astroids_screen_shot-250x250.png 250w, /wp-content/uploads/2015/11/Astroids_screen_shot-174x174.png 174w" sizes="(max-width: 600px) 100vw, 600px" /></a><p id="caption-attachment-45" class="wp-caption-text">Screen shot of game built/run with python</p></div>
+<div align="center">
+<p>The left side of the window below contains the code I wrote that makes up the game. To play &#8220;Astroids&#8221; game, hit the play button on the screen below. It will open a pop-up window with the game. Hit the back buttom (left hand turn arrow) to turn off sound when finished.</p>
+<p>Use arrow keys to power the thruster and turn the spaceship. Spacebar fires the missiles.You can use the input forms on the left side of the pop-up screen to change some elements of the game play, but they are only applied after you lose one game and go onto the next game.</p>
+<p><i><br />
 I am using <a href="http://www.codeskulptor.org/docs.html#tabs-Python" target="blank">CodeSkulptor</a> to run my python code in your browser. CodeSkulptor is a very nice tool, but it does have limitations. You must have pop-ups enabled to play, can’t run it on a mobile device, and older browsers may or may not work. Safari works inconsistently. Firefox and Chrome work the best.<br />
-</i></p><p><iframe class="center" src="http://www.codeskulptor.org/#user39_TX7MZeGm6m_10.py" width="100%" height="600"></iframe></p>
+</i></p>
+<p><iframe loading="lazy" class="center" src="http://www.codeskulptor.org/#user39_TX7MZeGm6m_10.py" width="100%" height="600"></iframe></p>
 </div>
-<p>The post <a rel="nofollow" href="/python-class-project-astroids/">Python Class Project &#8211; &#8220;Astroids&#8221; game</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/python-class-project-astroids/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">42</post-id>	</item>
+					
+					<wfw:commentRss>/python-class-project-astroids/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
 	</channel>
 </rss>

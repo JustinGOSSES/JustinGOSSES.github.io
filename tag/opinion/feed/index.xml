@@ -5,32 +5,35 @@
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+	>
 
 <channel>
-	<title>Opinion &#8211; Justin Gosses Home</title>
+	<title>Opinion</title>
 	<atom:link href="/tag/opinion/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Geology, GIS, and CODE + Resumes</description>
-	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<description>Geology, Maps, and Code</description>
+	<lastBuildDate>Wed, 27 Sep 2017 22:26:02 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.11</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 
 <image>
-	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
-	<title>Opinion &#8211; Justin Gosses Home</title>
+	<url>/wp-content/uploads/2017/02/cropped-JustinGosses_logo-32x32.jpg</url>
+	<title>Opinion</title>
 	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
-<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+	<item>
 		<title>Flow Chart for Picking the Right Mapping Tool</title>
 		<link>/flow-chart-for-picking-the-right-mapping-tool/</link>
-		<comments>/flow-chart-for-picking-the-right-mapping-tool/#respond</comments>
-		<pubDate>Sat, 03 Sep 2016 19:05:18 +0000</pubDate>
+					<comments>/flow-chart-for-picking-the-right-mapping-tool/#respond</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Sat, 03 Sep 2016 19:05:18 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[maps]]></category>
 		<category><![CDATA[ArcGIS]]></category>
@@ -49,26 +52,30 @@
 		<category><![CDATA[python]]></category>
 		<category><![CDATA[tools]]></category>
 		<category><![CDATA[web development]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=732</guid>
 
-		<guid isPermaLink="false">/?p=732</guid>
-		<description><![CDATA[<p>I did some research on different tools for creating flow charts today.Originally, I started down this path trying to figure out what open-source project I might be able to hack on and produce a project that would generate XKCD style flow charts, similar to how bokeh (python library) has XCKD style plots as built-in option. I<a href="/flow-chart-for-picking-the-right-mapping-tool/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/flow-chart-for-picking-the-right-mapping-tool/">Flow Chart for Picking the Right Mapping Tool</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<p>I did some research on different tools for creating flow charts today.</p><p>Originally, I started down this path trying to figure out what open-source project I might be able to hack on and produce a project that would generate XKCD style flow charts, similar to how bokeh (python library) has XCKD style plots as built-in option. I was also playing around with the notion of crowd-sourced flow charts to help pick among tools and libraries as the number of options explode.</p><p>Then I got distracted and made the flow-chart below. I&#8217;ll just leave it here. It was made with <a href="http://draw.io/">draw.io</a></p><p>&nbsp;</p>
+					<description><![CDATA[I did some research on different tools for creating flow charts today. Originally, I started down this path trying to figure out what open-source project I might be able to hack on and produce a project that would generate XKCD style flow charts, similar to how bokeh (python library) has XCKD<a class="moretag" href="/flow-chart-for-picking-the-right-mapping-tool/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<p>I did some research on different tools for creating flow charts today.</p>
+<p>Originally, I started down this path trying to figure out what open-source project I might be able to hack on and produce a project that would generate XKCD style flow charts, similar to how bokeh (python library) has XCKD style plots as built-in option. I was also playing around with the notion of crowd-sourced flow charts to help pick among tools and libraries as the number of options explode.</p>
+<p>Then I got distracted and made the flow-chart below. I&#8217;ll just leave it here. It was made with <a href="http://draw.io/">draw.io</a></p>
+<p>&nbsp;</p>
 <div id="wrapper" style="width: 100%; height: 100%; overflow: scroll !important; -webkit-overflow-scrolling: touch;">
-<iframe src="http://www.justingosses.com/FlowChart_MakeMaps/" width="100%" height="1200px"></iframe>
+<iframe loading="lazy" src="https://54.87.153.110/FlowChart_MakeMaps/" width="100%" height="1200px"></iframe>
 </div>
-<p>The post <a rel="nofollow" href="/flow-chart-for-picking-the-right-mapping-tool/">Flow Chart for Picking the Right Mapping Tool</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/flow-chart-for-picking-the-right-mapping-tool/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">732</post-id>	</item>
+					
+					<wfw:commentRss>/flow-chart-for-picking-the-right-mapping-tool/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Space City JavaScript Conference</title>
 		<link>/space-city-javascript-conference/</link>
-		<comments>/space-city-javascript-conference/#respond</comments>
-		<pubDate>Sun, 15 May 2016 02:18:21 +0000</pubDate>
+					<comments>/space-city-javascript-conference/#respond</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Sun, 15 May 2016 02:18:21 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[conference]]></category>
 		<category><![CDATA[Front-End]]></category>
@@ -76,39 +83,41 @@
 		<category><![CDATA[learning]]></category>
 		<category><![CDATA[Opinion]]></category>
 		<category><![CDATA[web development]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=510</guid>
 
-		<guid isPermaLink="false">/?p=510</guid>
-		<description><![CDATA[<p>A Post-Conference Review of Space City JSI just got back from Space City JS, a JavaScript conference in Houston, Texas. Ideally, I&#8217;d write an intelligent piece of prose after long reflection. My schedule doesn&#8217;t allow for that, so here are some bullet points. The coffee was strong! and more than cream and sugar was provided<a href="/space-city-javascript-conference/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/space-city-javascript-conference/">Space City JavaScript Conference</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<h3 style="text-align: center;">A Post-Conference Review</h3>
+					<description><![CDATA[A Post-Conference Review of Space City JS I just got back from Space City JS, a JavaScript conference in Houston, Texas. Ideally, I&#8217;d write an intelligent piece of prose after long reflection. My schedule doesn&#8217;t allow for that, so here are some bullet points. The coffee was strong! and more<a class="moretag" href="/space-city-javascript-conference/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<h3 style="text-align: center;">A Post-Conference Review</h3>
 <h3 style="text-align: center;">of</h3>
-<h3 style="text-align: center;"><a href="http://www.spacecity.codes/#">Space City JS</a></h3><p><a href="http://www.spacecity.codes/#"><img data-attachment-id="512" data-permalink="/space-city-javascript-conference/spacecityjs/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/SpaceCityJS.png?fit=512%2C512" data-orig-size="512,512" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="SpaceCityJS" data-image-description="" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/SpaceCityJS.png?fit=300%2C300" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/SpaceCityJS.png?fit=512%2C512" class="aligncenter wp-image-512" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/SpaceCityJS.png?resize=228%2C234" alt="Space City JS Logo" width="228" height="234" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/SpaceCityJS.png?zoom=2&resize=228%2C234 456w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/SpaceCityJS.png?zoom=3&resize=228%2C234 684w" sizes="(max-width: 228px) 100vw, 228px" data-recalc-dims="1" /></a></p><p>I just got back from Space City JS, a JavaScript conference in Houston, Texas. Ideally, I&#8217;d write an intelligent piece of prose after long reflection. My schedule doesn&#8217;t allow for that, so here are some bullet points.</p>
+<h3 style="text-align: center;"><a href="http://www.spacecity.codes/#">Space City JS</a></h3>
+<p><a href="http://www.spacecity.codes/#"><img loading="lazy" class="aligncenter wp-image-512" src="http://54.87.153.110/wp-content/uploads/2016/05/SpaceCityJS.png" alt="Space City JS Logo" width="228" height="234" /></a></p>
+<p>I just got back from Space City JS, a JavaScript conference in Houston, Texas. Ideally, I&#8217;d write an intelligent piece of prose after long reflection. My schedule doesn&#8217;t allow for that, so here are some bullet points.</p>
 <ul>
 <li>The coffee was strong! and more than cream and sugar was provided if you wanted to get fancy. Katz coffee sponsored. They also sponsor the Buffalo Bayou Regatta every year.</li>
 <li>This was only the second year of the conference. The number of people participating was mentioned as evidence of the small but growing Houston tech scene.</li>
 <li>As compared to a scientific conference where talks are super specific, the pattern was for talks to be accessible by those with moderate amounts of topic-specific knowledge. The goal was less description and more inspiration and demonstration.</li>
 <li>One thing JavaScript certainly has going for it over the other languages is an active community of people in Houston who are willing to share their time and expertise with others.</li>
 <li>Hearing about new tools and libraries that experienced people find useful and think will grow in the future is useful knowledge for someone, like myself, making decisions about what things to learn.</li>
-<li>You leave with nice looking stickers & t-shirts.</li>
+<li>You leave with nice looking stickers &amp; t-shirts.</li>
 <li>The conference was sponsored by 4 local breweries, which seemed excessive for a small conference, but can you ever have too many breweries sponsoring your event?</li>
 <li>There were just the right number of interesting talks. The subjects included connecting APIs, databases specifically built for real-time applications, using Node.js at NASA to overcome data silos, and contributing to open-source both from the contributor perspective and the project originator perspective.</li>
 <li>Brisket for lunch! Truly, there&#8217;s no point in having a conference in Texas if you don&#8217;t serve tacos or brisket.</li>
 </ul>
-<div id="attachment_511" style="width: 650px" class="wp-caption aligncenter"><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463279039183.jpg"><img data-attachment-id="511" data-permalink="/space-city-javascript-conference/image1/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?fit=1280%2C1280" data-orig-size="1280,1280" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 5s&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1463214201&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;320&quot;,&quot;shutter_speed&quot;:&quot;0.0588235294118&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;6&quot;}" data-image-title="image1" data-image-description="" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?fit=300%2C300" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?fit=640%2C640" class="wp-image-511 size-large" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764-1024x1024.jpg?resize=640%2C640" alt="post-it note of Space City JS version of NASA logo" width="640" height="640" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?resize=1024%2C1024 1024w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?resize=150%2C150 150w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?resize=300%2C300 300w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?resize=250%2C250 250w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?resize=174%2C174 174w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/05/image1-e1463350097764.jpg?w=1280 1280w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
-<p class="wp-caption-text">A copyright infringing merger of Space City JS (S.C.J.S.) and the NASA logo made with Post-it notes.</p>
-</div><p>&nbsp;</p>
-<p>The post <a rel="nofollow" href="/space-city-javascript-conference/">Space City JavaScript Conference</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+<div id="attachment_511" style="width: 650px" class="wp-caption aligncenter"><a href="http://54.87.153.110/wp-content/uploads/2016/05/image1-e1463279039183.jpg"><img aria-describedby="caption-attachment-511" loading="lazy" class="wp-image-511 size-large" src="http://54.87.153.110/wp-content/uploads/2016/05/image1-e1463350097764-1024x1024.jpg" alt="post-it note of Space City JS version of NASA logo" width="640" height="640" srcset="/wp-content/uploads/2016/05/image1-e1463350097764-1024x1024.jpg 1024w, /wp-content/uploads/2016/05/image1-e1463350097764-150x150.jpg 150w, /wp-content/uploads/2016/05/image1-e1463350097764-300x300.jpg 300w, /wp-content/uploads/2016/05/image1-e1463350097764-250x250.jpg 250w, /wp-content/uploads/2016/05/image1-e1463350097764-174x174.jpg 174w, /wp-content/uploads/2016/05/image1-e1463350097764.jpg 1280w" sizes="(max-width: 640px) 100vw, 640px" /></a><p id="caption-attachment-511" class="wp-caption-text">A copyright infringing merger of Space City JS (S.C.J.S.) and the NASA logo made with Post-it notes.</p></div>
+<p>&nbsp;</p>
 ]]></content:encoded>
-			<wfw:commentRss>/space-city-javascript-conference/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">510</post-id>	</item>
+					
+					<wfw:commentRss>/space-city-javascript-conference/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Learning to Code</title>
 		<link>/learning-to-code/</link>
-		<comments>/learning-to-code/#respond</comments>
-		<pubDate>Sat, 09 Jan 2016 21:03:28 +0000</pubDate>
+					<comments>/learning-to-code/#respond</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Sat, 09 Jan 2016 21:03:28 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[courses]]></category>
 		<category><![CDATA[CSS]]></category>
@@ -119,19 +128,24 @@
 		<category><![CDATA[python]]></category>
 		<category><![CDATA[The Iron Yard]]></category>
 		<category><![CDATA[web development]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=325</guid>
 
-		<guid isPermaLink="false">/?p=325</guid>
-		<description><![CDATA[<p>&#8220;A Highly Opinionated &#038; Abbreviated Guide for Taking the First Steps to Learn a Bit of Code&#8221; Why Write this?Someone asked me for help figuring out where to start regarding learning how to code today. Fundamentally, that&#8217;s why I&#8217;m writing this. I figured I&#8217;d might as well put it in a post and send her the link.Additionally,<a href="/learning-to-code/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/learning-to-code/">Learning to Code</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<hr /><p><strong><em>&#8220;A Highly Opinionated & Abbreviated Guide for Taking the First Steps to Learn a Bit of Code&#8221;</em></strong></p>
-<h3>Why Write this?</h3><p>Someone asked me for help figuring out where to start regarding learning how to code today. Fundamentally, that&#8217;s why I&#8217;m writing this. I figured I&#8217;d might as well put it in a post and send her the link.</p><p>Additionally, the results you get from googling &#8220;best ways to learn how to code&#8221; can be a bit daunting. They tend to be long lists of 10 to 50 different websites or books with only a short description about each. That&#8217;s not very useful. I know from personal experience figuring out how and where to start can lead to decision paralysis due to the large number of options.</p>
-<h3>Warning!</h3><p>I&#8217;m still very much a newbie. Don&#8217;t put too much trust in anything I say. Some trust is okay, but let&#8217;s not go overboard.</p>
-<h3>Who am I Writing for?</h3><p><span style="text-decoration: underline;">My target audience is someone with no knowledge taking their first steps.</span> <strong>My goal is to help them avoid decision paralysis and simply start.</strong> Simply starting has a lot of value as it gets you to your first initial understanding of how exactly coding works and to the point where you can say, &#8220;I built that&#8221;. <span style="text-decoration: underline;">Once you have a tiny bit of experience under your belt, it will be a lot easier to decide how much you like coding, easier to pick what you want to learn, and more obvious how you want to learn it.</span></p>
-<h3>What am I Going to Cover?</h3><p><em>What language should you learn?</em></p>
+					<description><![CDATA[&#8220;A Highly Opinionated &#38; Abbreviated Guide for Taking the First Steps to Learn a Bit of Code&#8221; Why Write this? Someone asked me for help figuring out where to start regarding learning how to code today. Fundamentally, that&#8217;s why I&#8217;m writing this. I figured I&#8217;d might as well put it in a<a class="moretag" href="/learning-to-code/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<hr />
+<p><strong><em>&#8220;A Highly Opinionated &amp; Abbreviated Guide for Taking the First Steps to Learn a Bit of Code&#8221;</em></strong></p>
+<h3>Why Write this?</h3>
+<p>Someone asked me for help figuring out where to start regarding learning how to code today. Fundamentally, that&#8217;s why I&#8217;m writing this. I figured I&#8217;d might as well put it in a post and send her the link.</p>
+<p>Additionally, the results you get from googling &#8220;best ways to learn how to code&#8221; can be a bit daunting. They tend to be long lists of 10 to 50 different websites or books with only a short description about each. That&#8217;s not very useful. I know from personal experience figuring out how and where to start can lead to decision paralysis due to the large number of options.</p>
+<h3>Warning!</h3>
+<p>I&#8217;m still very much a newbie. Don&#8217;t put too much trust in anything I say. Some trust is okay, but let&#8217;s not go overboard.</p>
+<h3>Who am I Writing for?</h3>
+<p><span style="text-decoration: underline;">My target audience is someone with no knowledge taking their first steps.</span> <strong>My goal is to help them avoid decision paralysis and simply start.</strong> Simply starting has a lot of value as it gets you to your first initial understanding of how exactly coding works and to the point where you can say, &#8220;I built that&#8221;. <span style="text-decoration: underline;">Once you have a tiny bit of experience under your belt, it will be a lot easier to decide how much you like coding, easier to pick what you want to learn, and more obvious how you want to learn it.</span></p>
+<h3>What am I Going to Cover?</h3>
+<p><em>What language should you learn?</em></p>
 <ul>
 <li>I&#8217;m not going to describe the merits of every language. I&#8217;m going to focus on the most common languages and the easier languages to learn.</li>
-</ul><p><em>How should you go about learning?</em></p>
+</ul>
+<p><em>How should you go about learning?</em></p>
 <ul>
 <li>I&#8217;m not going to give a big list of 30 or a 100 options for different websites and books to use. Google will give you lots of those. I&#8217;m going to describe the categories of different learning resources.</li>
 </ul>
@@ -175,8 +189,10 @@
 <hr />
 <blockquote><p><em><span style="color: #993300;">For a longer and more visual version of this discussion, check out this awesome <a href="http://carlcheo.com/wp-content/uploads/2014/12/which-programming-language-should-i-learn-first-pdf.pdf" target="blank">infographic</a> for what language to learn at </span><a style="color: #993300;" href="http://carlcheo.com/" target="blank">carlcheo.com</a><span style="color: #993300;">. In addition to providing a flow-diagram for what deciding what language to learn, it describes common computer languages in terms of Lord of the Rings character traits. While you&#8217;re there, browse around a little. The site has powerfully communicative articles and infographics for newbies that explain a lot of things that get missed elsewhere. </span></em></p></blockquote>
 <hr />
-<hr /><p>&nbsp;</p>
-<h3>What Are Your Options for Learning to Code?</h3><p>You have a huge variety of options. In fact, you probably have more options for learning code than most any subject out there. Instead of listing the websites and schools, I&#8217;m going to list the categories of different learning options. For some reason this approach is less common in google results.</p>
+<hr />
+<p>&nbsp;</p>
+<h3>What Are Your Options for Learning to Code?</h3>
+<p>You have a huge variety of options. In fact, you probably have more options for learning code than most any subject out there. Instead of listing the websites and schools, I&#8217;m going to list the categories of different learning options. For some reason this approach is less common in google results.</p>
 <h4>Conventional Educational Institution</h4>
 <ul>
 <li>CON = Takes a long time</li>
@@ -197,12 +213,12 @@
 <li>SUMMARY = <span style="text-decoration: underline; color: #008000;">Not what you should do if you&#8217;re just starting out as we assumed for this post.</span></li>
 <li>EXAMPLE = <a href="https://www.theironyard.com/">The Iron Yard</a></li>
 </ul>
-<h4>MOOC = Massive Open Online Classes. (may or may not have certification & fixed schedule)</h4>
+<h4>MOOC = Massive Open Online Classes. (may or may not have certification &amp; fixed schedule)</h4>
 <ul>
 <li>PRO = Learn from awesome professors in traditional lecture style without paying Harvard tuition.</li>
 <li>PRO = Usually has additional resources not available in the website learning options below, like discussion boards, tests that are more than monkey-see monkey-do, and advanced final products to show off (see some of my early python posts)</li>
 <li>PRO = Typically, you&#8217;ll be coding in the browser, which means you don&#8217;t have to worry about which version of python you have, how to set paths, or what the terminal is and how it differs from the PowerShell in Windows. This might not be true if the MOOC consists only of videos.</li>
-<li>CON/PRO = Typically 4 &#8211; 12 weeks & 3-10 hours per week.</li>
+<li>CON/PRO = Typically 4 &#8211; 12 weeks &amp; 3-10 hours per week.</li>
 <li>CON/PRO = If the class has fixed test and project deadlines, you can&#8217;t put it off for two weeks to deal with other stuff. On the other hand, deadlines make it more likely you&#8217;ll maintain forward momentum even if you have competing priorities. Some classes have deadlines with lots of tardy days to use up, which gives you best of both worlds.</li>
 <li>CON/PRO = Means something on your resume, not a lot, but a little more with certification</li>
 <li>SUMMARY = <span style="text-decoration: underline; color: #008000;">Can be great option if you like the traditional lecture learning methodology, want some personal interaction via discussion boards,</span> want at least a taste of computer science concepts, and are willing to commit to 3-8 hours a week for 5-12+ weeks. Whether or not it has a fixed schedule can be critical for whether it matches your needs.</li>
@@ -231,7 +247,7 @@
 <li>PRO = Work at your own pace. You can even skip ahead!</li>
 <li>CON= You&#8217;ll likely have to download and install things. You&#8217;ll have to figure out how to use the terminal or command prompt to execute code and move files around. You&#8217;ll have to figure all this stuff out eventually, but, with learning out of a book, you have to figure it at the same time as you&#8217;re figuring out the coding part.</li>
 <li>SUMMARY = I&#8217;m going to be opinionated and say I <span style="text-decoration: underline;"><span style="color: #008000; text-decoration: underline;">don&#8217;t recommend just using a book as a learning method unless you  have some experience</span></span>. Too much installation and figuring out things in the terminal or command prompt before you actually get to learn what you want to learn. Go the book method in tandem with another option or after you&#8217;ve done another option.</li>
-<li>EXAMPLE: <a href="http://learnpythonthehardway.org/book/">Learn Python The Hard Way</a>, by Zed Shaw or <a href="https://play.google.com/store/books/details?id=blCyf8XF41sC&source=productsearch&utm_source=HA_Desktop_US&utm_medium=SEM&utm_campaign=PLA&pcampaignid=MKTAD0930BO1&gl=US&gclid=CPnp7YXIncoCFdNpfgod3ooK_A&gclsrc=ds">HTML and CSS: Design and Build Websites</a> by John Puckett</li>
+<li>EXAMPLE: <a href="http://learnpythonthehardway.org/book/">Learn Python The Hard Way</a>, by Zed Shaw or <a href="https://play.google.com/store/books/details?id=blCyf8XF41sC&amp;source=productsearch&amp;utm_source=HA_Desktop_US&amp;utm_medium=SEM&amp;utm_campaign=PLA&amp;pcampaignid=MKTAD0930BO1&amp;gl=US&amp;gclid=CPnp7YXIncoCFdNpfgod3ooK_A&amp;gclsrc=ds">HTML and CSS: Design and Build Websites</a> by John Puckett</li>
 </ul>
 <h4>Mentor + Any of the Above</h4>
 <ul>
@@ -239,7 +255,10 @@
 <li>EXAMPLE = More experienced people on the internet or in person, experienced people at work, that other guy at the hackathon, people on stack overflow, computer science meet-ups, random coding boot camp alumni you email for more information, anyone who knows anything relevant that will drink beer or coffee with you, etc.</li>
 </ul>
 <hr />
-<h3>How did I get started?</h3><p>My interest in coding resulted from my activities as a geologist. Although most of my time was spent on purpose-built software, sometimes I needed to do things that didn&#8217;t quite fit into standard software models or were annoyingly time intensive. I also ran up against memory limits in Excel on large datasets. Learning to code presented a way around these hurdles.</p><p>Once I put aside time for learning to write code in a more series manner, and not just editing example snippets run inside ArcGIS and other software packages, I found a set of classes taught by Rice Professors and offered online through Coursera to be very helpful. Course syllabi are available at this <a href="http://www.codeskulptor.org/coursera/interactivepython.html">link</a> and this <a href="http://www.codeskulptor.org/coursera/principlescomputing.html">link</a>. More general information about this sequence of python courses can be found <a href="https://www.coursera.org/specializations/fundamentalscomputing2">here</a>.</p><p>I took:</p>
+<h3>How did I get started?</h3>
+<p>My interest in coding resulted from my activities as a geologist. Although most of my time was spent on purpose-built software, sometimes I needed to do things that didn&#8217;t quite fit into standard software models or were annoyingly time intensive. I also ran up against memory limits in Excel on large datasets. Learning to code presented a way around these hurdles.</p>
+<p>Once I put aside time for learning to write code in a more series manner, and not just editing example snippets run inside ArcGIS and other software packages, I found a set of classes taught by Rice Professors and offered online through Coursera to be very helpful. Course syllabi are available at this <a href="http://www.codeskulptor.org/coursera/interactivepython.html">link</a> and this <a href="http://www.codeskulptor.org/coursera/principlescomputing.html">link</a>. More general information about this sequence of python courses can be found <a href="https://www.coursera.org/specializations/fundamentalscomputing2">here</a>.</p>
+<p>I took:</p>
 <blockquote>
 <p class="headline-2-text">An Introduction to Interactive Programming in Python (Part 1) . <a href="https://www.coursera.org/account/accomplishments/verify/9JJ2G6WVUA">Certificate</a> earned on April 10, 2015</p>
 <p class="headline-2-text">An Introduction to Interactive Programming in Python (Part 2). <a href="https://www.coursera.org/account/accomplishments/verify/Y5BQ7ZTRMD">Certificate</a> earned on May 14, 2015</p>
@@ -247,12 +266,19 @@
 </blockquote>
 <hr />
 <p class="headline-2-text">
-<p class="headline-2-text"><b>Update</b>: Since I first wrote this, I&#8217;ve talked to many more people and been responsible for directing interns to learning resources. For people that want to spend a minimum amount of time to learn just a little, I&#8217;ve been directing them to resources that fall in the &#8220;Free or Pay Website for Learning Code&#8221; category. Additional learning resources that have worked well are:  <a href="https://code.org/">code.org</a> , <a href="http://w3schools.com/">w3schools.com</a> and <a href="https://www.codeschool.com/">codeschool.com</a> . Those options present a zero setup (everything can be run within their website) way to quickly dive-in.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<hr /><p><em>Please feel free to leave any questions or comments via the comment box below!</em></p>
-<p>The post <a rel="nofollow" href="/learning-to-code/">Learning to Code</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+<p class="headline-2-text"><b>Update</b>: Since I first wrote this, I&#8217;ve talked to many more people and been responsible for directing interns to learning resources. For people that want to spend a minimum amount of time to learn just a little, I&#8217;ve been directing them to resources that fall in the &#8220;Free or Pay Website for Learning Code&#8221; category. Additional learning resources that have worked well are:  <a href="https://code.org/">code.org</a> , <a href="http://w3schools.com/">w3schools.com</a> and <a href="https://www.codeschool.com/">codeschool.com</a> . Those options present a zero setup (everything can be run within their website) way to quickly dive-in.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<hr />
+<p><em>Please feel free to leave any questions or comments via the comment box below!</em></p>
 ]]></content:encoded>
-			<wfw:commentRss>/learning-to-code/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">325</post-id>	</item>
+					
+					<wfw:commentRss>/learning-to-code/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	</channel>
 </rss>

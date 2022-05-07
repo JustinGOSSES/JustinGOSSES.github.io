@@ -5,32 +5,35 @@
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+	>
 
 <channel>
-	<title>outcrops &#8211; Justin Gosses Home</title>
+	<title>outcrops</title>
 	<atom:link href="/tag/outcrops/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Geology, GIS, and CODE + Resumes</description>
-	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<description>Geology, Maps, and Code</description>
+	<lastBuildDate>Tue, 05 Jan 2016 18:36:59 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.11</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 
 <image>
-	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
-	<title>outcrops &#8211; Justin Gosses Home</title>
+	<url>/wp-content/uploads/2017/02/cropped-JustinGosses_logo-32x32.jpg</url>
+	<title>outcrops</title>
 	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
-<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+	<item>
 		<title>CartoDB &#038; Online Mapping</title>
 		<link>/cartodb-online-mapping/</link>
-		<comments>/cartodb-online-mapping/#respond</comments>
-		<pubDate>Fri, 20 Nov 2015 01:43:14 +0000</pubDate>
+					<comments>/cartodb-online-mapping/#respond</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Fri, 20 Nov 2015 01:43:14 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[geology]]></category>
 		<category><![CDATA[maps]]></category>
@@ -41,20 +44,23 @@
 		<category><![CDATA[Online Mapping]]></category>
 		<category><![CDATA[outcrops]]></category>
 		<category><![CDATA[subsurface]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=179</guid>
 
-		<guid isPermaLink="false">/?p=179</guid>
-		<description><![CDATA[<p>Online Mapping:Recently, I&#8217;ve been improving my skills in both GIS, web development, and programming. As such, exploring online mapping services and methods, like leaflet, Mapbox and CartoDB, was on the &#8220;to do&#8221; list. Both CartoDB and Mapbox are sites that allow you to build maps on their webpage and then embed the maps in your webpage. Leaflet<a href="/cartodb-online-mapping/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/cartodb-online-mapping/">CartoDB &#038; Online Mapping</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<h4>Online Mapping:</h4><p>Recently, I&#8217;ve been improving my skills in both GIS, web development, and programming. As such, exploring online mapping services and methods, like leaflet, Mapbox and CartoDB, was on the &#8220;to do&#8221; list. Both <a href="https://cartodb.com/">CartoDB</a> and <a href="https://www.mapbox.com/">Mapbox</a> are sites that allow you to build maps on their webpage and then embed the maps in your webpage. <a href="http://leafletjs.com/">Leaflet</a> is a javascript library for interactive maps.</p>
-<h4>Pro & Con</h4><p>The main advantages of these services are; you don&#8217;t need to purchase a desktop GIS software, you don&#8217;t need to know how to use ArcGIS or QGIS, and they provide a variety of polished base maps. The main drawback is the functionality is more limited than a full desktop GIS software package. For some maps, this lack of functionality will be a deal breaker. For the map below, however, it wasn&#8217;t an issue. Not only that, but CartoDB allowed me to make the map faster than I would have been able to with ArcGIS. That being said, CartoDB could use better instructions. Their writing was a bit too sparse in places.</p>
-<h4>Conclusion from my first map in CartoDB</h4><p>I think for quick maps, especially for maps that are largely points, a single path, or already created more complex layers overlaid on a base map, CartoDB is something I&#8217;ll continue to use. In a future post, I&#8217;ll try out MapBox and then Leaflet.</p>
+					<description><![CDATA[Online Mapping: Recently, I&#8217;ve been improving my skills in both GIS, web development, and programming. As such, exploring online mapping services and methods, like leaflet, Mapbox and CartoDB, was on the &#8220;to do&#8221; list. Both CartoDB and Mapbox are sites that allow you to build maps on their webpage and then embed<a class="moretag" href="/cartodb-online-mapping/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<h4>Online Mapping:</h4>
+<p>Recently, I&#8217;ve been improving my skills in both GIS, web development, and programming. As such, exploring online mapping services and methods, like leaflet, Mapbox and CartoDB, was on the &#8220;to do&#8221; list. Both <a href="https://cartodb.com/">CartoDB</a> and <a href="https://www.mapbox.com/">Mapbox</a> are sites that allow you to build maps on their webpage and then embed the maps in your webpage. <a href="http://leafletjs.com/">Leaflet</a> is a javascript library for interactive maps.</p>
+<h4>Pro &amp; Con</h4>
+<p>The main advantages of these services are; you don&#8217;t need to purchase a desktop GIS software, you don&#8217;t need to know how to use ArcGIS or QGIS, and they provide a variety of polished base maps. The main drawback is the functionality is more limited than a full desktop GIS software package. For some maps, this lack of functionality will be a deal breaker. For the map below, however, it wasn&#8217;t an issue. Not only that, but CartoDB allowed me to make the map faster than I would have been able to with ArcGIS. That being said, CartoDB could use better instructions. Their writing was a bit too sparse in places.</p>
+<h4>Conclusion from my first map in CartoDB</h4>
+<p>I think for quick maps, especially for maps that are largely points, a single path, or already created more complex layers overlaid on a base map, CartoDB is something I&#8217;ll continue to use. In a future post, I&#8217;ll try out MapBox and then Leaflet.</p>
 <p style="text-align: center;"><strong>&#8220;A Map of My Geology Experience&#8221; &#8211; built with CartDB</strong><br />
-<iframe src="https://jgosses82.cartodb.com/viz/a74cf9ea-8f1f-11e5-a802-0ecd1babdde5/embed_map" width="100%" height="520" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-<p>The post <a rel="nofollow" href="/cartodb-online-mapping/">CartoDB &#038; Online Mapping</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+<iframe loading="lazy" src="https://jgosses82.cartodb.com/viz/a74cf9ea-8f1f-11e5-a802-0ecd1babdde5/embed_map" width="100%" height="520" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 ]]></content:encoded>
-			<wfw:commentRss>/cartodb-online-mapping/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">179</post-id>	</item>
+					
+					<wfw:commentRss>/cartodb-online-mapping/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	</channel>
 </rss>

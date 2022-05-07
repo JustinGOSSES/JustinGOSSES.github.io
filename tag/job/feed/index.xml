@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>job</title>
+	<atom:link href="/tag/job/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Geology, Maps, and Code</description>
+	<lastBuildDate>Thu, 16 Dec 2021 20:05:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
+
+<image>
+	<url>/wp-content/uploads/2017/02/cropped-JustinGosses_logo-32x32.jpg</url>
+	<title>job</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Finding a NASA Contractor Job</title>
+		<link>/finding-a-nasa-contractor-job/</link>
+					<comments>/finding-a-nasa-contractor-job/#respond</comments>
+		
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Thu, 16 Dec 2021 19:35:20 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[info]]></category>
+		<category><![CDATA[job]]></category>
+		<category><![CDATA[NASA]]></category>
+		<guid isPermaLink="false">/?p=1538</guid>
+
+					<description><![CDATA[Table of Contents What Led to this Blog Post Why Work for a NASA Contractor? Problem this document attempts to impact Who Are NASA Contractor Companies Other Related Information Internships Remote NASA Contractor Jobs Can Foreign Nationals be NASA Contractors What Led to this Blog Post This blog post copies<a class="moretag" href="/finding-a-nasa-contractor-job/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[
+<h2>Table of Contents</h2>
+
+
+
+<ul><li><a href="#What Led to this Blog Post" data-type="internal" data-id="#What Led to this Blog Post">What Led to this Blog Post</a></li><li><a href="#why-target-nasa-contractor-job">Why Work for a NASA Contractor?</a></li><li><a href="#problems-this-document-attempts-to-impact">Problem this document attempts to impact</a></li><li><a href="#who-are-nasa-contractor-companies">Who Are NASA Contractor Companies</a></li><li><a href="#other--related-information">Other Related Information</a><ul><li><a href="#internships">Internships</a></li><li><a href="#remote-nasa-contractor-jobs">Remote NASA Contractor Jobs</a></li><li><a href="#can-foreign-nationals-be-nasa-contractors">Can Foreign Nationals be NASA Contractors</a></li></ul></li></ul>
+
+
+
+<h3><br><meta charset="utf-8">What Led to this Blog Post</h3>
+
+
+
+<p>This blog post copies <a href="https://github.com/JustinGOSSES/nasa-contractor-jobs-information/blob/main/README.md#problem-this-document-attempts-to-impact">information I&#8217;ve previously put in this GitHub repository </a>as a quick and easy document I could share with others interested in NASA contractor jobs without having to retype the same things multiple times in yet another email. If you have any improvements or edits, please read the <a href="https://github.com/JustinGOSSES/nasa-contractor-jobs-information/blob/main/contributing.md">contributing guidelines</a>.</p>
+
+
+
+<p>The main contribution of this document is the aggregation of all the various places to find NASA center specific lists of NASA contractor companies.</p>
+
+
+
+<p><em>DISCLAIMER: This is just my opinion at one point in time and likely will be incorrect and out of date in some form almost immediately.</em></p>
+
+
+
+<h3>Why Work for a NASA Contractor?</h3>
+
+
+
+<p>Although most people think about working for NASA in terms of working directly for NASA as a government civil servant, <em>most of NASA&#8217;s work is actually done by contractors</em>. Contractors make up the large majority of NASA&#8217;s workforce.</p>
+
+
+
+<p>Working as a NASA contractor can be a great experience. I certainly found my time there to a great opportunity. I found nearly everyone works with a base assumption that things can be done better. You get to directly or indirectly work on things that matter and inspire.</p>
+
+
+
+<p>NASA needs and deserves top contractor staff, but sometimes it can be hard for people to find the door. The path in for civil servants is centralized and fairly well known with lots written about it. The contractor path is more fuzzy with lots of different doors.</p>
+
+
+
+<h5>What &#8220;Type&#8221; of Contractor Role is It?</h5>
+
+
+
+<p>Some contractors work onsite at NASA centers and are very integrated into the main NASA in terms of day to day meetings, culture, etc. Companies like Jacobs and S.A.I.C. employ many contractors that work onsite and are fairly embedded into the daily NASA work culture.</p>
+
+
+
+<p>Others are mostly or entirely offsite, produce product X that meets requirements a, b, and c. These contractors work more for their contractor company in terms of culture, reporting, meetings, location, etc. Examples of companies that employe contractors that are more likely be slightly removed from the daily NASA work life include Boeing, SpaceX, and Lockheed Martin Corp.</p>
+
+
+
+<h5>My Experience</h5>
+
+
+
+<p>For context from 2016 to 2021 I worked as as <a href="/resume/">S.A.I.C. contractor for NASA</a> supporting the Office of Chief Information Officer Transformation and Data Division on open data, open code, code platform, data analytics, and machine learning tasks.</p>
+
+
+
+<h2>Problem this document attempts to impact</h2>
+
+
+
+<p><strong><em>There is no single site to go to for NASA contractor specific job searches.</em></strong></p>
+
+
+
+<p>If you are looking for NASA civil servant jobs, there is https://www.usajobs.gov/ .</p>
+
+
+
+<p>There are things that sorta approach being a contractor version of https://www.usajobs.gov/, like https://www.spacetalent.org/ , a job search site &#8220;for the space economy&#8221; but <a href="https://www.spacetalent.org/">space talent</a> has only a small percent of all NASA contractor companies advertising jobs on their site. Additionally, some of the companies advertising there are very adjacent to the aerospace industry to put it mildly.</p>
+
+
+
+<p>Job search companies like https://www.indeed.com/ &amp; https://www.linkedin.com/ have gotten better at returning useful results when you type in &#8220;NASA&#8221; but they tend to rely on companies explicitly mentioning &#8220;NASA&#8221; in their job description and advertising on one of those sites. Many companies nearly never mention &#8220;NASA&#8221; in the job title and often don&#8217;t mention &#8220;NASA&#8221; in the body either, even if the job is 100% NASA contractor. </p>
+
+
+
+<p><em>Hence, the search results for &#8220;NASA&#8221; or &#8220;NASA contractor&#8221; in most of the major job search websites don&#8217;t lead high quality results. The alternative is to find out who the NASA contract companies are and then search specifically for jobs with those companies.</em></p>
+
+
+
+<h2>Who Are NASA Contractor Companies</h2>
+
+
+
+<p><em>NOTE: If something in this list is outdated, please consider submitting a pull request or issue to <a href="https://github.com/JustinGOSSES/nasa-contractor-jobs-information">this </a>repository.</em></p>
+
+
+
+<h3>Official Listings</h3>
+
+
+
+<p>Every NASA center has a listing of the prime contractors somewhere on their public website. Where that list is located online and the format of it is highly variable.</p>
+
+
+
+<p>Additionally, these lists often just list prime contractors. Most of the prime contractor have sub-contractors. The sub-contractors may not be listed on the lists of contractors that NASA puts out.</p>
+
+
+
+<h3>NASA Center List of Prime Contractors</h3>
+
+
+
+<h4>Johnson Space Center (Houston, Texas)</h4>
+
+
+
+<p>EXCEL: <a href="https://www.nasa.gov/centers/johnson/about/people/contractorlist.html">https://www.nasa.gov/centers/johnson/about/people/contractorlist.html</a></p>
+
+
+
+<h4>Marshal Space Center (Huntsville, Alabama)</h4>
+
+
+
+<p>PDF: <a href="https://www.nasa.gov/centers/marshall/pdf/174803main_msfc_prime_contractors.pdf">https://www.nasa.gov/centers/marshall/pdf/174803main_msfc_prime_contractors.pdf</a></p>
+
+
+
+<h4>Stennis Space Center (Hancock County, Mississippi)</h4>
+
+
+
+<p>HTML: <a href="https://www.nasa.gov/centers/stennis/about/jobs/index.html">https://www.nasa.gov/centers/stennis/about/jobs/index.html</a></p>
+
+
+
+<h4>Glenn Research Center (Cleveland, Ohio)</h4>
+
+
+
+<p><a href="PDF: https://www.nasa.gov/sites/default/files/atoms/files/grc-local-contractor-listing-060321.pdf">PDF: https://www.nasa.gov/sites/default/files/atoms/files/grc-local-contractor-listing-060321.pdf</a></p>
+
+
+
+<h4>Goddard Space Flight Center (Greenbelt, Maryland)</h4>
+
+
+
+<p>HTML: <a href="https://www.nasa.gov/centers/goddard/business/foia/contracts.html">https://www.nasa.gov/centers/goddard/business/foia/contracts.html</a> (contracts not contract companies listed)</p>
+
+
+
+<p><br>HTML: <a href="https://goddard-contractors-association.org/">https://goddard-contractors-association.org/</a></p>
+
+
+
+<h4>Whallops Flight Facility (Wallops Island, Virginia)</h4>
+
+
+
+<p>PDF: <a href="https://sites.wff.nasa.gov/code802/wff_prime_contractors.pdf">https://sites.wff.nasa.gov/code802/wff_prime_contractors.pdf</a></p>
+
+
+
+<h4>Ames Research Center (Mountain View, California)</h4>
+
+
+
+<p>HTML: <a href="https://www.nasa.gov/ames/aeronautics/jobs/contractors">https://www.nasa.gov/ames/aeronautics/jobs/contractors</a></p>
+
+
+
+<h4>Armstrong Flight Research Center (Edwards Air Force Base, California)</h4>
+
+
+
+<p>HTML: <a href="https://www.nasa.gov/centers/armstrong/employment/contractor-opportunities/index.html">https://www.nasa.gov/centers/armstrong/employment/contractor-opportunities/index.html</a></p>
+
+
+
+<h4>Kennedy Space Flight Center (Merritt Island)</h4>
+
+
+
+<p>PDF: <a href="https://procurement.ksc.nasa.gov/-/media/LSPKiosk/CIAO/KSC_Marketing_Guide.ashx?la=en&amp;hash=43CE38D5B618C88E54268D13E9CE597D">https://procurement.ksc.nasa.gov/-/media/LSPKiosk/CIAO/KSC_Marketing_Guide.ashx?la=en&amp;hash=43CE38D5B618C88E54268D13E9CE597D</a></p>
+
+
+
+<h4>Mary W. Jackson NASA Headquarters (Washington, D.C.)</h4>
+
+
+
+<p>COULD NOT FIND THIS ONE!!!!</p>
+
+
+
+<h4>Jet Propulsion Laboratory (Los Angeles,California)</h4>
+
+
+
+<p>Note that JPL is run by Caltech and everyone who works for JPL s a NASA contractor.</p>
+
+
+
+<p>WEBSITE: <a href="https://www.jpl.jobs/">https://www.jpl.jobs/</a></p>
+
+
+
+<h3>NASA-wide Contractor Lists</h3>
+
+
+
+<h4>Unofficial</h4>
+
+
+
+<ul><li>WIKIPEDIA: <a href="https://en.wikipedia.org/wiki/List_of_NASA_contractors">https://en.wikipedia.org/wiki/List_of_NASA_contractors</a></li><li>aeroweb: &#8220;NASA&#8217;s Top 100 Contractors&#8221;: <a href="WIKIPEDIA: https://en.wikipedia.org/wiki/List_of_NASA_contractorsaeroweb: &quot;NASA's Top 100 Contractors&quot;: http://fi-aeroweb.com/Top-100-NASA-Contractors.html">http://fi-aeroweb.com/Top-100-NASA-Contractors.html</a></li></ul>
+
+
+
+<h4>Official</h4>
+
+
+
+<ul><li>NASA contractors from usaspending.gov which requires a lot of button clicks to get to just NASA but possible: <a href="https://www.usaspending.gov/explorer/agency">https://www.usaspending.gov/explorer/agency</a></li><li>SAM.GOV : technically should have finer details than usaspending.gov but the site has horrible user interface so it in no way obvious what anything on the site does unless you sit through long videos classes on each button/report type. <a href="https://sam.gov/">https://sam.gov/</a></li></ul>
+
+
+
+<h2>So….how do I use this information?</h2>
+
+
+
+<p>I&#8217;ll start right out and say there isn&#8217;t a great answer to this. A few strategies are listed below.</p>
+
+
+
+<h3>Option 1: Rely on Job Search Sites</h3>
+
+
+
+<p>None of the job search sites that I know allow you to upload a list of company titles and say just give me the current jobs being advertised by those companies. This is unfortunate, as it would pretty much solve the problem, or at least 85% of the way to a solution.</p>
+
+
+
+<p>The alternative is to use the advanced search functionality to at least focus on job descriptions with &#8220;NASA&#8221; or &#8220;johnson space center&#8221; mentioned somewhere in them. This does an alright job, but it certainly misses a lot as well.</p>
+
+
+
+<p>Here is a link to indeed results for any job description with &#8220;nasa&#8221;: <a href="https://www.indeed.com/advanced_search?q=nasa&amp;l=">https://www.indeed.com/advanced_search?q=nasa&amp;l=</a></p>
+
+
+
+<p>Here is a link to ineed results for any job description with &#8220;johnson space center&#8221;: <a href="https://www.indeed.com/advanced_search?q=johnson%20space%20center&amp;l=">https://www.indeed.com/advanced_search?q=johnson%20space%20center&amp;l=</a></p>
+
+
+
+<p>The signal to noise ratio is better in the second option, but you might get more results in total with the first.</p>
+
+
+
+<p><strong><em>IF YOU WANT A QUICK SOLUTION THAT DOESN&#8217;T REQUIRE A LOT OF MANUAL WORK OR TECH SKILS, THIS IS IT.</em></strong></p>
+
+
+
+<p>However, it will miss a sizable percentage of the open and publicly advertised jobs.</p>
+
+
+
+<h3>Option 2: Focus Your Search To A Few Companies &amp; Check Their Websites Directly</h3>
+
+
+
+<p>You could limit your search to contractor companies that are listed as the prime contractor at the center nearest to you. You could also limit it to companies listed on the NASA center&#8217;s prime contractor list as doing work related to the type of job you&#8217;re interested in. Some but not all of the center lists also detail what types of work each contractor company is responsible for hiring. A little sleuthing might even get you what NASA orgs each some of the contractors support.</p>
+
+
+
+<p>At the end, you might narrow things down to 5-15 companies whose job sites you can check manually every week or so.</p>
+
+
+
+<p>This takes a lot of time but it would give you good, if potentially too focused, coverage across open NASA contractor jobs.</p>
+
+
+
+<h3>Option 3: Can you Extend Job Sites Via API?</h3>
+
+
+
+<p>You might wonder why someone doesn&#8217;t just automate this process into their own NASA contractor specific job site?</p>
+
+
+
+<p>The short answer is job sites like Indeed and others seem to have been moving away from making their APIs easily accessible and reusable for this purpose. They want job seekers to go to their site directly it seems.</p>
+
+
+
+<p>For example, LinkedIN has information on their APIs here: https://developer.linkedin.com/ but it doesn&#8217;t look like any of these are really geared to job searchers or webpages that are built for job searchers. Google results will return tutorials and examples of developers using Indeed&#8217;s API, but they are mostly all from 2014-2018 and use an API now depreciated.</p>
+
+
+
+<p>If you&#8217;re really want to build on top of results coming from job search sites, it looks like, at least currently, you&#8217;re limited to building web scrapers to extract the content from these sites. There&#8217;s a bunch of people who have done that, of course, but it can be dubious from a copyright and legal standpoint, especially if expressly forbidden by the site&#8217;s terms and conditions.</p>
+
+
+
+<h3>Option 4: Programmatic Extracting of Job Information from Contractor Websites Directly</h3>
+
+
+
+<p>Another option that I haven&#8217;t seen done but theoretically could be done is you build your own clone of indeed/LinkedIN that uses web scraping to get data from each contractor&#8217;s career page.</p>
+
+
+
+<p>The obvious disadvantages of this approach is it takes a lot of work. You&#8217;d have to build a scraper and adapt it to each contractor company&#8217;s career page. You&#8217;d then have to normalize the content and display it on your own front-end. You&#8217;d probably want to build in some sort of automated re-generation that would run the scraper every day or so and re-populate your webpage. Additionally, any time a contractor company changed their career page, you&#8217;d have to re-write that portion of your code. There would also be some company&#8217;s career pages that have techniques in place to block bots, which is what your scraper would be.</p>
+
+
+
+<p>The main benefit of this approach is it is the only method that would get you all the jobs from NASA contractors that you&#8217;re interested in on a regular basis.</p>
+
+
+
+<p>Theoretically, you could even put ads on the site to attempt to recoup some of your costs from building and maintaining the site. This is one of <a href="https://github.com/JustinGOSSES/sideproject_planning">my side project ideas</a> that I&#8217;ve never done. A big question for me is how much time it would continuously take to maintain even if you did build it.</p>
+
+
+
+<p>If it still seems tempting, here&#8217;s a link to the XKCD cartoon <a href="https://xkcd.com/1205/">&#8220;Is It Worth The Time&#8221;</a>.</p>
+
+
+
+<h2>Other Related Information</h2>
+
+
+
+<h3>Internships</h3>
+
+
+
+<p>For interns wanted to intern at NASA, please note that there are basically 3 types of interns:</p>
+
+
+
+<ul><li>interns for the various contractor companies</li><li>interns for USRA, which is a comapny that manages most of the NASA interns on behalf of NASA. This is the way most students intern.</li><li>Pathways internships. These are basically interning for NASA, aka the federal government directly. Students that get hired out of school for NASA do several pathways internships before becoming normal civil servants. It seems common to do a USRA internship first and then get a Pathways intern later.</li></ul>
+
+
+
+<p>WARNING: None of the information above may be accurate at some point in future time and it certainly isn&#8217;t comprehense.</p>
+
+
+
+<h4>Accrediation Trap for Pathways Interns</h4>
+
+
+
+<p>Also, please note that there are many pathways internship positions where your school must have an accrediated engineering program and there is only one accrediation agency allowed. This rule has in the past been applied for positions like a Pathways computer science internship where the required major (computer science) wouldn&#8217;t normally be considered an engineering major. I known of several students who didn&#8217;t realize their school made them ineligible for pathways interns until it was too late to change schools. I know one who changed schools because of it.</p>
+
+
+
+<h3>Remote NASA Contractor Jobs</h3>
+
+
+
+<p><em>A caveat up front is that the job market around remote work is still evolving quickly. What is said below is based on limited exprience in 2020-2021.</em></p>
+
+
+
+<p>Some NASA contractor jobs will now explicitly say in the job advertisement that they are remote friendly. This is getting more common to see even if it is still rare overall. I&#8217;ve started to see language like &#8220;this job is onsite at <em>_</em> &#8221; to convey that a job is not remote friendly, but it seems the standard language is still developing.</p>
+
+
+
+<p>There are many more positions that are possible to work remotely that won&#8217;t say anything about it in the job description. This can be because they&#8217;d prefer a local candidate if possible or because no one thought ot write it into the job description. The HR contact listed probably won&#8217;t know if a position is remote. When asking them via email, a good tactic can be to not just ask them but ask them to ask the hiring manager. Otherwise, they&#8217;ll likely just repeat what&#8217;s already written in the advertisement.</p>
+
+
+
+<p>Organizations that cross multiple NASA centers and don&#8217;t deal with anything physical are more likely to be supportive of remote work.</p>
+
+
+
+<p>Be aware that, even if a position is remote friendly, there will likely be a need for you to come to a NASA center at the beginning of the role for finger printing and other activities. Many positions require you to be onsite several times a year or within driving distance. Sometimes companies won&#8217;t like to hire someone brand new hundreds miles away, but they&#8217;re okay with existing employees being that far away. Remote can mean different things. It is very much a &#8220;it depends&#8221; situation.</p>
+
+
+
+<h3>Can Foreign Nationals be NASA Contractors</h3>
+
+
+
+<p>This has been a common question when I&#8217;ve posted positions in certain Slack channels.</p>
+
+
+
+<p>I&#8217;ll have to give a hand wavy answer here based on my both my limited knowledge, the limted public documentation on this question, and the extent to which the answer really just depends on position specific things you might have no way of knowing from the outside.</p>
+
+
+
+<p>In general, most of the time, no. In special circumstances, yes.</p>
+
+
+
+<p>Usually, the position description will include this information, but it is not included one hundred percent of the time.</p>
+
+
+
+<p>JPL (Jet Propulsion Laboratory) has foreign nationals working for it. However, not all jobs there can be worked by foreign nationals. That being said, if you want to have a good chance of finding a NASA job that can accept foriegn nationals, JPL is probably your best bet in terms of both scale and percentages.</p>
+
+
+
+<p>Similarly, other science facilities run by another organization on behalf of NASA are generally more likely on average to accept foreign national applicants. JPL is by far the biggest of those.</p>
+
+
+
+<p>Where it gets very unlikely (but not 100% impossible) that a position will accept foreign national applicants is positions that are either onsite at a physical locality where there are rockets, testing, engineering, or space communications or where you might have easier &#8220;IT&#8221; access to those things.</p>
+
+
+
+<p>Again, this is very hand wavy and just observations. These aren&#8217;t rules or guidelines. Don&#8217;t depend on any of these vague generalizations being correct.</p>
+
+
+
+<p></p>
+
+
+
+<p>Good luck!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/finding-a-nasa-contractor-job/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

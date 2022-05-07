@@ -5,32 +5,35 @@
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+	>
 
 <channel>
-	<title>data visualization &#8211; Justin Gosses Home</title>
+	<title>data visualization</title>
 	<atom:link href="/tag/data-visualization/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Geology, GIS, and CODE + Resumes</description>
-	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<description>Geology, Maps, and Code</description>
+	<lastBuildDate>Fri, 28 Apr 2017 22:51:11 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.11</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 
 <image>
-	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
-	<title>data visualization &#8211; Justin Gosses Home</title>
+	<url>/wp-content/uploads/2017/02/cropped-JustinGosses_logo-32x32.jpg</url>
+	<title>data visualization</title>
 	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
-<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+	<item>
 		<title>Presenting at Johnson Space Center Data Science Day</title>
 		<link>/presenting-at-johnson-space-center-data-science-day/</link>
-		<comments>/presenting-at-johnson-space-center-data-science-day/#respond</comments>
-		<pubDate>Fri, 28 Apr 2017 22:41:52 +0000</pubDate>
+					<comments>/presenting-at-johnson-space-center-data-science-day/#respond</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Fri, 28 Apr 2017 22:41:52 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[data visualization]]></category>
 		<category><![CDATA[javascript]]></category>
@@ -38,24 +41,26 @@
 		<category><![CDATA[NASA]]></category>
 		<category><![CDATA[reveal.js]]></category>
 		<category><![CDATA[talk]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=861</guid>
 
-		<guid isPermaLink="false">/?p=861</guid>
-		<description><![CDATA[<p>This week I presented on the last 40 years of digital data visualization tools at Johnson Space Center Data Science Day. The event was held just off site this year, so it could be opened up to the public. The talk was a condensed, and I think improved, version of a talk I had previous gave<a href="/presenting-at-johnson-space-center-data-science-day/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/presenting-at-johnson-space-center-data-science-day/">Presenting at Johnson Space Center Data Science Day</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<p>This week I presented on the last 40 years of digital data visualization tools at <a href="https://fal.jsc.nasa.gov/DSD/">Johnson Space Center Data Science Day</a>. The event was held just off site this year, so it could be opened up to the public. The talk was a condensed, and I think improved, version of a talk I had previous gave at a data visualization meet-up. This version was shorter by half and focused just on the tool evolution, as opposed to the previous talk which tried to also cover the context of these tools in large organizations.</p><p><iframe src="//slides.com/justingosses/history_data_visualization_tools/embed" width="800" height="460" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+					<description><![CDATA[This week I presented on the last 40 years of digital data visualization tools at Johnson Space Center Data Science Day. The event was held just off site this year, so it could be opened up to the public. The talk was a condensed, and I think improved, version of a<a class="moretag" href="/presenting-at-johnson-space-center-data-science-day/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<p>This week I presented on the last 40 years of digital data visualization tools at <a href="https://fal.jsc.nasa.gov/DSD/">Johnson Space Center Data Science Day</a>. The event was held just off site this year, so it could be opened up to the public. The talk was a condensed, and I think improved, version of a talk I had previous gave at a data visualization meet-up. This version was shorter by half and focused just on the tool evolution, as opposed to the previous talk which tried to also cover the context of these tools in large organizations.</p>
+<p><iframe loading="lazy" src="//slides.com/justingosses/history_data_visualization_tools/embed" width="800" height="460" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
 <p style="text-align: center;"><a href="http://slides.com/justingosses/history_data_visualization_tools">click to view as a full window on a new tab</a></p>
-<p>The post <a rel="nofollow" href="/presenting-at-johnson-space-center-data-science-day/">Presenting at Johnson Space Center Data Science Day</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/presenting-at-johnson-space-center-data-science-day/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">861</post-id>	</item>
+					
+					<wfw:commentRss>/presenting-at-johnson-space-center-data-science-day/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Meet Up Talk Data Viz Tools</title>
 		<link>/talk-on-changing-landscape-of-data-viz-tools/</link>
-		<comments>/talk-on-changing-landscape-of-data-viz-tools/#respond</comments>
-		<pubDate>Tue, 22 Nov 2016 04:02:11 +0000</pubDate>
+					<comments>/talk-on-changing-landscape-of-data-viz-tools/#respond</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Tue, 22 Nov 2016 04:02:11 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[business intelligence]]></category>
 		<category><![CDATA[Chart.js]]></category>
@@ -75,25 +80,31 @@
 		<category><![CDATA[Tableau]]></category>
 		<category><![CDATA[timeline.js]]></category>
 		<category><![CDATA[visicalc]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=768</guid>
 
-		<guid isPermaLink="false">/?p=768</guid>
-		<description><![CDATA[<p>&#8220;THE CHANGING LANDSCAPE OF DATA VISUALIZATION TOOLS IN LARGE ORGANIZATIONS&#8221;I recently gave a talk at the Houston Data Visualization meet-up. In addition to being a good excuse for putting time on my calendar to research the evolution of data visualization tools over the past 40 years, the talk allowed me to try out a few presentation<a href="/talk-on-changing-landscape-of-data-viz-tools/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/talk-on-changing-landscape-of-data-viz-tools/">Meet Up Talk Data Viz Tools</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<h3>&#8220;THE CHANGING LANDSCAPE OF DATA VISUALIZATION TOOLS IN LARGE ORGANIZATIONS&#8221;</h3><p>I recently gave a talk at the <a href="https://www.meetup.com/Houston-Data-Visualization-Meetup/events/233893631/">Houston Data Visualization meet-up</a>. In addition to being a good excuse for putting time on my calendar to research the evolution of data visualization tools over the past 40 years, the talk allowed me to try out a few presentation related tools. <a href="https://github.com/hakimel/reveal.js/" target="blank">Reveal.js</a> is a user friendly framework for making presentations that consist of html, css, and JavaScript, just like any normal webpage. <a href="https://slides.com/" target="blank">Slides.com</a> is a hosting and GUI site for reveal.js slides. One of the best features of slides.com was being able to control the slides on my computer via my phone. This enabled me to walk around and not be as tied to my computer or rely on someone else to advance the slides. It also provides a nice way to briefly look down as you flip slides and sneak a glance at speakers notes. I used <a href="https://timeline.knightlab.com/" target="blank">timeline.js</a> from the <a href="https://knightlab.northwestern.edu/" target="blank">Knight Lab</a> at Northwestern university to create a timeline of key tool development that I referred to several times during the talk.</p><p>All the data for the presentation is in <a href="https://github.com/JustinGOSSES/talk_HistDVTools" target="blank"> this</a> github repo. I hope to revisit this presentation to take a second stab at it or perhaps turn it into a series of blog posts for work.</p><p>&nbsp;</p><p><iframe src="//slides.com/justingosses/dataviztoolshistorylargeorg/embed" width="800" height="460" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
-<p style="text-align: center;"><a href="http://slides.com/justingosses/dataviztoolshistorylargeorg#/">click to view as a full window on a new tab</a></p><p><iframe style="border: 1px solid lightgrey;" src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1O32FBDYO16WjoFSCsWS1d0oEuRo0C00q633nhhGZlNE&font=Default&lang=en&initial_zoom=2&height=800" width="800" height="800" scrolling="yes" allowfullscreen="allowfullscreen"></iframe></p>
-<p style="text-align: center;"><a href="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1O32FBDYO16WjoFSCsWS1d0oEuRo0C00q633nhhGZlNE&font=Default&lang=en&initial_zoom=2&height=650">click to view as a full window on a new tab</a></p>
-<p>The post <a rel="nofollow" href="/talk-on-changing-landscape-of-data-viz-tools/">Meet Up Talk Data Viz Tools</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+					<description><![CDATA[&#8220;THE CHANGING LANDSCAPE OF DATA VISUALIZATION TOOLS IN LARGE ORGANIZATIONS&#8221; I recently gave a talk at the Houston Data Visualization meet-up. In addition to being a good excuse for putting time on my calendar to research the evolution of data visualization tools over the past 40 years, the talk allowed me<a class="moretag" href="/talk-on-changing-landscape-of-data-viz-tools/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<h3>&#8220;THE CHANGING LANDSCAPE OF DATA VISUALIZATION TOOLS IN LARGE ORGANIZATIONS&#8221;</h3>
+<p>I recently gave a talk at the <a href="https://www.meetup.com/Houston-Data-Visualization-Meetup/events/233893631/">Houston Data Visualization meet-up</a>. In addition to being a good excuse for putting time on my calendar to research the evolution of data visualization tools over the past 40 years, the talk allowed me to try out a few presentation related tools. <a href="https://github.com/hakimel/reveal.js/" target="blank">Reveal.js</a> is a user friendly framework for making presentations that consist of html, css, and JavaScript, just like any normal webpage. <a href="https://slides.com/" target="blank">Slides.com</a> is a hosting and GUI site for reveal.js slides. One of the best features of slides.com was being able to control the slides on my computer via my phone. This enabled me to walk around and not be as tied to my computer or rely on someone else to advance the slides. It also provides a nice way to briefly look down as you flip slides and sneak a glance at speakers notes. I used <a href="https://timeline.knightlab.com/" target="blank">timeline.js</a> from the <a href="https://knightlab.northwestern.edu/" target="blank">Knight Lab</a> at Northwestern university to create a timeline of key tool development that I referred to several times during the talk.</p>
+<p>All the data for the presentation is in <a href="https://github.com/JustinGOSSES/talk_HistDVTools" target="blank"> this</a> github repo. I hope to revisit this presentation to take a second stab at it or perhaps turn it into a series of blog posts for work.</p>
+<p>&nbsp;</p>
+<p><iframe loading="lazy" src="//slides.com/justingosses/dataviztoolshistorylargeorg/embed" width="800" height="460" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"><a href="http://slides.com/justingosses/dataviztoolshistorylargeorg#/">click to view as a full window on a new tab</a></p>
+<p><iframe loading="lazy" style="border: 1px solid lightgrey;" src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1O32FBDYO16WjoFSCsWS1d0oEuRo0C00q633nhhGZlNE&amp;font=Default&amp;lang=en&amp;initial_zoom=2&amp;height=800" width="800" height="800" scrolling="yes" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"><a href="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1O32FBDYO16WjoFSCsWS1d0oEuRo0C00q633nhhGZlNE&amp;font=Default&amp;lang=en&amp;initial_zoom=2&amp;height=650">click to view as a full window on a new tab</a></p>
 ]]></content:encoded>
-			<wfw:commentRss>/talk-on-changing-landscape-of-data-viz-tools/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">768</post-id>	</item>
+					
+					<wfw:commentRss>/talk-on-changing-landscape-of-data-viz-tools/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Game of Thrones Parallel Sets Data Visualization</title>
 		<link>/game-of-thrones-parallel-sets-data-visualization/</link>
-		<comments>/game-of-thrones-parallel-sets-data-visualization/#respond</comments>
-		<pubDate>Mon, 10 Oct 2016 18:31:19 +0000</pubDate>
+					<comments>/game-of-thrones-parallel-sets-data-visualization/#respond</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Mon, 10 Oct 2016 18:31:19 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[d3]]></category>
 		<category><![CDATA[d3.js]]></category>
@@ -103,13 +114,15 @@
 		<category><![CDATA[javascript]]></category>
 		<category><![CDATA[opendata]]></category>
 		<category><![CDATA[web development]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=748</guid>
 
-		<guid isPermaLink="false">/?p=748</guid>
-		<description><![CDATA[<p>User interface add-ons to make a better parallel sets visualizations: (skip to the data visualization here.)Parallel sets is a data visualization type that shows how attributes of different types are distributed across a large number of instances. Common examples include datasets of the characteristics of passengers on the Titanic disaster and nutrition information of many different types of<a href="/game-of-thrones-parallel-sets-data-visualization/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/game-of-thrones-parallel-sets-data-visualization/">Game of Thrones Parallel Sets Data Visualization</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<h2>User interface add-ons to make a better parallel sets visualizations:</h2>
-<p style="text-align: center;">(skip to the data visualization <a href="/ParaSet_Oct2/" target="_blank">here</a>.)</p><p>Parallel sets is a data visualization type that shows how attributes of different types are distributed across a large number of instances. Common examples include datasets of the characteristics of passengers on the Titanic disaster and nutrition information of many different types of cereal. Parallel sets data visualizations are good at showing how attributes do or don&#8217;t cluster over a large dataset of instances. It is a data visualization type favored when the data is categorical and not strictly numerical.</p><p>I built a <a href="/parallel-sets-data-visualization/">parallel sets data visualization</a> based on a dataset of battles from the <a href="https://en.wikipedia.org/wiki/Game_of_Thrones">Game of Thrones series</a> (TV version, not book). Examples questions that can be answered by a <a href="/ParaSet_Oct2/" target="_blank">parallel sets</a> built from this data include: Which battle type has the best success rate? Which house has the best and track record in terms of number of battles won or lost? Were there more pitched battles versus ambushes in later years versus earlier years? Are battles in certain regions more likely to result in a major characters death?</p><p>The parallel sets visualizations that I&#8217;ve seen work best when the number of types of attributes is between 3 and 10, the number of different attributes within each type is &lt;10, and the total number of instances is &gt;100.  Outside this range, parallel sets tend to get too cluttered.</p><p>When I used parallel sets for a project at work, I found it be successful for the immediate problem but very easy to be cluttered and messy if I tried to include all characteristics found in the dataset. Although a subset of the data was fine for showing what I was interested in at the time, I knew eventually I would want to show a larger dataset and let the user explore the data. This led to brainstorming potential improvements for my initial parallel sets code base, which I had adopted from Jason Davis <a href="https://github.com/jasondavies/d3-parsets" target="_blank">parasets </a>project. Both us d3.js. <span style="color: #333399;">I&#8217;ve completed the first two interactivity improvements listed below in this</span> <a href="/ParaSet_Oct2/" target="_blank">visualization</a>.</p>
+					<description><![CDATA[User interface add-ons to make a better parallel sets visualizations: (skip to the data visualization here.) Parallel sets is a data visualization type that shows how attributes of different types are distributed across a large number of instances. Common examples include datasets of the characteristics of passengers on the Titanic disaster and nutrition<a class="moretag" href="/game-of-thrones-parallel-sets-data-visualization/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<h2>User interface add-ons to make a better parallel sets visualizations:</h2>
+<p style="text-align: center;">(skip to the data visualization <a href="https://54.87.153.110/ParaSet_Oct2/" target="_blank">here</a>.)</p>
+<p>Parallel sets is a data visualization type that shows how attributes of different types are distributed across a large number of instances. Common examples include datasets of the characteristics of passengers on the Titanic disaster and nutrition information of many different types of cereal. Parallel sets data visualizations are good at showing how attributes do or don&#8217;t cluster over a large dataset of instances. It is a data visualization type favored when the data is categorical and not strictly numerical.</p>
+<p>I built a <a href="https://54.87.153.110/parallel-sets-data-visualization/">parallel sets data visualization</a> based on a dataset of battles from the <a href="https://en.wikipedia.org/wiki/Game_of_Thrones">Game of Thrones series</a> (TV version, not book). Examples questions that can be answered by a <a href="https://54.87.153.110/ParaSet_Oct2/" target="_blank">parallel sets</a> built from this data include: Which battle type has the best success rate? Which house has the best and track record in terms of number of battles won or lost? Were there more pitched battles versus ambushes in later years versus earlier years? Are battles in certain regions more likely to result in a major characters death?</p>
+<p>The parallel sets visualizations that I&#8217;ve seen work best when the number of types of attributes is between 3 and 10, the number of different attributes within each type is &lt;10, and the total number of instances is &gt;100.  Outside this range, parallel sets tend to get too cluttered.</p>
+<p>When I used parallel sets for a project at work, I found it be successful for the immediate problem but very easy to be cluttered and messy if I tried to include all characteristics found in the dataset. Although a subset of the data was fine for showing what I was interested in at the time, I knew eventually I would want to show a larger dataset and let the user explore the data. This led to brainstorming potential improvements for my initial parallel sets code base, which I had adopted from Jason Davis <a href="https://github.com/jasondavies/d3-parsets" target="_blank">parasets </a>project. Both us d3.js. <span style="color: #333399;">I&#8217;ve completed the first two interactivity improvements listed below in this</span> <a href="https://54.87.153.110/ParaSet_Oct2/" target="_blank">visualization</a>.</p>
 <ol>
 <li><span style="color: #333399;">User can select which data dimensions to visualize (types of attributes: region, year, defender, etc.)</span></li>
 <li><span style="color: #333399;">User can limit the visualization to only data that contains a certain value in a certain dimension (battles with Stark as the defender)</span></li>
@@ -119,41 +132,36 @@ b. or n number of divisions based on equal number in each category<br />
 c. or by log divisions (&gt;10, &gt;100, &gt;1000, etc.)</li>
 <li>Interactive combination of histogram and parallel sets data visualizations via dc.js.</li>
 <li>Pre-determined combinations of data dimensions available via a series of buttons to assist in story-telling to user.</li>
-</ol><p>Letting the user select the input data and try different combinations reduces cluttering. Giving the user the option to pick the input data makes this data visualization more of a data exploration tool and less of a straight forward story telling image.</p><p>It is also useful if you don&#8217;t have HBO but want to study up for water cooler conversations.</p><p>&nbsp;</p>
+</ol>
+<p>Letting the user select the input data and try different combinations reduces cluttering. Giving the user the option to pick the input data makes this data visualization more of a data exploration tool and less of a straight forward story telling image.</p>
+<p>It is also useful if you don&#8217;t have HBO but want to study up for water cooler conversations.</p>
+<p>&nbsp;</p>
 <h3>Examples from the Game of Thrones Parallel Sets Visualization:</h3>
 <p style="text-align: center;"><em>ribbon width = number of battles</em></p>
-<div id="attachment_750" style="width: 650px" class="wp-caption aligncenter"><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png"><img data-attachment-id="750" data-permalink="/game-of-thrones-parallel-sets-data-visualization/screen-shot-2016-10-10-at-12-29-28-pm/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?fit=2006%2C1396" data-orig-size="2006,1396" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="screen-shot-2016-10-10-at-12-29-28-pm" data-image-description="&lt;p&gt;Battles Type Vs. Outcome&lt;/p&gt;
-" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?fit=300%2C209" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?fit=640%2C446" class="wp-image-750 size-large" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?resize=640%2C446" alt="Battles Type Vs. Outcome" width="640" height="446" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?resize=1024%2C713 1024w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?resize=300%2C209 300w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?w=1280 1280w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?w=1920 1920w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
-<p class="wp-caption-text">Battles Type Vs. Outcome</p>
-</div>
+<div id="attachment_750" style="width: 650px" class="wp-caption aligncenter"><a href="http://54.87.153.110/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png"><img aria-describedby="caption-attachment-750" loading="lazy" class="wp-image-750 size-large" src="http://54.87.153.110/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM-1024x713.png" alt="Battles Type Vs. Outcome" width="640" height="446" srcset="/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM-1024x713.png 1024w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM-300x209.png 300w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png 2006w" sizes="(max-width: 640px) 100vw, 640px" /></a><p id="caption-attachment-750" class="wp-caption-text">Battles Type Vs. Outcome</p></div>
 <p style="text-align: center;"><em>Ambushes, razing, and siege perform better for the attacker than a pitched battle. </em></p>
-<div id="attachment_751" style="width: 650px" class="wp-caption aligncenter"><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png"><img data-attachment-id="751" data-permalink="/game-of-thrones-parallel-sets-data-visualization/screen-shot-2016-10-10-at-12-36-24-pm/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?fit=1988%2C1226" data-orig-size="1988,1226" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="screen-shot-2016-10-10-at-12-36-24-pm" data-image-description="&lt;p&gt;Who loses battles vs. wins battles.&lt;/p&gt;
-" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?fit=300%2C185" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?fit=640%2C395" class="wp-image-751 size-large" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?resize=640%2C395" alt="Who loses battles vs. wins battles." width="640" height="395" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?resize=1024%2C632 1024w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?resize=300%2C185 300w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?w=1280 1280w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?w=1920 1920w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
-<p class="wp-caption-text">Who loses battles vs. wins battles.</p>
-</div>
+<div id="attachment_751" style="width: 650px" class="wp-caption aligncenter"><a href="http://54.87.153.110/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png"><img aria-describedby="caption-attachment-751" loading="lazy" class="wp-image-751 size-large" src="http://54.87.153.110/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM-1024x632.png" alt="Who loses battles vs. wins battles." width="640" height="395" srcset="/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM-1024x632.png 1024w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM-300x185.png 300w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png 1988w" sizes="(max-width: 640px) 100vw, 640px" /></a><p id="caption-attachment-751" class="wp-caption-text">Who loses battles vs. wins battles.</p></div>
 <p style="text-align: center;"><em>Freefolk (black ribbon) have a horrible track record at attacking. House Stark and Baratheon are also not that great.</em></p>
-<div id="attachment_752" style="width: 650px" class="wp-caption aligncenter"><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png"><img data-attachment-id="752" data-permalink="/game-of-thrones-parallel-sets-data-visualization/screen-shot-2016-10-10-at-12-37-40-pm/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?fit=1964%2C1236" data-orig-size="1964,1236" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="screen-shot-2016-10-10-at-12-37-40-pm" data-image-description="&lt;p&gt;Battles vs. character deaths&lt;/p&gt;
-" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?fit=300%2C189" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?fit=640%2C403" class="wp-image-752 size-large" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?resize=640%2C403" alt="Battles vs. character deaths" width="640" height="403" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?resize=1024%2C644 1024w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?resize=300%2C189 300w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?w=1280 1280w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?w=1920 1920w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
-<p class="wp-caption-text">Battles vs. character deaths: 1 = major character death, 0 = no major character death</p>
-</div><p><em>Lannister, Stark, and Baratheon have the highest number of battles where they are the main attacker and an important character dies. </em></p>
-<div id="attachment_754" style="width: 650px" class="wp-caption aligncenter"><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png"><img data-attachment-id="754" data-permalink="/game-of-thrones-parallel-sets-data-visualization/screen-shot-2016-10-10-at-1-24-35-pm/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?fit=1964%2C1222" data-orig-size="1964,1222" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="screen-shot-2016-10-10-at-1-24-35-pm" data-image-description="&lt;p&gt;Who wins when defending and major character deaths&lt;/p&gt;
-" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?fit=300%2C187" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?fit=640%2C398" class="wp-image-754 size-large" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?resize=640%2C398" alt="Who wins when defending and major character deaths" width="640" height="398" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?resize=1024%2C637 1024w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?resize=300%2C187 300w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?w=1280 1280w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?w=1920 1920w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
-<p class="wp-caption-text">Who wins when defending and major character deaths</p>
-</div>
+<div id="attachment_752" style="width: 650px" class="wp-caption aligncenter"><a href="http://54.87.153.110/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png"><img aria-describedby="caption-attachment-752" loading="lazy" class="wp-image-752 size-large" src="http://54.87.153.110/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM-1024x644.png" alt="Battles vs. character deaths" width="640" height="403" srcset="/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM-1024x644.png 1024w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM-300x189.png 300w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png 1964w" sizes="(max-width: 640px) 100vw, 640px" /></a><p id="caption-attachment-752" class="wp-caption-text">Battles vs. character deaths: 1 = major character death, 0 = no major character death</p></div>
+<p><em>Lannister, Stark, and Baratheon have the highest number of battles where they are the main attacker and an important character dies. </em></p>
+<div id="attachment_754" style="width: 650px" class="wp-caption aligncenter"><a href="http://54.87.153.110/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png"><img aria-describedby="caption-attachment-754" loading="lazy" class="wp-image-754 size-large" src="http://54.87.153.110/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM-1024x637.png" alt="Who wins when defending and major character deaths" width="640" height="398" srcset="/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM-1024x637.png 1024w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM-300x187.png 300w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png 1964w" sizes="(max-width: 640px) 100vw, 640px" /></a><p id="caption-attachment-754" class="wp-caption-text">Who wins when defending and major character deaths</p></div>
 <p style="text-align: center;"><em>The attacker usually wins in a Game of Thrones battle, but when they lose, it tends to be when the main defender is a Lannister. In those battles where a defending Lannister wins, it is also common for a major character of some type to die. </em></p>
-<h2 style="text-align: center;">Explore the live data visualization <a href="/ParaSet_Oct2/" target="_blank">here</a>.</h2>
+<h2 style="text-align: center;">Explore the live data visualization <a href="https://54.87.153.110/ParaSet_Oct2/" target="_blank">here</a>.</h2>
 <h2></h2>
-<p>The post <a rel="nofollow" href="/game-of-thrones-parallel-sets-data-visualization/">Game of Thrones Parallel Sets Data Visualization</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/game-of-thrones-parallel-sets-data-visualization/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">748</post-id>	</item>
+					
+					<wfw:commentRss>/game-of-thrones-parallel-sets-data-visualization/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Flow Chart for Picking the Right Mapping Tool</title>
 		<link>/flow-chart-for-picking-the-right-mapping-tool/</link>
-		<comments>/flow-chart-for-picking-the-right-mapping-tool/#respond</comments>
-		<pubDate>Sat, 03 Sep 2016 19:05:18 +0000</pubDate>
+					<comments>/flow-chart-for-picking-the-right-mapping-tool/#respond</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Sat, 03 Sep 2016 19:05:18 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[maps]]></category>
 		<category><![CDATA[ArcGIS]]></category>
@@ -172,26 +180,30 @@ c. or by log divisions (&gt;10, &gt;100, &gt;1000, etc.)</li>
 		<category><![CDATA[python]]></category>
 		<category><![CDATA[tools]]></category>
 		<category><![CDATA[web development]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=732</guid>
 
-		<guid isPermaLink="false">/?p=732</guid>
-		<description><![CDATA[<p>I did some research on different tools for creating flow charts today.Originally, I started down this path trying to figure out what open-source project I might be able to hack on and produce a project that would generate XKCD style flow charts, similar to how bokeh (python library) has XCKD style plots as built-in option. I<a href="/flow-chart-for-picking-the-right-mapping-tool/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/flow-chart-for-picking-the-right-mapping-tool/">Flow Chart for Picking the Right Mapping Tool</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<p>I did some research on different tools for creating flow charts today.</p><p>Originally, I started down this path trying to figure out what open-source project I might be able to hack on and produce a project that would generate XKCD style flow charts, similar to how bokeh (python library) has XCKD style plots as built-in option. I was also playing around with the notion of crowd-sourced flow charts to help pick among tools and libraries as the number of options explode.</p><p>Then I got distracted and made the flow-chart below. I&#8217;ll just leave it here. It was made with <a href="http://draw.io/">draw.io</a></p><p>&nbsp;</p>
+					<description><![CDATA[I did some research on different tools for creating flow charts today. Originally, I started down this path trying to figure out what open-source project I might be able to hack on and produce a project that would generate XKCD style flow charts, similar to how bokeh (python library) has XCKD<a class="moretag" href="/flow-chart-for-picking-the-right-mapping-tool/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<p>I did some research on different tools for creating flow charts today.</p>
+<p>Originally, I started down this path trying to figure out what open-source project I might be able to hack on and produce a project that would generate XKCD style flow charts, similar to how bokeh (python library) has XCKD style plots as built-in option. I was also playing around with the notion of crowd-sourced flow charts to help pick among tools and libraries as the number of options explode.</p>
+<p>Then I got distracted and made the flow-chart below. I&#8217;ll just leave it here. It was made with <a href="http://draw.io/">draw.io</a></p>
+<p>&nbsp;</p>
 <div id="wrapper" style="width: 100%; height: 100%; overflow: scroll !important; -webkit-overflow-scrolling: touch;">
-<iframe src="http://www.justingosses.com/FlowChart_MakeMaps/" width="100%" height="1200px"></iframe>
+<iframe loading="lazy" src="https://54.87.153.110/FlowChart_MakeMaps/" width="100%" height="1200px"></iframe>
 </div>
-<p>The post <a rel="nofollow" href="/flow-chart-for-picking-the-right-mapping-tool/">Flow Chart for Picking the Right Mapping Tool</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/flow-chart-for-picking-the-right-mapping-tool/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">732</post-id>	</item>
+					
+					<wfw:commentRss>/flow-chart-for-picking-the-right-mapping-tool/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Gource &#8211; Log Visualization Tool</title>
 		<link>/gource/</link>
-		<comments>/gource/#respond</comments>
-		<pubDate>Mon, 11 Jul 2016 02:54:38 +0000</pubDate>
+					<comments>/gource/#respond</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Mon, 11 Jul 2016 02:54:38 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[data visualization]]></category>
 		<category><![CDATA[Front-End]]></category>
@@ -203,18 +215,23 @@ c. or by log divisions (&gt;10, &gt;100, &gt;1000, etc.)</li>
 		<category><![CDATA[not open]]></category>
 		<category><![CDATA[npm]]></category>
 		<category><![CDATA[proprietary]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=607</guid>
 
-		<guid isPermaLink="false">/?p=607</guid>
-		<description><![CDATA[<p>At work, I put projects I complete into our group&#8217;s gallery of data-visualization work. It is good internal marketing for what our group can deliver. Unfortunately, even behind a NASA firewall, there are some things I can&#8217;t put in the gallery. Examples have included data visualizations of human resource data and financial data where the public<a href="/gource/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/gource/">Gource &#8211; Log Visualization Tool</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<p>At work, I put projects I complete into our group&#8217;s gallery of data-visualization work. It is good internal marketing for what our group can deliver. Unfortunately, even behind a NASA firewall, there are some things I can&#8217;t put in the gallery. Examples have included data visualizations of human resource data and financial data where the public release process is laid out by Congress.</p><p>One way to still have something cool to show but keep data secure is to turn the process of making the data visualization into another data visualization. One super easy way to do this is to use <a href="http://gource.io/">Gource</a>.</p>
-<h3>Gource:</h3><p>My favorite thing about<a href="http://gource.io/"> Gource</a> is how easy it is to use. When I first downloaded it, I looked for instructions and couldn’t find any besides how to install it. Turns out, you just type “gource” into the folder of the code you want to visualize, and it does everything else. How great is that. If you use npm, you can install it using <em>npm install gource</em> -g in a terminal.</p><p>The small avatar(s) in the video shooting bolts of light are the developers of the project. Each file is a ball of light. Clusters of balls represent folders or directories.  The video is somewhat large, so it might take several seconds to load. If you want to see a Gource visualization of a larger project, check out <a href="https://www.youtube.com/watch?v=aPk1BqK8zzI" target="blank">this</a> youtube video of python development starting in 1990.</p><p><video style="visibility: visible;" src="/wp-content/uploads/2016/07/ISSflyOver_1.mov" controls="controls" width="100%" height="100%"></video></p><p>Gource video of a small project I wrote while writing the <a href="/issflyover/">previous blog post</a>. I used it to test out the open-notify API, which returns the current latitude and longitude of the International Space Station. The application then takes that lat/long and places it on a map using the <a href="http://leafletjs.com/">leaflet.js</a> library. Every 3 seconds, a new I.S.S. position is added.</p>
-<p>The post <a rel="nofollow" href="/gource/">Gource &#8211; Log Visualization Tool</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+					<description><![CDATA[At work, I put projects I complete into our group&#8217;s gallery of data-visualization work. It is good internal marketing for what our group can deliver. Unfortunately, even behind a NASA firewall, there are some things I can&#8217;t put in the gallery. Examples have included data visualizations of human resource data and<a class="moretag" href="/gource/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<p>At work, I put projects I complete into our group&#8217;s gallery of data-visualization work. It is good internal marketing for what our group can deliver. Unfortunately, even behind a NASA firewall, there are some things I can&#8217;t put in the gallery. Examples have included data visualizations of human resource data and financial data where the public release process is laid out by Congress.</p>
+<p>One way to still have something cool to show but keep data secure is to turn the process of making the data visualization into another data visualization. One super easy way to do this is to use <a href="http://gource.io/">Gource</a>.</p>
+<h3>Gource:</h3>
+<p>My favorite thing about<a href="http://gource.io/"> Gource</a> is how easy it is to use. When I first downloaded it, I looked for instructions and couldn’t find any besides how to install it. Turns out, you just type “gource” into the folder of the code you want to visualize, and it does everything else. How great is that. If you use npm, you can install it using <em>npm install gource</em> -g in a terminal.</p>
+<p>The small avatar(s) in the video shooting bolts of light are the developers of the project. Each file is a ball of light. Clusters of balls represent folders or directories.  The video is somewhat large, so it might take several seconds to load. If you want to see a Gource visualization of a larger project, check out <a href="https://www.youtube.com/watch?v=aPk1BqK8zzI" target="blank">this</a> youtube video of python development starting in 1990.</p>
+<p><video style="visibility: visible;" src="http://54.87.153.110/wp-content/uploads/2016/07/ISSflyOver_1.mov" controls="controls" width="100%" height="100%"></video></p>
+<p>Gource video of a small project I wrote while writing the <a href="https://54.87.153.110/issflyover/">previous blog post</a>. I used it to test out the open-notify API, which returns the current latitude and longitude of the International Space Station. The application then takes that lat/long and places it on a map using the <a href="http://leafletjs.com/">leaflet.js</a> library. Every 3 seconds, a new I.S.S. position is added.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/gource/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-<enclosure url="/wp-content/uploads/2016/07/ISSflyOver_1.mov" length="7004377" type="video/quicktime" />
-	<post-id xmlns="com-wordpress:feed-additions:1">607</post-id>	</item>
+					
+					<wfw:commentRss>/gource/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		<enclosure url="http://54.87.153.110/wp-content/uploads/2016/07/ISSflyOver_1.mov" length="7004377" type="video/quicktime" />
+
+			</item>
 	</channel>
 </rss>

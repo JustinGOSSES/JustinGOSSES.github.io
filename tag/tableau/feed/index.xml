@@ -5,32 +5,35 @@
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+	>
 
 <channel>
-	<title>Tableau &#8211; Justin Gosses Home</title>
+	<title>Tableau</title>
 	<atom:link href="/tag/tableau/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Geology, GIS, and CODE + Resumes</description>
-	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<description>Geology, Maps, and Code</description>
+	<lastBuildDate>Tue, 22 Nov 2016 04:32:36 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.11</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 
 <image>
-	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
-	<title>Tableau &#8211; Justin Gosses Home</title>
+	<url>/wp-content/uploads/2017/02/cropped-JustinGosses_logo-32x32.jpg</url>
+	<title>Tableau</title>
 	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
-<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+	<item>
 		<title>Meet Up Talk Data Viz Tools</title>
 		<link>/talk-on-changing-landscape-of-data-viz-tools/</link>
-		<comments>/talk-on-changing-landscape-of-data-viz-tools/#respond</comments>
-		<pubDate>Tue, 22 Nov 2016 04:02:11 +0000</pubDate>
+					<comments>/talk-on-changing-landscape-of-data-viz-tools/#respond</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Tue, 22 Nov 2016 04:02:11 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[business intelligence]]></category>
 		<category><![CDATA[Chart.js]]></category>
@@ -50,25 +53,31 @@
 		<category><![CDATA[Tableau]]></category>
 		<category><![CDATA[timeline.js]]></category>
 		<category><![CDATA[visicalc]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=768</guid>
 
-		<guid isPermaLink="false">/?p=768</guid>
-		<description><![CDATA[<p>&#8220;THE CHANGING LANDSCAPE OF DATA VISUALIZATION TOOLS IN LARGE ORGANIZATIONS&#8221;I recently gave a talk at the Houston Data Visualization meet-up. In addition to being a good excuse for putting time on my calendar to research the evolution of data visualization tools over the past 40 years, the talk allowed me to try out a few presentation<a href="/talk-on-changing-landscape-of-data-viz-tools/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/talk-on-changing-landscape-of-data-viz-tools/">Meet Up Talk Data Viz Tools</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<h3>&#8220;THE CHANGING LANDSCAPE OF DATA VISUALIZATION TOOLS IN LARGE ORGANIZATIONS&#8221;</h3><p>I recently gave a talk at the <a href="https://www.meetup.com/Houston-Data-Visualization-Meetup/events/233893631/">Houston Data Visualization meet-up</a>. In addition to being a good excuse for putting time on my calendar to research the evolution of data visualization tools over the past 40 years, the talk allowed me to try out a few presentation related tools. <a href="https://github.com/hakimel/reveal.js/" target="blank">Reveal.js</a> is a user friendly framework for making presentations that consist of html, css, and JavaScript, just like any normal webpage. <a href="https://slides.com/" target="blank">Slides.com</a> is a hosting and GUI site for reveal.js slides. One of the best features of slides.com was being able to control the slides on my computer via my phone. This enabled me to walk around and not be as tied to my computer or rely on someone else to advance the slides. It also provides a nice way to briefly look down as you flip slides and sneak a glance at speakers notes. I used <a href="https://timeline.knightlab.com/" target="blank">timeline.js</a> from the <a href="https://knightlab.northwestern.edu/" target="blank">Knight Lab</a> at Northwestern university to create a timeline of key tool development that I referred to several times during the talk.</p><p>All the data for the presentation is in <a href="https://github.com/JustinGOSSES/talk_HistDVTools" target="blank"> this</a> github repo. I hope to revisit this presentation to take a second stab at it or perhaps turn it into a series of blog posts for work.</p><p>&nbsp;</p><p><iframe src="//slides.com/justingosses/dataviztoolshistorylargeorg/embed" width="800" height="460" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
-<p style="text-align: center;"><a href="http://slides.com/justingosses/dataviztoolshistorylargeorg#/">click to view as a full window on a new tab</a></p><p><iframe style="border: 1px solid lightgrey;" src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1O32FBDYO16WjoFSCsWS1d0oEuRo0C00q633nhhGZlNE&font=Default&lang=en&initial_zoom=2&height=800" width="800" height="800" scrolling="yes" allowfullscreen="allowfullscreen"></iframe></p>
-<p style="text-align: center;"><a href="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1O32FBDYO16WjoFSCsWS1d0oEuRo0C00q633nhhGZlNE&font=Default&lang=en&initial_zoom=2&height=650">click to view as a full window on a new tab</a></p>
-<p>The post <a rel="nofollow" href="/talk-on-changing-landscape-of-data-viz-tools/">Meet Up Talk Data Viz Tools</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+					<description><![CDATA[&#8220;THE CHANGING LANDSCAPE OF DATA VISUALIZATION TOOLS IN LARGE ORGANIZATIONS&#8221; I recently gave a talk at the Houston Data Visualization meet-up. In addition to being a good excuse for putting time on my calendar to research the evolution of data visualization tools over the past 40 years, the talk allowed me<a class="moretag" href="/talk-on-changing-landscape-of-data-viz-tools/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<h3>&#8220;THE CHANGING LANDSCAPE OF DATA VISUALIZATION TOOLS IN LARGE ORGANIZATIONS&#8221;</h3>
+<p>I recently gave a talk at the <a href="https://www.meetup.com/Houston-Data-Visualization-Meetup/events/233893631/">Houston Data Visualization meet-up</a>. In addition to being a good excuse for putting time on my calendar to research the evolution of data visualization tools over the past 40 years, the talk allowed me to try out a few presentation related tools. <a href="https://github.com/hakimel/reveal.js/" target="blank">Reveal.js</a> is a user friendly framework for making presentations that consist of html, css, and JavaScript, just like any normal webpage. <a href="https://slides.com/" target="blank">Slides.com</a> is a hosting and GUI site for reveal.js slides. One of the best features of slides.com was being able to control the slides on my computer via my phone. This enabled me to walk around and not be as tied to my computer or rely on someone else to advance the slides. It also provides a nice way to briefly look down as you flip slides and sneak a glance at speakers notes. I used <a href="https://timeline.knightlab.com/" target="blank">timeline.js</a> from the <a href="https://knightlab.northwestern.edu/" target="blank">Knight Lab</a> at Northwestern university to create a timeline of key tool development that I referred to several times during the talk.</p>
+<p>All the data for the presentation is in <a href="https://github.com/JustinGOSSES/talk_HistDVTools" target="blank"> this</a> github repo. I hope to revisit this presentation to take a second stab at it or perhaps turn it into a series of blog posts for work.</p>
+<p>&nbsp;</p>
+<p><iframe loading="lazy" src="//slides.com/justingosses/dataviztoolshistorylargeorg/embed" width="800" height="460" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"><a href="http://slides.com/justingosses/dataviztoolshistorylargeorg#/">click to view as a full window on a new tab</a></p>
+<p><iframe loading="lazy" style="border: 1px solid lightgrey;" src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1O32FBDYO16WjoFSCsWS1d0oEuRo0C00q633nhhGZlNE&amp;font=Default&amp;lang=en&amp;initial_zoom=2&amp;height=800" width="800" height="800" scrolling="yes" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"><a href="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1O32FBDYO16WjoFSCsWS1d0oEuRo0C00q633nhhGZlNE&amp;font=Default&amp;lang=en&amp;initial_zoom=2&amp;height=650">click to view as a full window on a new tab</a></p>
 ]]></content:encoded>
-			<wfw:commentRss>/talk-on-changing-landscape-of-data-viz-tools/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">768</post-id>	</item>
+					
+					<wfw:commentRss>/talk-on-changing-landscape-of-data-viz-tools/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Tableau Data Visualization Animal Control Calls</title>
 		<link>/tableau-data-visualization/</link>
-		<comments>/tableau-data-visualization/#respond</comments>
-		<pubDate>Tue, 12 Jan 2016 20:39:39 +0000</pubDate>
+					<comments>/tableau-data-visualization/#respond</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Tue, 12 Jan 2016 20:39:39 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[maps]]></category>
 		<category><![CDATA[CartoDB]]></category>
@@ -78,24 +87,21 @@
 		<category><![CDATA[opendata]]></category>
 		<category><![CDATA[Tableau]]></category>
 		<category><![CDATA[web development]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=364</guid>
 
-		<guid isPermaLink="false">/?p=364</guid>
-		<description><![CDATA[<p>Tableau: Data Visualization Software (&#038; mapping)Tableau is similar to CartoDB and MapBox, which were discussed in earlier posts here and here. All are designed to allow the user to quickly drop in data and create visual representations of that data. All have free and paid versions. Tableau Public is the free version of Tableau. The main<a href="/tableau-data-visualization/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/tableau-data-visualization/">Tableau Data Visualization Animal Control Calls</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<h3>Tableau: Data Visualization Software (& mapping)</h3><p>Tableau is similar to <a href="https://cartodb.com/" target="blank">CartoDB</a> and <a href="https://www.mapbox.com/" target="blank">MapBox</a>, which were discussed in earlier posts <a href="/cartodb-online-mapping/" target="blank">here</a> and <a href="/using-mapbox-an-online-map-service/" target="blank">here</a>. All are designed to allow the user to quickly drop in data and create visual representations of that data. All have free and paid versions. <a href="https://public.tableau.com/s/" target="blank">Tableau Public</a> is the free version of Tableau. The main limitations for Tableau Public vs. the paid version is more limited range of input data types (you still get xls and csv) and projects can only be saved to your public gallery.</p><p>What sets Tableau apart is <strong><em>Tableau</em><em><strong> is</strong>n&#8217;t just maps. It attempts to cover data visualization in general. </em></strong>Bar charts, pie charts, scatter plots, etc. Think of anything you have ever seen come out of Excel, plus some things you haven&#8217;t. Maps are just one more type of data visualization for Tableau. Tableau also excels at moving very quickly from &#8220;I have structured data&#8221; to &#8220;I have multiple visualizations of that data sliced multiple ways. It allows interactive visualization for the end-user too.&#8221;</p>
+					<description><![CDATA[Tableau: Data Visualization Software (&#38; mapping) Tableau is similar to CartoDB and MapBox, which were discussed in earlier posts here and here. All are designed to allow the user to quickly drop in data and create visual representations of that data. All have free and paid versions. Tableau Public is the<a class="moretag" href="/tableau-data-visualization/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<h3>Tableau: Data Visualization Software (&amp; mapping)</h3>
+<p>Tableau is similar to <a href="https://cartodb.com/" target="blank">CartoDB</a> and <a href="https://www.mapbox.com/" target="blank">MapBox</a>, which were discussed in earlier posts <a href="https://54.87.153.110/cartodb-online-mapping/" target="blank">here</a> and <a href="https://54.87.153.110/using-mapbox-an-online-map-service/" target="blank">here</a>. All are designed to allow the user to quickly drop in data and create visual representations of that data. All have free and paid versions. <a href="https://public.tableau.com/s/" target="blank">Tableau Public</a> is the free version of Tableau. The main limitations for Tableau Public vs. the paid version is more limited range of input data types (you still get xls and csv) and projects can only be saved to your public gallery.</p>
+<p>What sets Tableau apart is <strong><em>Tableau</em><em><strong> is</strong>n&#8217;t just maps. It attempts to cover data visualization in general. </em></strong>Bar charts, pie charts, scatter plots, etc. Think of anything you have ever seen come out of Excel, plus some things you haven&#8217;t. Maps are just one more type of data visualization for Tableau. Tableau also excels at moving very quickly from &#8220;I have structured data&#8221; to &#8220;I have multiple visualizations of that data sliced multiple ways. It allows interactive visualization for the end-user too.&#8221;</p>
 <div></div>
 <div>
-<div id="attachment_397" style="width: 330px" class="wp-caption aligncenter"><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Screen-Shot-2016-01-12-at-2.56.18-PM.png" target="blank"><img data-attachment-id="397" data-permalink="/tableau-data-visualization/screen-shot-2016-01-12-at-2-56-18-pm/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Screen-Shot-2016-01-12-at-2.56.18-PM.png?fit=320%2C550" data-orig-size="320,550" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screen Shot 2016-01-12 at 2.56.18 PM" data-image-description="&lt;p&gt;Screenshot of menu options for different default data visualization types.&lt;/p&gt;
-" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Screen-Shot-2016-01-12-at-2.56.18-PM.png?fit=175%2C300" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Screen-Shot-2016-01-12-at-2.56.18-PM.png?fit=320%2C550" class="size-full wp-image-397" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Screen-Shot-2016-01-12-at-2.56.18-PM.png?resize=320%2C550" alt="Screenshot of menu options for different default data visualization types." width="320" height="550" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Screen-Shot-2016-01-12-at-2.56.18-PM.png?w=320 320w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Screen-Shot-2016-01-12-at-2.56.18-PM.png?resize=175%2C300 175w" sizes="(max-width: 320px) 100vw, 320px" data-recalc-dims="1" /></a></p>
-<p class="wp-caption-text">Screenshot of menu options for different default data visualization types.</p>
-</div>
+<div id="attachment_397" style="width: 330px" class="wp-caption aligncenter"><a href="http://54.87.153.110/wp-content/uploads/2016/01/Screen-Shot-2016-01-12-at-2.56.18-PM.png" target="blank"><img aria-describedby="caption-attachment-397" loading="lazy" class="size-full wp-image-397" src="http://54.87.153.110/wp-content/uploads/2016/01/Screen-Shot-2016-01-12-at-2.56.18-PM.png" alt="Screenshot of menu options for different default data visualization types." width="320" height="550" srcset="/wp-content/uploads/2016/01/Screen-Shot-2016-01-12-at-2.56.18-PM.png 320w, /wp-content/uploads/2016/01/Screen-Shot-2016-01-12-at-2.56.18-PM-175x300.png 175w" sizes="(max-width: 320px) 100vw, 320px" /></a><p id="caption-attachment-397" class="wp-caption-text">Screenshot of menu options for different default data visualization types.</p></div>
 <h3 style="text-align: left;">Houston Data Visualization Meet-up</h3>
 <p style="text-align: left;">This post was prompted by two talks at a <a href="http://www.meetup.com/Houston-Data-Visualization-Meetup/events/227238782/">recent</a><a href="http://www.meetup.com/Houston-Data-Visualization-Meetup/" target="blank">Houston Data Visualization</a> Meet-up. I attend meet-ups on data visualization, JavaScript, and python to see new things and get an idea what other people are working on locally. This meet-up was hosted at <a href="https://txrxlabs.org/" target="blank">TXRX labs</a>, which is a cool space if you ever have an opportunity to go. To quote their &#8220;about us&#8221; section:</p>
 <blockquote><p><em>Established in 2008, TXRX Labs is a non-profit hackerspace for the greater Houston area. Housed in the East End District, we offer courses in and access to our rapid prototyping lab, woodshop, machineshop, electronics lab, and a wide variety of other tools. Our goal is to educate the public about technology and show how seemingly complex techniques can be used by anyone.</em></p></blockquote>
 <p style="text-align: left;">The two mains talks at the Data Visualization Meet-up were on Tableau and used real estate data. I won&#8217;t attempt to replicate them here, but I will include a link to Clay Cohoon&#8217;s <a href="https://public.tableau.com/profile/clay.cahoon#!/" target="blank">public gallery</a> of visualizations. Clay delivered an entertaining talk that walked the audience through Tableau from data loading to sharing the final product. There is also a lot of great stuff on <a href="https://public.tableau.com/s/gallery">Tableau&#8217;s gallery</a>, basically a greatest hits collection.</p>
-<h4 style="text-align: left;">A static image of Clay&#8217;s Visualization Being Built in Tableau Public:</h4><p><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Trustee.png"><img data-attachment-id="410" data-permalink="/tableau-data-visualization/trustee/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Trustee.png?fit=1360%2C768" data-orig-size="1360,768" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Trustee" data-image-description="&lt;p&gt;Image of Clay Cahoon&#8217;s visualization dashboard from his talk.&lt;/p&gt;
-" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Trustee.png?fit=300%2C169" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Trustee.png?fit=640%2C361" class="size-full wp-image-410 aligncenter" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Trustee.png?resize=640%2C361" alt="Image of Clay Cahoon's visualization dashboard from his talk." width="640" height="361" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Trustee.png?w=1360 1360w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Trustee.png?resize=300%2C169 300w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Trustee.png?resize=1024%2C578 1024w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/01/Trustee.png?w=1280 1280w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
+<h4 style="text-align: left;">A static image of Clay&#8217;s Visualization Being Built in Tableau Public:</h4>
+<p><a href="http://54.87.153.110/wp-content/uploads/2016/01/Trustee.png"><img loading="lazy" class="size-full wp-image-410 aligncenter" src="http://54.87.153.110/wp-content/uploads/2016/01/Trustee.png" alt="Image of Clay Cahoon's visualization dashboard from his talk." width="1360" height="768" srcset="/wp-content/uploads/2016/01/Trustee.png 1360w, /wp-content/uploads/2016/01/Trustee-300x169.png 300w, /wp-content/uploads/2016/01/Trustee-1024x578.png 1024w" sizes="(max-width: 1360px) 100vw, 1360px" /></a></p>
 </div>
 <div>
 <h4 style="text-align: left;"><em>A few take away&#8217;s from Clay Cohoon&#8217;s talk were:</em></h4>
@@ -105,17 +111,25 @@
 <li style="text-align: left;">By including an option for calculated fields, Tableau allows you to do some <strong>data crunching right in Tableau, </strong>in addition the main purpose of data visualization. This <strong>saves time</strong> as you don&#8217;t have to go all the way back to start just to normalize your data using Excel.</li>
 </ol>
 </div>
-<h3>My Tableau Project: Animal Control Calls in 77009 Zip Code 2012-2015</h3><p>As I needed data to throw into Tableau, I decided to check out <a href="http://data.ohouston.org/ target=">Houston&#8217;s Open Data </a>portal. Mostly because I was curious what the data would look like, I decided to use <a href="http://data.ohouston.org/dataset/barc-animal-service-requests" target="blank">BARC call data</a> from the 77009 zip code. <a href="http://www.houstontx.gov/barc/aboutbarc.html" target="blank">BARC</a> is Houston&#8217;s city-run animal shelter. They respond to animal control calls from the public.</p><p>My main insights after being able to look at the data visually were: a sizable portion of the calls to BARC are cancelled instead of completed, wild-animal calls make up a very small percentage of total calls, and, although calls are pretty evenly distributed, the most expensive portion of the Houston Heights (SW portion of 77009 zip code) had less calls on average.</p>
+<h3>My Tableau Project: Animal Control Calls in 77009 Zip Code 2012-2015</h3>
+<p>As I needed data to throw into Tableau, I decided to check out <a href="http://data.ohouston.org/ target=">Houston&#8217;s Open Data </a>portal. Mostly because I was curious what the data would look like, I decided to use <a href="http://data.ohouston.org/dataset/barc-animal-service-requests" target="blank">BARC call data</a> from the 77009 zip code. <a href="http://www.houstontx.gov/barc/aboutbarc.html" target="blank">BARC</a> is Houston&#8217;s city-run animal shelter. They respond to animal control calls from the public.</p>
+<p>My main insights after being able to look at the data visually were: a sizable portion of the calls to BARC are cancelled instead of completed, wild-animal calls make up a very small percentage of total calls, and, although calls are pretty evenly distributed, the most expensive portion of the Houston Heights (SW portion of 77009 zip code) had less calls on average.</p>
 <h4><em>A few take aways from creating this visualization were:</em></h4>
 <ol>
 <li>The time it takes to go from opening Tableau to having your first visualization is very short. In the meet-up talks, it was approximately 15 minutes. In my first time using the program, it took me maybe an hour.</li>
 <li>The user interface is intuitive enough that I stopped watching a tutorial video after a couple of minutes. I made my way through pressing buttons and experimenting without any aggravating moments.</li>
 <li>Something that Clay Cahoon brought up during his talk, and that I noticed as well, is that although Tableau is super fast and easy to create first draft visualizations, adjusting the &#8220;fine details&#8221; like fonts and line widths is not nearly as quick. This is not a huge program, perhaps only surprising, given everything else is so intuitive and fast.</li>
-</ol><p>As you explore the visualization below, CLICK ON THE DATA. If you click on a map data point, it brings up extra data. If you click on the bar graph, it affects what is shown in the map. All this interactivity is baked into Tablea. Zero clicks were needed to make it happen.</p><p>You can bring up a new full-window view by <strong>clicking <a href="https://public.tableau.com/profile/justin.gosses#!/vizhome/Houston77009Zipcode-CallstoAnimalControl/Dashboard_Small" target="blank">here</a></strong>.</p><p>&nbsp;</p><p><embed src="https://public.tableau.com/shared/6K6WP2SGJ?:display_count=yes" width="1500" height="900"></embed></p>
-<p>The post <a rel="nofollow" href="/tableau-data-visualization/">Tableau Data Visualization Animal Control Calls</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+</ol>
+<p>As you explore the visualization below, CLICK ON THE DATA. If you click on a map data point, it brings up extra data. If you click on the bar graph, it affects what is shown in the map. All this interactivity is baked into Tablea. Zero clicks were needed to make it happen.</p>
+<p>You can bring up a new full-window view by <strong>clicking <a href="https://public.tableau.com/profile/justin.gosses#!/vizhome/Houston77009Zipcode-CallstoAnimalControl/Dashboard_Small" target="blank">here</a></strong>.</p>
+<p>&nbsp;</p>
+<p><embed src="https://public.tableau.com/shared/6K6WP2SGJ?:display_count=yes" width="1500" height="900"></embed></p>
 ]]></content:encoded>
-			<wfw:commentRss>/tableau-data-visualization/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">364</post-id>	</item>
+					
+					<wfw:commentRss>/tableau-data-visualization/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	</channel>
 </rss>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Open-Source</title>
+	<atom:link href="/tag/open-source/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Geology, Maps, and Code</description>
+	<lastBuildDate>Fri, 17 Dec 2021 17:25:47 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
+
+<image>
+	<url>/wp-content/uploads/2017/02/cropped-JustinGosses_logo-32x32.jpg</url>
+	<title>Open-Source</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>What if Awesome Lists weren&#8217;t just lists, but enabled views of the open source community?</title>
+		<link>/what-if-awesome-lists-werent-just-lists-but-enabled-views-of-the-open-source-community/</link>
+					<comments>/what-if-awesome-lists-werent-just-lists-but-enabled-views-of-the-open-source-community/#respond</comments>
+		
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Tue, 01 Jun 2021 03:34:52 +0000</pubDate>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[awesome]]></category>
+		<category><![CDATA[d3.js]]></category>
+		<category><![CDATA[data-visualization]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[Open-Source]]></category>
+		<category><![CDATA[Reuse]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=1392</guid>
+
+					<description><![CDATA[Awesome lists are…. awesome. But could they be even more useful? What if instead of just a curated list you also got a view into a wider community? NOTE 1: this is was also written up on Medium and is described from a slightly different perspective in these slides on<a class="moretag" href="/what-if-awesome-lists-werent-just-lists-but-enabled-views-of-the-open-source-community/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[
+<p><em>Awesome lists are…. awesome. But could they be even more useful? What if instead of just a curated list you also got a view into a wider community?</em></p>
+
+
+
+<blockquote class="wp-block-quote"><p>NOTE 1:  this is was also written up on <a href="https://justingosses.medium.com/beyond-awesome-lists-3ccb074f7859">Medium</a> and is described from a slightly different perspective in <a href="https://observablehq.com/@justingosses/more-visible-connections-between-projects-can-nudge-devel">these slides</a> on Observable.</p><p>NOTE 2: Since writing this blog post, I&#8217;ve continued working on this idea and  <a href="https://github.com/JustinGOSSES/awsome-list-visual-explorer-template">made a reusable template</a> that you can use to start a new code repository, change a few lines in a configuration file, run two scripts, and get a whole new website with interactive visualizations to help you understand the code community documented in an Awesome List.</p></blockquote>
+
+
+
+<h2 id="8747">What is an Awesome list?</h2>
+
+
+
+<p id="dd3d">An Awesome List is a community curated list of code projects within a specific domain, application, or use case. You can read more in the “<a href="https://github.com/sindresorhus/awesome/blob/main/awesome.md">Awesome Manifesto</a>” on&nbsp;<a href="https://github.com/sindresorhus">sindresorhus</a>/<a href="https://github.com/sindresorhus/awesome">awesome</a>.</p>
+
+
+
+<p><a href="https://54.87.153.110/what-if-awesome-lists-werent-just-lists-but-enabled-views-of-the-open-source-community/">View Post</a></p>
+
+
+
+<p id="ceaf">They are great places to first look for open&nbsp;source code projects that others have found highly use in your problem space, be it markdown editors, JavaScript data visualization, Jupyter notebook widgets, GraphQL, spatial analysis, robotics, or&nbsp;<a href="https://project-awesome.org/phillipadsmith/awesome-github">hundreds</a>&nbsp;of other things. Other places people might discover code are word of mouth, google searches, trolling GitHub, seeing the packages used in other code, or having it recommended by a mentor or peer.</p>
+
+
+
+<blockquote class="wp-block-quote"><p><em>Searching for useful code projects is an investment of time. Anything that shortens that time, and enables a developer to reuse code instead of starting from scratch, offers big rewards in terms of time savings.</em></p></blockquote>
+
+
+
+<h2 id="ac5f">What Makes Awesome Lists so Successful?</h2>
+
+
+
+<p id="4e6a">This is mostly guesswork on my part, but I’d say the success of the “Awesome List” form is some combination of the following characteristics:</p>
+
+
+
+<ol><li><strong>Easy to start</strong>&nbsp;(<em>Start a repository with a single README.md file</em>)</li><li><strong>Easy to contribute</strong>&nbsp;to (<em>Edit a single line in a markdown file</em>)</li><li><strong>Fills a need</strong>&nbsp;(E<em>very developer searches for new code tools)</em></li><li><strong>Builds a community</strong>&nbsp;(<em>They have a very large number of contributors. People come back to check the list from time to time. People send links to it to others.</em>)</li></ol>
+
+
+
+<h2 id="5b41">What do Awesome Lists Not do Well?</h2>
+
+
+
+<p id="6908">As a curated list, they provide a signal of potential value. To be included on an Awesome List, someone has to say a project is “Awesome”.</p>
+
+
+
+<p id="a9d8">However, there are a variety of other types of information that would useful to know when evaluating what code project to use or what project to contribute to that Awesome Lists don’t provide. They include:</p>
+
+
+
+<ol><li>How popular each code project is?</li><li>Is the rate this new code project is growing in popularity unusual relative to similar code projects in the past?</li><li>What code projects are used by other code projects within the domain space as a dependency and therefore you might want to learn about?</li><li>What code projects share dependencies and probably do related things?</li><li>What code projects share contributors?</li><li>What organizations own the most code projects in that domain/problem/solution space?</li></ol>
+
+
+
+<blockquote class="wp-block-quote"><p><em>The interesting thing is, the information to get at all these questions exists, it just doesn’t exist in an easy to access to form most of the time.</em></p></blockquote>
+
+
+
+<p id="3a21">All of the questions above can be answered with metadata extracted via GitHub’s or Gitlab’s API. Even the dependency information, which was hard to get at several years ago, is now extracted by code platforms are a service and available from their APIs.</p>
+
+
+
+<h2 id="3a57">Lawerence Livermore National Laboratory’s Software Catalog’s Explore Pages</h2>
+
+
+
+<p id="aa53">A great example of harvesting this type of metadata using GitHub’s API and turning it into insightful visualizations is the&nbsp;<a href="https://software.llnl.gov/">explore&nbsp;</a>section of Lawerence Livermore National Laboratory’s Software (LLNL) Catalog.</p>
+
+
+
+<p id="e697"><strong>Wanting to understand similar relationships for subsurface geoscience code, I decided to adapt LLNL’s project such that instead of visualization Lawerence Livermore National Laboratory’s code catalog, it was visualizing the code curated in&nbsp;</strong><a href="https://softwareunderground.org/"><strong>Software Underground</strong></a><strong>’s&nbsp;</strong><a href="https://github.com/softwareunderground/awesome-open-geoscience"><strong>Awesome-Open-Geoscience</strong></a><strong>&nbsp;awesome list.</strong></p>
+
+
+
+<p id="c51c">The Awesome-Open-Geoscience awesome list was started by myself and several other members of&nbsp;<a href="https://softwareunderground.org/">Software Underground</a>, or SWUNG, in October of 2017. As of May 2021, it has 127 watchers, 720 stars, and 51 different contributors. It the most popular repository if you search “geoscience” on GitHub.com.</p>
+
+
+
+<p id="7c70">Adapting&nbsp;<a href="https://github.com/LLNL/llnl.github.io">llnl.github.io</a>&nbsp;to make&nbsp;<a href="https://github.com/softwareunderground/open_geosciene_code_projects_viz">open_geosciene_code_projects_viz</a>&nbsp;wasn’t as easy as cloning it and re-running a script as the repository is less a tool and more a product. I had to remove lots of LLNL specific content, edit file paths, and replace bits of html, CSS, and JavaScript throughout the project. There’s still some work to get it to a place to where anyone else with a list of repositories they want to understand could clone the repository, change some lines in a configuration file, re-run a few scripts, and deploy as a GitHub pages page, but it’s getting there. Switching it from LLNL to SWUNG took me several days of work. Switching it for SWUNG to something else took me less than a day.</p>
+
+
+
+<blockquote class="wp-block-quote"><p><em>Ideally, it would great if it only take a couple hours of work to repopulate all the pages and visualizations for another Awesome list.</em></p></blockquote>
+
+
+
+<h2 id="67d9">Visualizations that show the community connections across the repositories curated in an Awesome List</h2>
+
+
+
+<p class="has-text-align-center" id="5069"><strong><em>Beyond “curated list” and into “community level view”</em></strong></p>
+
+
+
+<p id="c69b">The visualizations father down are static images, but the first one is an iframe embed. Most of the visualizations are interactive so best explored on the actual&nbsp;<a href="https://softwareunderground.github.io/open_geosciene_code_projects_viz/">website</a>. The data visualizations allow for many questions to answered that provide a community level view of the code projects curated on the Awesome list.</p>
+
+
+
+<div class="wp-block-image is-style-default"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="http://54.87.153.110/wp-content/uploads/2021/05/image-1024x439.png" alt="" class="wp-image-1403" width="1024" height="439" srcset="/wp-content/uploads/2021/05/image-1024x439.png 1024w, /wp-content/uploads/2021/05/image-300x129.png 300w, /wp-content/uploads/2021/05/image-768x329.png 768w, /wp-content/uploads/2021/05/image-1536x659.png 1536w, /wp-content/uploads/2021/05/image-2048x879.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p class="has-text-align-center" id="5721"><em>How often does a new code project in this space appear? How old are the older ones?</em></p>
+
+
+
+<div class="wp-block-image is-style-default"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="http://54.87.153.110/wp-content/uploads/2021/05/image-1-1024x429.png" alt="" class="wp-image-1404" width="781" height="326" srcset="/wp-content/uploads/2021/05/image-1-1024x429.png 1024w, /wp-content/uploads/2021/05/image-1-300x126.png 300w, /wp-content/uploads/2021/05/image-1-768x322.png 768w, /wp-content/uploads/2021/05/image-1-1536x644.png 1536w" sizes="(max-width: 781px) 100vw, 781px" /></figure></div>
+
+
+
+<p class="has-text-align-center" id="3dbd"><em>How fast are people starting this new project versus older projects?</em></p>
+
+
+
+<p class="has-text-align-center" id="69b8"><em>Has the number of new stars flatlined as people migrate to a new project?</em></p>
+
+
+
+<figure class="wp-block-image size-large is-resized is-style-default"><img loading="lazy" src="http://54.87.153.110/wp-content/uploads/2021/05/image-2-1024x399.png" alt="" class="wp-image-1405" width="767" height="298" srcset="/wp-content/uploads/2021/05/image-2-1024x399.png 1024w, /wp-content/uploads/2021/05/image-2-300x117.png 300w, /wp-content/uploads/2021/05/image-2-768x299.png 768w, /wp-content/uploads/2021/05/image-2-1536x598.png 1536w, /wp-content/uploads/2021/05/image-2.png 2044w" sizes="(max-width: 767px) 100vw, 767px" /></figure>
+
+
+
+<p class="has-text-align-center" id="0f08"><em>What are the most common languages within this Awesome list?</em></p>
+
+
+
+<p class="has-text-align-center" id="2f05"><em>What topics are the most common across all projects?</em></p>
+
+
+
+<figure class="wp-block-image size-large is-resized is-style-default"><img loading="lazy" src="http://54.87.153.110/wp-content/uploads/2021/05/image-3-1024x612.png" alt="" class="wp-image-1406" width="735" height="438" srcset="/wp-content/uploads/2021/05/image-3-1024x612.png 1024w, /wp-content/uploads/2021/05/image-3-300x179.png 300w, /wp-content/uploads/2021/05/image-3-768x459.png 768w, /wp-content/uploads/2021/05/image-3-1536x918.png 1536w, /wp-content/uploads/2021/05/image-3-2048x1224.png 2048w" sizes="(max-width: 735px) 100vw, 735px" /></figure>
+
+
+
+<p class="has-text-align-center" id="0a06"><em>What organization or developer owns the most projects on the Awesome list?</em></p>
+
+
+
+<p class="has-text-align-center" id="63e9"><em>What projects only have contributions from the code owners vs. contributions from many external parties and therefore might be better places to submit a pull request?</em></p>
+
+
+
+<figure class="wp-block-image size-large is-resized is-style-default"><img loading="lazy" src="http://54.87.153.110/wp-content/uploads/2021/05/image-4-1024x395.png" alt="" class="wp-image-1407" width="726" height="279" srcset="/wp-content/uploads/2021/05/image-4-1024x395.png 1024w, /wp-content/uploads/2021/05/image-4-300x116.png 300w, /wp-content/uploads/2021/05/image-4-768x296.png 768w, /wp-content/uploads/2021/05/image-4-1536x593.png 1536w, /wp-content/uploads/2021/05/image-4-2048x790.png 2048w" sizes="(max-width: 726px) 100vw, 726px" /></figure>
+
+
+
+<p class="has-text-align-center" id="9959">Has activity jumped around a conference or other event?</p>
+
+
+
+<figure class="wp-block-image size-large is-resized is-style-default"><img loading="lazy" src="http://54.87.153.110/wp-content/uploads/2021/05/image-5-1024x520.png" alt="" class="wp-image-1408" width="735" height="373" srcset="/wp-content/uploads/2021/05/image-5-1024x520.png 1024w, /wp-content/uploads/2021/05/image-5-300x152.png 300w, /wp-content/uploads/2021/05/image-5-768x390.png 768w, /wp-content/uploads/2021/05/image-5-1536x780.png 1536w, /wp-content/uploads/2021/05/image-5-2048x1040.png 2048w" sizes="(max-width: 735px) 100vw, 735px" /></figure>
+
+
+
+<p class="has-text-align-center" id="00bb"><em>What projects on the Awesome list are used as a dependency by other projects on the Awesome list?</em></p>
+
+
+
+<p class="has-text-align-center" id="0ad1"><em>Where to make contributions such that your code is reused by the highest number of projects?</em></p>
+
+
+
+<p class="has-text-align-center" id="0ebd"><em>What projects are built entirely different than the norm?</em></p>
+
+
+
+<p class="has-text-align-center" id="9bbb"><em>What projects is it more likely you could jump in and contribute to as the dependencies are already very similar to your existing work?</em></p>
+
+
+
+<figure class="wp-block-image size-large is-resized is-style-default"><img loading="lazy" src="http://54.87.153.110/wp-content/uploads/2021/05/image-6-1024x790.png" alt="" class="wp-image-1409" width="760" height="586" srcset="/wp-content/uploads/2021/05/image-6-1024x790.png 1024w, /wp-content/uploads/2021/05/image-6-300x232.png 300w, /wp-content/uploads/2021/05/image-6-768x593.png 768w, /wp-content/uploads/2021/05/image-6-1536x1185.png 1536w, /wp-content/uploads/2021/05/image-6.png 1866w" sizes="(max-width: 760px) 100vw, 760px" /></figure>
+
+
+
+<p class="has-text-align-center" id="a792"><em>Picking a license can be hard. Is there a pattern in terms of what others in your community have gone with? Can you use this to help guide your choice?</em></p>
+
+
+
+<h2 id="f3a0">Additional Questions that Could be Answered that Would “Nudge” Developers</h2>
+
+
+
+<p id="7aba">As you might have already concluded from the questions that the visualizations help answer above, visualizing these type of information can nudge developers in ways the help direct development activity. This means visualizing the community of open source subsurface geoscience code has the potential to change how it develops in small ways. Thinking about it in this framing also helps suggest what future visualizations might have value.</p>
+
+
+
+<p id="f751"><strong>Connection that could be made visible…&nbsp;</strong>What repositories share dependencies and therefore do somewhat similar stuff?&nbsp;<strong>…which could nudge&nbsp;</strong>developers to understand code as related groups and not hundreds of non-related entities</p>
+
+
+
+<p id="6dd9"><strong>Connection that could be made visible…&nbsp;</strong>What code projects are used by projects I care about?&nbsp;<strong>…which could nudge&nbsp;</strong>developers to contribute to repositories that more people/projects depend on.</p>
+
+
+
+<p id="5d7d"><strong>Connection that could be made visible…&nbsp;</strong>Do you and someone else contribute to the same repos? Is there a group of people that tend to contribute to the same repos?<strong>…which could nudge&nbsp;</strong>developers to reach out to specific people forming community.</p>
+
+
+
+<h2 id="2936">The tech stack to get “Community Level View” from “Curated List”</h2>
+
+
+
+<p id="c740"><em>So is this code at a place where anyone with an Awesome List, software catalog, or other type of list of repositories could easily re-run and deploy their own version?</em></p>
+
+
+
+<p id="cc0e"><em>Unfortunately,&nbsp;</em><strong><em>Not yet.</em></strong></p>
+
+
+
+<p id="5a9f">As noted above, converting the existing LLNL software catalog into&nbsp;<a href="https://github.com/softwareunderground/open_geosciene_code_projects_viz">open_geoscience_code_projects_visualization</a>&nbsp;took a while. It was started during a&nbsp;<a href="https://softwareunderground.org/events/transform-2021">hackathon</a>&nbsp;but probably took 2–3 days of full time work. The current version is easier to adapt to another list but it would probably take at least a full day for someone unfamiliar with the code base. Additionally, repositories aren’t being pulled directly from the Awesome List programmatically, so any additions in the Awesome List would need to be added manually currently.</p>
+
+
+
+<p id="96a4">We can talk about possible futures, though.</p>
+
+
+
+<blockquote class="wp-block-quote"><p><em>In an ideal world, it would be easy and quick to take an existing Awesome Lists and create all these visualizations for the repositories categorized on that list. The visualizations would also stay up to date with the Awesome List.</em></p></blockquote>
+
+
+
+<p id="8778"><strong>Future Requirements:</strong></p>
+
+
+
+<ol><li>An Awesome List scrapper to pull out GitHub repository links. [<em><a href="updated: don">done</a></em>]</li><li>A GitHub Actions script to do number 2 above and popular the input_list.json file of all the repositories to be visualized. This could be scheduled to check for updates on some interval. [<em>updated: done</em>]</li><li>Documentation for how to easily add new or update existing visualizations in the explore section pages, such that changes can be easily integrated into already deployed forks. [<em>No work done on this yet</em>]</li><li>Remove more of the list specific content in HTML and Markdown files and have it instead be populated programmatically from the key:value pairs in the _config.yml file in order to get the initial deployment down to a couple hours from several days. [<em>updated: this is 90% complete in <a href="https://github.com/JustinGOSSES/awsome-list-visual-explorer-template">this new template repository</a></em>]</li></ol>
+
+
+
+<p id="8e44">More thoughts on this can be found in&nbsp;<a href="https://github.com/softwareunderground/open_geosciene_code_projects_viz">this</a>&nbsp;markdown file.</p>
+
+
+
+<h2 id="ace2">How You Can Contribute</h2>
+
+
+
+<p id="3b71">Since writing this blog post, I&#8217;ve made a reusable template repository at <a href="https://github.com/JustinGOSSES/awsome-list-visual-explorer-template">https://github.com/JustinGOSSES/awsome-list-visual-explorer-template</a>. You can use it to start a new repository, change a few lines in a configuration file, run two scripts, and a whole new website with visualizations to help you understand the code community documented in an Awesome List will be created. <br><br><a href="https://github.com/JustinGOSSES/awsome-list-visual-explorer-template">This</a> is still in beta, so there is lots to contribute towards in terms of making it easy and obvious how to use. </p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/what-if-awesome-lists-werent-just-lists-but-enabled-views-of-the-open-source-community/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

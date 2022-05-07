@@ -3,16 +3,53 @@
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" 
+	
 	>
 <channel>
-	<title>Comments on: half-baked thoughts on predicting chronostratigraphic surfaces</title>
+	<title>
+	Comments on: half-baked thoughts on predicting chronostratigraphic surfaces	</title>
 	<atom:link href="/thoughts-on-machine-learning-predictions-of-chronostratigraphic-surfaces/feed/" rel="self" type="application/rss+xml" />
 	<link>/thoughts-on-machine-learning-predictions-of-chronostratigraphic-surfaces/</link>
-	<description>Geology, GIS, and CODE + Resumes</description>
-	<lastBuildDate>Sat, 13 Jul 2019 05:20:39 +0000</lastBuildDate>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.11</generator>
-</channel>
+	<description>Geology, Maps, and Code</description>
+	<lastBuildDate>Fri, 31 Jul 2020 04:18:19 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
+	<item>
+		<title>
+		By: Richard Scott		</title>
+		<link>/thoughts-on-machine-learning-predictions-of-chronostratigraphic-surfaces/#comment-820</link>
+
+		<dc:creator><![CDATA[Richard Scott]]></dc:creator>
+		<pubDate>Fri, 31 Jul 2020 04:18:19 +0000</pubDate>
+		<guid isPermaLink="false">https://54.87.153.110/?p=1075#comment-820</guid>
+
+					<description><![CDATA[Or https://www.ga.gov.au/eftf/minerals/nawa/cover-thickness to get a link!]]></description>
+			<content:encoded><![CDATA[<p>Or <a href="https://www.ga.gov.au/eftf/minerals/nawa/cover-thickness" rel="nofollow ugc">https://www.ga.gov.au/eftf/minerals/nawa/cover-thickness</a> to get a link!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Richard Scott		</title>
+		<link>/thoughts-on-machine-learning-predictions-of-chronostratigraphic-surfaces/#comment-819</link>
+
+		<dc:creator><![CDATA[Richard Scott]]></dc:creator>
+		<pubDate>Fri, 31 Jul 2020 04:17:42 +0000</pubDate>
+		<guid isPermaLink="false">https://54.87.153.110/?p=1075#comment-819</guid>
+
+					<description><![CDATA[Bigger than a hackathon sized problem :-
+
+ga.gov.au/eftf/minerals/nawa/cover-thickness - is something we have to deal with
+
+https://portal.ga.gov.au/persona/eftf]]></description>
+			<content:encoded><![CDATA[<p>Bigger than a hackathon sized problem :-</p>
+<p>ga.gov.au/eftf/minerals/nawa/cover-thickness &#8211; is something we have to deal with</p>
+<p><a href="https://portal.ga.gov.au/persona/eftf" rel="nofollow ugc">https://portal.ga.gov.au/persona/eftf</a></p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
 </rss>

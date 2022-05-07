@@ -3,72 +3,131 @@
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" 
+	
 	>
 <channel>
-	<title>Comments for Justin Gosses Home</title>
+	<title>
+	Comments for 	</title>
 	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Geology, GIS, and CODE + Resumes</description>
-	<lastBuildDate>Sat, 13 Jul 2019 05:20:39 +0000</lastBuildDate>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.11</generator>
+	<description>Geology, Maps, and Code</description>
+	<lastBuildDate>Wed, 23 Feb 2022 04:45:43 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 	<item>
-		<title>Comment on Geoscience to Data Science Starter Pack by Justin</title>
+		<title>
+		Comment on half-baked thoughts on predicting chronostratigraphic surfaces by Richard Scott		</title>
+		<link>/thoughts-on-machine-learning-predictions-of-chronostratigraphic-surfaces/#comment-820</link>
+
+		<dc:creator><![CDATA[Richard Scott]]></dc:creator>
+		<pubDate>Fri, 31 Jul 2020 04:18:19 +0000</pubDate>
+		<guid isPermaLink="false">https://54.87.153.110/?p=1075#comment-820</guid>
+
+					<description><![CDATA[Or https://www.ga.gov.au/eftf/minerals/nawa/cover-thickness to get a link!]]></description>
+			<content:encoded><![CDATA[<p>Or <a href="https://www.ga.gov.au/eftf/minerals/nawa/cover-thickness" rel="nofollow ugc">https://www.ga.gov.au/eftf/minerals/nawa/cover-thickness</a> to get a link!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on half-baked thoughts on predicting chronostratigraphic surfaces by Richard Scott		</title>
+		<link>/thoughts-on-machine-learning-predictions-of-chronostratigraphic-surfaces/#comment-819</link>
+
+		<dc:creator><![CDATA[Richard Scott]]></dc:creator>
+		<pubDate>Fri, 31 Jul 2020 04:17:42 +0000</pubDate>
+		<guid isPermaLink="false">https://54.87.153.110/?p=1075#comment-819</guid>
+
+					<description><![CDATA[Bigger than a hackathon sized problem :-
+
+ga.gov.au/eftf/minerals/nawa/cover-thickness - is something we have to deal with
+
+https://portal.ga.gov.au/persona/eftf]]></description>
+			<content:encoded><![CDATA[<p>Bigger than a hackathon sized problem :-</p>
+<p>ga.gov.au/eftf/minerals/nawa/cover-thickness &#8211; is something we have to deal with</p>
+<p><a href="https://portal.ga.gov.au/persona/eftf" rel="nofollow ugc">https://portal.ga.gov.au/persona/eftf</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Geoscience to Data Science Starter Pack by Justin		</title>
 		<link>/geologist-to-data-science-starter-pack/#comment-662</link>
+
 		<dc:creator><![CDATA[Justin]]></dc:creator>
 		<pubDate>Sat, 13 Jul 2019 05:20:39 +0000</pubDate>
-		<guid isPermaLink="false">/?p=1152#comment-662</guid>
-		<description><![CDATA[Thanks Eric!]]></description>
-		<content:encoded><![CDATA[<p>Thanks Eric!</p>
+		<guid isPermaLink="false">https://54.87.153.110/?p=1152#comment-662</guid>
+
+					<description><![CDATA[Thanks Eric!]]></description>
+			<content:encoded><![CDATA[<p>Thanks Eric!</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>Comment on Geoscience to Data Science Starter Pack by Eric</title>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Geoscience to Data Science Starter Pack by Eric		</title>
 		<link>/geologist-to-data-science-starter-pack/#comment-570</link>
+
 		<dc:creator><![CDATA[Eric]]></dc:creator>
 		<pubDate>Mon, 01 Apr 2019 02:08:08 +0000</pubDate>
-		<guid isPermaLink="false">/?p=1152#comment-570</guid>
-		<description><![CDATA[Thank for the update, Justin! I&#039;ve wandered off into GIS Analyst territory, and while it&#039;s nice (I get to go outside and map gas infrastructure), I miss using a terminal window and debugging scripts to get things done. Taking another look, and I headed back to your site for a refresh on our 2015 discussions... so I appreciate you keeping this fresh.]]></description>
-		<content:encoded><![CDATA[<p>Thank for the update, Justin! I&#8217;ve wandered off into GIS Analyst territory, and while it&#8217;s nice (I get to go outside and map gas infrastructure), I miss using a terminal window and debugging scripts to get things done. Taking another look, and I headed back to your site for a refresh on our 2015 discussions&#8230; so I appreciate you keeping this fresh.</p>
+		<guid isPermaLink="false">https://54.87.153.110/?p=1152#comment-570</guid>
+
+					<description><![CDATA[Thank for the update, Justin! I&#039;ve wandered off into GIS Analyst territory, and while it&#039;s nice (I get to go outside and map gas infrastructure), I miss using a terminal window and debugging scripts to get things done. Taking another look, and I headed back to your site for a refresh on our 2015 discussions... so I appreciate you keeping this fresh.]]></description>
+			<content:encoded><![CDATA[<p>Thank for the update, Justin! I&#8217;ve wandered off into GIS Analyst territory, and while it&#8217;s nice (I get to go outside and map gas infrastructure), I miss using a terminal window and debugging scripts to get things done. Taking another look, and I headed back to your site for a refresh on our 2015 discussions&#8230; so I appreciate you keeping this fresh.</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>Comment on Python Class Project &#8211; &#8220;Astroids&#8221; game by Python Online Training</title>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Python Class Project &#8211; &#8220;Astroids&#8221; game by Python Online Training		</title>
 		<link>/python-class-project-astroids/#comment-426</link>
+
 		<dc:creator><![CDATA[Python Online Training]]></dc:creator>
 		<pubDate>Sat, 15 Sep 2018 09:31:29 +0000</pubDate>
-		<guid isPermaLink="false">/?p=42#comment-426</guid>
-		<description><![CDATA[thanks for sharing nice infromation.....]]></description>
-		<content:encoded><![CDATA[<p>thanks for sharing nice infromation&#8230;..</p>
+		<guid isPermaLink="false">https://54.87.153.110/?p=42#comment-426</guid>
+
+					<description><![CDATA[thanks for sharing nice infromation.....]]></description>
+			<content:encoded><![CDATA[<p>thanks for sharing nice infromation&#8230;..</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>Comment on Raspberry Shake &#8211; Personal Seismometer by Justin</title>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Raspberry Shake &#8211; Personal Seismometer by Justin		</title>
 		<link>/raspberry-shake-personal-seismometer/#comment-117</link>
+
 		<dc:creator><![CDATA[Justin]]></dc:creator>
 		<pubDate>Sun, 05 Feb 2017 06:42:36 +0000</pubDate>
-		<guid isPermaLink="false">/?p=805#comment-117</guid>
-		<description><![CDATA[Branden, 
+		<guid isPermaLink="false">https://54.87.153.110/?p=805#comment-117</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/raspberry-shake-personal-seismometer/#comment-110&quot;&gt;Branden Christensen&lt;/a&gt;.
+
+Branden, 
 
 Yes, feel free to re-post the photos on your instagram account, absolutely.
 
 Justin
 www.justingosses.com]]></description>
-		<content:encoded><![CDATA[<p>Branden, </p>
+			<content:encoded><![CDATA[<p>In reply to <a href="/raspberry-shake-personal-seismometer/#comment-110">Branden Christensen</a>.</p>
+<p>Branden, </p>
 <p>Yes, feel free to re-post the photos on your instagram account, absolutely.</p>
 <p>Justin<br />
-<a href="http://www.justingosses.com/" rel="nofollow">http://www.justingosses.com/</a></p>
+<a href="http://www.justingosses.com/" rel="nofollow ugc">http://www.justingosses.com/</a></p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>Comment on Raspberry Shake &#8211; Personal Seismometer by Branden Christensen</title>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Raspberry Shake &#8211; Personal Seismometer by Branden Christensen		</title>
 		<link>/raspberry-shake-personal-seismometer/#comment-110</link>
+
 		<dc:creator><![CDATA[Branden Christensen]]></dc:creator>
 		<pubDate>Fri, 03 Feb 2017 16:50:57 +0000</pubDate>
-		<guid isPermaLink="false">/?p=805#comment-110</guid>
-		<description><![CDATA[Justin:
+		<guid isPermaLink="false">https://54.87.153.110/?p=805#comment-110</guid>
+
+					<description><![CDATA[Justin:
 
 
 Awesome post! Thanks for the kind words and your support as a Kickstarter backer. Everyone here on the Raspberry Shake team is working hard to make Raspberry Shake as good as possible. And this kind of feedback fuels the fire. 
@@ -79,66 +138,62 @@ I would love to re-post your photos on our Instagram page at @raspberryshake (ht
 Yours, Branden Christensen
 Director of the Raspberry Shake Project
 #raspberryshake]]></description>
-		<content:encoded><![CDATA[<p>Justin:</p>
+			<content:encoded><![CDATA[<p>Justin:</p>
 <p>Awesome post! Thanks for the kind words and your support as a Kickstarter backer. Everyone here on the Raspberry Shake team is working hard to make Raspberry Shake as good as possible. And this kind of feedback fuels the fire. </p>
-<p>I would love to re-post your photos on our Instagram page at @raspberryshake (<a href="https://www.instagram.com/raspberryshake/" rel="nofollow">https://www.instagram.com/raspberryshake/</a>). Cool if I do that?</p>
+<p>I would love to re-post your photos on our Instagram page at @raspberryshake (<a href="https://www.instagram.com/raspberryshake/" rel="nofollow ugc">https://www.instagram.com/raspberryshake/</a>). Cool if I do that?</p>
 <p>Yours, Branden Christensen<br />
 Director of the Raspberry Shake Project<br />
 #raspberryshake</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>Comment on Nodebots by Nolan</title>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Nodebots by Nolan		</title>
 		<link>/nodebots/#comment-51</link>
+
 		<dc:creator><![CDATA[Nolan]]></dc:creator>
 		<pubDate>Fri, 05 Aug 2016 18:31:29 +0000</pubDate>
-		<guid isPermaLink="false">/?p=662#comment-51</guid>
-		<description><![CDATA[Really interesting to get an attendee&#039;s perspective on the event Justin - great write-up!
+		<guid isPermaLink="false">https://54.87.153.110/?p=662#comment-51</guid>
+
+					<description><![CDATA[Really interesting to get an attendee&#039;s perspective on the event Justin - great write-up!
 
 I&#039;ve gone ahead and added a link to this post in our recap of the day&#039;s events ( https://nodejshouston.github.io/bots/ ), along with some photos and video.]]></description>
-		<content:encoded><![CDATA[<p>Really interesting to get an attendee&#8217;s perspective on the event Justin &#8211; great write-up!</p>
-<p>I&#8217;ve gone ahead and added a link to this post in our recap of the day&#8217;s events ( <a href="https://nodejshouston.github.io/bots/" rel="nofollow">https://nodejshouston.github.io/bots/</a> ), along with some photos and video.</p>
+			<content:encoded><![CDATA[<p>Really interesting to get an attendee&#8217;s perspective on the event Justin &#8211; great write-up!</p>
+<p>I&#8217;ve gone ahead and added a link to this post in our recap of the day&#8217;s events ( <a href="https://nodejshouston.github.io/bots/" rel="nofollow ugc">https://nodejshouston.github.io/bots/</a> ), along with some photos and video.</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>Comment on Nodebots by Justin</title>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Nodebots by Justin		</title>
 		<link>/nodebots/#comment-50</link>
+
 		<dc:creator><![CDATA[Justin]]></dc:creator>
 		<pubDate>Fri, 05 Aug 2016 04:47:53 +0000</pubDate>
-		<guid isPermaLink="false">/?p=662#comment-50</guid>
-		<description><![CDATA[Thanks for catching that Kelsey!]]></description>
-		<content:encoded><![CDATA[<p>Thanks for catching that Kelsey!</p>
+		<guid isPermaLink="false">https://54.87.153.110/?p=662#comment-50</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/nodebots/#comment-49&quot;&gt;Kelsey&lt;/a&gt;.
+
+Thanks for catching that Kelsey!]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/nodebots/#comment-49">Kelsey</a>.</p>
+<p>Thanks for catching that Kelsey!</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>Comment on Nodebots by Kelsey</title>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Nodebots by Kelsey		</title>
 		<link>/nodebots/#comment-49</link>
+
 		<dc:creator><![CDATA[Kelsey]]></dc:creator>
 		<pubDate>Tue, 02 Aug 2016 05:04:09 +0000</pubDate>
-		<guid isPermaLink="false">/?p=662#comment-49</guid>
-		<description><![CDATA[Great blog post, glad to hear it went so well! Quick link fix, though, please: the Tessel getting started instructions you have linked right now point to Tessel 1 instructions; T2 instructions are at tessel.io/start. Can be very frustrating for folks trying to get started with T2 who don&#039;t realize they&#039;re working with the wrong instruction set. :) Kelsey]]></description>
-		<content:encoded><![CDATA[<p>Great blog post, glad to hear it went so well! Quick link fix, though, please: the Tessel getting started instructions you have linked right now point to Tessel 1 instructions; T2 instructions are at tessel.io/start. Can be very frustrating for folks trying to get started with T2 who don&#8217;t realize they&#8217;re working with the wrong instruction set. 🙂 Kelsey</p>
+		<guid isPermaLink="false">https://54.87.153.110/?p=662#comment-49</guid>
+
+					<description><![CDATA[Great blog post, glad to hear it went so well! Quick link fix, though, please: the Tessel getting started instructions you have linked right now point to Tessel 1 instructions; T2 instructions are at tessel.io/start. Can be very frustrating for folks trying to get started with T2 who don&#039;t realize they&#039;re working with the wrong instruction set. :) Kelsey]]></description>
+			<content:encoded><![CDATA[<p>Great blog post, glad to hear it went so well! Quick link fix, though, please: the Tessel getting started instructions you have linked right now point to Tessel 1 instructions; T2 instructions are at tessel.io/start. Can be very frustrating for folks trying to get started with T2 who don&#8217;t realize they&#8217;re working with the wrong instruction set. 🙂 Kelsey</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>Comment on Signed Up For The Iron Yard 12 week Course by Gabriel</title>
-		<link>/signed-up-for-the-iron-yard-12-week-course/#comment-16</link>
-		<dc:creator><![CDATA[Gabriel]]></dc:creator>
-		<pubDate>Thu, 11 Feb 2016 21:14:28 +0000</pubDate>
-		<guid isPermaLink="false">/?p=296#comment-16</guid>
-		<description><![CDATA[Would love to chat about this. I&#039;m interviewing on monday!]]></description>
-		<content:encoded><![CDATA[<p>Would love to chat about this. I&#8217;m interviewing on monday!</p>
-]]></content:encoded>
-	</item>
-	<item>
-		<title>Comment on ArcGIS Hackathon-ish by ArcGIS Online WebMaps and MapApps &#124; Justin Gosses Home</title>
-		<link>/arcgis_hackathon/#comment-9</link>
-		<dc:creator><![CDATA[ArcGIS Online WebMaps and MapApps &#124; Justin Gosses Home]]></dc:creator>
-		<pubDate>Sat, 09 Jan 2016 07:02:14 +0000</pubDate>
-		<guid isPermaLink="false">/?p=265#comment-9</guid>
-		<description><![CDATA[[&#8230;] EDIT: For more information on ArcGIS online development tools, check out this  more recent post. [&#8230;]]]></description>
-		<content:encoded><![CDATA[<p>[&#8230;] EDIT: For more information on ArcGIS online development tools, check out this  more recent post. [&#8230;]</p>
-]]></content:encoded>
-	</item>
-</channel>
+		
+			</item>
+	</channel>
 </rss>

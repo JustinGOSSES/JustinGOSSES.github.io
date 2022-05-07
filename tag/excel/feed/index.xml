@@ -5,32 +5,35 @@
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+	>
 
 <channel>
-	<title>excel &#8211; Justin Gosses Home</title>
+	<title>excel</title>
 	<atom:link href="/tag/excel/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Geology, GIS, and CODE + Resumes</description>
-	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<description>Geology, Maps, and Code</description>
+	<lastBuildDate>Tue, 22 Nov 2016 04:32:36 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.11</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 
 <image>
-	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
-	<title>excel &#8211; Justin Gosses Home</title>
+	<url>/wp-content/uploads/2017/02/cropped-JustinGosses_logo-32x32.jpg</url>
+	<title>excel</title>
 	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
-<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+	<item>
 		<title>Meet Up Talk Data Viz Tools</title>
 		<link>/talk-on-changing-landscape-of-data-viz-tools/</link>
-		<comments>/talk-on-changing-landscape-of-data-viz-tools/#respond</comments>
-		<pubDate>Tue, 22 Nov 2016 04:02:11 +0000</pubDate>
+					<comments>/talk-on-changing-landscape-of-data-viz-tools/#respond</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Tue, 22 Nov 2016 04:02:11 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[business intelligence]]></category>
 		<category><![CDATA[Chart.js]]></category>
@@ -50,18 +53,23 @@
 		<category><![CDATA[Tableau]]></category>
 		<category><![CDATA[timeline.js]]></category>
 		<category><![CDATA[visicalc]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=768</guid>
 
-		<guid isPermaLink="false">/?p=768</guid>
-		<description><![CDATA[<p>&#8220;THE CHANGING LANDSCAPE OF DATA VISUALIZATION TOOLS IN LARGE ORGANIZATIONS&#8221;I recently gave a talk at the Houston Data Visualization meet-up. In addition to being a good excuse for putting time on my calendar to research the evolution of data visualization tools over the past 40 years, the talk allowed me to try out a few presentation<a href="/talk-on-changing-landscape-of-data-viz-tools/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/talk-on-changing-landscape-of-data-viz-tools/">Meet Up Talk Data Viz Tools</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<h3>&#8220;THE CHANGING LANDSCAPE OF DATA VISUALIZATION TOOLS IN LARGE ORGANIZATIONS&#8221;</h3><p>I recently gave a talk at the <a href="https://www.meetup.com/Houston-Data-Visualization-Meetup/events/233893631/">Houston Data Visualization meet-up</a>. In addition to being a good excuse for putting time on my calendar to research the evolution of data visualization tools over the past 40 years, the talk allowed me to try out a few presentation related tools. <a href="https://github.com/hakimel/reveal.js/" target="blank">Reveal.js</a> is a user friendly framework for making presentations that consist of html, css, and JavaScript, just like any normal webpage. <a href="https://slides.com/" target="blank">Slides.com</a> is a hosting and GUI site for reveal.js slides. One of the best features of slides.com was being able to control the slides on my computer via my phone. This enabled me to walk around and not be as tied to my computer or rely on someone else to advance the slides. It also provides a nice way to briefly look down as you flip slides and sneak a glance at speakers notes. I used <a href="https://timeline.knightlab.com/" target="blank">timeline.js</a> from the <a href="https://knightlab.northwestern.edu/" target="blank">Knight Lab</a> at Northwestern university to create a timeline of key tool development that I referred to several times during the talk.</p><p>All the data for the presentation is in <a href="https://github.com/JustinGOSSES/talk_HistDVTools" target="blank"> this</a> github repo. I hope to revisit this presentation to take a second stab at it or perhaps turn it into a series of blog posts for work.</p><p>&nbsp;</p><p><iframe src="//slides.com/justingosses/dataviztoolshistorylargeorg/embed" width="800" height="460" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
-<p style="text-align: center;"><a href="http://slides.com/justingosses/dataviztoolshistorylargeorg#/">click to view as a full window on a new tab</a></p><p><iframe style="border: 1px solid lightgrey;" src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1O32FBDYO16WjoFSCsWS1d0oEuRo0C00q633nhhGZlNE&font=Default&lang=en&initial_zoom=2&height=800" width="800" height="800" scrolling="yes" allowfullscreen="allowfullscreen"></iframe></p>
-<p style="text-align: center;"><a href="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1O32FBDYO16WjoFSCsWS1d0oEuRo0C00q633nhhGZlNE&font=Default&lang=en&initial_zoom=2&height=650">click to view as a full window on a new tab</a></p>
-<p>The post <a rel="nofollow" href="/talk-on-changing-landscape-of-data-viz-tools/">Meet Up Talk Data Viz Tools</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+					<description><![CDATA[&#8220;THE CHANGING LANDSCAPE OF DATA VISUALIZATION TOOLS IN LARGE ORGANIZATIONS&#8221; I recently gave a talk at the Houston Data Visualization meet-up. In addition to being a good excuse for putting time on my calendar to research the evolution of data visualization tools over the past 40 years, the talk allowed me<a class="moretag" href="/talk-on-changing-landscape-of-data-viz-tools/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<h3>&#8220;THE CHANGING LANDSCAPE OF DATA VISUALIZATION TOOLS IN LARGE ORGANIZATIONS&#8221;</h3>
+<p>I recently gave a talk at the <a href="https://www.meetup.com/Houston-Data-Visualization-Meetup/events/233893631/">Houston Data Visualization meet-up</a>. In addition to being a good excuse for putting time on my calendar to research the evolution of data visualization tools over the past 40 years, the talk allowed me to try out a few presentation related tools. <a href="https://github.com/hakimel/reveal.js/" target="blank">Reveal.js</a> is a user friendly framework for making presentations that consist of html, css, and JavaScript, just like any normal webpage. <a href="https://slides.com/" target="blank">Slides.com</a> is a hosting and GUI site for reveal.js slides. One of the best features of slides.com was being able to control the slides on my computer via my phone. This enabled me to walk around and not be as tied to my computer or rely on someone else to advance the slides. It also provides a nice way to briefly look down as you flip slides and sneak a glance at speakers notes. I used <a href="https://timeline.knightlab.com/" target="blank">timeline.js</a> from the <a href="https://knightlab.northwestern.edu/" target="blank">Knight Lab</a> at Northwestern university to create a timeline of key tool development that I referred to several times during the talk.</p>
+<p>All the data for the presentation is in <a href="https://github.com/JustinGOSSES/talk_HistDVTools" target="blank"> this</a> github repo. I hope to revisit this presentation to take a second stab at it or perhaps turn it into a series of blog posts for work.</p>
+<p>&nbsp;</p>
+<p><iframe loading="lazy" src="//slides.com/justingosses/dataviztoolshistorylargeorg/embed" width="800" height="460" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"><a href="http://slides.com/justingosses/dataviztoolshistorylargeorg#/">click to view as a full window on a new tab</a></p>
+<p><iframe loading="lazy" style="border: 1px solid lightgrey;" src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1O32FBDYO16WjoFSCsWS1d0oEuRo0C00q633nhhGZlNE&amp;font=Default&amp;lang=en&amp;initial_zoom=2&amp;height=800" width="800" height="800" scrolling="yes" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"><a href="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1O32FBDYO16WjoFSCsWS1d0oEuRo0C00q633nhhGZlNE&amp;font=Default&amp;lang=en&amp;initial_zoom=2&amp;height=650">click to view as a full window on a new tab</a></p>
 ]]></content:encoded>
-			<wfw:commentRss>/talk-on-changing-landscape-of-data-viz-tools/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">768</post-id>	</item>
+					
+					<wfw:commentRss>/talk-on-changing-landscape-of-data-viz-tools/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	</channel>
 </rss>

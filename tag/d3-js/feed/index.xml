@@ -5,32 +5,305 @@
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+	>
 
 <channel>
-	<title>d3.js &#8211; Justin Gosses Home</title>
+	<title>d3.js</title>
 	<atom:link href="/tag/d3-js/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Geology, GIS, and CODE + Resumes</description>
-	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<description>Geology, Maps, and Code</description>
+	<lastBuildDate>Fri, 17 Dec 2021 17:25:47 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.11</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 
 <image>
-	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
-	<title>d3.js &#8211; Justin Gosses Home</title>
+	<url>/wp-content/uploads/2017/02/cropped-JustinGosses_logo-32x32.jpg</url>
+	<title>d3.js</title>
 	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
-<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+	<item>
+		<title>What if Awesome Lists weren&#8217;t just lists, but enabled views of the open source community?</title>
+		<link>/what-if-awesome-lists-werent-just-lists-but-enabled-views-of-the-open-source-community/</link>
+					<comments>/what-if-awesome-lists-werent-just-lists-but-enabled-views-of-the-open-source-community/#respond</comments>
+		
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Tue, 01 Jun 2021 03:34:52 +0000</pubDate>
+				<category><![CDATA[code]]></category>
+		<category><![CDATA[awesome]]></category>
+		<category><![CDATA[d3.js]]></category>
+		<category><![CDATA[data-visualization]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[Open-Source]]></category>
+		<category><![CDATA[Reuse]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=1392</guid>
+
+					<description><![CDATA[Awesome lists are…. awesome. But could they be even more useful? What if instead of just a curated list you also got a view into a wider community? NOTE 1: this is was also written up on Medium and is described from a slightly different perspective in these slides on<a class="moretag" href="/what-if-awesome-lists-werent-just-lists-but-enabled-views-of-the-open-source-community/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[
+<p><em>Awesome lists are…. awesome. But could they be even more useful? What if instead of just a curated list you also got a view into a wider community?</em></p>
+
+
+
+<blockquote class="wp-block-quote"><p>NOTE 1:  this is was also written up on <a href="https://justingosses.medium.com/beyond-awesome-lists-3ccb074f7859">Medium</a> and is described from a slightly different perspective in <a href="https://observablehq.com/@justingosses/more-visible-connections-between-projects-can-nudge-devel">these slides</a> on Observable.</p><p>NOTE 2: Since writing this blog post, I&#8217;ve continued working on this idea and  <a href="https://github.com/JustinGOSSES/awsome-list-visual-explorer-template">made a reusable template</a> that you can use to start a new code repository, change a few lines in a configuration file, run two scripts, and get a whole new website with interactive visualizations to help you understand the code community documented in an Awesome List.</p></blockquote>
+
+
+
+<h2 id="8747">What is an Awesome list?</h2>
+
+
+
+<p id="dd3d">An Awesome List is a community curated list of code projects within a specific domain, application, or use case. You can read more in the “<a href="https://github.com/sindresorhus/awesome/blob/main/awesome.md">Awesome Manifesto</a>” on&nbsp;<a href="https://github.com/sindresorhus">sindresorhus</a>/<a href="https://github.com/sindresorhus/awesome">awesome</a>.</p>
+
+
+
+<p><a href="https://54.87.153.110/what-if-awesome-lists-werent-just-lists-but-enabled-views-of-the-open-source-community/">View Post</a></p>
+
+
+
+<p id="ceaf">They are great places to first look for open&nbsp;source code projects that others have found highly use in your problem space, be it markdown editors, JavaScript data visualization, Jupyter notebook widgets, GraphQL, spatial analysis, robotics, or&nbsp;<a href="https://project-awesome.org/phillipadsmith/awesome-github">hundreds</a>&nbsp;of other things. Other places people might discover code are word of mouth, google searches, trolling GitHub, seeing the packages used in other code, or having it recommended by a mentor or peer.</p>
+
+
+
+<blockquote class="wp-block-quote"><p><em>Searching for useful code projects is an investment of time. Anything that shortens that time, and enables a developer to reuse code instead of starting from scratch, offers big rewards in terms of time savings.</em></p></blockquote>
+
+
+
+<h2 id="ac5f">What Makes Awesome Lists so Successful?</h2>
+
+
+
+<p id="4e6a">This is mostly guesswork on my part, but I’d say the success of the “Awesome List” form is some combination of the following characteristics:</p>
+
+
+
+<ol><li><strong>Easy to start</strong>&nbsp;(<em>Start a repository with a single README.md file</em>)</li><li><strong>Easy to contribute</strong>&nbsp;to (<em>Edit a single line in a markdown file</em>)</li><li><strong>Fills a need</strong>&nbsp;(E<em>very developer searches for new code tools)</em></li><li><strong>Builds a community</strong>&nbsp;(<em>They have a very large number of contributors. People come back to check the list from time to time. People send links to it to others.</em>)</li></ol>
+
+
+
+<h2 id="5b41">What do Awesome Lists Not do Well?</h2>
+
+
+
+<p id="6908">As a curated list, they provide a signal of potential value. To be included on an Awesome List, someone has to say a project is “Awesome”.</p>
+
+
+
+<p id="a9d8">However, there are a variety of other types of information that would useful to know when evaluating what code project to use or what project to contribute to that Awesome Lists don’t provide. They include:</p>
+
+
+
+<ol><li>How popular each code project is?</li><li>Is the rate this new code project is growing in popularity unusual relative to similar code projects in the past?</li><li>What code projects are used by other code projects within the domain space as a dependency and therefore you might want to learn about?</li><li>What code projects share dependencies and probably do related things?</li><li>What code projects share contributors?</li><li>What organizations own the most code projects in that domain/problem/solution space?</li></ol>
+
+
+
+<blockquote class="wp-block-quote"><p><em>The interesting thing is, the information to get at all these questions exists, it just doesn’t exist in an easy to access to form most of the time.</em></p></blockquote>
+
+
+
+<p id="3a21">All of the questions above can be answered with metadata extracted via GitHub’s or Gitlab’s API. Even the dependency information, which was hard to get at several years ago, is now extracted by code platforms are a service and available from their APIs.</p>
+
+
+
+<h2 id="3a57">Lawerence Livermore National Laboratory’s Software Catalog’s Explore Pages</h2>
+
+
+
+<p id="aa53">A great example of harvesting this type of metadata using GitHub’s API and turning it into insightful visualizations is the&nbsp;<a href="https://software.llnl.gov/">explore&nbsp;</a>section of Lawerence Livermore National Laboratory’s Software (LLNL) Catalog.</p>
+
+
+
+<p id="e697"><strong>Wanting to understand similar relationships for subsurface geoscience code, I decided to adapt LLNL’s project such that instead of visualization Lawerence Livermore National Laboratory’s code catalog, it was visualizing the code curated in&nbsp;</strong><a href="https://softwareunderground.org/"><strong>Software Underground</strong></a><strong>’s&nbsp;</strong><a href="https://github.com/softwareunderground/awesome-open-geoscience"><strong>Awesome-Open-Geoscience</strong></a><strong>&nbsp;awesome list.</strong></p>
+
+
+
+<p id="c51c">The Awesome-Open-Geoscience awesome list was started by myself and several other members of&nbsp;<a href="https://softwareunderground.org/">Software Underground</a>, or SWUNG, in October of 2017. As of May 2021, it has 127 watchers, 720 stars, and 51 different contributors. It the most popular repository if you search “geoscience” on GitHub.com.</p>
+
+
+
+<p id="7c70">Adapting&nbsp;<a href="https://github.com/LLNL/llnl.github.io">llnl.github.io</a>&nbsp;to make&nbsp;<a href="https://github.com/softwareunderground/open_geosciene_code_projects_viz">open_geosciene_code_projects_viz</a>&nbsp;wasn’t as easy as cloning it and re-running a script as the repository is less a tool and more a product. I had to remove lots of LLNL specific content, edit file paths, and replace bits of html, CSS, and JavaScript throughout the project. There’s still some work to get it to a place to where anyone else with a list of repositories they want to understand could clone the repository, change some lines in a configuration file, re-run a few scripts, and deploy as a GitHub pages page, but it’s getting there. Switching it from LLNL to SWUNG took me several days of work. Switching it for SWUNG to something else took me less than a day.</p>
+
+
+
+<blockquote class="wp-block-quote"><p><em>Ideally, it would great if it only take a couple hours of work to repopulate all the pages and visualizations for another Awesome list.</em></p></blockquote>
+
+
+
+<h2 id="67d9">Visualizations that show the community connections across the repositories curated in an Awesome List</h2>
+
+
+
+<p class="has-text-align-center" id="5069"><strong><em>Beyond “curated list” and into “community level view”</em></strong></p>
+
+
+
+<p id="c69b">The visualizations father down are static images, but the first one is an iframe embed. Most of the visualizations are interactive so best explored on the actual&nbsp;<a href="https://softwareunderground.github.io/open_geosciene_code_projects_viz/">website</a>. The data visualizations allow for many questions to answered that provide a community level view of the code projects curated on the Awesome list.</p>
+
+
+
+<div class="wp-block-image is-style-default"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="http://54.87.153.110/wp-content/uploads/2021/05/image-1024x439.png" alt="" class="wp-image-1403" width="1024" height="439" srcset="/wp-content/uploads/2021/05/image-1024x439.png 1024w, /wp-content/uploads/2021/05/image-300x129.png 300w, /wp-content/uploads/2021/05/image-768x329.png 768w, /wp-content/uploads/2021/05/image-1536x659.png 1536w, /wp-content/uploads/2021/05/image-2048x879.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p class="has-text-align-center" id="5721"><em>How often does a new code project in this space appear? How old are the older ones?</em></p>
+
+
+
+<div class="wp-block-image is-style-default"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="http://54.87.153.110/wp-content/uploads/2021/05/image-1-1024x429.png" alt="" class="wp-image-1404" width="781" height="326" srcset="/wp-content/uploads/2021/05/image-1-1024x429.png 1024w, /wp-content/uploads/2021/05/image-1-300x126.png 300w, /wp-content/uploads/2021/05/image-1-768x322.png 768w, /wp-content/uploads/2021/05/image-1-1536x644.png 1536w" sizes="(max-width: 781px) 100vw, 781px" /></figure></div>
+
+
+
+<p class="has-text-align-center" id="3dbd"><em>How fast are people starting this new project versus older projects?</em></p>
+
+
+
+<p class="has-text-align-center" id="69b8"><em>Has the number of new stars flatlined as people migrate to a new project?</em></p>
+
+
+
+<figure class="wp-block-image size-large is-resized is-style-default"><img loading="lazy" src="http://54.87.153.110/wp-content/uploads/2021/05/image-2-1024x399.png" alt="" class="wp-image-1405" width="767" height="298" srcset="/wp-content/uploads/2021/05/image-2-1024x399.png 1024w, /wp-content/uploads/2021/05/image-2-300x117.png 300w, /wp-content/uploads/2021/05/image-2-768x299.png 768w, /wp-content/uploads/2021/05/image-2-1536x598.png 1536w, /wp-content/uploads/2021/05/image-2.png 2044w" sizes="(max-width: 767px) 100vw, 767px" /></figure>
+
+
+
+<p class="has-text-align-center" id="0f08"><em>What are the most common languages within this Awesome list?</em></p>
+
+
+
+<p class="has-text-align-center" id="2f05"><em>What topics are the most common across all projects?</em></p>
+
+
+
+<figure class="wp-block-image size-large is-resized is-style-default"><img loading="lazy" src="http://54.87.153.110/wp-content/uploads/2021/05/image-3-1024x612.png" alt="" class="wp-image-1406" width="735" height="438" srcset="/wp-content/uploads/2021/05/image-3-1024x612.png 1024w, /wp-content/uploads/2021/05/image-3-300x179.png 300w, /wp-content/uploads/2021/05/image-3-768x459.png 768w, /wp-content/uploads/2021/05/image-3-1536x918.png 1536w, /wp-content/uploads/2021/05/image-3-2048x1224.png 2048w" sizes="(max-width: 735px) 100vw, 735px" /></figure>
+
+
+
+<p class="has-text-align-center" id="0a06"><em>What organization or developer owns the most projects on the Awesome list?</em></p>
+
+
+
+<p class="has-text-align-center" id="63e9"><em>What projects only have contributions from the code owners vs. contributions from many external parties and therefore might be better places to submit a pull request?</em></p>
+
+
+
+<figure class="wp-block-image size-large is-resized is-style-default"><img loading="lazy" src="http://54.87.153.110/wp-content/uploads/2021/05/image-4-1024x395.png" alt="" class="wp-image-1407" width="726" height="279" srcset="/wp-content/uploads/2021/05/image-4-1024x395.png 1024w, /wp-content/uploads/2021/05/image-4-300x116.png 300w, /wp-content/uploads/2021/05/image-4-768x296.png 768w, /wp-content/uploads/2021/05/image-4-1536x593.png 1536w, /wp-content/uploads/2021/05/image-4-2048x790.png 2048w" sizes="(max-width: 726px) 100vw, 726px" /></figure>
+
+
+
+<p class="has-text-align-center" id="9959">Has activity jumped around a conference or other event?</p>
+
+
+
+<figure class="wp-block-image size-large is-resized is-style-default"><img loading="lazy" src="http://54.87.153.110/wp-content/uploads/2021/05/image-5-1024x520.png" alt="" class="wp-image-1408" width="735" height="373" srcset="/wp-content/uploads/2021/05/image-5-1024x520.png 1024w, /wp-content/uploads/2021/05/image-5-300x152.png 300w, /wp-content/uploads/2021/05/image-5-768x390.png 768w, /wp-content/uploads/2021/05/image-5-1536x780.png 1536w, /wp-content/uploads/2021/05/image-5-2048x1040.png 2048w" sizes="(max-width: 735px) 100vw, 735px" /></figure>
+
+
+
+<p class="has-text-align-center" id="00bb"><em>What projects on the Awesome list are used as a dependency by other projects on the Awesome list?</em></p>
+
+
+
+<p class="has-text-align-center" id="0ad1"><em>Where to make contributions such that your code is reused by the highest number of projects?</em></p>
+
+
+
+<p class="has-text-align-center" id="0ebd"><em>What projects are built entirely different than the norm?</em></p>
+
+
+
+<p class="has-text-align-center" id="9bbb"><em>What projects is it more likely you could jump in and contribute to as the dependencies are already very similar to your existing work?</em></p>
+
+
+
+<figure class="wp-block-image size-large is-resized is-style-default"><img loading="lazy" src="http://54.87.153.110/wp-content/uploads/2021/05/image-6-1024x790.png" alt="" class="wp-image-1409" width="760" height="586" srcset="/wp-content/uploads/2021/05/image-6-1024x790.png 1024w, /wp-content/uploads/2021/05/image-6-300x232.png 300w, /wp-content/uploads/2021/05/image-6-768x593.png 768w, /wp-content/uploads/2021/05/image-6-1536x1185.png 1536w, /wp-content/uploads/2021/05/image-6.png 1866w" sizes="(max-width: 760px) 100vw, 760px" /></figure>
+
+
+
+<p class="has-text-align-center" id="a792"><em>Picking a license can be hard. Is there a pattern in terms of what others in your community have gone with? Can you use this to help guide your choice?</em></p>
+
+
+
+<h2 id="f3a0">Additional Questions that Could be Answered that Would “Nudge” Developers</h2>
+
+
+
+<p id="7aba">As you might have already concluded from the questions that the visualizations help answer above, visualizing these type of information can nudge developers in ways the help direct development activity. This means visualizing the community of open source subsurface geoscience code has the potential to change how it develops in small ways. Thinking about it in this framing also helps suggest what future visualizations might have value.</p>
+
+
+
+<p id="f751"><strong>Connection that could be made visible…&nbsp;</strong>What repositories share dependencies and therefore do somewhat similar stuff?&nbsp;<strong>…which could nudge&nbsp;</strong>developers to understand code as related groups and not hundreds of non-related entities</p>
+
+
+
+<p id="6dd9"><strong>Connection that could be made visible…&nbsp;</strong>What code projects are used by projects I care about?&nbsp;<strong>…which could nudge&nbsp;</strong>developers to contribute to repositories that more people/projects depend on.</p>
+
+
+
+<p id="5d7d"><strong>Connection that could be made visible…&nbsp;</strong>Do you and someone else contribute to the same repos? Is there a group of people that tend to contribute to the same repos?<strong>…which could nudge&nbsp;</strong>developers to reach out to specific people forming community.</p>
+
+
+
+<h2 id="2936">The tech stack to get “Community Level View” from “Curated List”</h2>
+
+
+
+<p id="c740"><em>So is this code at a place where anyone with an Awesome List, software catalog, or other type of list of repositories could easily re-run and deploy their own version?</em></p>
+
+
+
+<p id="cc0e"><em>Unfortunately,&nbsp;</em><strong><em>Not yet.</em></strong></p>
+
+
+
+<p id="5a9f">As noted above, converting the existing LLNL software catalog into&nbsp;<a href="https://github.com/softwareunderground/open_geosciene_code_projects_viz">open_geoscience_code_projects_visualization</a>&nbsp;took a while. It was started during a&nbsp;<a href="https://softwareunderground.org/events/transform-2021">hackathon</a>&nbsp;but probably took 2–3 days of full time work. The current version is easier to adapt to another list but it would probably take at least a full day for someone unfamiliar with the code base. Additionally, repositories aren’t being pulled directly from the Awesome List programmatically, so any additions in the Awesome List would need to be added manually currently.</p>
+
+
+
+<p id="96a4">We can talk about possible futures, though.</p>
+
+
+
+<blockquote class="wp-block-quote"><p><em>In an ideal world, it would be easy and quick to take an existing Awesome Lists and create all these visualizations for the repositories categorized on that list. The visualizations would also stay up to date with the Awesome List.</em></p></blockquote>
+
+
+
+<p id="8778"><strong>Future Requirements:</strong></p>
+
+
+
+<ol><li>An Awesome List scrapper to pull out GitHub repository links. [<em><a href="updated: don">done</a></em>]</li><li>A GitHub Actions script to do number 2 above and popular the input_list.json file of all the repositories to be visualized. This could be scheduled to check for updates on some interval. [<em>updated: done</em>]</li><li>Documentation for how to easily add new or update existing visualizations in the explore section pages, such that changes can be easily integrated into already deployed forks. [<em>No work done on this yet</em>]</li><li>Remove more of the list specific content in HTML and Markdown files and have it instead be populated programmatically from the key:value pairs in the _config.yml file in order to get the initial deployment down to a couple hours from several days. [<em>updated: this is 90% complete in <a href="https://github.com/JustinGOSSES/awsome-list-visual-explorer-template">this new template repository</a></em>]</li></ol>
+
+
+
+<p id="8e44">More thoughts on this can be found in&nbsp;<a href="https://github.com/softwareunderground/open_geosciene_code_projects_viz">this</a>&nbsp;markdown file.</p>
+
+
+
+<h2 id="ace2">How You Can Contribute</h2>
+
+
+
+<p id="3b71">Since writing this blog post, I&#8217;ve made a reusable template repository at <a href="https://github.com/JustinGOSSES/awsome-list-visual-explorer-template">https://github.com/JustinGOSSES/awsome-list-visual-explorer-template</a>. You can use it to start a new repository, change a few lines in a configuration file, run two scripts, and a whole new website with visualizations to help you understand the code community documented in an Awesome List will be created. <br><br><a href="https://github.com/JustinGOSSES/awsome-list-visual-explorer-template">This</a> is still in beta, so there is lots to contribute towards in terms of making it easy and obvious how to use. </p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/what-if-awesome-lists-werent-just-lists-but-enabled-views-of-the-open-source-community/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Meet Up Talk Data Viz Tools</title>
 		<link>/talk-on-changing-landscape-of-data-viz-tools/</link>
-		<comments>/talk-on-changing-landscape-of-data-viz-tools/#respond</comments>
-		<pubDate>Tue, 22 Nov 2016 04:02:11 +0000</pubDate>
+					<comments>/talk-on-changing-landscape-of-data-viz-tools/#respond</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Tue, 22 Nov 2016 04:02:11 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[business intelligence]]></category>
 		<category><![CDATA[Chart.js]]></category>
@@ -50,25 +323,31 @@
 		<category><![CDATA[Tableau]]></category>
 		<category><![CDATA[timeline.js]]></category>
 		<category><![CDATA[visicalc]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=768</guid>
 
-		<guid isPermaLink="false">/?p=768</guid>
-		<description><![CDATA[<p>&#8220;THE CHANGING LANDSCAPE OF DATA VISUALIZATION TOOLS IN LARGE ORGANIZATIONS&#8221;I recently gave a talk at the Houston Data Visualization meet-up. In addition to being a good excuse for putting time on my calendar to research the evolution of data visualization tools over the past 40 years, the talk allowed me to try out a few presentation<a href="/talk-on-changing-landscape-of-data-viz-tools/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/talk-on-changing-landscape-of-data-viz-tools/">Meet Up Talk Data Viz Tools</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<h3>&#8220;THE CHANGING LANDSCAPE OF DATA VISUALIZATION TOOLS IN LARGE ORGANIZATIONS&#8221;</h3><p>I recently gave a talk at the <a href="https://www.meetup.com/Houston-Data-Visualization-Meetup/events/233893631/">Houston Data Visualization meet-up</a>. In addition to being a good excuse for putting time on my calendar to research the evolution of data visualization tools over the past 40 years, the talk allowed me to try out a few presentation related tools. <a href="https://github.com/hakimel/reveal.js/" target="blank">Reveal.js</a> is a user friendly framework for making presentations that consist of html, css, and JavaScript, just like any normal webpage. <a href="https://slides.com/" target="blank">Slides.com</a> is a hosting and GUI site for reveal.js slides. One of the best features of slides.com was being able to control the slides on my computer via my phone. This enabled me to walk around and not be as tied to my computer or rely on someone else to advance the slides. It also provides a nice way to briefly look down as you flip slides and sneak a glance at speakers notes. I used <a href="https://timeline.knightlab.com/" target="blank">timeline.js</a> from the <a href="https://knightlab.northwestern.edu/" target="blank">Knight Lab</a> at Northwestern university to create a timeline of key tool development that I referred to several times during the talk.</p><p>All the data for the presentation is in <a href="https://github.com/JustinGOSSES/talk_HistDVTools" target="blank"> this</a> github repo. I hope to revisit this presentation to take a second stab at it or perhaps turn it into a series of blog posts for work.</p><p>&nbsp;</p><p><iframe src="//slides.com/justingosses/dataviztoolshistorylargeorg/embed" width="800" height="460" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
-<p style="text-align: center;"><a href="http://slides.com/justingosses/dataviztoolshistorylargeorg#/">click to view as a full window on a new tab</a></p><p><iframe style="border: 1px solid lightgrey;" src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1O32FBDYO16WjoFSCsWS1d0oEuRo0C00q633nhhGZlNE&font=Default&lang=en&initial_zoom=2&height=800" width="800" height="800" scrolling="yes" allowfullscreen="allowfullscreen"></iframe></p>
-<p style="text-align: center;"><a href="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1O32FBDYO16WjoFSCsWS1d0oEuRo0C00q633nhhGZlNE&font=Default&lang=en&initial_zoom=2&height=650">click to view as a full window on a new tab</a></p>
-<p>The post <a rel="nofollow" href="/talk-on-changing-landscape-of-data-viz-tools/">Meet Up Talk Data Viz Tools</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
+					<description><![CDATA[&#8220;THE CHANGING LANDSCAPE OF DATA VISUALIZATION TOOLS IN LARGE ORGANIZATIONS&#8221; I recently gave a talk at the Houston Data Visualization meet-up. In addition to being a good excuse for putting time on my calendar to research the evolution of data visualization tools over the past 40 years, the talk allowed me<a class="moretag" href="/talk-on-changing-landscape-of-data-viz-tools/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<h3>&#8220;THE CHANGING LANDSCAPE OF DATA VISUALIZATION TOOLS IN LARGE ORGANIZATIONS&#8221;</h3>
+<p>I recently gave a talk at the <a href="https://www.meetup.com/Houston-Data-Visualization-Meetup/events/233893631/">Houston Data Visualization meet-up</a>. In addition to being a good excuse for putting time on my calendar to research the evolution of data visualization tools over the past 40 years, the talk allowed me to try out a few presentation related tools. <a href="https://github.com/hakimel/reveal.js/" target="blank">Reveal.js</a> is a user friendly framework for making presentations that consist of html, css, and JavaScript, just like any normal webpage. <a href="https://slides.com/" target="blank">Slides.com</a> is a hosting and GUI site for reveal.js slides. One of the best features of slides.com was being able to control the slides on my computer via my phone. This enabled me to walk around and not be as tied to my computer or rely on someone else to advance the slides. It also provides a nice way to briefly look down as you flip slides and sneak a glance at speakers notes. I used <a href="https://timeline.knightlab.com/" target="blank">timeline.js</a> from the <a href="https://knightlab.northwestern.edu/" target="blank">Knight Lab</a> at Northwestern university to create a timeline of key tool development that I referred to several times during the talk.</p>
+<p>All the data for the presentation is in <a href="https://github.com/JustinGOSSES/talk_HistDVTools" target="blank"> this</a> github repo. I hope to revisit this presentation to take a second stab at it or perhaps turn it into a series of blog posts for work.</p>
+<p>&nbsp;</p>
+<p><iframe loading="lazy" src="//slides.com/justingosses/dataviztoolshistorylargeorg/embed" width="800" height="460" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"><a href="http://slides.com/justingosses/dataviztoolshistorylargeorg#/">click to view as a full window on a new tab</a></p>
+<p><iframe loading="lazy" style="border: 1px solid lightgrey;" src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1O32FBDYO16WjoFSCsWS1d0oEuRo0C00q633nhhGZlNE&amp;font=Default&amp;lang=en&amp;initial_zoom=2&amp;height=800" width="800" height="800" scrolling="yes" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"><a href="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1O32FBDYO16WjoFSCsWS1d0oEuRo0C00q633nhhGZlNE&amp;font=Default&amp;lang=en&amp;initial_zoom=2&amp;height=650">click to view as a full window on a new tab</a></p>
 ]]></content:encoded>
-			<wfw:commentRss>/talk-on-changing-landscape-of-data-viz-tools/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">768</post-id>	</item>
+					
+					<wfw:commentRss>/talk-on-changing-landscape-of-data-viz-tools/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Game of Thrones Parallel Sets Data Visualization</title>
 		<link>/game-of-thrones-parallel-sets-data-visualization/</link>
-		<comments>/game-of-thrones-parallel-sets-data-visualization/#respond</comments>
-		<pubDate>Mon, 10 Oct 2016 18:31:19 +0000</pubDate>
+					<comments>/game-of-thrones-parallel-sets-data-visualization/#respond</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Mon, 10 Oct 2016 18:31:19 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[d3]]></category>
 		<category><![CDATA[d3.js]]></category>
@@ -78,13 +357,15 @@
 		<category><![CDATA[javascript]]></category>
 		<category><![CDATA[opendata]]></category>
 		<category><![CDATA[web development]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=748</guid>
 
-		<guid isPermaLink="false">/?p=748</guid>
-		<description><![CDATA[<p>User interface add-ons to make a better parallel sets visualizations: (skip to the data visualization here.)Parallel sets is a data visualization type that shows how attributes of different types are distributed across a large number of instances. Common examples include datasets of the characteristics of passengers on the Titanic disaster and nutrition information of many different types of<a href="/game-of-thrones-parallel-sets-data-visualization/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/game-of-thrones-parallel-sets-data-visualization/">Game of Thrones Parallel Sets Data Visualization</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<h2>User interface add-ons to make a better parallel sets visualizations:</h2>
-<p style="text-align: center;">(skip to the data visualization <a href="/ParaSet_Oct2/" target="_blank">here</a>.)</p><p>Parallel sets is a data visualization type that shows how attributes of different types are distributed across a large number of instances. Common examples include datasets of the characteristics of passengers on the Titanic disaster and nutrition information of many different types of cereal. Parallel sets data visualizations are good at showing how attributes do or don&#8217;t cluster over a large dataset of instances. It is a data visualization type favored when the data is categorical and not strictly numerical.</p><p>I built a <a href="/parallel-sets-data-visualization/">parallel sets data visualization</a> based on a dataset of battles from the <a href="https://en.wikipedia.org/wiki/Game_of_Thrones">Game of Thrones series</a> (TV version, not book). Examples questions that can be answered by a <a href="/ParaSet_Oct2/" target="_blank">parallel sets</a> built from this data include: Which battle type has the best success rate? Which house has the best and track record in terms of number of battles won or lost? Were there more pitched battles versus ambushes in later years versus earlier years? Are battles in certain regions more likely to result in a major characters death?</p><p>The parallel sets visualizations that I&#8217;ve seen work best when the number of types of attributes is between 3 and 10, the number of different attributes within each type is &lt;10, and the total number of instances is &gt;100.  Outside this range, parallel sets tend to get too cluttered.</p><p>When I used parallel sets for a project at work, I found it be successful for the immediate problem but very easy to be cluttered and messy if I tried to include all characteristics found in the dataset. Although a subset of the data was fine for showing what I was interested in at the time, I knew eventually I would want to show a larger dataset and let the user explore the data. This led to brainstorming potential improvements for my initial parallel sets code base, which I had adopted from Jason Davis <a href="https://github.com/jasondavies/d3-parsets" target="_blank">parasets </a>project. Both us d3.js. <span style="color: #333399;">I&#8217;ve completed the first two interactivity improvements listed below in this</span> <a href="/ParaSet_Oct2/" target="_blank">visualization</a>.</p>
+					<description><![CDATA[User interface add-ons to make a better parallel sets visualizations: (skip to the data visualization here.) Parallel sets is a data visualization type that shows how attributes of different types are distributed across a large number of instances. Common examples include datasets of the characteristics of passengers on the Titanic disaster and nutrition<a class="moretag" href="/game-of-thrones-parallel-sets-data-visualization/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<h2>User interface add-ons to make a better parallel sets visualizations:</h2>
+<p style="text-align: center;">(skip to the data visualization <a href="https://54.87.153.110/ParaSet_Oct2/" target="_blank">here</a>.)</p>
+<p>Parallel sets is a data visualization type that shows how attributes of different types are distributed across a large number of instances. Common examples include datasets of the characteristics of passengers on the Titanic disaster and nutrition information of many different types of cereal. Parallel sets data visualizations are good at showing how attributes do or don&#8217;t cluster over a large dataset of instances. It is a data visualization type favored when the data is categorical and not strictly numerical.</p>
+<p>I built a <a href="https://54.87.153.110/parallel-sets-data-visualization/">parallel sets data visualization</a> based on a dataset of battles from the <a href="https://en.wikipedia.org/wiki/Game_of_Thrones">Game of Thrones series</a> (TV version, not book). Examples questions that can be answered by a <a href="https://54.87.153.110/ParaSet_Oct2/" target="_blank">parallel sets</a> built from this data include: Which battle type has the best success rate? Which house has the best and track record in terms of number of battles won or lost? Were there more pitched battles versus ambushes in later years versus earlier years? Are battles in certain regions more likely to result in a major characters death?</p>
+<p>The parallel sets visualizations that I&#8217;ve seen work best when the number of types of attributes is between 3 and 10, the number of different attributes within each type is &lt;10, and the total number of instances is &gt;100.  Outside this range, parallel sets tend to get too cluttered.</p>
+<p>When I used parallel sets for a project at work, I found it be successful for the immediate problem but very easy to be cluttered and messy if I tried to include all characteristics found in the dataset. Although a subset of the data was fine for showing what I was interested in at the time, I knew eventually I would want to show a larger dataset and let the user explore the data. This led to brainstorming potential improvements for my initial parallel sets code base, which I had adopted from Jason Davis <a href="https://github.com/jasondavies/d3-parsets" target="_blank">parasets </a>project. Both us d3.js. <span style="color: #333399;">I&#8217;ve completed the first two interactivity improvements listed below in this</span> <a href="https://54.87.153.110/ParaSet_Oct2/" target="_blank">visualization</a>.</p>
 <ol>
 <li><span style="color: #333399;">User can select which data dimensions to visualize (types of attributes: region, year, defender, etc.)</span></li>
 <li><span style="color: #333399;">User can limit the visualization to only data that contains a certain value in a certain dimension (battles with Stark as the defender)</span></li>
@@ -94,34 +375,28 @@ b. or n number of divisions based on equal number in each category<br />
 c. or by log divisions (&gt;10, &gt;100, &gt;1000, etc.)</li>
 <li>Interactive combination of histogram and parallel sets data visualizations via dc.js.</li>
 <li>Pre-determined combinations of data dimensions available via a series of buttons to assist in story-telling to user.</li>
-</ol><p>Letting the user select the input data and try different combinations reduces cluttering. Giving the user the option to pick the input data makes this data visualization more of a data exploration tool and less of a straight forward story telling image.</p><p>It is also useful if you don&#8217;t have HBO but want to study up for water cooler conversations.</p><p>&nbsp;</p>
+</ol>
+<p>Letting the user select the input data and try different combinations reduces cluttering. Giving the user the option to pick the input data makes this data visualization more of a data exploration tool and less of a straight forward story telling image.</p>
+<p>It is also useful if you don&#8217;t have HBO but want to study up for water cooler conversations.</p>
+<p>&nbsp;</p>
 <h3>Examples from the Game of Thrones Parallel Sets Visualization:</h3>
 <p style="text-align: center;"><em>ribbon width = number of battles</em></p>
-<div id="attachment_750" style="width: 650px" class="wp-caption aligncenter"><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png"><img data-attachment-id="750" data-permalink="/game-of-thrones-parallel-sets-data-visualization/screen-shot-2016-10-10-at-12-29-28-pm/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?fit=2006%2C1396" data-orig-size="2006,1396" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="screen-shot-2016-10-10-at-12-29-28-pm" data-image-description="&lt;p&gt;Battles Type Vs. Outcome&lt;/p&gt;
-" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?fit=300%2C209" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?fit=640%2C446" class="wp-image-750 size-large" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?resize=640%2C446" alt="Battles Type Vs. Outcome" width="640" height="446" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?resize=1024%2C713 1024w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?resize=300%2C209 300w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?w=1280 1280w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png?w=1920 1920w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
-<p class="wp-caption-text">Battles Type Vs. Outcome</p>
-</div>
+<p><div id="attachment_750" style="width: 650px" class="wp-caption aligncenter"><a href="http://54.87.153.110/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png"><img aria-describedby="caption-attachment-750" loading="lazy" class="wp-image-750 size-large" src="http://54.87.153.110/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM-1024x713.png" alt="Battles Type Vs. Outcome" width="640" height="446" srcset="/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM-1024x713.png 1024w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM-300x209.png 300w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.29.28-PM.png 2006w" sizes="(max-width: 640px) 100vw, 640px" /></a><p id="caption-attachment-750" class="wp-caption-text">Battles Type Vs. Outcome</p></div></p>
 <p style="text-align: center;"><em>Ambushes, razing, and siege perform better for the attacker than a pitched battle. </em></p>
-<div id="attachment_751" style="width: 650px" class="wp-caption aligncenter"><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png"><img data-attachment-id="751" data-permalink="/game-of-thrones-parallel-sets-data-visualization/screen-shot-2016-10-10-at-12-36-24-pm/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?fit=1988%2C1226" data-orig-size="1988,1226" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="screen-shot-2016-10-10-at-12-36-24-pm" data-image-description="&lt;p&gt;Who loses battles vs. wins battles.&lt;/p&gt;
-" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?fit=300%2C185" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?fit=640%2C395" class="wp-image-751 size-large" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?resize=640%2C395" alt="Who loses battles vs. wins battles." width="640" height="395" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?resize=1024%2C632 1024w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?resize=300%2C185 300w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?w=1280 1280w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png?w=1920 1920w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
-<p class="wp-caption-text">Who loses battles vs. wins battles.</p>
-</div>
+<p><div id="attachment_751" style="width: 650px" class="wp-caption aligncenter"><a href="http://54.87.153.110/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png"><img aria-describedby="caption-attachment-751" loading="lazy" class="wp-image-751 size-large" src="http://54.87.153.110/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM-1024x632.png" alt="Who loses battles vs. wins battles." width="640" height="395" srcset="/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM-1024x632.png 1024w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM-300x185.png 300w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.36.24-PM.png 1988w" sizes="(max-width: 640px) 100vw, 640px" /></a><p id="caption-attachment-751" class="wp-caption-text">Who loses battles vs. wins battles.</p></div></p>
 <p style="text-align: center;"><em>Freefolk (black ribbon) have a horrible track record at attacking. House Stark and Baratheon are also not that great.</em></p>
-<div id="attachment_752" style="width: 650px" class="wp-caption aligncenter"><a href="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png"><img data-attachment-id="752" data-permalink="/game-of-thrones-parallel-sets-data-visualization/screen-shot-2016-10-10-at-12-37-40-pm/" data-orig-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?fit=1964%2C1236" data-orig-size="1964,1236" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="screen-shot-2016-10-10-at-12-37-40-pm" data-image-description="&lt;p&gt;Battles vs. character deaths&lt;/p&gt;
-" data-medium-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?fit=300%2C189" data-large-file="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?fit=640%2C403" class="wp-image-752 size-large" src="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?resize=640%2C403" alt="Battles vs. character deaths" width="640" height="403" srcset="https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?resize=1024%2C644 1024w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?resize=300%2C189 300w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?w=1280 1280w, https://i2.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png?w=1920 1920w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
-<p class="wp-caption-text">Battles vs. character deaths: 1 = major character death, 0 = no major character death</p>
-</div><p><em>Lannister, Stark, and Baratheon have the highest number of battles where they are the main attacker and an important character dies. </em></p>
-<div id="attachment_754" style="width: 650px" class="wp-caption aligncenter"><a href="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png"><img data-attachment-id="754" data-permalink="/game-of-thrones-parallel-sets-data-visualization/screen-shot-2016-10-10-at-1-24-35-pm/" data-orig-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?fit=1964%2C1222" data-orig-size="1964,1222" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="screen-shot-2016-10-10-at-1-24-35-pm" data-image-description="&lt;p&gt;Who wins when defending and major character deaths&lt;/p&gt;
-" data-medium-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?fit=300%2C187" data-large-file="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?fit=640%2C398" class="wp-image-754 size-large" src="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?resize=640%2C398" alt="Who wins when defending and major character deaths" width="640" height="398" srcset="https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?resize=1024%2C637 1024w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?resize=300%2C187 300w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?w=1280 1280w, https://i0.wp.com/justingosses.com/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png?w=1920 1920w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></a></p>
-<p class="wp-caption-text">Who wins when defending and major character deaths</p>
-</div>
+<p><div id="attachment_752" style="width: 650px" class="wp-caption aligncenter"><a href="http://54.87.153.110/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png"><img aria-describedby="caption-attachment-752" loading="lazy" class="wp-image-752 size-large" src="http://54.87.153.110/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM-1024x644.png" alt="Battles vs. character deaths" width="640" height="403" srcset="/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM-1024x644.png 1024w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM-300x189.png 300w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-12.37.40-PM.png 1964w" sizes="(max-width: 640px) 100vw, 640px" /></a><p id="caption-attachment-752" class="wp-caption-text">Battles vs. character deaths: 1 = major character death, 0 = no major character death</p></div></p>
+<p><em>Lannister, Stark, and Baratheon have the highest number of battles where they are the main attacker and an important character dies. </em></p>
+<p><div id="attachment_754" style="width: 650px" class="wp-caption aligncenter"><a href="http://54.87.153.110/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png"><img aria-describedby="caption-attachment-754" loading="lazy" class="wp-image-754 size-large" src="http://54.87.153.110/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM-1024x637.png" alt="Who wins when defending and major character deaths" width="640" height="398" srcset="/wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM-1024x637.png 1024w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM-300x187.png 300w, /wp-content/uploads/2016/10/Screen-Shot-2016-10-10-at-1.24.35-PM.png 1964w" sizes="(max-width: 640px) 100vw, 640px" /></a><p id="caption-attachment-754" class="wp-caption-text">Who wins when defending and major character deaths</p></div></p>
 <p style="text-align: center;"><em>The attacker usually wins in a Game of Thrones battle, but when they lose, it tends to be when the main defender is a Lannister. In those battles where a defending Lannister wins, it is also common for a major character of some type to die. </em></p>
-<h2 style="text-align: center;">Explore the live data visualization <a href="/ParaSet_Oct2/" target="_blank">here</a>.</h2>
+<h2 style="text-align: center;">Explore the live data visualization <a href="https://54.87.153.110/ParaSet_Oct2/" target="_blank">here</a>.</h2>
 <h2></h2>
-<p>The post <a rel="nofollow" href="/game-of-thrones-parallel-sets-data-visualization/">Game of Thrones Parallel Sets Data Visualization</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/game-of-thrones-parallel-sets-data-visualization/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">748</post-id>	</item>
+					
+					<wfw:commentRss>/game-of-thrones-parallel-sets-data-visualization/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	</channel>
 </rss>

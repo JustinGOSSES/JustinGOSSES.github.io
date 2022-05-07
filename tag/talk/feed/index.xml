@@ -5,32 +5,35 @@
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+	>
 
 <channel>
-	<title>talk &#8211; Justin Gosses Home</title>
+	<title>talk</title>
 	<atom:link href="/tag/talk/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Geology, GIS, and CODE + Resumes</description>
-	<lastBuildDate>Mon, 12 Aug 2019 00:35:31 +0000</lastBuildDate>
+	<description>Geology, Maps, and Code</description>
+	<lastBuildDate>Fri, 28 Apr 2017 22:51:11 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.11</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 
 <image>
-	<url>https://i1.wp.com/justingosses.com/wp-content/uploads/2017/02/cropped-JustinGosses_logo.jpg?fit=32%2C32</url>
-	<title>talk &#8211; Justin Gosses Home</title>
+	<url>/wp-content/uploads/2017/02/cropped-JustinGosses_logo-32x32.jpg</url>
+	<title>talk</title>
 	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
-<site xmlns="com-wordpress:feed-additions:1">102288347</site>	<item>
+	<item>
 		<title>Presenting at Johnson Space Center Data Science Day</title>
 		<link>/presenting-at-johnson-space-center-data-science-day/</link>
-		<comments>/presenting-at-johnson-space-center-data-science-day/#respond</comments>
-		<pubDate>Fri, 28 Apr 2017 22:41:52 +0000</pubDate>
+					<comments>/presenting-at-johnson-space-center-data-science-day/#respond</comments>
+		
 		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Fri, 28 Apr 2017 22:41:52 +0000</pubDate>
 				<category><![CDATA[code]]></category>
 		<category><![CDATA[data visualization]]></category>
 		<category><![CDATA[javascript]]></category>
@@ -38,17 +41,18 @@
 		<category><![CDATA[NASA]]></category>
 		<category><![CDATA[reveal.js]]></category>
 		<category><![CDATA[talk]]></category>
+		<guid isPermaLink="false">https://54.87.153.110/?p=861</guid>
 
-		<guid isPermaLink="false">/?p=861</guid>
-		<description><![CDATA[<p>This week I presented on the last 40 years of digital data visualization tools at Johnson Space Center Data Science Day. The event was held just off site this year, so it could be opened up to the public. The talk was a condensed, and I think improved, version of a talk I had previous gave<a href="/presenting-at-johnson-space-center-data-science-day/">[...]</a></p>
-<p>The post <a rel="nofollow" href="/presenting-at-johnson-space-center-data-science-day/">Presenting at Johnson Space Center Data Science Day</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<p>This week I presented on the last 40 years of digital data visualization tools at <a href="https://fal.jsc.nasa.gov/DSD/">Johnson Space Center Data Science Day</a>. The event was held just off site this year, so it could be opened up to the public. The talk was a condensed, and I think improved, version of a talk I had previous gave at a data visualization meet-up. This version was shorter by half and focused just on the tool evolution, as opposed to the previous talk which tried to also cover the context of these tools in large organizations.</p><p><iframe src="//slides.com/justingosses/history_data_visualization_tools/embed" width="800" height="460" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+					<description><![CDATA[This week I presented on the last 40 years of digital data visualization tools at Johnson Space Center Data Science Day. The event was held just off site this year, so it could be opened up to the public. The talk was a condensed, and I think improved, version of a<a class="moretag" href="/presenting-at-johnson-space-center-data-science-day/"> Read more&#8230;</a>]]></description>
+										<content:encoded><![CDATA[<p>This week I presented on the last 40 years of digital data visualization tools at <a href="https://fal.jsc.nasa.gov/DSD/">Johnson Space Center Data Science Day</a>. The event was held just off site this year, so it could be opened up to the public. The talk was a condensed, and I think improved, version of a talk I had previous gave at a data visualization meet-up. This version was shorter by half and focused just on the tool evolution, as opposed to the previous talk which tried to also cover the context of these tools in large organizations.</p>
+<p><iframe loading="lazy" src="//slides.com/justingosses/history_data_visualization_tools/embed" width="800" height="460" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
 <p style="text-align: center;"><a href="http://slides.com/justingosses/history_data_visualization_tools">click to view as a full window on a new tab</a></p>
-<p>The post <a rel="nofollow" href="/presenting-at-johnson-space-center-data-science-day/">Presenting at Johnson Space Center Data Science Day</a> appeared first on <a rel="nofollow" href="/">Justin Gosses Home</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/presenting-at-johnson-space-center-data-science-day/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-	<post-id xmlns="com-wordpress:feed-additions:1">861</post-id>	</item>
+					
+					<wfw:commentRss>/presenting-at-johnson-space-center-data-science-day/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	</channel>
 </rss>

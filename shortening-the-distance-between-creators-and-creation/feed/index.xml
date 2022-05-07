@@ -3,16 +3,19 @@
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" 
+	
 	>
 <channel>
-	<title>Comments on: Shortening the distance between creators and creation in geo-computing</title>
+	<title>
+	Comments on: Shortening the distance between creators and creation in geo-computing	</title>
 	<atom:link href="/shortening-the-distance-between-creators-and-creation/feed/" rel="self" type="application/rss+xml" />
 	<link>/shortening-the-distance-between-creators-and-creation/</link>
-	<description>Geology, GIS, and CODE + Resumes</description>
-	<lastBuildDate>Sat, 13 Jul 2019 05:20:39 +0000</lastBuildDate>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.11</generator>
+	<description>Geology, Maps, and Code</description>
+	<lastBuildDate>Wed, 06 Jun 2018 07:43:11 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 </channel>
 </rss>
